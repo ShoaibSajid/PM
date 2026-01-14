@@ -1,0 +1,8 @@
+# Exclude PDF files
+*.pdf
+
+# Exclude Excel files
+*.xlsx
+*.xls
+*.xlsm
+

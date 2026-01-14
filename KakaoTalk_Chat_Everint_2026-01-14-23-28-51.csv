@@ -1,0 +1,1803 @@
+﻿Date,User,Message
+2026-01-07 11:31:24,"Saidjalol","Saidjalol invited Shoaib."
+2026-01-07 11:31:28,"Saidjalol","okey I did"
+2026-01-07 11:31:37,"Kor Tugii","Thank you"
+2026-01-07 12:14:46,"광협 KwangHyeop","@Kor Hieu The springs I ordered arrived at guard's office.
+Please take it from there when you finish your lunch."
+2026-01-07 12:36:14,"Kor Hieu","Okay, thank you"
+2026-01-07 15:54:23,"Shoaib","@Ammad (Korea) 
+Please summarise the GUI issue you are facing.
+
+@Saidjalol and @Sammo | ثمرہ | 삼라 
+Please give your analysis on this issue."
+2026-01-07 15:57:09,"Shoaib","@Ammad (Korea) @Saidjalol @Sammo | ثمرہ | 삼라 
+
+Please give me
+Tailscale IP
+Username
+Password
+Log files address for framework and GUI. "
+2026-01-07 15:58:04,"Ammad (Korea)","2 Product images are not shown.
+Observations,
+1. Product details are changed images disappear
+2. During registeration previous step button  are used, images are not displayed. "
+2026-01-07 15:59:52,"Ammad (Korea)","Ip 100.69.170.79
+User name: gpuadmin
+Password: 1"
+2026-01-07 16:00:07,"Sammo | ثمرہ | 삼라","Can you please share those products?"
+2026-01-07 16:00:46,"Ammad (Korea)","Name or images ?"
+2026-01-07 16:00:51,"Sammo | ثمرہ | 삼라","Name"
+2026-01-07 16:01:25,"Ammad (Korea)","srp-s300-bzr
+380V"
+2026-01-07 16:05:55,"Sammo | ثمرہ | 삼라","For 380V, The keyFolder value in DB is, 380
+
+Its reading this thumbnail image:  /home/gpuadmin/Desktop/EVERINT/TrainingImage/380/1.webp
+
+But on system the 380 Folder doesnt exist"
+2026-01-07 16:08:58,"Sammo | ثمرہ | 삼라","Photo"
+2026-01-07 16:09:06,"Sammo | ثمرہ | 삼라","Same for the other one, The Folder doesnt exist on system"
+2026-01-07 16:11:12,"Shoaib","Who is creating this folder and saving images ?"
+2026-01-07 16:11:27,"Shoaib","@Ammad (Korea) 
+@Tan 
+@Saidjalol 
+@Sammo | ثمرہ | 삼라 "
+2026-01-07 16:13:22,"Sammo | ثمرہ | 삼라","Photo"
+2026-01-07 16:13:40,"Sammo | ثمرہ | 삼라","In EditProductModal, When product details are saved, I think we dont need this part anymore, @Tan "
+2026-01-07 16:14:00,"Sammo | ثمرہ | 삼라","Because we always keep the images in same folder as original one"
+2026-01-07 16:14:25,"Tan","But when we chang the product name we can not see the image "
+2026-01-07 16:14:33,"Tan","This issue is already fix?"
+2026-01-07 16:14:41,"Shoaib","No"
+2026-01-07 16:15:26,"Shoaib","Tell me if I understand correctly.
+
+Product is registered by name 380
+dir is created by 380 and DB gets the key value 380
+
+After renaming 380 to 380V
+DB still has key value 380
+But dir is renamed to 380V"
+2026-01-07 16:15:27,"Sammo | ثمرہ | 삼라","Changing product name will not affect the images folder path. That's why we implemented the keyFolder"
+2026-01-07 16:15:28,"Tan","When ww click to capture image button backend or frontend create a folder?"
+2026-01-07 16:15:50,"Sammo | ثمرہ | 삼라","Yes"
+2026-01-07 16:16:13,"Shoaib","Who is managing the rename process ?
+who renames the directory ?"
+2026-01-07 16:17:09,"Shoaib","@Tan or @Sammo | ثمرہ | 삼라 
+Are you renaming the directory?"
+2026-01-07 16:18:02,"Tan","No i did no rename directory of this product"
+2026-01-07 16:18:34,"Sammo | ثمرہ | 삼라","In Edit Product Modal,  On saving, This part  of code renames the folder with updated product title"
+2026-01-07 16:19:14,"Shoaib","Okay. Whose code is this?"
+2026-01-07 16:19:25,"Shoaib","Who is the code owner for this ?"
+2026-01-07 16:23:58,"Shoaib","@Sammo | ثمرہ | 삼라 
+Did you implement it?
+or
+@Tan 
+Did you implement it?"
+2026-01-07 16:24:45,"Sammo | ثمرہ | 삼라","Not me"
+2026-01-07 16:26:43,"Kor Hieu","Video"
+2026-01-07 16:26:50,"Kor Hieu","Video"
+2026-01-07 16:27:25,"Kor Hieu","@Shoaib , even they slowed the conveyor, the gap between 2 pallets are randomly"
+2026-01-07 16:28:10,"Shoaib","@Kor Hieu 
+Due to random gap, what issue are we facing?"
+2026-01-07 16:28:19,"Shoaib","@Tan 
+Can you reply ?"
+2026-01-07 16:28:38,"Kor Hieu","The pressing arm might not be able to press properly"
+2026-01-07 16:28:49,"Kor Hieu","And the vision can be failed"
+2026-01-07 16:29:12,"Kor Hieu","Both issues have been faced already"
+2026-01-07 16:29:14,"Shoaib","We have the arm extended on either side of the product, so for this product it is okay.
+But for a bigger product, there might be some issue.
+
+Is that right?"
+2026-01-07 16:29:33,"Kor Hieu","Right"
+2026-01-07 16:29:53,"Tan","Not me"
+2026-01-07 16:29:53,"Shoaib","Okay. Let me wind up the GUI issue and then let's discuss this. "
+2026-01-07 16:30:00,"Kor Hieu","Sure"
+2026-01-07 16:30:11,"Shoaib","@Saidjalol 
+Did you implement this code?"
+2026-01-07 16:31:33,"Shoaib","Photo"
+2026-01-07 16:32:15,"Shoaib","Photo"
+2026-01-07 16:32:39,"Shoaib","@Tan 
+You added this code 3 months ago.
+
+Please disable this rename logic. 
+That would fix the GUI issue. "
+2026-01-07 16:33:46,"Shoaib","I have renamed the dir 
+
+380V -> 380
+
+But for SRP-S300-BZR
+There are 2 directories
+
+- SRP-S300-BZR_20251229_100057
+- SRP-S300-BZR_20251229_103602
+
+Which one should be renamed to SRP-S300-BZR?"
+2026-01-07 16:34:26,"Tan","I think someone use my name to push in server, this code in GUi how can i add this code"
+2026-01-07 16:36:42,"Kor Hieu","@광협 KwangHyeop, we want to run production on some products in screw driver side, could you please ask the manager to provide us some?"
+2026-01-07 16:37:13,"Ammad (Korea)","any folder will do"
+2026-01-07 16:37:23,"Shoaib","I don't think anyone can use your github account without your permission.
+If you have left it logged on to a system, only then someone can use it. 
+
+In future, everyone must be careful. 
+This is unacceptable to say that someone else used your account.
+Otherwise, how can we know who is the owner for a part of code?"
+2026-01-07 16:37:32,"Shoaib","Summary of GUI issue
+When the product is registered, the training images are saved in a dir and the dir name is saved in DB.
+
+When product is renamed, the dir in DB stays the same. However the actual dir was being renamed. This was causing path mismatch.
+
+Fix
+Disable the rename logic.
+
+That would fix the issue. "
+2026-01-07 16:39:48,"Ammad (Korea)","it should be saved and renamed in db otherwise when front end is refressed, information will be lost."
+2026-01-07 16:40:44,"Shoaib","I don't think that would be an issue. "
+2026-01-07 16:41:59,"광협 KwangHyeop","I just called manager.
+He will be there soon"
+2026-01-07 16:42:43,"Shoaib","Let's disable the renaming dir logic for now. This would fix the issue. And let's think about other scenarios. "
+2026-01-07 16:43:23,"Shoaib","@Ammad (Korea) 
+Please confirm if the images are fixed in the GUI. "
+2026-01-07 16:43:48,"Ammad (Korea)","Yes. resolved."
+2026-01-07 16:45:18,"Shoaib","@Kor Hieu 
+Is there any stopper for the conveyrs? 
+
+Also, please confirm if the pallets slips on top of the conveyor when it stop?"
+2026-01-07 16:46:03,"Ammad (Korea)","Video"
+2026-01-07 16:50:10,"Shoaib","@광협 KwangHyeop 
+What is the response from factory manager about this?
+Can they fix this play in the conveyor?"
+2026-01-07 16:51:44,"광협 KwangHyeop","You mean that slipping issue?"
+2026-01-07 16:51:48,"Shoaib","Yes. "
+2026-01-07 16:53:18,"Sammo | ثمرہ | 삼라","Removed the rename logic and pushed to main"
+2026-01-07 16:54:21,"Shoaib","Okay. "
+2026-01-07 16:55:15,"광협 KwangHyeop","I hust called him and he said it's about the speed of cylinder pushes the palettes.
+He said reducing the speed of that cylinder is the only way.
+
+If you guys think so, I will ask him to fix with that way."
+2026-01-07 16:57:40,"Shoaib","Okay. I heard he reduced the speed earlier as well.
+
+Can you ask him to adjust the speed and observe the pallets, so that they don't slip anymore?
+
+Also, reducing the speed, would it affect our cycle time?"
+2026-01-07 17:00:51,"광협 KwangHyeop","Yes it will, I think.
+
+Even it is a little, it will take more time to receive the palette to right position, and our time to finish the sequences will reduce.
+
+If you guys can make it work with this, I will ask the manager"
+2026-01-07 17:03:18,"Shoaib","Let's ask them to reduce the speed, to the point that there is no random slipping.
+This will ensure we don't have holding or vision issue.
+
+Then, let's find a better way so that even with faster speed, we can avoid the slipping issue. "
+2026-01-07 17:05:13,"광협 KwangHyeop","He reduced the speed just now, so please try again."
+2026-01-07 17:05:49,"Shoaib","@Kor Hieu 
+Please share your analysis and video. 
+Let us know if you face the same issue and how frequently you face that issue."
+2026-01-07 17:55:02,"Kor Hieu","Yes, I showed him the gap, then he already reduced the speed, it’s better now, the gap is smaller (by a half) but still not consistent."
+2026-01-07 17:55:21,"Kor Hieu","Video"
+2026-01-07 17:55:26,"Kor Hieu","Video"
+2026-01-07 17:56:08,"Shoaib","Okay. Please make a summary analysis of the issues we face due to this and other factors.
+
+We will try to find a different solution."
+2026-01-07 17:56:20,"Kor Hieu","Okay"
+2026-01-07 17:58:30,"Shoaib","Photo"
+2026-01-07 17:59:00,"Shoaib","@Ammad (Korea) 
+@Kor Tugii 
+@Kor Hieu 
+
+Please make a table like this. 
+
+So we can quickly identify the frequent issues and plan accordingly. "
+2026-01-07 17:59:15,"Ammad (Korea)","sure"
+2026-01-07 19:21:49,"Kor Hieu","@Shoaib , I was checking the slipping issue while running production and test-printer, it happened frequently, every minute, which means once per 2 products.(The case is considered as slipping only when the gap between 2 pallets is more than 1cm)."
+2026-01-07 19:23:53,"Shoaib","Okay.
+Due to this slipping, can you list the issues you are facing. Please share the image as well if vision is failing."
+2026-01-07 19:24:49,"Shoaib","Meanwhile, @광협 KwangHyeop 
+Can you talk to factory manager, check it again? "
+2026-01-07 19:25:25,"Shoaib","@Kor Hieu 
+Once the conveyor has stopped
+Can you check if the base is shaking/moving.
+
+If the base is not stable, the product can also shake during the screw process. "
+2026-01-07 19:25:43,"광협 KwangHyeop","You mean we need to reduce the speed even furthur?"
+2026-01-07 19:26:29,"Shoaib","If the base is not stable, means, it can shake even after the conveyor has stopped, then reducing or increasing the speed will not help."
+2026-01-07 19:45:14,"Kor Hieu","The pallets is separate from the base"
+2026-01-07 19:45:23,"Kor Hieu","I can even lift it up"
+2026-01-07 19:46:31,"Kor Hieu","Video"
+2026-01-07 19:49:45,"Shoaib","So, there is no friction between the pallent and the conveyor."
+2026-01-07 19:50:31,"Kor Hieu","If we reduce further, we will never meet the cycle time, even now, some printers have 5 holes, but only 30s (subtract to 4s of moving) there is only 26s, if robot misses 1 screw when picking up, we cannot finish that printer"
+2026-01-07 19:51:00,"Shoaib","Ammad, Hieu, Tugi and Tan
+Please summarise the issues and share, so we can decide the next step.
+It would be helpful if you can send a table like this until 9PM.
+
+Jalol, can you summarise the GUI/DB issues?"
+2026-01-07 19:52:02,"Shoaib","Eventually, we will speed up the conveyor. We need to find a way to hold the base, or printer or find a locking mechanism for the base pallet."
+2026-01-07 19:52:53,"Shoaib","@광협 KwangHyeop 
+Can you share this with factory manager and ask them if they can find a way to fix the slipping/shaking of the base pallet.
+
+If the pallet moves during robot screw process, it can cause damage as well. "
+2026-01-07 19:53:13,"광협 KwangHyeop","Okay"
+2026-01-07 19:53:48,"Shoaib","Thank you."
+2026-01-07 20:02:30,"Odil","Following members are visiting Everint Chungju factory tomorrow: 
+@Kor Tugii 
+@Shams 
+Departure time is 7 a.m. using Taxi from the Lab. 
+Please make sure you won’t be late. "
+2026-01-07 20:53:01,"Kor Hieu","File: Label-Printer_Screwrobot_report_Jan7th.xlsx"
+2026-01-07 20:54:58,"Kor Hieu","@Shoaib , when running production, I didn't focus on checking slipping issue of the conveyor, only between 18:23 - 18:56 I paid my attention about that"
+2026-01-07 21:06:40,"Odil","@Saidjalol is also visiting tomorrow. Since he can drive the company car, let's use carnival tomorrow. @Kor Tugii and @Shams please travel with Saidjalol on minivan carnival tomorrow. "
+2026-01-07 21:14:07,"Sammo | ثمرہ | 삼라","@Saidjalol  
+
+For the GUI click event logs, I created the following PR. Please test and merge it whenever you can
+
+https://github.com/msislab/EverintProject/pull/87"
+2026-01-07 21:23:35,"Saidjalol","Okey I will check it tomorrow "
+,"","The message has been deleted."
+2026-01-07 22:03:08,"Shoaib","@Saidjalol and @Tan 
+Have you made a summary?
+
+I recieved the summary of issues from Tugi and Hieu."
+2026-01-07 22:04:57,"Saidjalol","Let me do it tomorrow 
+I was busy with gst project new logic implementation today"
+2026-01-07 22:05:06,"Tan","@Ammad (Korea)  can you do this for our pcb system"
+2026-01-07 22:32:41,"Ammad (Korea)","@Shoaib Sorry. I didnt read you message. Its late. I will send details after discussion with Tan. "
+2026-01-08 07:00:27,"Saidjalol","Where are you @Kor Tugii @Shams ?"
+2026-01-08 11:37:04,"광협 KwangHyeop","@Tan @Ammad (Korea) They have some problem about producing E300 now.
+Manager said, our vision is not catching the PCB.
+
+Can you guys check now?"
+2026-01-08 11:37:15,"Ammad (Korea)","yesd. already on it"
+2026-01-08 11:37:29,"Tan","Run again please"
+2026-01-08 11:39:50,"광협 KwangHyeop","Can you guys run to test remotely?"
+2026-01-08 11:43:10,"Tan","please explain with him the issue, we enhance model OBB detect so now it fix 100% with PCB, but the validation size still kept the previous size so that i need to tunning a bit"
+2026-01-08 11:50:52,"광협 KwangHyeop","I just explained it was an issue about AI model parameter.
+
+He said, teach him how can they fix it, when we are not in there."
+2026-01-08 11:51:44,"Tan","ok talk with him we can teach him on monday"
+2026-01-08 11:51:57,"Tan","me and Ammad have plan to go there on monday to test all the change"
+2026-01-08 11:52:14,"광협 KwangHyeop","Okay. Thank you"
+2026-01-08 11:52:20,"Tan","your welcome"
+2026-01-08 12:33:52,"Professor | 김형원","Photo"
+2026-01-08 12:59:54,"Professor | 김형원","Saad, Shoaib, Ammad, the yellow column show all mobile printer models' cycle time."
+2026-01-08 13:31:13,"Shoaib","Okay Sir. "
+2026-01-08 13:58:34,"광협 KwangHyeop","Guys, if you have a time, please share me your progress for this week.
+I have to compress and send Weekly Report to Everint by today."
+2026-01-08 14:09:25,"Shoaib","@Saidjalol 
+Have you tested it? "
+2026-01-08 14:10:09,"Shoaib","@Tan @Ammad (Korea) 
+Can you explain to me what was the issue they faced today?"
+2026-01-08 14:10:29,"Shoaib","@Ammad (Korea)  @Tan 
+Please share the summary of issues / updates."
+2026-01-08 14:10:45,"Shoaib","@Saidjalol 
+Please finalize and share the summary. "
+2026-01-08 14:13:33,"Tan","i will explain with you after seminar Sir"
+2026-01-08 14:13:44,"Tan","we will try to sent you after seminar today"
+2026-01-08 14:15:55,"Shoaib","@Ammad (Korea) 
+@Tan 
+@Kor Tugii 
+@Kor Hieu 
+@Saidjalol 
+
+Please use this file to list down the issues. 
+
+https://msislabai-my.sharepoint.com/:x:/r/personal/saad_msislab_com/Documents/AI_Robot_Shared/Everint_ScrewDriver_Project/Issue%20Reports/Issue%20Report.xlsx?d=w4252491ca8124affafc3f7ce1c8a7f93&csf=1&web=1&e=LgS41v"
+2026-01-08 14:23:37,"Tan","you guys can able to access this link? "
+2026-01-08 14:35:21,"Shoaib","Robot, Vision, GUI
+What are you working on today?
+Can you please let me know your current tasks. 
+
+Also, please share if there are any issue which are causing operational issue. 
+Dr Odil mentioned about tomorrow's visit by some company. So I want to know in advance if there are any serious issues.
+
+Since Tugi is not available, so Muazzam or I will visit tomorrow to help other members. "
+2026-01-08 14:50:04,"Kor Hieu","I enhanced the pickup logic, fixed minor bug in robot motion in this morning (with Tugi’s help)
+
+Now I am working with vision team to test new updates on real system."
+2026-01-08 14:57:53,"Shoaib","Okay. Thank you."
+2026-01-08 15:53:44,"Shoaib","Ammad, Tan, Tugi, Jalol, Samrah, Sawera
+Kindly let me know your today's tasks regarding Everint. "
+2026-01-08 15:53:56,"Shoaib","Also, vision team, please share your today's tasks. "
+2026-01-08 15:56:29,"Ammad (Korea)","Okay"
+2026-01-08 16:05:53,"Kor Hieu","Video"
+2026-01-08 16:08:06,"Kor Hieu","They decreased the conveyor speed a lot, but the slipping issue is still there"
+2026-01-08 16:08:53,"Kor Hieu","Now because of the slow speed, the moving motion is taking 7s"
+2026-01-08 16:09:38,"Kor Hieu","I remember that I didn’t ask to decrease the speed furthe"
+2026-01-08 16:13:48,"Shoaib","Okay Hieu. I'll think about it."
+2026-01-08 16:17:44,"Professor | 김형원","I requested to slow it down more to verify. "
+2026-01-08 16:18:02,"Professor | 김형원","You can request the speed you want. "
+2026-01-08 16:18:39,"Kor Hieu","Okay professor"
+2026-01-08 18:35:35,"광협 KwangHyeop","I'm sending this again as reminder.
+Please share your progress for this week.
+Even if it's small, it's okay."
+2026-01-08 18:42:14,"Kor Sir Saad New","Everint team, please try to write one slide each of updates and share it with KwangHyeop."
+,"","The message has been deleted."
+,"","The message has been deleted."
+2026-01-08 18:58:56,"Tan","Vision – Weekly Update
+•	Pretrained new OBB model for PCB detection.
+               Improved orientation stability, especially for large rotation cases.
+               Prepared for scaling to ~20 PCB types.
+•	Code cleanup and refactoring.
+               Reorganized modules (model / inference / postprocess / debug / config).
+               Standardized logging and removed redundant code.
+•	Built a testbench for model validation before pushing.
+               Enabled regression testing and performance comparison between models.
+               Reduced deployment risk.
+•	Aligned image rotation with real-world orientation.
+               Avoids operator confusion during system operation and debugging.
+•	Verified pipeline readiness for multi-PCB deployment.
+              Easy to add new PCB types via configuration without code changes."
+2026-01-08 18:59:21,"Tan","@광협 KwangHyeop please check update for PCB vision system first"
+2026-01-08 18:59:22,"Tan","thank you"
+2026-01-08 19:44:14,"Ammad (Korea)","This week process
+1. Critical halting of state machine was identified and resolved (Reading user selection/assembly process stopping).
+2. Robot motion stop function imediate stop was implement.
+3. Configurable Korean text was added.
+4. False fastening failures due to retry was resolved.
+5. Screw Feeder feed-back wiring was completed for detecting no screw presence.
+6. Screw-driver stuck detection was added and tested.
+7. Robot speed was increased to 88-90% after observing stability."
+,"","The message has been deleted."
+,"","The message has been deleted."
+,"","The message has been deleted."
+2026-01-08 19:46:18,"Shoaib","Tomorrow, the following members will be visiting Everint.
+
+Robot Team
+- Shoaib
+- Tugi (work on label printer code)
+- Muazzam (help Hieu and Tugi with hardware)
+ 
+Vision Team
+- Dr Rizwan
+- Phongphu
+- Quy
+
+We will leave at 7AM using lab van.
+Please reach by 6:50AM."
+2026-01-08 20:15:29,"Shoaib","Hello. I am awaiting replies for following message. Kindly reply."
+2026-01-08 20:15:42,"Shoaib","1. @Saidjalol "
+2026-01-08 20:18:00,"Shoaib","2."
+2026-01-08 20:18:30,"Shoaib","3. Please update the current issues in this file. "
+2026-01-08 20:51:51,"Saidjalol","I can not test today. I will try today or tomorrow.
+We are returning from chungju."
+2026-01-08 21:04:55,"Saidjalol","Implemented and Tested Today (Label Printer)
+Start/Stop popup functionality and robot acknowledgment
+Display of the selected product name when the user starts the assembly process
+Count and reset button logic
+Log file display on the GUI (implemented, not yet tested)
+Remaining Issues (Label Printer)
+Product name editing is not working properly
+Dynamic modification of robot YAML files from the GUI
+Robot A and Robot B control components during registration (similar to label printer)"
+2026-01-08 23:06:21,"Shoaib","Thank you"
+2026-01-08 23:07:02,"Shoaib","When you return, please leave the key and card. We need to travel by van tomorrow."
+2026-01-08 23:08:34,"Shams","From the vision side, we updated and validated the code for label printer's hole and rubber detection. Multiple test runs were executed on different printers to evaluate performance. Both rubber detection and hole detection showed good results, confirming that the updates were successful and the vision side is working fine now."
+2026-01-09 07:04:19,"Shoaib","Please come to E9 backside.
+I and Tugi are in the van."
+2026-01-09 09:35:33,"Ammad (Korea)","Photo"
+2026-01-09 09:35:59,"Ammad (Korea)","@광협 KwangHyeop 
+No change in januarary 9th product plan today.?"
+2026-01-09 10:02:04,"광협 KwangHyeop","Whoever went Everint today, can someone go to the 3rd floor?
+There's sone issue about PCB production."
+2026-01-09 10:03:54,"광협 KwangHyeop","@Ammad (Korea) @Tan Please check it remotely"
+2026-01-09 10:04:00,"Ammad (Korea)","Checking it. "
+2026-01-09 10:04:14,"Ammad (Korea)","@Tan Bk3-31V"
+2026-01-09 10:06:28,"Tan","Run again"
+2026-01-09 10:06:33,"Tan","Same issue with yesterday"
+2026-01-09 10:06:38,"Tan","Validation size issue"
+2026-01-09 10:07:00,"Ammad (Korea)","Okay"
+2026-01-09 10:07:14,"Tan","Working now"
+2026-01-09 10:07:22,"Tan","I am in lab i will remotely control"
+2026-01-09 10:08:18,"Ammad (Korea)","Okay. Orientation okay ?"
+2026-01-09 10:08:22,"Tan","Ok"
+2026-01-09 10:08:39,"Tan","No issue for now"
+2026-01-09 10:09:43,"Ammad (Korea)","Thankyou."
+2026-01-09 10:12:19,"Shoaib","Tan
+Did you complete running the test bench for all the products?"
+2026-01-09 10:12:54,"Tan","Not yet Sir i will try to collect all data"
+2026-01-09 10:16:41,"Shoaib","They will have a break time soon.
+
+As we discussed yesterday, download the product registration images for all the products.
+
+You can run test bench on those images.
+
+Download will not take a lot of time. Let me know if you need my help.
+
+Can you finish running test bench by 12PM?"
+2026-01-09 10:17:48,"Tan","Actually they have different product for different day i need to check and download all, it take time Sir"
+2026-01-09 10:17:59,"Tan","I will try download as much as possible"
+2026-01-09 10:19:21,"Shoaib","I need result for 1 product of each type.
+
+For that, you don't need daily data.
+You can use the inages saved in product registration directory.
+Right?"
+2026-01-09 10:20:00,"Ammad (Korea)","No. They are different. "
+2026-01-09 10:20:09,"Tan","They are different sir"
+2026-01-09 10:20:52,"Shoaib","Okay. How are they different?"
+2026-01-09 10:20:52,"Ammad (Korea)","Tan i will provide date and time of each product. Let first run 1 step1 image and 1 step 2 image for each"
+2026-01-09 10:22:28,"Ammad (Korea)","The registration is from robot B only. 
+While assembly image have images from robot A and robot B."
+2026-01-09 10:23:40,"Shoaib","The error that happened yesterday and today, it was from Robot A or B?"
+2026-01-09 10:23:50,"Tan","A sir"
+2026-01-09 10:24:43,"Shoaib","So, tell me if I understand correctly.
+
+Registration images are taken on Robot B.
+
+Validation is done on Robot A, using the dimension registered on Robot B ?"
+,"","The message has been deleted."
+2026-01-09 10:26:01,"Tan","We have 2 validation step
+Robot A check size of pcb
+Robot  B check angle and distance and number of hole/screw, filter in position"
+2026-01-09 10:26:21,"Tan","Base on step we will different validation method"
+2026-01-09 10:28:02,"Shoaib","Okay.
+Can you explain the validation done on Line A?
+What is the reference against which the validation is performed?"
+2026-01-09 10:31:26,"Shoaib","I don't know the whole process so I need to understand it."
+2026-01-09 10:31:49,"Tan","Initially, there was a minor issue in the width and height detection when passing input information to the model, which caused the OBB output to not fully cover the PCB. To keep the production running, I temporarily reduced the PCB size in the validation step so that the system could continue operating.
+
+After fixing the algorithm and re-training the OBB model, the detected size is now correctly aligned with the actual PCB dimensions. Therefore, we need to update the PCB size in the validation step accordingly."
+2026-01-09 10:32:11,"Tan","2 photos"
+2026-01-09 10:38:16,"Shoaib","Do we know their schedule for next few days?"
+2026-01-09 10:41:53,"Ammad (Korea)","We do know.
+BK3-31V was not in schedule today. "
+2026-01-09 10:42:11,"Ammad (Korea)","*"
+2026-01-09 10:42:42,"광협 KwangHyeop","- PCB Production Plan for next week(1/12~1/16)
+
+1/12(Mon)
+A11 1,280EA
+
+1/13(Tue)
+A11 840EA
+350+V 386EA
+BK5-31 150EA
+
+1/14(Wed)
+BK3-31 967EA
+BK5-31 234EA
+
+1/15(Thu)
+BK3-31 440EA
+BK3-21 120EA
+
+1/16(Fri)
+(Only produce the PCB without Screws)"
+2026-01-09 10:43:24,"광협 KwangHyeop","For A11 of 1/12 and 1/13, I will ask manager about the detailed model name"
+2026-01-09 10:46:30,"Shoaib","Okay. Thank You."
+2026-01-09 10:46:46,"Shoaib","@Tan 
+Please run the scheduled products and verify with the test bench. "
+2026-01-09 10:47:30,"Tan","for Bk5-31 this is new product, we do not have data of this one"
+2026-01-09 10:48:25,"광협 KwangHyeop","I just asked manager for sharing the image and real product to our members"
+2026-01-09 10:49:06,"Shoaib","@광협 KwangHyeop 
+Can you focus on 1 thing
+
+They provided direct power so our PC does not turn off.
+However the internet turns off.
+
+So we are still unable to access the system. 
+
+Can they provide us a LAN connection, so that we can access the system when the other machines are powered off.
+We will connect our wifi router to that direct LAN connection. 
+
+Since I and Muazzam are here, we can set-up the network before leaving. "
+2026-01-09 10:50:46,"Tan","sure Sir"
+2026-01-09 10:52:25,"광협 KwangHyeop","- Label Printer Production Plan for next week(1/12~1/16)
+
+1/12(Mon)
+DX220 150EA
+
+1/13(Tue)
+DX220 966EA
+
+1/14(Wed)
+DX220 117EA
+
+1/15(Thu)
+(Only doing Moblie Printer validation)
+
+1/16(Fri)
+XD3-40d 276EA
+XD5-40IId 500EA"
+2026-01-09 10:52:50,"광협 KwangHyeop","I will ask the manager about that by today."
+2026-01-09 10:54:44,"Shoaib","Okay. Thank you. "
+2026-01-09 10:56:00,"광협 KwangHyeop","Currently, they are thinking about the method.
+Also, they are considering about connecting with cable like you said."
+2026-01-09 11:00:04,"Shoaib","Okay. Thank you.
+Let's ask them again after lunch if we can finalize the network today."
+2026-01-09 11:00:47,"Ammad (Korea)","the video recording team is there."
+2026-01-09 11:03:20,"Shoaib","@Saidjalol 
+Can you test it?"
+2026-01-09 11:22:26,"Saidjalol","okey"
+2026-01-09 11:25:44,"Shoaib","Jalol
+Can you check the GUI for label printer?
+We have some issue in registration of new products."
+2026-01-09 11:28:47,"Saidjalol","Okey "
+2026-01-09 14:17:52,"Phungphu","Where should I install the OAK D camera? @Odil "
+2026-01-09 14:18:09,"Phungphu","Photo"
+2026-01-09 14:18:19,"Phungphu","Overhere "
+2026-01-09 14:49:16,"Shoaib","@광협 KwangHyeop 
+Can you ask them?
+
+If possible, we want to fix the network before leaving today."
+2026-01-09 15:39:12,"Odil","we need to install it on the JRT/Jugang gripper "
+2026-01-09 15:52:55,"Ammad (Korea)","@Kor Tugii @Kor Hieu 
+For table design for mobile printer your kind suggesstion are requested since you have spend more experience on pallet conveyor.
+Please, send issues you faced and improvement respect to table design or any information that can be helpful.
+Thankyou.
+Currently, we planned welded table with cross brace for vibrarion and six feets are added.(2 robots)
+The table height is kept same as pallet conveyor 85cm. "
+2026-01-09 17:22:59,"Shoaib","Photo"
+2026-01-09 17:33:48,"Shoaib","@Saidjalol 
+Can you add Myeongun here?"
+2026-01-09 17:34:00,"Saidjalol","okey"
+2026-01-09 17:40:26,"Saidjalol","Saidjalol invited 이명근."
+2026-01-09 18:07:24,"Ammad (Korea)","@Tan
+https://docs.google.com/spreadsheets/d/1GNHvZnzA5B8_mMTy-4lcYpcqMjsgPVM2020Ws4lVmwA/edit?gid=0#gid=0
+
+From now own we will keep record if we update program and have not tested product with new version.
+We will inform Everint in advance that following product are not ran in real system.
+ "
+2026-01-09 18:26:34,"Ammad (Korea)","@Tan 
+Todays production (BK3-31- 1000-1530 Hrs).
+
+PCB: 1090,                     Failures 7(0.6%),
+Screw Picks: 2903,        Failed:   25(0.86%),
+Screw Fastening 2873, Failed:   30
+Note: The screw pick and fasten counter was not reset, it includes previous day info too."
+2026-01-09 18:39:49,"Saidjalol","I have merged and tested it seems okey"
+2026-01-09 18:53:45,"Tan","Sure"
+2026-01-09 18:57:06,"Professor | 김형원","Everint team we will have Everint meeting tomorrow at 10am in the basement.  "
+2026-01-09 18:57:35,"Professor | 김형원","All Everint team please attend it. "
+2026-01-09 19:20:43,"Shoaib","Summary of Everint visit today
+
+Implementation of Rescan Logic to identify the next screw position after finishing previous screw position.
+- Completed for screw robot.
+- Pending for Rubber Foot (Additional vision model required) (Target: Monday)
+- Cycle Time increased by 7s.
+
+Optimize Motion
+- Screw Robot motion optimized. Reduction of 5s.
+
+Internet Unavailability
+- It will be fixed by factory manager on Monday.
+
+Product Samples availability
+- They will provide 3 samples of each product type for our testing/tuning.
+
+GUI (Remaining Issue)
+- Product name editing is not working properly
+- Dynamic modification of robot YAML files from the GUI
+- Robot A and Robot B control components during registration (similar to label printer)"
+2026-01-09 19:21:37,"Shoaib","Photo"
+2026-01-09 19:21:47,"Shoaib","@광협 KwangHyeop 
+Are you available to visit on Monday?"
+2026-01-09 19:22:36,"광협 KwangHyeop","No, I have to visit Woosu on next week"
+2026-01-09 19:23:04,"Shoaib","All days?"
+2026-01-09 19:23:43,"광협 KwangHyeop","Maybe. I'm sure that I have to stay there for several days"
+2026-01-09 19:24:01,"Shoaib","Okay."
+2026-01-09 19:34:34,"Kor Sir Saad New","@Saidjalol What do you see when you go to ""My Tasks"" on asana? Please share a picture"
+2026-01-09 19:43:44,"Saidjalol","Photo"
+2026-01-09 19:44:14,"Saidjalol","Photo"
+2026-01-09 19:49:30,"Kor Sir Saad New","Photo"
+2026-01-09 19:51:49,"Saidjalol","Photo"
+2026-01-09 19:52:28,"Saidjalol","Photo"
+2026-01-09 19:52:56,"Saidjalol","I dont understand what robot A/B ?"
+2026-01-09 19:53:54,"Saidjalol","I can see only task title "
+2026-01-09 20:00:06,"Shoaib","I added this.
+You wrote it exactly like this on white board. So I copied it to Asana as it is."
+2026-01-09 20:06:15,"Saidjalol","I got it. You mean which I wrote on white board after GUI meeting. I did most of them I will update result and mark as complete tomorrow.
+"
+2026-01-09 20:17:08,"Shoaib","Okay. Please add details when you mark complete. And screenshot if possible."
+2026-01-09 20:33:45,"Saidjalol","Ok"
+2026-01-09 20:48:35,"Korea Rizwan","Everint small printer and palette is placed here in the basement "
+2026-01-09 20:49:06,"Korea Rizwan","4 photos"
+2026-01-09 20:55:29,"Ammad (Korea)","Video"
+2026-01-09 20:57:07,"Ammad (Korea)","High speed on clockwise. Medium speed anti clockwise"
+2026-01-09 20:58:13,"Ammad (Korea)","Video"
+2026-01-09 20:58:25,"Ammad (Korea)","Full speed both direction. "
+2026-01-09 20:59:01,"Ammad (Korea)","Video"
+2026-01-09 20:59:27,"Ammad (Korea)","Slow speed anticlock wise. "
+2026-01-09 20:59:31,"Shoaib","Can you also check pneumatic gripper?"
+2026-01-09 21:00:04,"Ammad (Korea)","Video"
+2026-01-09 21:00:59,"Ammad (Korea)","It has enough constant pressure with play.
+And power can be directly adjected using the air pressure. "
+2026-01-09 21:01:30,"Ammad (Korea)","Okay. Will check it tommorrow. "
+2026-01-09 21:53:46,"Shoaib","@이명근 Please also join tomorrow. We need to design and print fingers for fairino robot to use on Monday."
+2026-01-09 21:55:11,"Shoaib","Ammad and Muazam
+Also prepare the camera bracket for fairino. Prepare camera cables too."
+2026-01-09 21:58:14,"Shoaib","@Saidjalol can you make this group open or make others admin?
+
+Also. Please add Muazzam."
+2026-01-09 22:09:42,"Quy Ninh (닌쑤언꾸이)","Summary from Vision Side Today,
+I implemented the code logic to automate the registration process for Model 6. Instead of requiring manual drawing similar to the EverintPCB, the system now automatically identifies and draws the screw hole and rubber hole locations. I tested and verified the new logic within the Robot Framework and confirmed that the vision system successfully sends the necessary MQTT information with help from Hieu, allowing UI team to continue implementation on Monday.Test runs were executed on multiple printer types.  Both rubber and hole detection showed consistent results confirming that the vision side is fully functional"
+2026-01-09 22:31:58,"Shoaib","Sajjad
+When can you update the model to return rubber offset values as discussed with Professor?"
+2026-01-09 22:32:20,"Haider Shah","Sure"
+2026-01-09 22:35:38,"Shoaib","I mean, when can you update it?"
+2026-01-09 22:36:49,"Haider Shah","Tomorrow "
+2026-01-09 22:37:52,"Shoaib","Okay."
+2026-01-09 23:09:32,"Odil","Let’s first discuss this in the meeting tomorrow. He is already returning (x, y) coordinates of rubber food center point. We need to find the way how to utilize those points. The more details we rely on from the vision system, the higher the risk of errors due to minor misdetections."
+2026-01-09 23:19:57,"Shoaib","Okay Dr @Odil "
+2026-01-10 06:52:31,"Saidjalol","Kor Sir Saad New has been assigned as the admin."
+2026-01-10 06:52:38,"Saidjalol","Shoaib has been assigned as the admin."
+2026-01-10 09:44:30,"Shoaib","Shoaib invited Kor Muazzam."
+2026-01-10 11:48:59,"Shoaib","Photo"
+2026-01-10 11:49:10,"Shoaib","Photo"
+2026-01-10 14:22:24,"Saidjalol","Saidjalol invited Samrah | 삼라."
+2026-01-10 14:25:24,"Shoaib","Let's meet at 5PM for task update.
+
+If you cannot meet, let me know. You can join by Zoom."
+2026-01-10 14:51:39,"광협 KwangHyeop","For the new holes, how much are the size of the holes?"
+2026-01-10 14:52:03,"광협 KwangHyeop","The table manufacturer sent me a message right now."
+2026-01-10 16:02:42,"Kor Tugii","Photo"
+2026-01-10 16:03:36,"Kor Tugii","@이명근 씨, 
+Which design is latest design for connection part this jig? One on the left or on the right?"
+2026-01-10 16:06:35,"이명근","On the left side, the items we are ordering this time will be made to fit the left side. "
+2026-01-10 16:11:06,"Kor Tugii","Photo"
+2026-01-10 16:11:22,"Kor Tugii","Could you print this part until Monday 2 pairs?"
+2026-01-10 16:11:52,"Shoaib","Do we have this in metal ?
+Or we only have the old design?"
+2026-01-10 16:13:30,"광협 KwangHyeop","@Kor Muazzam Do you know the size of the screws for fixing the Fairino robots?
+I have to notice the table company for making holes on Monday."
+2026-01-10 16:14:14,"광협 KwangHyeop","Are they M6? or larger?"
+2026-01-10 16:17:16,"이명근","Okay."
+2026-01-10 16:17:36,"이명근","The metal one was ordered yesterday and is being reviewed. "
+2026-01-10 16:17:55,"이명근","It seems like the review takes longer than I thought. "
+2026-01-10 16:23:49,"Shoaib","Okay. So currently, we don't have the metal jig for pressing arm? I heard we received it one week ago."
+2026-01-10 16:27:00,"Kor Muazzam","Photo"
+2026-01-10 16:27:50,"이명근","Photo"
+2026-01-10 16:28:15,"Kor Muazzam","Both are M5
+Bigger has length:35mm
+Shorter length::20mm "
+2026-01-10 16:28:25,"광협 KwangHyeop","Thank you"
+2026-01-10 16:28:46,"이명근","I only received this. We haven't heard that the changed arm or shoulder press parts have been ordered or tested, so there are currently no metal parts available. "
+2026-01-10 16:29:17,"광협 KwangHyeop","@Kor Muazzam Do you need any holes for aligner pin on the table?"
+2026-01-10 16:29:58,"Shoaib","@이명근 
+If we don't have metal jig for pressing arm, please print as many spares as possible, after finishing the fairino gripper fingers. 
+Please order the remaining metal parts as well. 
+
+@Kor Hieu 
+Since we will be using metal jig only on label printer screw robot, please keep spares with you."
+2026-01-10 16:30:35,"Ammad (Korea)","Yes."
+2026-01-10 16:31:18,"이명근","Understood, the remaining metal parts will be requested to be manufactured as soon as the review is complete. "
+2026-01-10 16:31:26,"광협 KwangHyeop","Okay. Then please be sure to prepare to mark the locatiin for those holes."
+2026-01-10 16:32:15,"Shoaib","I think this part cannot be used either since the design is changed. "
+2026-01-10 16:32:17,"Shoaib","Photo"
+2026-01-10 16:32:27,"Shoaib","Can you verify and order all the required parts in metal?"
+2026-01-10 16:33:04,"Shoaib","Please consider this piece as well. "
+2026-01-10 16:33:07,"Shoaib","Photo"
+2026-01-10 16:34:58,"Shoaib","Photo"
+2026-01-10 16:35:31,"Shoaib","Everyone, we will follow the morning and evening shifts in next week.
+
+If anyone has a commitment or is unavailable, please let me know in advance. "
+2026-01-10 16:36:02,"Shoaib","If you think you need to visit other than mentioned schedule, to do a better job, you can let me know. "
+2026-01-10 16:36:32,"Shoaib","Those who want to stay there, please let me know. "
+2026-01-10 16:36:55,"이명근","Yes, I will double-check the necessary accessories and place an order. "
+2026-01-10 16:37:19,"Shoaib","Thank you."
+2026-01-10 16:37:28,"이명근","The body part can be used, but only the shoulder part cannot be used. "
+2026-01-10 16:38:03,"Shoaib","Okay. 
+@Kor Hieu 
+Replace whatever is possible. Remaining parts will be replaced once we receive in metal. "
+2026-01-10 16:38:52,"Kor Hieu","Okay"
+2026-01-10 16:48:34,"광협 KwangHyeop","3 photos"
+2026-01-10 16:49:50,"광협 KwangHyeop","I asked 금아ENG(Table Manufacturer) to come on Monday and drill some holes for Fairino robot"
+2026-01-10 16:50:31,"Shoaib","@광협 KwangHyeop 
+Can they come in morning around 10AM?
+
+Coming in evening will delay whole schedule "
+2026-01-10 16:52:09,"광협 KwangHyeop","I can ask, but he said he have to check the schedule"
+2026-01-10 16:53:20,"광협 KwangHyeop","And one more thing for drilling holes.
+We have to make some space for drilling for him.
+I think you guys will know about that."
+2026-01-10 16:57:56,"Shoaib","Sure. We can make space on the table. 
+But please ask them to visit in the morning.
+
+We can mount Fairino robot and start working only after making the holes."
+2026-01-10 16:58:10,"광협 KwangHyeop","Okay"
+2026-01-10 16:58:47,"Shoaib","If coming in morning is not possible, then I'll change the whole visit schedule accordingly."
+2026-01-10 17:37:56,"Professor | 김형원","Shoaib, please add TaeMi to this Kakao group."
+2026-01-10 17:40:49,"Shoaib","Shoaib invited Taemi 박태미."
+2026-01-10 17:41:04,"Shoaib","."
+2026-01-10 18:01:13,"광협 KwangHyeop","@Shoaib, can you post the new schedule of Everint visit?"
+2026-01-10 18:01:53,"Shoaib","Sure Kwanghyeop.
+You will go instead of Taemi.
+
+I will send updated schedule once we confirm the visit time of the company who will drill the holes."
+2026-01-10 19:48:14,"Shoaib","Everyone 
+Please send me an update on these tasks, if you have completed any."
+2026-01-10 19:50:09,"Kor Muazzam","Ammad and I are currently working on them..."
+2026-01-10 21:04:02,"Shoaib","Okay. I will be there soon to discuss."
+2026-01-10 21:04:09,"Shoaib","Remaining members please send me your update."
+2026-01-10 21:07:56,"Kor Tugii","- Prepared the washers for pressing arm
+
+- Prepared the MQTT messaging function
+
+- Making spare parts list"
+2026-01-10 21:18:33,"Kor Hieu","1. Use Quy’s model to detect holes and rubber feet slot in registration process:
+- Done sending detections to GUI. 
+- But there was new requirement after the discussion between Quy and Jalol: first, still send image and empty svg, second, after annotating bbox of printer, 1 mqtt message will be sent to vision then Quy’s model will detect only inside that ROI. This needs time to change vision fw flow.
+2. Rename product on GUI:
+Already asked Jalol about name and key solution, he didn’t know about this, so he need to discuss with Samrah"
+2026-01-10 21:26:09,"Tan","Completed the testbench features including Step 1, Step 2, and Step 3 for both screw detection and PCB detection, enabling testing across multiple products. A guidance email will be sent to the Vision team on sunday morning how to run the system after each pull request.
+Pretrained model screw and hole detection 
+Completed the image rotation task before sending data to the GUI. This will be tested on Monday."
+2026-01-10 21:31:16,"Korea Rizwan","-> The rescanning using same reference point is added. 
+-> Each time the rubber foot/ screw is added, for the next rubber foot/screw position is been estimated to recalculate the new center 
+-> in case of rubber foot attached the rubber foot attachment verification is also added 
+-> currently testing the algorithm with pseudo data 
+-> need to test on Monday with real dataset "
+2026-01-10 21:32:05,"Shoaib","Okay. Thank You.
+Please let me know if you need my help."
+2026-01-10 21:33:39,"Shoaib","Okay. Thank You Hieu.
+
+Is task 1 urgent?
+If not urgent, and it is only to help the workers, then I want you to focus on overall stability and cycle time first."
+2026-01-10 21:35:03,"이명근","I have a question. If it's a platform that needs to be raised more than 30 centimeters, is it okay if it's a little durable? I'm worried about the robot shooting, but I'm trying to make the most of the profile in the lab. @Shoaib "
+2026-01-10 21:53:08,"Shoaib","The robot will press it down slightly. As long as robot does not hit, it will be okay. "
+2026-01-10 21:56:20,"이명근","Okay, then I have one more question. First, can I design it so that I can attach only one rubber foot pad for temporary use?"
+2026-01-10 21:56:34,"Shoaib","Sure. "
+2026-01-10 21:57:19,"Ammad (Korea)","There is print inside the 3d printer. Does it needs to removed ?"
+2026-01-10 21:57:39,"Ammad (Korea)","Photo"
+2026-01-10 21:57:50,"Shoaib","Okay Tan. Thank you.
+Please send test bench code and detailed guide.
+Vision team should use the test bench before making PRs starting from Sunday morning. 
+
+On Tuesday, I need you to work with Hieu and make the test bench for/with him. 
+Starting from Wednesday, vision team should verify using the test bench before making PRs for LP screw and rubber foot."
+2026-01-10 21:58:24,"이명근","I'd like you to remove it. It's a little out of length, so I have to print it again and I'll print the gripper first."
+2026-01-10 21:59:17,"Shoaib","Thank you Dr Rizwan.
+If things go according to plan, we will be able to test the rescan logic on Monday evening/night."
+2026-01-10 22:02:40,"이명근","@Ammad (Korea) Thank you for removing the 3D printing."
+2026-01-10 22:14:09,"Shoaib","Photo"
+2026-01-10 22:14:31,"Ammad (Korea)","I think shoaib did it. We came outside. "
+2026-01-10 22:14:39,"Shoaib","Photo"
+2026-01-10 22:15:08,"이명근","Whoever did it, thank you. "
+2026-01-10 22:15:19,"Shoaib","No worries. I have placed it next to the printer. "
+2026-01-10 22:35:18,"이명근","Shoaib, are you still in the lab? Can I ask you one more thing?"
+2026-01-10 22:39:12,"이명근","When I tried to print option b, it seems that print 2 can cope with it because there are more filaments than I thought."
+2026-01-10 22:39:49,"Shoaib","I am there. What do you want me to do?"
+2026-01-10 22:41:07,"이명근","I will cancel the print that is currently being printed, so please remove it."
+2026-01-10 22:41:44,"Shoaib","Okay. Also, can you print in white color, so it does not interfere with the printer color?"
+2026-01-10 22:42:29,"이명근","Yes, sir, I'll do that right away."
+2026-01-10 22:44:01,"이명근","thank you"
+2026-01-10 22:48:47,"Shoaib","Thank you.
+Should I remove the print?"
+2026-01-10 22:53:01,"Shoaib","Photo"
+2026-01-10 22:53:05,"Shoaib","Photo"
+2026-01-10 22:53:05,"Shoaib","Both printers are empty now."
+2026-01-10 22:54:41,"이명근","Thank you. That's all you have to do. But can you give me a black line in the print on the right side from where you are now?"
+2026-01-10 22:55:27,"이명근","I'm worried about printing mistakes because of black lines."
+2026-01-10 22:55:41,"이명근","Photo"
+2026-01-10 22:57:27,"Shoaib","Photo"
+2026-01-10 22:58:00,"Shoaib","Photo"
+2026-01-10 22:58:21,"Shoaib","Both plates are empty.
+Do you need me to do something else?"
+2026-01-10 22:59:05,"이명근","No, nothing else, thank you for granting the request."
+2026-01-10 22:59:21,"Shoaib","You are most welcome."
+2026-01-10 23:03:07,"이명근","We are currently printing Gripper version 1 and version 2 designed in white color from Print 1 and Print 2 to today's meeting ground, and we will print version 3 after version 1 is printed."
+2026-01-10 23:07:11,"Shoaib","Okay. What time these will be finished (version 3)?
+
+Can we print pressing arm jig (spare) and robot suction cup spring (spare) until Monday 11AM ?"
+2026-01-10 23:24:13,"이명근","Version 1 will be completed tomorrow at 3:50 a.m. Version 2 will be completed tomorrow at 10:20 a.m. Even if you turn version 1 as soon as it's empty, it will take about 9 hours and 30 minutes due to its height and thickness, and it will be finished around 1:00 p.m.
+Pressing arm jigs and suction cup springs will be available as much as possible, but keep in mind that you may pass the time."
+2026-01-10 23:24:51,"이명근","@Shoaib "
+2026-01-11 00:17:52,"Odil","@Kor Hieu 
+Currently, we do not have a fully reliable solution to automatically detect the printer body and exact its contour. Because of this, I strongly prefer that the worker manually defines the printer contour by selecting the four corner points during registration. Once these four corners are defined, all vision models (screw hole and rubber hole detection) can be executed only inside this confirmed printer region."
+2026-01-11 00:18:32,"Odil","If we rely entirely on deep learning–based contour detection (for example, using a segmentation or contour extraction model), the result may not be accurate due to image noise, lighting variation, and low image quality. Even small contour errors can cause major downstream problems. For example, if the detected contour is loose and includes background or irrelevant areas, that contour may later be used as a template for printer body detection, which would significantly degrade template-matching accuracy and lead to unstable body localization."
+2026-01-11 00:19:29,"Odil","Although we have trained a YOLO model, it sometimes produces loose bounding boxes, which is not acceptable for precise contour definition. We are also considering changing the ZIG color; if the color becomes stable and distinguishable, we may be able to use color slicing to estimate the contour position or at least the center of the printer body. In that case, the worker’s involvement could be reduced. However, even then, I still believe the worker should take minimum responsibility, at least by confirming or selecting the four corners of the printer."
+2026-01-11 00:19:58,"Odil","The reason for this approach is not only technical accuracy but also responsibility ownership. If everything is fully automated and a small mistake occurs, all responsibility falls on the vision system and the AI model. By involving the worker in defining the printer contour during registration, part of the responsibility is shared and errors become traceable and explainable."
+2026-01-11 00:20:30,"Odil","During daily operation—when we update reference images, contour information, and screw/rubber hole positions (once or twice per day)—the worker should also be asked to confirm the current detection results, including bounding box accuracy and ROI positions. This confirmation step adds an additional safety layer to ensure long-term system stability."
+2026-01-11 00:20:31,"Ammad (Korea)","@Odil i ordered green wrap sheet if we cover side of holding jig with that.
+Will be any help you guys ?"
+2026-01-11 00:21:19,"Odil","@Kor Hieu and @Saidjalol 
+If implementing this requires significant changes to the GUI or the registration logic, it is acceptable to schedule it for later. However, before handing over the complete system to the company, this functionality must be implemented. Defining and validating the printer contour is a critical component of the system and cannot be left incomplete."
+2026-01-11 00:22:20,"Odil","I have already asked MyeongGun to consider some other colors while printing zig and ordering final model from maker "
+2026-01-11 00:24:11,"Ammad (Korea)","Okay. As you wish. "
+2026-01-11 00:27:25,"이명근","First, when printing jigs with 3D printing, they are printed in white. If you order metal, you may need it if there is no green color among the colors that can be coated. "
+2026-01-11 11:38:39,"이명근","Photo"
+2026-01-11 11:39:59,"이명근","프레싱암 제작검토가 나왔으나 이파츠부분이 제작이 어렵다고 하여 이 파츠만 3개로 나누어 다시 진행하려고 합니다 혹시 색상은 기존처럼 검은색으로 하면 될까요?"
+2026-01-11 11:40:11,"이명근","Pressing arm production review came out, but this part is difficult to produce, so I will divide it into three parts and proceed again. Do you want the color to be black like before?"
+2026-01-11 11:40:54,"이명근","Photo"
+2026-01-11 11:41:22,"이명근","It is a color list that can be selected. Please refer to it when ordering grippers later."
+2026-01-11 11:41:32,"Shoaib","Sure. Black color is okay for now.
+
+But wouldn't dividing it into 3 parts will make it more fragile?"
+2026-01-11 11:41:36,"Shoaib","Okay 👍 "
+2026-01-11 11:50:40,"Odil","We are not planning to use pressing arm anymore, right?"
+2026-01-11 11:51:33,"이명근","I'm not sure about that. I understand that the Ferrigno robot is only applied to new tables. "
+2026-01-11 11:51:47,"Shoaib","For LP Screw robot, we will continue using pressing arm for upto 1 week.
+
+We will install the Fairino robot for rubber foot robot. Once it is settled, then, we will replace pressing arm on screw robot."
+2026-01-11 11:52:33,"Shoaib","@광협 KwangHyeop 
+When the drilling company visits tomorrow, we need to get the holes drilled on both tables."
+2026-01-11 11:53:43,"광협 KwangHyeop","I told them about that.
+He will drill the holes where you guys marked on."
+2026-01-11 12:00:59,"Shoaib","Okay. Did they confirm the visit schedule?"
+2026-01-11 12:08:01,"광협 KwangHyeop","No. They didn't answer yet"
+2026-01-11 12:09:41,"이명근","It may break, but unless you press it hard or throw it fast, it will not break and you will order three sets to fit two tables in case you need it."
+2026-01-11 12:13:31,"Shoaib","You can prepare just  2 sets for pressing arm."
+2026-01-11 12:14:15,"이명근","OKay"
+2026-01-11 12:16:16,"이명근","Is anyone in the lab right now?"
+2026-01-11 12:16:31,"Tan","Me and Hieu are in the Lab"
+2026-01-11 12:17:19,"이명근","If it burns, can you remove the 3D print?"
+2026-01-11 12:17:28,"Tan","Ok"
+2026-01-11 12:17:44,"이명근","thank you"
+2026-01-11 12:53:10,"Professor | 김형원","MyungGeun. Please send me the design of the gripper fingers for FR3 robot?"
+2026-01-11 12:55:37,"이명근","2 photos"
+2026-01-11 12:55:48,"이명근","Option A (initial design) "
+2026-01-11 12:56:04,"이명근","2 photos"
+2026-01-11 12:56:22,"이명근","Option B. "
+2026-01-11 12:56:30,"이명근","2 photos"
+2026-01-11 12:56:38,"이명근","Option C. "
+2026-01-11 12:57:59,"이명근","Currently, options A and B have been printed, and option C is being prepared for printing. "
+2026-01-11 17:07:23,"Kor Hieu","Dr Odil, me and Quy have done the logic, we need changes from GUI, if GUI team can make it, we can test tomorrow"
+2026-01-11 17:31:37,"Tan","Hello Team i need to go home for korean class today, please contact me if you need my help"
+2026-01-11 18:53:00,"Shoaib","Meeting Minutes
+- Prepare cushion suport using profiles, joints, and install on top and bottom profiles next to conveyor.
+- Prepare cushion and rubber for gripper fingers and attach them.
+- Prepare rubber pad table using aluminum profile and attach 3D printed plate on top.
+- Order the base part of gripper fingers in metal.
+- Reprint (3D) fingers base with connector in the center.
+- Prepare all the tools, nuts, bolts, screws, bonding agents and other required material for tomorrow.
+- Order the gripper base (with 2 or 3 springs) in metal.
+- Merge the robot movements for acheiving cycle time. "
+2026-01-11 19:09:46,"이명근","I've started printing the part where the gripper finger part you mentioned is inserted, and it's estimated that it will be completed around 9 o'clock."
+2026-01-11 19:26:22,"Shoaib","The members who want to stay overnight, please let me know in advance in the group. "
+2026-01-11 19:36:59,"Shoaib","Photo"
+2026-01-11 19:37:21,"Shoaib","This is the schedule. 
+The schedule for Tuesday is tentative and I will update it based on progress made on Monday."
+2026-01-11 21:24:28,"Shoaib","@이명근 
+3D print will finish around 10:20PM?
+@Kor Tugii  will be in lab. He can remove the prints for you at that time."
+2026-01-11 21:25:24,"Shoaib","@광협 KwangHyeop 
+@Kor Tugii will send you the 3D design in a while, for the new holes that we need tomorrow on the table top."
+2026-01-11 21:25:51,"이명근","The best time for grippers that already output with option C is 10:50. Or should we just cancel it? If you cancel it, you can print the next print. If you just remove the canceled print... "
+2026-01-11 21:25:54,"광협 KwangHyeop","Okay. That's good"
+2026-01-11 21:32:24,"이명근","If you decide to use option B instead of option C, I would like to say that there is no problem with canceling it. "
+2026-01-11 21:34:26,"이명근","However, I would like to mention that there may be insufficient filament in the current print to print spares for suction cup springs and pressing arm brackets for tomorrow. "
+2026-01-11 21:36:32,"Shoaib","@Shoaib 
+ @광협 KwangHyeop 
+@Kor Hieu 
+@Tan 
+@Shams 
+@Quy Ninh (닌쑤언꾸이) 
+
+These people will visit Everint tomorrow. Please reach the lab by 7AM.
+
+We will leave by Carnival. 
+Two urgent tasks are
+- Optimize Screw robot movements and meet cycle time. 
+- Unmount all the hardware from rubber foot robot table.
+- Get the holes drilled in the table top, so hardware can be installed quickly."
+2026-01-11 21:38:45,"Shoaib","@Kor Tugii 
+@Ammad (Korea) 
+@Kor Muazzam 
+
+These people will visit Everint tomorrow in evening.
+
+Please use a taxi or a train to go to Everint. 
+Urgent tasks
+- Get all the hardware installed and running 
+- Integrate Fairino robot and gripper with the framework
+- Modify current positions and fine tune according to new hardware."
+2026-01-11 21:39:46,"Shoaib","Let it complete.
+
+You can finish all the 3D prints by 12PM and hand over to Tugi or Ammad."
+2026-01-11 21:41:39,"이명근","Okay, I understand. "
+2026-01-11 21:45:09,"이명근","Please remove the 3D print from @Kor Tugii  print 1. After the meeting, all the requested body parts have been printed. "
+2026-01-11 21:47:13,"이명근","And can we print the additional spare parts in black as is? "
+2026-01-11 21:47:38,"Shoaib","Sure."
+2026-01-11 21:47:47,"이명근","@Shoaib "
+2026-01-11 21:47:59,"이명근","Thank you for your response. "
+2026-01-11 21:48:04,"Shoaib","You're welcome."
+2026-01-11 21:54:55,"Kor Tugii","Photo"
+2026-01-11 21:55:36,"Kor Tugii","The holes circled in red color is for RB robot. 
+The holes circled in blue color is for Fairino FR3 robot."
+2026-01-11 21:57:39,"Kor Tugii","Rest of the holes are already there. 
+
+@광협 KwangHyeop 
+Please refer to this drawing when you ask the table company for making the holes. If you have any confusion about this illustration or dimensions let me know."
+2026-01-11 21:58:10,"광협 KwangHyeop","Is seems good. Thank you :)"
+2026-01-11 21:59:29,"Kor Tugii","No worries :)"
+2026-01-11 21:59:35,"이명근","Could you please check the amount of black filament remaining on Print 1? "
+2026-01-11 22:00:49,"Kor Tugii","Photo"
+2026-01-11 22:05:50,"이명근","Thank you. "
+2026-01-11 22:48:57,"Ammad (Korea)","Photo"
+2026-01-11 22:56:37,"Ammad (Korea)","@이명근 
+For pcb assembly machine (gripper fingers)
+I wanted you to design a test design like this with rotatable 2 joint. 
+Please make and print test when you have time. 
+I will add torsion spring(below image) to find correct force and angle for the fingers."
+2026-01-11 22:57:04,"Ammad (Korea)","Photo"
+2026-01-11 22:59:31,"이명근","I'll print out the urgent matters first and then try to design them in the morning. "
+2026-01-11 23:00:19,"Ammad (Korea)","Yes. When you have extra time. This is not urgent task.
+Thankyou. "
+2026-01-11 23:00:25,"이명근","그리고  프린트 2에서 인쇄물좀 빼주실수 있을까요? @Kor Tugii "
+2026-01-11 23:00:48,"Ammad (Korea)","We left the lab "
+2026-01-11 23:01:31,"Shoaib","@Ammad (Korea) 
+Please add it on asana. Add detailed description as well."
+2026-01-11 23:02:59,"Ammad (Korea)","Sure. "
+2026-01-11 23:21:51,"Shoaib","Do we have safety gloves in the factory for 4 or 5 people? Who will unmount and mount the equipment.
+If not, please let me know. We will buy new gloves."
+2026-01-11 23:22:16,"Kor Tugii","The factory can provide them"
+2026-01-11 23:22:44,"Shoaib","Okay 
+
+And we brought back the folding table from KET. Do we need it in Everint?"
+2026-01-11 23:24:02,"Ammad (Korea)","Please, check on the left table at basement entrness."
+2026-01-11 23:24:47,"Ammad (Korea)","I put some set of glove there. "
+2026-01-11 23:25:52,"Shoaib","Thank you."
+2026-01-12 06:50:45,"이명근","If someone has arrived at the lab now, could you remove the printer? "
+2026-01-12 06:57:55,"광협 KwangHyeop","@이명근 프린트물 제거했습니다.
+확인 부탁드립니다."
+2026-01-12 07:01:49,"이명근","Thank you. I will immediately rotate the pressing arm bracket spare arms and shoulders. "
+2026-01-12 07:02:51,"이명근","Photo"
+2026-01-12 07:09:39,"Shoaib","Thank you @이명근 "
+2026-01-12 07:25:56,"이명근","The arm takes 2 hours and 40 minutes and is printed before 10 o'clock, but the shoulder takes 7 hours and 20 minutes, so it will be completed around 2:20 PM at the earliest. "
+2026-01-12 07:38:35,"Shoaib","Okay 👍 "
+2026-01-12 08:51:53,"Ammad (Korea)","@Tan please check system. "
+2026-01-12 09:05:07,"Kor Tugii"," @Shoaib @광협 KwangHyeop 
+
+It seem like I didn’t take count of the rubber feet elevated table holes. Did we bring the prototype elevated table to factory?
+
+@이명근 
+Is the elevated rubber foot table finalized? "
+2026-01-12 09:07:25,"이명근","If the height of the table you brought today was appropriate, we plan to print it so that the rubber foot fixing plate can be fixed on the profile as is. "
+2026-01-12 09:07:45,"이명근","I remember it was higher than I thought, isn't that correct? "
+2026-01-12 09:08:29,"Kor Tugii","Apart from height the length and width is finalized?"
+2026-01-12 09:11:35,"이명근","The horizontal length has been finalized, but the vertical length needs to be increased a bit. Because it was done in a hurry, we have designed it so that only one rubber foot-fixed play frame can be installed. "
+2026-01-12 09:36:03,"Kor Tugii","@광협 KwangHyeop  
+What time the table company will come?"
+2026-01-12 09:38:16,"Shoaib","They will come at 2PM. 
+We will check the maximum time we can stay in factory and let you know what time you should reach here accordingly."
+2026-01-12 10:04:59,"Shoaib","@Kor Tugii 
+@Ammad (Korea) 
+@Kor Muazzam 
+
+Please leave from lab at 2:30PM for Everint.
+
+Please complete remaining tasks in the lab before that, take the 3D prints and the come. 
+- 3D print will complete by 2:20PM."
+2026-01-12 10:07:22,"Shoaib","Photo"
+2026-01-12 10:08:03,"이명근","Please extend the deadline for the table platform until tomorrow. We haven't even printed yet because urgent matters were being printed first. "
+2026-01-12 10:09:16,"Shoaib","Do you mean the rubber pad table?
+Is it not possible to have first version / temporary version to be made from aluminum profiles and install today?
+"
+2026-01-12 10:09:21,"Shoaib","I will also extend the deadline. "
+2026-01-12 10:10:13,"Shoaib","Photo"
+2026-01-12 10:11:21,"이명근","Yes, we need an extension of the deadline. You can just take the frame and use it, but if that happens, you'll have to temporarily apply tape when fixing the rubber foot fixing plate. "
+2026-01-12 10:12:01,"Shoaib","I mean this part for the task
+
+""Order the gripper base (with 2 or 3 springs) in metal."""
+2026-01-12 10:12:18,"이명근","Yes, I confirmed it. "
+2026-01-12 10:13:31,"Shoaib","Photo"
+2026-01-12 10:17:18,"Shoaib","This is for the task
+""Order the base part of gripper fingers in metal."""
+2026-01-12 11:14:55,"광협 KwangHyeop","@Kor Tugii Did you finalized the location of holes for elevated rubber foot table?
+Or do you need any information from herefor that?"
+2026-01-12 11:17:39,"Kor Tugii","Did you bring the prototype? "
+2026-01-12 11:18:11,"Kor Tugii","Please ask @이명근 "
+2026-01-12 11:21:34,"광협 KwangHyeop","Actually, we didn't bring the table to here.
+It was not ready, since the upper plate is on printing."
+2026-01-12 11:21:49,"이명근","What prototype are you talking about? "
+2026-01-12 11:26:16,"Ammad (Korea)","@이명근 
+I discussef with shoaib.
+We need to make gripper fimger in metal from local workshop. 
+I need your help in asking them to explain the design. "
+2026-01-12 11:26:26,"Kor Tugii","The prototype elevated table that you were making with aluminum bracket"
+2026-01-12 11:31:40,"Ammad (Korea)","Photo"
+2026-01-12 11:32:07,"Ammad (Korea)","@이명근 
+Are you currently going to this location(hardware shop) ?"
+2026-01-12 11:33:12,"이명근","I go to a hardware store near Chungdae, so if I go to the place in the picture, I need to take prenatal care. "
+2026-01-12 11:33:28,"이명근","I need to take a taxi. "
+2026-01-12 11:34:09,"광협 KwangHyeop","That is in our lab now.
+Since the upper plate is on printing.
+But I suggest you guys will know the dimensions of that table since the size of upper plate is fixed."
+2026-01-12 11:35:56,"광협 KwangHyeop","So @Kor Tugii, if you are available, can you please mark some holes for fixing that table?
+Only one location for that table is okay(4 holes for fixing I think)."
+2026-01-12 11:45:37,"광협 KwangHyeop","And @Kor Tugiione more thing, about the locations for the robots.
+Can you please discuss with other guys about 1 or 2 exact locations for the each robot?
+
+When I shared the number of holes to the guys coming here around 2pm, he said it will be better to make the new plate, since there is more than 40 holes he should drill today.
+It will make him refuse the request for drilling or charge huge cost about this."
+2026-01-12 11:48:10,"광협 KwangHyeop","But if you guys really need that much holes for testing,
+I will discuss with professor about making new plates for our new equipments."
+2026-01-12 11:48:27,"Kor Tugii","Okay I will try to send the locations by 1 PM"
+2026-01-12 11:48:51,"광협 KwangHyeop","Okay. Thank you for your help :)"
+2026-01-12 12:26:12,"Tan","Photo"
+2026-01-12 13:02:56,"Tan","Photo"
+2026-01-12 13:03:04,"Tan","Ready clean and cover "
+2026-01-12 13:31:58,"광협 KwangHyeop","Photo"
+2026-01-12 13:32:24,"Kor Tugii","Photo"
+2026-01-12 13:32:49,"Kor Tugii","How about this?"
+2026-01-12 13:34:14,"Kor Tugii","Note:
+Red color holes are M8
+Blue color holes are M6"
+2026-01-12 13:35:57,"광협 KwangHyeop","Photo"
+2026-01-12 13:36:53,"광협 KwangHyeop","@Kor Tugii Can I shift that red part to the left?
+There is a bolt on the hole location."
+2026-01-12 13:37:31,"광협 KwangHyeop","Rest of the holes are fine"
+2026-01-12 13:44:32,"Kor Tugii","Photo"
+2026-01-12 13:44:40,"Kor Tugii","How about we make holes like this??"
+2026-01-12 13:45:51,"광협 KwangHyeop","That is okay. There's no obstacles on those areas."
+2026-01-12 13:46:09,"광협 KwangHyeop","Can you also check the holes for tables, if possible?"
+,"","The message has been deleted."
+2026-01-12 14:23:06,"Kor Tugii","Photo"
+2026-01-12 14:23:38,"Kor Tugii","Shall we consider to put the elevated rubber feet table using the red circled holes?"
+2026-01-12 14:23:55,"Kor Tugii","@이명근 Please share your thoughts"
+2026-01-12 14:26:43,"이명근","Isn't that too wide? Shall we order a new propanil and try to match it? "
+2026-01-12 14:35:51,"광협 KwangHyeop","3 photos"
+2026-01-12 14:36:38,"광협 KwangHyeop","@Kor Tugii @이명근 Is it okay?
+For the vertical gap between the red M8 holes, I reduced it to 240mm"
+2026-01-12 14:38:20,"Kor Tugii","Then how shall we proceed? "
+2026-01-12 14:38:50,"이명근","Photo"
+2026-01-12 14:38:58,"이명근","What is the width? "
+2026-01-12 14:41:36,"Kor Tugii","100mm"
+2026-01-12 14:41:59,"Shoaib","@Kor Tugii 
+@Ammad (Korea) 
+@Kor Muazzam 
+
+Are you on the way?"
+2026-01-12 14:43:19,"Ammad (Korea)","No. I m coming back from workshop.
+We will expectes leave in 10m. "
+2026-01-12 15:45:04,"Tan","Did we receive BK5 from manager @광협 KwangHyeop "
+2026-01-12 15:55:30,"Shoaib","@Kor Tugii 
+@Ammad (Korea) 
+@Kor Muazzam 
+
+Professor talked to the factory manager.
+They informed the staff.
+
+You can continue working late during this week.
+
+If anyone causes you trouble or scolds you like the past, for working late, please let us know immediately."
+2026-01-12 15:55:55,"Ammad (Korea)","Thankyou"
+2026-01-12 15:56:46,"이명근","Photo"
+2026-01-12 15:57:05,"이명근","@광협 KwangHyeop  총 10개 가능할까요?"
+2026-01-12 17:06:14,"Shoaib","@광협 KwangHyeop 
+Can you brring him back to 4th floor?
+The Fairino holes are okay.
+But the Rainbow robot is not settled. The holes needs adjustment."
+2026-01-12 17:41:07,"Shoaib","Tentative schedule for tomorrow
+
+Morning (Taxi)
+- Shoaib
+- Hieu
+- Shams
+
+Evening (Carnival)
+- Tuguldur (Finalize rubber pad robot movement and integrate rescan mode)
+- Rizwan (Test updated model integration with Tuguldur)
+- Ammad (Test new features of PCB and help Tuguldur)
+- Tan (Update PCB GUI)
+- Jalol (Update PCB GUI) (Drive)
+
+In Lab task
+- Muazzam (rubber pad roller mechanism testing) (if you come back late tonight after 12AM, you may come to lab late in the morning)"
+2026-01-12 18:11:02,"이명근","저부분만 센터로 수정한것으로 주문하면될까요?"
+2026-01-12 18:11:51,"이명근","Photo"
+2026-01-12 18:11:53,"이명근","Photo"
+2026-01-12 18:18:48,"이명근","Photo"
+2026-01-12 18:18:57,"이명근","Is this the projection you want? @Ammad (Korea) "
+2026-01-12 18:34:29,"Ammad (Korea)","I thought we were going with the design B because it was simple. "
+2026-01-12 18:35:13,"Ammad (Korea)","Photo"
+2026-01-12 18:37:44,"이명근","I asked if my intention was correct. I will draw the process again using Plan B and show you."
+2026-01-12 18:38:03,"Ammad (Korea)","Okay this is correct. Thankyou. "
+2026-01-12 18:40:55,"광협 KwangHyeop","3 photos"
+2026-01-12 18:41:28,"광협 KwangHyeop","Drilling for the Rubber Foot table has been finished today like above."
+2026-01-12 18:44:02,"광협 KwangHyeop","For the Screwdriver Table,
+@Kor Tugii @Shoaib please decide the hole positions by tomorrow.
+
+On Wednesday, I will call the same guy(table manufacturer) and ask him to drill those holes to meet our schedule."
+2026-01-12 18:49:00,"Shoaib","Photo"
+2026-01-12 18:49:00,"Shoaib","Photo"
+2026-01-12 18:49:31,"Shoaib","When leaving at night, only turn off LED and AGING
+Don't turn off the others.
+
+The internet will stay on."
+2026-01-12 18:55:31,"광협 KwangHyeop","For the Internet connection, Everint guys will separate by tomorrow.
+Also for the 3rd floor."
+2026-01-12 19:01:06,"광협 KwangHyeop","And about samples,
+I asked managers to give us both BK5-31 PCB for registration, and some Label Printers with contents inside."
+2026-01-12 19:02:08,"이명근","Photo"
+2026-01-12 19:02:31,"이명근","Is this the correct intention? @Ammad (Korea) "
+2026-01-12 19:03:22,"이명근","Photo"
+2026-01-12 19:03:41,"이명근","Photo"
+2026-01-12 19:04:55,"이명근","Photo"
+2026-01-12 19:05:06,"이명근","The material of this part is aluminum."
+,"","The message has been deleted."
+2026-01-12 19:05:55,"이명근","Photo"
+2026-01-12 19:05:59,"이명근","This part will be made of SUS material."
+2026-01-12 19:06:50,"이명근","If you need anything else, please let me know before we proceed. I'll contact you tomorrow morning."
+2026-01-12 19:07:57,"이명근","I'd like to confirm again. Is this the correct way to order? Is the material aluminum? @Shoaib "
+2026-01-12 19:09:45,"Ammad (Korea)","This arrangment is correct.
+Please Share Dimensions drawing. I like to review if possible. "
+2026-01-12 19:09:53,"Ammad (Korea)","Okay"
+2026-01-12 19:11:06,"이명근","all right."
+2026-01-12 19:21:41,"이명근","I will share the blueprints with you after having dinner at home. "
+2026-01-12 19:29:47,"광협 KwangHyeop","BK5-31 PCB samples are ready on the 3rd floor now.
+Can someone go there and ask the 'tall, and glassed man' to give that PCB?"
+2026-01-12 20:15:42,"Shoaib","After dinner, @Kor Tugii 
+Please take the samples."
+2026-01-12 20:21:44,"Shoaib","Dr @Odil 
+Which member will go in the morning tomorrow?
+
+I and Hieu plan to go from robot team.
+I tentatively assigned Shams but if you want to suggest anyone else, please let me know."
+2026-01-12 20:23:20,"Odil","@Haider Shah will go with you guys. "
+2026-01-12 20:24:49,"Shoaib","Okay."
+2026-01-12 20:55:40,"이명근","Is it right to order this? @Shoaib "
+2026-01-12 20:56:01,"Shoaib","Yes."
+2026-01-12 20:56:40,"이명근","네 그럼 이걸 도면화하여 국내보다 빠른 jlc pcb에 주문하면 받을수 잇도록하겟습니다."
+2026-01-12 20:56:54,"이명근","색상은 하얀색으로 할예정입니다."
+2026-01-12 20:57:01,"이명근","Okay, then I will draw this and make sure you can receive it if you order it on a JLC PCB faster than in Korea. "
+2026-01-12 20:57:09,"이명근","The color will be white. "
+2026-01-13 02:11:41,"Ammad (Korea)","@이명근 the label printer finger hole are not enough all the through to other side.
+Please see that."
+2026-01-13 02:12:11,"Ammad (Korea)","Photo"
+2026-01-13 02:12:35,"Ammad (Korea)","Todaya product A11-P"
+2026-01-13 03:27:27,"이명근","어떤걸 말하나요?"
+2026-01-13 03:27:46,"이명근","What do you say isn't properly addressed? "
+2026-01-13 08:49:04,"Shoaib","@Kor Tugii, @Ammad (Korea), and @Kor Muazzam  were working until 2AM so they stayed in Chungju overnight. 
+
+Hardware installation was finished.
+Robot teaching is partially done. Remaining teaching will be completed today.
+
+Gripper integration with framework in pending.
+Fairino has been integrated (through mqtt). Further testing is to be done today.
+
+Made and installed the elevated rubber foot table. 
+Applied the cushioning and rubber pad on the gripper fingers inner side.
+
+Backside cushion installation is pending.
+
+XB motion addition in framework."
+2026-01-13 08:52:20,"Shoaib","Morning shift
+ 
+@Shoaib 
+@Kor Hieu 
+@Haider Shah 
+
+- Optimize the motion using XB movements instead of PB to make the system stable.
+- Ensure cycle time for 5 screws is 28s.
+- Update the vision models."
+2026-01-13 08:58:18,"Shoaib","Evening Shift
+
+@Korea Rizwan 
+@Saidjalol 
+@Kor Tugii 
+@Ammad (Korea) 
+
+Tuguldur
+- Complete the robot teaching.
+- Run complete cycle.
+- Update vision models (for rescan) (for rubber foot position, do it if you have time)
+
+Ammad 
+- Help Tuguldur with rubber foot.
+- Test new GUI features with Jalol after they finish production.
+
+Jalol
+- Drive Carnival
+- Update and finalize the GUI features for PCB Robot. Perform detailed testing snd optimization with Ammad.
+- Update the GUI for Screw/Rubber foot if you can ensure stable testing alone."
+2026-01-13 09:00:20,"Shoaib","@Kor Muazzam 
+When you wake up, please go back to lab. Continue working on the rubber foot rolling mechanism.
+
+Dr Saad will provide you the new 3D prints. Use them. Your target it to finish testing of roller based rubber foot pickup by end of the day."
+2026-01-13 09:20:29,"Shoaib","@Tan 
+Please work in the lab.
+Take remote guidance from Hieu and work on making the vision test bench for Screw/Rubber robots."
+2026-01-13 09:28:20,"이명근","File: Request for gripper production.pdf"
+2026-01-13 09:28:58,"이명근","Please check if the blueprint you intended is correct. @Ammad (Korea) "
+2026-01-13 10:05:13,"Shoaib","@Kor Sir Saad New 
+If the AMR team has detached the FR3 robot, can you send it with the evening shift."
+2026-01-13 10:07:08,"Kor Sir Saad New","Ok, I will talk to the AMR team"
+2026-01-13 10:07:17,"Shoaib","Thank you."
+2026-01-13 10:09:06,"Odil","@Kor Tugii Please share the images of rubber foot from the elevated platform. I expect they will look little bigger than actual view which  @Haider Shah has trained his AI model with and tuned Image processing thresholds.
+@Haider Shah please collect all images of rubber foot after platform is built and then try tune your image processing pipeline and annotate those image for retraining your model (if this step is necessary, please upload the image on the server, we will annotate them for you). "
+2026-01-13 10:23:38,"Haider Shah","Sure. Thank you!"
+2026-01-13 12:13:26,"Kor Tugii","@이명근 
+The rubber elevated table plate finalized?"
+2026-01-13 12:19:07,"광협 KwangHyeop","* This is also a reminder.
+
+I asked table manufacturer to come and drill holes for screwdriver robot table tomorrow.
+He will come tomorrow afternoon.
+
+About the actual time, I will tell you guys after he give information about that.
+
+So, @Shoaib @Kor Tugii please decide where he should drill and tell me by today."
+2026-01-13 12:45:05,"이명근","Here is the purchase link you requested. @Kor Sir Saad New @Ammad (Korea) 
+https://smartstore.naver.com/firstrubber/products/12312283286"
+2026-01-13 13:53:04,"이명근","Can we decide on the height of the speculative platform at 28.5cm (including the upper plate)? "
+2026-01-13 13:53:20,"Kor Sir Saad New","The 2nd FR3 is ready to be shipped to Everint. I have put and AC Controller as well as the DC controller. Try to use the AC controller first.
+
+@Saidjalol please take this box with you to Everint today."
+2026-01-13 13:53:26,"Kor Sir Saad New","Photo"
+2026-01-13 13:53:42,"이명근","@Kor Tugii "
+2026-01-13 13:56:21,"광협 KwangHyeop","@Ammad (Korea) If you have time, please discuss with @이명근 about the hole locations for new robot table Mobile Printer.
+
+Please decide it by today if possible."
+2026-01-13 13:56:57,"Kor Tugii","Okay"
+2026-01-13 13:57:20,"이명근","The color of the tabletop plate is white. @Kor Tugii "
+2026-01-13 13:57:29,"이명근","Photo"
+2026-01-13 13:57:46,"Saidjalol","okey"
+2026-01-13 13:58:13,"Kor Tugii","Is it polycarbonate?"
+2026-01-13 13:59:08,"이명근","No, it's acrylic. "
+2026-01-13 14:02:44,"이명근","I have come out of the lab to discuss with the company to request and receive the platform quickly. Please contact me if you need a separate design. "
+2026-01-13 14:07:36,"Kor Tugii","Will it not break easily?"
+2026-01-13 14:08:03,"Tan","When they will run BK5-31V @광협 KwangHyeop "
+2026-01-13 14:09:49,"광협 KwangHyeop","Manager will notice after he check productiin status in 3rd floor"
+2026-01-13 14:13:20,"이명근","I don't think a 5t bottle will break easily. "
+2026-01-13 14:13:32,"이명근","It is 5mm thick. "
+2026-01-13 14:39:57,"이명근","The profile and plate will be completed tomorrow at 8 AM. I went to look for it and will arrive at the lab a little early in the morning. "
+2026-01-13 14:52:22,"이명근","혹시 체크하셧나요? @Ammad (Korea) "
+2026-01-13 14:52:39,"이명근","Did you check it? @Ammad (Korea) "
+2026-01-13 15:36:17,"이명근","The frame applied to the platform is a 4040 profile. Please refer to it @Kor Tugii "
+2026-01-13 16:04:05,"Ammad (Korea)","Photo"
+2026-01-13 16:04:20,"Ammad (Korea)","Bk5-31a"
+2026-01-13 16:04:26,"Tan","Ok"
+2026-01-13 16:08:17,"이명근","If you have checked, I would like to email you today or visit you with the floor plan tomorrow. @Ammad (Korea) "
+2026-01-13 16:08:18,"Shoaib","Photo"
+2026-01-13 16:08:31,"Shoaib","Please update the status of your tasks."
+2026-01-13 16:09:17,"Ammad (Korea)","I will check. Give 30min. Busy "
+2026-01-13 16:10:43,"Ammad (Korea)","Photo"
+2026-01-13 16:11:27,"Ammad (Korea)","I will setup so you can take images. "
+2026-01-13 16:11:30,"이명근","okay."
+2026-01-13 16:11:31,"Tan","Same size bracket different hole position "
+2026-01-13 16:17:37,"Ammad (Korea)","@System ready. 2 images taken. Check please. "
+2026-01-13 16:21:09,"Tan","I need one more image on step2"
+2026-01-13 16:52:54,"Ammad (Korea)","Photo"
+2026-01-13 16:53:17,"이명근","Please let me know as soon as you confirm."
+2026-01-13 16:54:31,"Tan","New OBB pretrain"
+2026-01-13 16:54:57,"Tan","I updated that yesterday"
+2026-01-13 16:55:05,"Ammad (Korea)","Great work @Tan "
+2026-01-13 16:55:37,"Tan","Thank you for your support"
+2026-01-13 17:03:17,"Ammad (Korea)","Tan. Please product add it to our list and write the production date"
+2026-01-13 17:03:38,"Tan","Ok"
+2026-01-13 17:04:55,"Tan","Change my permission"
+2026-01-13 17:16:53,"Shoaib","XD5-40d
+SLP-DX420
+
+@광협 KwangHyeop 
+Can you ask them if they can provide 3 samples for any of these?
+Today or tomorrow morning."
+2026-01-13 17:18:39,"광협 KwangHyeop","Okay. I will ask"
+2026-01-13 17:35:37,"Shoaib","@Kor Muazzam 
+What is the status of roller based rubber pad mechanism?"
+2026-01-13 17:36:18,"Shoaib","@Tan 
+Please share the updates you made yesterday
+and 
+What is the status of test bench for label printer robots?"
+2026-01-13 17:37:49,"Kor Muazzam","I am currently testing .... "
+2026-01-13 17:42:29,"Tan","Yesterday update
+	•	Collect data for 350plusV 352plusIII 380V A11-P Bk3-31V SRP-330III-ESK SRP-350III SRP-S300 SRP-S300-BZR
+	•	Update OBB detection model for production
+	•	Change image logic before sending to GUI for both assembly and registration process
+Testbench
+	•	Working on test_bench because the framework is different so it needs more time
+	•	Vision team models are not stable and change frequently
+	•	I will build one foundation testbench as a standard reference
+	•	If anyone adds or edits any model they must follow this testbench and validate before merging
+	•	This will improve system stability and reduce integration issues"
+2026-01-13 17:43:53,"Shoaib","Thank you.
+
+When can you complete the test bench?"
+2026-01-13 17:44:32,"Tan","I will try in this week ASAP"
+2026-01-13 17:44:56,"Tan","hieu already make testbench for model 1 so i will try to follow him for another model"
+2026-01-13 17:45:45,"Shoaib","Yes I saw that test bench.
+Are you working on other models todays?"
+2026-01-13 17:46:03,"Tan","@Haider Shah can you sent me screw normal and abnormal in label printer system
+@Kor Hieu please sent me the weights of this one"
+2026-01-13 17:46:23,"Tan","i will make on haider model first for screw_bit validation"
+2026-01-13 17:50:20,"Tan","screw validation and hole detection in rubber foot"
+2026-01-13 18:25:32,"Shoaib","@Kor Sir Saad New 
+The mobile printers are placed here."
+2026-01-13 18:36:25,"Kor Hieu","*Screw Robot report:
+Cycle time optimization: 
+- Replaced pb motions to xb motions
+- Fine tune each segment's speed
+- Cycle Time is 27.5s to 28s
+- Target 28s
+- 5 screws
+- Rescanning after every screw
+
+Vision Integration:
+- Updated vision model
+- Minor fixes required."
+2026-01-13 18:51:15,"Tan","@Sammo | ثمرہ | 삼라 can you check this issue"
+2026-01-13 18:51:38,"Tan","Photo"
+2026-01-13 18:51:49,"Tan","first image is not visualize"
+2026-01-13 18:51:54,"Tan","and second is visualize"
+2026-01-13 18:52:12,"Tan","this is new product Bk5-31a"
+2026-01-13 18:52:59,"Ammad (Korea)","Already discussed. We will test gui new code after production is finish. "
+2026-01-13 18:53:26,"Tan","ok "
+,"","The message has been deleted."
+2026-01-13 19:34:44,"Shoaib","I will update the schedule for tomorrow"
+2026-01-13 19:57:53,"Shoaib","Wednesday
+
+Morning Shift (0800 - 1800)
+- @광협 KwangHyeop 
+- @Ammad (Korea) 
+- @Kor Muazzam 
+
+Evening Shift (1300 - 2400)
+- Dr @Korea Rizwan 
+- @Kor Tugii 
+- @Kor Hieu 
+- @Shams 
+
+
+Reach by 10AM
+Unmount the pressing arm and draw holes for Fairino robot
+
+@광협 KwangHyeop 
+Please request the drilling company to come by before 11AM.
+
+Get the holes drilled by lunch break.
+
+After lunch, please finish installation of Fairino, install power supplies and other equipment, get Fairino running by 3PM.
+
+Hieu and Tugi
+Move the Fairino code from Rubber robot to screw robot.
+
+Try finishing the robot teaching quickly and run multiple cycles on both robots.
+
+Shams will help in rotating the products.
+
+During evening shift, either with Fairino integrated or without integrating (holding product manually with Fairino), run the updated vision model and perform testing with Dr @Korea Rizwan "
+2026-01-13 20:18:16,"광협 KwangHyeop","* This should be the final reminder.
+
+@Shoaib @Kor Tugii
+Please share me the image of new hole locations on Screwdriver Robot table.
+
+I'm about to ask that company to come at morning, and that means we should prepare that by today.
+
+If you send the image to me, I will also share it to professor by his request.
+
+Please keep in mind this is essential for making tomorrow's work smooth."
+2026-01-13 20:19:04,"Shoaib","@Ammad (Korea) will share the screw hole positions.
+
+Ammad, essentially we should only get the holes for Fairino."
+2026-01-13 20:19:55,"Shoaib","@광협 KwangHyeop 
+We will get m6 and m8 holes drilled.
+
+Do we need to send him the position in advance?
+Even last time, he was drilling by his hand."
+2026-01-13 20:20:37,"Shoaib","Last time, you drew the holes and he came and drilled them. 
+I was planning to do the same this time as well."
+2026-01-13 20:25:28,"광협 KwangHyeop","Definitely yes.
+
+And about the visit of table manufacturer guy,
+he said it will only be possible to come to Everint at afternoon since their schedule is totally full in morning, for all employees of that company."
+2026-01-13 20:25:39,"Shoaib","We are extremely short on time.
+We cannot spend a few hours on 3D design, if they are going to just drill holes like last time.
+
+If we make 3D design, we cannot complete robot teaching."
+2026-01-13 20:26:18,"Shoaib","We will draw holes on the table and send an image 
+Is that okay?"
+2026-01-13 20:26:56,"광협 KwangHyeop","That's what I want it to be.
+If you guys can, pleaese send me ASAP."
+2026-01-13 20:29:37,"Shoaib","Ammad will draw and send them to you in an hour.
+
+If they will come in the evening, then I should change the schedule again.
+
+Exactly what time they will come?"
+2026-01-13 20:31:07,"광협 KwangHyeop","He said he can reach Everint at 3pm, even if he depart at fastest."
+2026-01-13 22:35:22,"Ammad (Korea)","Where are fairino robot m5 bolts ?"
+2026-01-14 01:20:21,"Ammad (Korea)","Pcb Product  A11-P, BK5-31, 360plusV, Bk3-31
+Total 1487, failed 23."
+2026-01-14 02:16:50,"Ammad (Korea)","Please bring following. 
+1. Fairino m5 bolts(length 30mm amd longer) and nuts.
+2. JRT GRIPPER. Plus pnuematic one with 
+3. GRIPPER FINGER( big one. See image)
+4. Drill bits if possible and Thread tapping bit.
+5. FEMALE connector of JRT gripper(image 2)
+6. 7/2 core shielded cable(alot of cables in tool case in demo room.
+7. Usb to rs485
+@Kor Sir Saad New @Shoaib 
+For testing M6 Pilot hole was drilled. One hole take 10-13 mints without thread( didnt m5 thread tapping bit was not available).
+If we want to do it early. M6 hole can be drilled and long m5 bolts(40mm with nuts can be used to attached the robot with base."
+2026-01-14 02:17:56,"Ammad (Korea)","Photo"
+2026-01-14 02:18:55,"Ammad (Korea)","Photo"
+2026-01-14 02:25:12,"Ammad (Korea)","Photo"
+2026-01-14 02:25:36,"Ammad (Korea)","Photo"
+2026-01-14 02:28:14,"Ammad (Korea)","Rubber jig was not present. An improvised was made with available parts. It moves whilen scoping. Plesse bring finished jig if possible. Other wise bring profile connectors. I will add more joint to make it stiff. "
+,"","The message has been deleted."
+2026-01-14 08:02:32,"광협 KwangHyeop","I'm at the backside of E9 now.
+Is there anyone reached our lab?"
+2026-01-14 08:23:22,"광협 KwangHyeop","Do we have extra gipper fingers in our lab?"
+2026-01-14 08:24:24,"이명근","Photo"
+2026-01-14 08:24:47,"이명근","I came to find the platform and plan to bring it to the lab in about 30 minutes. "
+2026-01-14 08:29:25,"광협 KwangHyeop","7 photos"
+2026-01-14 08:29:53,"광협 KwangHyeop","@Ammad (Korea) Do we have some kind of breifcase with cables in demo room?
+I couldn't find in here."
+2026-01-14 08:42:14,"Tan","Photo"
+2026-01-14 08:42:37,"Tan","@Saidjalol @Sammo | ثمرہ | 삼라  yesterday GUI update but not test yet?"
+2026-01-14 08:42:45,"Tan","Please check the issue now"
+2026-01-14 08:43:22,"광협 KwangHyeop","This is most urgent.
+Please revert it ASAP."
+2026-01-14 08:44:07,"Shoaib","@Tan  @Ammad (Korea) 
+What is the issue? Can you explain it.
+
+@Saidjalol  @Ammad (Korea) 
+What changes were made and tested yesterday?"
+2026-01-14 08:44:11,"Ammad (Korea)","Okay. Forget about brief case. Just find spare cables if possible. @Kor Muazzam 
+"
+2026-01-14 08:50:21,"이명근","Expected to arrive at 9 o'clock due to traffic congestion. "
+2026-01-14 08:50:55,"Tan","Photo"
+2026-01-14 08:51:20,"Tan","@Shoaib i need your help"
+2026-01-14 08:51:52,"Shoaib","git pull
+npm run build"
+2026-01-14 08:52:27,"Tan","Photo"
+2026-01-14 08:52:33,"Tan","same issue"
+2026-01-14 08:52:56,"Ammad (Korea)","Backend"
+2026-01-14 08:52:56,"Ammad (Korea)","Gui folder"
+2026-01-14 08:54:42,"Tan","i can not contact jalol "
+2026-01-14 08:55:08,"Kor Muazzam","we are waiting for you!"
+2026-01-14 08:58:20,"Ammad (Korea)","I m back in . Let me check"
+2026-01-14 09:06:19,"Kor Sir Saad New","Is this problem resolved?"
+2026-01-14 09:13:37,"Tan","we are trying"
+2026-01-14 09:17:24,"Tan","the issue is already resolve, system is running now"
+2026-01-14 09:19:26,"Saidjalol","Hello we have tested new changes in different branch not main."
+2026-01-14 09:19:43,"Tan","you not reverse to main"
+2026-01-14 09:20:10,"Saidjalol","Let me merge to main and it should work"
+2026-01-14 09:20:37,"Tan","you can not do it now just do in your local and merge after production"
+2026-01-14 09:21:51,"Saidjalol","Okey let me know when the machine is free I will merge to main"
+2026-01-14 09:21:52,"Ammad (Korea)","@Tan system is stable now. I m prepare now to go everint. Please monitor system. "
+2026-01-14 09:22:14,"Tan","i still see this branch in EverintProject/GUI -navbar……"
+2026-01-14 09:22:26,"Tan","Sure"
+2026-01-14 09:24:11,"Saidjalol","Is there any problem?"
+2026-01-14 09:24:45,"Tan","we have 2 problem at the morning for new GUI update please check
+1 robot status is not working 
+2 we can not see the list of production"
+2026-01-14 09:25:07,"Saidjalol","Okey let me check it"
+2026-01-14 09:26:55,"Tan","who access to the server now?"
+2026-01-14 09:29:40,"Ammad (Korea)","@Saidjalol i have resolved it.
+Here is summary.
+Yes, main branch was not reverted back.
+But that was not the issue. Since we test both branch were working and same.
+The issue was Gui was not fetching data from DB.
+
+Config host ip was 100.79.83.114.
+It should have been local. They was the issue. backend was running at different ip."
+2026-01-14 09:30:40,"Saidjalol","Ok It is test server ip address"
+2026-01-14 09:31:16,"Saidjalol","I have merge every new chages to main
+When the machine is free please build and rerun the gui."
+2026-01-14 09:35:41,"Ammad (Korea)","Okay. Sure"
+2026-01-14 10:38:43,"광협 KwangHyeop","@Ammad (Korea) Where did you put the BK5 samples?
+They have to produce it right now.
+
+Whoever knows where it was, please tell me right now."
+2026-01-14 10:39:14,"Ammad (Korea)","In the sample box. 3rd. "
+2026-01-14 10:39:38,"Ammad (Korea)","Any issue ?"
+2026-01-14 10:45:00,"광협 KwangHyeop","We found it. Thank you."
+2026-01-14 11:26:18,"Shoaib","@이명근 
+Can you quickly 3D print these?
+
+@Kor Hieu @Kor Tugii 
+Please take it with you when going today."
+2026-01-14 11:26:40,"Kor Tugii","Okay"
+2026-01-14 11:26:43,"Ammad (Korea)","Multiple if possible.*"
+2026-01-14 11:27:07,"Shoaib","@이명근 
+After printing these base parts, please print the whole finger as well (3 pairs) so we can install it on both Fairino robots and keep spare as well."
+2026-01-14 11:35:07,"이명근","I'll get right on it."
+2026-01-14 11:38:56,"이명근","We've started printing right now and we're printing three spares. It's 2:30."
+2026-01-14 11:45:14,"Shoaib","Okay. Thank you so much."
+2026-01-14 11:45:39,"Shoaib","@Kor Tugii 
+@Kor Hieu 
+@Ammad (Korea) 
+
+Is there anything else that needs to be 3D printed including any spare?"
+2026-01-14 11:46:07,"Kor Tugii","Scoop blade please"
+2026-01-14 11:47:14,"Shoaib","@이명근 
+When can we get the fingers in metal?
+And did you order 1 set of fingers or 2?
+If you ordered 1 set of fingers, please order 3 more.
+
+In total, we need atleast 4 set of fingers.
+2 for robots.
+2 for spares."
+2026-01-14 11:47:17,"이명근","""Order the base part of gripper fingers in metal."" Can I confirm the color when ordering the body of this work? Production review has just been completed."
+2026-01-14 11:47:19,"이명근","Photo"
+2026-01-14 11:47:46,"Shoaib","Isn't this the base part?"
+2026-01-14 11:48:00,"Shoaib","."
+2026-01-14 11:48:15,"이명근","Photo"
+2026-01-14 11:48:31,"Shoaib","This looks different."
+2026-01-14 11:48:33,"이명근","이거에 대한 색상을 말씀드립니다."
+2026-01-14 11:48:42,"이명근","This looks different."
+2026-01-14 11:48:42,"Shoaib","Okay."
+2026-01-14 11:48:45,"Shoaib","I understand."
+2026-01-14 11:49:13,"Shoaib","Any color other than white or black is okay.
+
+If it takes longer, than get it printed in white/silver. We can spray paint it."
+2026-01-14 11:49:30,"이명근","And you're not just ordering a finger body?"
+2026-01-14 11:50:12,"Shoaib","Yes.
+Only the base part.
+
+The fingers, we plan to keep using in 3D printed material for now."
+2026-01-14 11:51:26,"이명근","Okay, I will ask you to make this white (natural) color from the body part first."
+2026-01-14 11:52:19,"Shoaib","Okay. Thank you."
+2026-01-14 11:52:32,"Odil","does anyone know the password of server 41  ?"
+2026-01-14 11:52:37,"Shoaib","If anyone visits Daiso. Please take a red or blue spray paint."
+2026-01-14 11:53:09,"이명근","We're printing three spares on a base parts 3D printer, time of completion 2:40 p.m."
+2026-01-14 11:54:37,"Shoaib","It was 1122.
+I heard Ali couldn't use it in the morning.
+I guided him how to reset it.
+He reset it.
+
+Is it still not accessible? "
+2026-01-14 11:55:57,"Ammad (Korea)","Info
+Extra one fairino fr3 controll box is here. "
+2026-01-14 11:58:34,"Odil","the same password is not working from Windows PC"
+2026-01-14 12:01:38,"Kor Sir Saad New","I sent two control boxes with the 2nd FR3, try to use the AC controller first and send the DC controller+power_supply back. If it is not possibel to use the AC controller, then use the DC controller."
+2026-01-14 12:02:17,"Kor Muazzam","3 photos"
+2026-01-14 12:02:28,"Kor Muazzam","Rubber Pad platform is quite big and the holes are not aligned, we cannot installed this "
+2026-01-14 12:03:52,"Shoaib","In that case, it should not be a password issue. It should be connection configuration issue."
+2026-01-14 12:04:20,"Shoaib","Please extend it outside the table for now. For holes, the drilling guy will come. Ask him to drill holes where required."
+2026-01-14 12:05:21,"Shoaib","Photo"
+2026-01-14 12:05:29,"Kor Muazzam","Photo"
+2026-01-14 12:05:44,"Kor Muazzam","okay"
+2026-01-14 12:06:17,"Shoaib","If this can work for now, please continue.
+
+Meanwhile, let's see the exact size we need.
+
+The idea was that we will put multiple rubber pad sheets. For that, the overall platform is bigger."
+2026-01-14 12:29:45,"Kor Tugii","I’m planning to visit Daiso. 
+
+Anyone need anything from Daiso?
+
+- Foam pad requested by Ammad
+- Red or Blue spray paint
+
+Please let me know if you need other stuff"
+2026-01-14 13:12:38,"Ammad (Korea)","Who is using rubberfoot machine server ?"
+2026-01-14 13:15:26,"Ammad (Korea)","@Kor Hieu @Kor Tugii 
+Fans are suddenly running on full speed. And noise is coming from server!"
+2026-01-14 13:17:42,"Kor Hieu","I am not using, maybe someone is downloading images?"
+2026-01-14 13:23:57,"Tan","@Sammo | ثمرہ | 삼라 do you have telegram account?"
+2026-01-14 13:34:08,"Ammad (Korea)","Photo"
+2026-01-14 13:40:02,"이명근","It's been delayed for about 15 minutes, and the error is resolved due to the interruption of the proprietary filament replacement. @Shoaib "
+2026-01-14 13:41:01,"Shoaib","No worries.
+Please give them to Hieu or Tugi once finished."
+2026-01-14 13:43:15,"광협 KwangHyeop","The table manufacturer departed from his company.
+He will reach Everint around 3pm."
+2026-01-14 13:50:39,"이명근","Okay"
+2026-01-14 14:02:25,"광협 KwangHyeop","And the safety fences for our robots will be delivered to Everint tomorrow.
+The delivery guy will call me when he reaches Everint, so please bring and install those around PCB and Label Printer robot on that time."
+2026-01-14 14:19:31,"Ammad (Korea)","@Saidjalol how much time you need for the update ?"
+,"","The message has been deleted."
+2026-01-14 14:37:57,"Ammad (Korea)","@Tan  system has been updated to show registration image(image1). Please, double check registration images are correct orientation and correct them if needed.
+Discuss with @Sammo | ثمرہ | 삼라 , if we can add more images in registration training folder can it be detected on auto or not.  "
+2026-01-14 14:38:12,"Ammad (Korea)","Photo"
+2026-01-14 14:38:39,"Tan","Nice"
+2026-01-14 14:39:12,"Tan","I will check registration step in my framework"
+2026-01-14 14:41:14,"Ammad (Korea)","Okay.
+That is second step.
+Firsr step is to confirm current registered products images are oriented correctly. 
+Thankyou "
+2026-01-14 14:50:17,"Shoaib","For any change, make sure the overall system is stable.
+
+Stability is higher priority
+Than non-urgent fancy features."
+2026-01-14 14:52:35,"Saidjalol","we did remotely and it is working fine"
+2026-01-14 14:55:24,"Ammad (Korea)","Understood. 
+This was already tested yesterday.
+It was CRUCIAL because we have more than 21 products. There was alot of confusion for everint team how to place/orientate product correctly. They were always asking us how to place it before running. "
+2026-01-14 15:01:00,"Shoaib","Okay 👍 "
+2026-01-14 15:23:57,"Ammad (Korea)","Rubber foot jig is installed and stable. We improvise and drilled new holes. "
+2026-01-14 15:41:40,"Kor Tugii","We departed from lab will reach around 5PM"
+2026-01-14 15:42:43,"Ammad (Korea)","Sad life. 🤣"
+2026-01-14 16:40:10,"Ammad (Korea)","Photo"
+2026-01-14 16:40:23,"Ammad (Korea)","Photo"
+2026-01-14 16:40:52,"Ammad (Korea)","Photo"
+2026-01-14 16:49:39,"Tan","Photo"
+2026-01-14 16:49:56,"Tan","@Sammo | ثمرہ | 삼라  please check this one"
+2026-01-14 16:50:43,"Tan","I rotate the image and svg already but it not overlay like i see in my file"
+2026-01-14 16:51:31,"Tan","Photo"
+2026-01-14 16:51:43,"Tan","This one also have image in folder but not show"
+2026-01-14 16:51:50,"Tan","Please check"
+2026-01-14 16:52:51,"광협 KwangHyeop","Photo"
+2026-01-14 16:53:30,"광협 KwangHyeop","Drilling finished like above.
+We verified all positions are aligned with Fairino robot's hole."
+2026-01-14 16:53:42,"Shoaib","Thank you."
+2026-01-14 17:29:37,"Samrah | 삼라","Okay"
+2026-01-14 18:25:22,"Shoaib","@Ammad (Korea) 
+@Kor Muazzam 
+@Kor Hieu 
+@Kor Tugii 
+
+Please make a shared excel file.
+
+It should contain the list of all the 3D printed parts we are using.
+It should mention eqch individual part.
+
+Also write how many spares you have for that part in factory."
+2026-01-14 18:26:04,"Shoaib","@이명근 
+Can you 3D print the rubber pad plate (under the metallic mesh)
+
+@Kor Muazzam 
+Please send him a picture for that.
+
+Let's take it tomorrow morning if possible."
+2026-01-14 18:33:00,"이명근","This one?"
+2026-01-14 18:33:01,"이명근","Photo"
+2026-01-14 18:33:18,"이명근","Or is it just the mash?"
+2026-01-14 18:33:19,"Kor Muazzam","Photo"
+2026-01-14 18:33:33,"Kor Muazzam","yes, its base "
+2026-01-14 18:33:56,"이명근","Thank you for sending me the picture. I understand."
+2026-01-14 18:40:49,"Shoaib","@광협 KwangHyeop 
+Can you maintain a list of each component we are using?
+Please include the serial number if possible.
+Also mention the table on which that specific item is being used.
+
+Please place this file in shared OneDrive.
+
+If possible, add the life of that component as well.
+
+We will use this file to keep a history of any replacements made and to perform preventive maintenance.
+The same file can also be used to audit all the equipment installed.
+
+Based on that file, we will maintain the required spare parts as well."
+2026-01-14 18:42:15,"Tan","@Ammad (Korea) please register Bk3-21a before leaving"
+2026-01-14 18:46:03,"Shoaib","@이명근 
+Once you get this file
+Please go through each item and plan ahead for the items that we need to 3D print as spare parts.
+
+Each 3D printed item should have atleast 1, and at best 2 spare parts available. For more fragile items which might need frequent replacement, let keep atleast 3 and at best 5 spare parts."
+2026-01-14 18:46:59,"Shoaib","@Tan 
+What is the progress on the test bench for screw/rubber robots?"
+2026-01-14 18:47:55,"Shoaib","@Kor Muazzam  @Ammad (Korea) 
+What is the status of installation of Fairino, the gripper, wiring and related tasks for the screw robot?
+
+Until when we can complete that?"
+2026-01-14 18:48:17,"Tan","Today i am working on screw validation testbench, i am getting data from Haider and testing on it first"
+2026-01-14 18:48:32,"Tan","I will show you when it completed"
+2026-01-14 18:48:32,"이명근","Do I need to print one base? @Shoaib "
+2026-01-14 18:49:32,"Shoaib","We need to take the base tomorrow.
+If possible, you can print 2. Otherwise, just 1."
+2026-01-14 18:50:12,"이명근","okay"
+2026-01-14 18:53:49,"이명근","Let's start each one now."
+2026-01-14 18:57:32,"Shoaib","Okay 👍 "
+2026-01-14 19:15:35,"이명근","I am currently using both 3D printers 1 and 2 to print the base.
+If there are people returning to the lab from Everind, I would appreciate it if you could remove the printed materials. If you remove it, I will start it again at 10 o'clock. "
+2026-01-14 19:21:38,"Kor Sir Saad New","Photo"
+2026-01-14 19:22:05,"이명근","Isn't that a different version? "
+2026-01-14 19:22:09,"Kor Sir Saad New","@이명근 we have a one printed base in the lab already. Excluding the locks."
+2026-01-14 19:22:38,"이명근","It doesn't matter if you use that, but... "
+2026-01-14 19:22:38,"Kor Sir Saad New","I am not sure. This seems to have all the latest changes I requested last time."
+2026-01-14 19:23:56,"Kor Sir Saad New","I think this cannot be used.
+You placed the hinge holders in a way that prevent hinges from being inserted."
+2026-01-14 19:24:49,"이명근","Then I will print it as is. "
+2026-01-14 19:46:56,"Shoaib","Tentative schedule for tomorrow
+
+Morning (0800 - 1800)
+- @광협 KwangHyeop
+--- Prepare equipment detail list
+--- Prepare samples which they plan to run on Friday
+- @Kor Muazzam / @Ammad (Korea) 
+--- Finish any remaining wiring. 
+--- Make everything neat and properly organized for demo.
+--- Prepare list of 3D printed items and their spare details.
+--- Sort all our equipment in Everint. Keep essential items. Pack items that are no longer required so they can be brought back.
+
+Evening Shift
+- @Shoaib 
+- @Kor Hieu 
+- @Kor Tugii 
+- @Shams 
+- @Vision Team member"
+2026-01-14 19:47:10,"Shoaib","I will confirm the schedule again at 10PM."
+2026-01-14 20:28:28,"Ammad (Korea)","Fr3 installation completed.
+Mauzam was setting it basic configuration. Ip change, user coordinate setting. The motion for lb screwdriver fr3 robot is also different i-e due angle of robot only y and z. Diagonal motion is not available like lb rubber fr3. So, he will need to added new feature in his code
+Wiring of jrt gripper completed and tested.
+Gripper wire routing under way.
+Next step is prepare gripper fingers. "
+2026-01-14 20:29:06,"Ammad (Korea)","Okay"
+2026-01-14 20:52:49,"Shoaib","Thank you 👍 "
+2026-01-14 22:16:47,"Shoaib","@Kor Hieu 
+The springs are working fine for screw driver robot?
+Or they need to be replaced?"
+2026-01-14 22:24:38,"Kor Hieu","Yes, it is working fine"
+2026-01-14 22:28:01,"Professor | 김형원","Please send me a video of both Screw robot & RubberFoot robot working."
+2026-01-14 22:39:25,"Shoaib","@Korea Rizwan 
+Can you make a summary for vision model integration status. I will send you example file that you can use."
+2026-01-14 22:39:26,"Shoaib","Photo"
+,"","The message has been deleted."
+2026-01-14 22:39:52,"Shoaib","File: Vision_Model_Validation_Template.xlsx"
+2026-01-14 22:42:10,"이명근","Is there anyone in the lab? I was hoping you could remove the print... "
+2026-01-14 22:45:26,"Shoaib","@광협 KwangHyeop 
+
+I have created task on Asana with multiple sub tasks.
+Please check them. 
+
+The task is to prepare the complete handover documentation for Everint, including system operation procedures, maintenance guidelines, installed equipment lists (with serial numbers and locations), vision system details (cameras, mounting, lighting), and overall system overview.
+
+The goal is to ensure Everint can operate, maintain, and support the systems independently after handover.
+
+You can work on this whenever you have time, and you can take help/details from other members. "
+2026-01-14 22:48:27,"Shoaib","Please check your assigned tasks and share the update."
+2026-01-14 22:48:28,"Shoaib","Photo"
+2026-01-14 22:55:07,"Tung","I'm still in the lab now"
+2026-01-14 22:57:02,"Kor Hieu","Professor, the robot teaching is not complete. We finished installing robot, gripper and wiring them just a while ago.
+We are doing robot teaching at the moment and we will share the video once the robot teaching is complete."
+2026-01-14 22:57:49,"이명근","Then can you remove the printer from the 3D printer behind the white board?"
+2026-01-14 22:58:35,"Kor Hieu","Video"
+2026-01-14 22:58:47,"Kor Hieu","This video is with pressing arm which is optimized movements with move XB"
+2026-01-14 22:59:59,"이명근","Tung, 프린트물을 다 빼면 말해주세요."
+2026-01-14 23:00:15,"Korea Rizwan","Okay I will add in this document "
+2026-01-14 23:00:17,"Tung","Yes, I did for both 3D printers. I put the 2 printings on the shelf next to them"
+2026-01-14 23:00:18,"이명근","Photo"
+2026-01-14 23:00:35,"이명근","It should look like this. "
+2026-01-14 23:01:05,"이명근","Photo"
+2026-01-14 23:02:07,"이명근","Please check with your eyes or touch to see if the blue bed overlaps with the red marking. It is not clearly visible with 3D printer CCTV. "
+2026-01-14 23:02:14,"이명근","Thank you"
+2026-01-14 23:03:26,"Shoaib","Request for today
+- Confirm robot teaching for both robot systems (screw, rubber) @Kor Hieu  @Kor Tugii 
+
+Requests for tomorrow
+- Confirm cycle time for both systems (screw, rubber) @Kor Hieu  @Kor Tugii  ( @Kor Sir Saad New  Please take a look once complete)
+- Confirm the vision integration status ( @Korea Rizwan  ) ( @Odil  Please also check the status)
+- Invetory Lists 
+- - @광협 KwangHyeop  Equipment List
+- - @Kor Muazzam  3D parts list"
+2026-01-14 23:06:08,"Shoaib","@광협 KwangHyeop 
+Please also make a list of all the equipment that needs to be installed and is pending delivery. (such as safety cover etc)
+
+You are the responsible person to collect all deliverables and notify the person who should install it.
+
+Please maintain a list in shared file, of what has been ordered and what is expected delivery date."
+2026-01-14 23:06:18,"이명근","Tung, remove the straps from the second print. @Tung "
+2026-01-14 23:06:20,"이명근","Photo"
+2026-01-14 23:07:58,"광협 KwangHyeop","@Shoaib
+For the safety fences, this can be the answer for your request"
+2026-01-14 23:11:36,"Shoaib","I understand. But it is very difficult to keep tracks of each deliverable item individually. So I request you to maintain the list of delivery pending items using one file so we can quickly identify the pending parts and delivered parts.
+
+That will be very helpful."
+2026-01-14 23:11:53,"Kor Hieu","There is new output from dr Rizwan’s model in the new PR, I need to integrate it to both vision and robot framework, Dr Rizwan also said this will be final output format."
+2026-01-14 23:12:57,"Shoaib","Here is your priority
+
+1. Complete robot teaching
+2. Complete running full cycle
+3. Integrate vision model
+4. Achieve cycle time."
+2026-01-14 23:14:34,"Shoaib","@Saidjalol 
+Please make one excel file containing the status of all pending GUI related tasks and issues regarding Everint. 
+Please share it with me tomorrow. 
+That will help me identify the critical issues."
+2026-01-14 23:16:41,"Shoaib","@Kor Sir Saad New  @Odil 
+
+Can you provide us a list of targets we must achieve to pass Everint project?
+
+We will try to meet those targets until Friday."
+2026-01-14 23:18:51,"Korea Rizwan","Today: 
+- I added the new changes after testing and getting the feedback from Hieu 
+- the rubber foot additional verification is added to check the previous rubber foot before attaching the next rubber foot 
+- we have rescan logic for the screw and rubber foot if we fail to detect in first attempt this additional logic needs an additional key during rescan so it has been added 
+- today Hieu tested screw and rubber foot position attached by capturing some new dataset "
+2026-01-14 23:20:25,"Korea Rizwan","- I expect to get more dataset tomorrow so I can test more to verify my changes (for the current robot capturing scenario) "
+2026-01-14 23:21:36,"Shoaib","Thank you Dr Rizwan. "
+2026-01-14 23:22:24,"Shoaib","Can you also prepare this summary file tomorrow?
+That will be very helpful for all of us to understand the overall status of all the vision models. "
+2026-01-14 23:22:25,"Korea Rizwan","Tomorrow shams will go in morning and I will go in evening if required "
+2026-01-14 23:22:54,"Kor Tugii","Video"
+2026-01-14 23:23:06,"Korea Rizwan","Once the setup is competed then we will validate all these steps "
+2026-01-14 23:23:22,"Korea Rizwan","And send you the complete summary "
+2026-01-14 23:23:35,"Shoaib","Okay. What is missing in the setup?"
+2026-01-14 23:23:42,"Korea Rizwan","dataset "
+2026-01-14 23:23:43,"Kor Tugii","This is the one cycle video of the rubber foot robot. "
+2026-01-14 23:23:49,"Korea Rizwan","We need a lot of dataset "
+2026-01-14 23:24:02,"Shoaib","Shams does not need to go in the morning.
+
+Tugi and Hieu are expected to work late, maybe until 3AM. So they cannot go to factory early.
+So I put Shams in evening shift. 
+
+Hieu and tugi will stay overnight.
+I will go for evening shift with Shams and you. "
+2026-01-14 23:24:29,"Shoaib","Okay. 
+
+Once the robot teaching is complete, then they can run smoothly and capture as many products as you need. "
+2026-01-14 23:24:59,"Korea Rizwan","Okay that’s better "
+2026-01-14 23:25:12,"Korea Rizwan","Thank you "
+2026-01-14 23:25:13,"Shoaib","This is the final schedule for tomorrow. "
+2026-01-14 23:26:33,"Shoaib","You're welcome.
+While we work on capturing dataset, can you summarize the integration status of vision models. 
+
+I want to know the status during integration, so we can assign appropriate time to the model integration according to the status."
+2026-01-14 23:28:09,"Korea Rizwan","Okay I will send you the summary of all steps we done until now "
+2026-01-14 23:28:20,"Korea Rizwan","tomorrow "
+2026-01-14 23:28:42,"Shoaib","Thank you so much. That will help a lot."
