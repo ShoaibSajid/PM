@@ -12,25 +12,28 @@ class SensitivityScrubber:
     """
     
     # Patterns for sensitive data
+    # Order matters - more specific patterns should come first
     PATTERNS = [
-        # API keys and tokens
-        (r'\b[A-Za-z0-9_-]{20,}\b', '(token omitted)'),
-        # Passwords (common patterns)
-        (r'(?i)password[:\s=]+[^\s]+', 'password: (omitted)'),
-        (r'(?i)passwd[:\s=]+[^\s]+', 'passwd: (omitted)'),
-        (r'(?i)pwd[:\s=]+[^\s]+', 'pwd: (omitted)'),
-        # Usernames with passwords
-        (r'(?i)user(?:name)?[:\s=]+[^\s]+\s+pass(?:word)?[:\s=]+[^\s]+', '(credentials omitted)'),
-        # IP addresses (be careful with version numbers)
-        (r'\b(?:\d{1,3}\.){3}\d{1,3}\b', '(IP omitted)'),
-        # AWS keys
+        # GitHub tokens (must come before generic token pattern)
+        (r'ghp_[a-zA-Z0-9]{30,40}', '(GitHub token omitted)'),
+        (r'gho_[a-zA-Z0-9]{30,40}', '(GitHub OAuth token omitted)'),
+        (r'ghs_[a-zA-Z0-9]{30,40}', '(GitHub server token omitted)'),
+        (r'ghr_[a-zA-Z0-9]{30,40}', '(GitHub refresh token omitted)'),
+        # AWS keys (must come before generic token pattern)
         (r'(?i)(?:AKIA|ASIA)[0-9A-Z]{16}', '(AWS key omitted)'),
-        # GitHub tokens
-        (r'ghp_[a-zA-Z0-9]{36}', '(GitHub token omitted)'),
-        (r'gho_[a-zA-Z0-9]{36}', '(GitHub OAuth token omitted)'),
         # Private keys
         (r'-----BEGIN (?:RSA |EC )?PRIVATE KEY-----[\s\S]*?-----END (?:RSA |EC )?PRIVATE KEY-----', 
          '(private key omitted)'),
+        # Passwords (common patterns) - updated to handle "is", "was", etc.
+        (r'(?i)password\s*(?:is|was)?\s*[:\s=]+\s*[^\s]+', 'password: (omitted)'),
+        (r'(?i)passwd\s*(?:is|was)?\s*[:\s=]+\s*[^\s]+', 'passwd: (omitted)'),
+        (r'(?i)pwd\s*(?:is|was)?\s*[:\s=]+\s*[^\s]+', 'pwd: (omitted)'),
+        # Usernames with passwords
+        (r'(?i)user(?:name)?\s*(?:is|was)?\s*[:\s=]+\s*[^\s]+\s+pass(?:word)?\s*(?:is|was)?\s*[:\s=]+\s*[^\s]+', '(credentials omitted)'),
+        # IP addresses (be careful with version numbers)
+        (r'\b(?:\d{1,3}\.){3}\d{1,3}\b', '(IP omitted)'),
+        # API keys and generic long tokens (should be last to not interfere with specific patterns)
+        (r'\b[A-Za-z0-9_-]{20,}\b', '(token omitted)'),
         # Email addresses (optional - may want to keep these)
         # (r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', '(email omitted)'),
     ]

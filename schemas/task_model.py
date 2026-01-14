@@ -3,8 +3,8 @@ Task candidate data models for the PM Assistant.
 """
 from enum import Enum
 from typing import Optional, List
-from datetime import datetime
-from pydantic import BaseModel, Field
+from datetime import datetime, timezone
+from pydantic import BaseModel, Field, ConfigDict
 
 
 class TaskCategory(str, Enum):
@@ -52,15 +52,14 @@ class TaskCandidate(BaseModel):
     notes: Optional[str] = Field(None, description="Additional context or notes")
     source: Optional[str] = Field(None, description="Source of the task (e.g., email, chat)")
 
-    class Config:
-        use_enum_values = True
+    model_config = ConfigDict(use_enum_values=True)
 
 
 class TaskSummary(BaseModel):
     """
     Summary of extracted tasks grouped by category.
     """
-    extraction_date: datetime = Field(default_factory=datetime.utcnow)
+    extraction_date: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     timezone: str = Field(default="Asia/Seoul")
     tasks: List[TaskCandidate] = Field(default_factory=list)
     warnings: List[str] = Field(default_factory=list, description="Warnings about missing or sensitive info")
