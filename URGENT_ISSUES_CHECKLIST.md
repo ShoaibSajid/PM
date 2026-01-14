@@ -39,17 +39,17 @@
 ├── 🟡 ⏳ Complete vision model validation summary
 │   └── Owner: Rizwan | Status: In progress | Priority: High
 │
-├── 🟡 ⏳ Complete handover documentation package
-│   └── Owner: Kwanghyeop | Status: Tasks created in Asana | Priority: High
-│
 ├── 🟡 ⏳ Equipment list (installed and pending delivery)
 │   └── Owner: Kwanghyeop | Status: Requested | Priority: High
 │
 ├── 🟡 ⏳ 3D parts list
 │   └── Owner: Muazzam | Status: Requested | Priority: High
 │
-├── 🟢 ⏳ Define list of targets for Everint project acceptance
-│   └── Owner: Saad, Odil | Deadline: Friday | Priority: Important
+├── 🟡 ⏳ Define list of targets for Everint project acceptance
+│   └── Owner: Saad, Odil | Deadline: Friday | Priority: Medium
+│
+├── 🟢 ⏳ Complete handover documentation package
+│   └── Owner: Kwanghyeop | Status: Tasks created in Asana | Priority: Low
 │
 ├── 📋 ⏳ Review and respond to assigned Asana tasks
 │   └── Owner: All team members | Priority: Follow-up
@@ -64,6 +64,6 @@
 - ✅ = Completed
 - ⏳ = In Progress / Pending
 - 🔴 = Critical / Blocking (High Urgency)
-- 🟡 = High Priority (Medium-High Urgency)
-- 🟢 = Important (Medium Urgency)
+- 🟡 = High Priority (Medium-High Urgency) / Medium Priority
+- 🟢 = Low Priority
 - 📋 = Follow-up Required
