@@ -6,3 +6,6 @@
 *.xls
 *.xlsm
 
+# Exclude CSV files
+*.csv
+
