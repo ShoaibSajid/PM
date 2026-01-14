@@ -132,6 +132,20 @@ class TaskParser:
         if len(text) < 5:  # Too short to be meaningful
             return None
         
+        # Filter out lines that are just metadata or credentials (after scrubbing)
+        # These lines typically don't contain verbs or action words
+        if re.match(r'^(?:Server|IP|API Key|Token|Password|Username|Port|Host)[:\s]', text, re.IGNORECASE):
+            return None
+        
+        # Filter out lines that are just placeholder text from scrubbing
+        if text.strip() in ['(IP omitted)', '(token omitted)', '(GitHub token omitted)', 
+                            '(password omitted)', '(credentials omitted)']:
+            return None
+        
+        # Filter out section headers (lines ending with colon and short)
+        if re.match(r'^[A-Za-z\s]+:$', text) and len(text) < 30:
+            return None
+        
         # Extract owner if mentioned
         owner, owner_assumed = self._extract_owner(text)
         
