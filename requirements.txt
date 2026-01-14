@@ -2,10 +2,11 @@
 # Industrial Project Coordination Assistant
 
 # Core dependencies
-python>=3.10
+python>=3.9
 
-# Data handling
-pytz>=2023.3  # Fallback for timezone support
+# Timezone support (zoneinfo backport for Python < 3.9, pytz as fallback)
+pytz>=2023.3
+tzdata>=2023.3; platform_system == "Windows"
 
 # Optional: For enhanced text processing
 regex>=2023.0.0

@@ -1,12 +1,21 @@
 """Date/time utilities for KST timezone handling."""
 
 from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    # Fallback for Python < 3.9
+    from pytz import timezone as ZoneInfo
 from typing import Optional
 import re
 
 
-KST = ZoneInfo("Asia/Seoul")
+try:
+    KST = ZoneInfo("Asia/Seoul")
+except:
+    # Fallback for pytz
+    import pytz
+    KST = pytz.timezone("Asia/Seoul")
 
 
 def get_current_kst() -> datetime:

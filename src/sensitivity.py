@@ -18,7 +18,8 @@ SENSITIVE_PATTERNS = [
     (r'\b[Aa]ccess[_\-\s]?[Kk]ey\s*[:\=]\s*\S+', 'access key'),
     
     # Common credential formats
-    (r'[a-zA-Z0-9]{32,}', 'potential token'),  # Long alphanumeric strings
+    # Note: This may match commit hashes or UUIDs - review output carefully
+    # (r'[a-zA-Z0-9]{32,}', 'potential token'),  # Disabled to reduce false positives
     
     # Database connection strings
     (r'(?:mysql|postgresql|mongodb)://[^\s]+', 'database connection'),
@@ -36,7 +37,8 @@ SENSITIVE_PATTERNS = [
     (r'AKIA[0-9A-Z]{16}', 'AWS access key'),
     
     # Generic base64 that might be sensitive (be conservative)
-    (r'\b[A-Za-z0-9+/]{40,}={0,2}\b', 'potential encoded secret'),
+    # Note: May produce false positives for legitimate base64 content
+    # (r'\b[A-Za-z0-9+/]{40,}={0,2}\b', 'potential encoded secret'),  # Disabled to reduce false positives
 ]
 
 
