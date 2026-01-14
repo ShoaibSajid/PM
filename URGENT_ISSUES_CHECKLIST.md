@@ -64,17 +64,8 @@
 ```
 📁 IMPORTANT ISSUES
 │
-├── ⏳ Install OAK D camera on JRT/Jugang gripper
-│   └── Owner: Phungphu, Odil | Status: Location confirmed
-│
-├── ⏳ Design and print fingers for Fairino robot
-│   └── Owner: Myeongun, Tugi | Status: Design options prepared
-│
-├── ⏳ Define list of targets for Everint project acceptance
-│   └── Owner: Saad, Odil | Deadline: Friday
-│
-└── ⏳ Address conveyor slipping issue
-    └── Owner: Hieu, Tugi, hardware team | Status: Ongoing
+└── ⏳ Define list of targets for Everint project acceptance
+    └── Owner: Saad, Odil | Deadline: Friday
 ```
 
 ---

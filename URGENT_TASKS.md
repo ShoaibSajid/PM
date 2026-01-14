@@ -106,32 +106,12 @@
 
 ## 🟢 Important (Medium Urgency)
 
-### Hardware & Installation
-- **Task:** Install OAK D camera on JRT/Jugang gripper
-  - **Owner:** Phungphu, Odil (guidance)
-  - **Status:** Location confirmed
-  - **Next Follow-up:** Complete installation
-
-- **Task:** Design and print fingers for Fairino robot (Rubber Foot)
-  - **Owner:** Myeongun, Tugi
-  - **Status:** Design options prepared (A, B, C)
-  - **Next Follow-up:** Finalize design, complete printing
-  - **Note:** Target completion Monday
-
 ### Acceptance Criteria
 - **Task:** Define list of targets required to pass Everint project
   - **Owner:** Saad, Odil
   - **Status:** Requested Jan 14
   - **Deadline:** Friday (target achievement)
   - **Next Follow-up:** Share target list for alignment
-
-### Operational Issues
-- **Task:** Address conveyor slipping issue (random gaps between pallets)
-  - **Owner:** Hieu, Tugi, hardware team
-  - **Status:** Ongoing issue affecting vision and pressing arm
-  - **Frequency:** Every minute (once per 2 products)
-  - **Next Follow-up:** Test solutions, document findings
-  - **Risk:** Affects production stability
 
 ---
 
