@@ -44,6 +44,8 @@ This project documentation is organized into the following files:
 - **[PROCESSES.md](./PROCESSES.md)** - Acceptance criteria and vision validation workflows
 - **[TEAM_AND_HANDOVER.md](./TEAM_AND_HANDOVER.md)** - Team structure, handover package, definition of done, and current focus areas
 - **[URGENT_TASKS.md](./URGENT_TASKS.md)** - Most urgent tasks extracted from project communications
+- **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** - Visual checklist of urgent issues (headlines only)
+- **[JAN_15_CHECKLIST.md](./JAN_15_CHECKLIST.md)** - Daily checklist for January 15, 2026
 - **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Gaps and missing items that need attention
 - **[RULES.md](./RULES.md)** - Project coordination rules and guidelines
 
@@ -59,5 +61,7 @@ This project documentation is organized into the following files:
 - [Handover Package](./TEAM_AND_HANDOVER.md#documentation--handover-package)
 - [Definition of Done](./TEAM_AND_HANDOVER.md#definition-of-done)
 - [Urgent Tasks](./URGENT_TASKS.md)
+- [Urgent Issues Checklist](./URGENT_ISSUES_CHECKLIST.md)
+- [Jan 15 Checklist](./JAN_15_CHECKLIST.md)
 - [Missing Items](./MISSING_ITEMS.md)
 - [Coordination Rules](./RULES.md)
