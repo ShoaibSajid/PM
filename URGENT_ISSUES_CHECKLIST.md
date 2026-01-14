@@ -9,10 +9,10 @@
 ```
 📁 CRITICAL ISSUES
 │
-├── ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
+├── ⏳ Complete robot teaching - Label Printer Screw Robot (FR3)
 │   └── Owner: Hieu | Status: In progress
 │
-├── ⏳ Verify robot teaching - Label Printer Rubber Foot Robot (FR3)
+├── ✅ Verify robot teaching - Label Printer Rubber Foot Robot (FR3)
 │   └── Owner: Tugi | Status: Completed, needs verification
 │
 ├── ⏳ Integrate new vision model output format
@@ -88,4 +88,3 @@
 - ✅ = Completed
 - ⏳ = In Progress / Pending
 - 📁 = Category
-
