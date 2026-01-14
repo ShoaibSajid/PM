@@ -7,79 +7,55 @@
 ## 🔴 Critical / Blocking Issues
 
 ```
-📁 CRITICAL ISSUES
+📁 URGENT ISSUES (Sorted by Priority)
 │
-├── ⏳ Complete robot teaching - Label Printer Screw Robot (FR3)
-│   └── Owner: Hieu | Status: In progress
+├── 🔴 ⏳ Complete robot teaching - Label Printer Screw Robot (FR3)
+│   └── Owner: Hieu | Status: In progress | Priority: Critical
 │
-├── ✅ Verify robot teaching - Label Printer Rubber Foot Robot (FR3)
-│   └── Owner: Tugi | Status: Completed, needs verification
+├── 🔴 ✅ Verify robot teaching - Label Printer Rubber Foot Robot (FR3)
+│   └── Owner: Tugi | Status: Completed, needs verification | Priority: Critical
 │
-├── ⏳ Integrate new vision model output format
-│   └── Owner: Hieu, Rizwan | Status: PR ready, integration pending
+├── 🔴 ⏳ Integrate new vision model output format
+│   └── Owner: Hieu, Rizwan | Status: PR ready, integration pending | Priority: Critical
 │
-├── ⏳ Complete vision integration status summary
-│   └── Owner: Rizwan | Deadline: Jan 15, 2026
+├── 🔴 ⏳ Complete vision integration status summary
+│   └── Owner: Rizwan | Deadline: Jan 15, 2026 | Priority: Critical
 │
-├── ⏳ Confirm cycle time - Label Printer Screw Robot
-│   └── Owner: Hieu, Saad | Status: Pending robot teaching
+├── 🔴 ⏳ Confirm cycle time - Label Printer Screw Robot
+│   └── Owner: Hieu, Saad | Status: Pending robot teaching | Priority: Critical
 │
-└── ⏳ Confirm cycle time - Label Printer Rubber Foot Robot
-    └── Owner: Tugi, Saad | Status: Pending robot teaching
-```
-
----
-
-## 🟡 High Priority Issues
-
-```
-📁 HIGH PRIORITY ISSUES
+├── 🔴 ⏳ Confirm cycle time - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Saad | Status: Pending robot teaching | Priority: Critical
 │
-├── ⏳ Fix product image display issue (GUI)
-│   └── Owner: Tan, Samrah | Status: Root cause identified
+├── 🟡 ⏳ Fix product image display issue (GUI)
+│   └── Owner: Tan, Samrah | Status: Root cause identified | Priority: High
 │
-├── ⏳ Create Excel file - GUI tasks and issues status
-│   └── Owner: Jalol | Deadline: Jan 15, 2026
+├── 🟡 ⏳ Create Excel file - GUI tasks and issues status
+│   └── Owner: Jalol | Deadline: Jan 15, 2026 | Priority: High
 │
-├── ⏳ Collect dataset for vision model testing
-│   └── Owner: Rizwan, Shams, Tugi, Hieu | Status: Waiting
+├── 🟡 ⏳ Collect dataset for vision model testing
+│   └── Owner: Rizwan, Shams, Tugi, Hieu | Status: Waiting | Priority: High
 │
-├── ⏳ Complete vision model validation summary
-│   └── Owner: Rizwan | Status: In progress
+├── 🟡 ⏳ Complete vision model validation summary
+│   └── Owner: Rizwan | Status: In progress | Priority: High
 │
-├── ⏳ Complete handover documentation package
-│   └── Owner: Kwanghyeop | Status: Tasks created in Asana
+├── 🟡 ⏳ Complete handover documentation package
+│   └── Owner: Kwanghyeop | Status: Tasks created in Asana | Priority: High
 │
-├── ⏳ Equipment list (installed and pending delivery)
-│   └── Owner: Kwanghyeop | Status: Requested
+├── 🟡 ⏳ Equipment list (installed and pending delivery)
+│   └── Owner: Kwanghyeop | Status: Requested | Priority: High
 │
-└── ⏳ 3D parts list
-    └── Owner: Muazzam | Status: Requested
-```
-
----
-
-## 🟢 Important Issues
-
-```
-📁 IMPORTANT ISSUES
+├── 🟡 ⏳ 3D parts list
+│   └── Owner: Muazzam | Status: Requested | Priority: High
 │
-└── ⏳ Define list of targets for Everint project acceptance
-    └── Owner: Saad, Odil | Deadline: Friday
-```
-
----
-
-## 📋 Follow-up Required
-
-```
-📁 FOLLOW-UP REQUIRED
+├── 🟢 ⏳ Define list of targets for Everint project acceptance
+│   └── Owner: Saad, Odil | Deadline: Friday | Priority: Important
 │
-├── ⏳ Review and respond to assigned Asana tasks
-│   └── Owner: All team members
+├── 📋 ⏳ Review and respond to assigned Asana tasks
+│   └── Owner: All team members | Priority: Follow-up
 │
-└── ⏳ Capture production data for vision model validation
-    └── Owner: Vision team, Robot team | Status: Waiting
+└── 📋 ⏳ Capture production data for vision model validation
+    └── Owner: Vision team, Robot team | Status: Waiting | Priority: Follow-up
 ```
 
 ---
@@ -87,4 +63,7 @@
 **Legend:**
 - ✅ = Completed
 - ⏳ = In Progress / Pending
-- 📁 = Category
+- 🔴 = Critical / Blocking (High Urgency)
+- 🟡 = High Priority (Medium-High Urgency)
+- 🟢 = Important (Medium Urgency)
+- 📋 = Follow-up Required
