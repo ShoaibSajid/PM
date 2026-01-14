@@ -134,7 +134,7 @@ class TaskParser:
         
         # Filter out lines that are just metadata or credentials (after scrubbing)
         # These lines typically don't contain verbs or action words
-        if re.match(r'^(?:Server|IP|API Key|Token|Password|Username|Port|Host)[:\s]', text, re.IGNORECASE):
+        if re.match(r'^(?:Server|IP|API Key|Token|Password|Username|Port|Host|Production|Staging|Database|Credentials?)[:\s]', text, re.IGNORECASE):
             return None
         
         # Filter out lines that are just placeholder text from scrubbing
@@ -144,6 +144,11 @@ class TaskParser:
         
         # Filter out section headers (lines ending with colon and short)
         if re.match(r'^[A-Za-z\s]+:$', text) and len(text) < 30:
+            return None
+        
+        # Filter out lines that are primarily about configuration/credentials
+        # Look for patterns like "X: value" or "X is: value" where X is a config term
+        if re.match(r'^(?:Config|Setting|Parameter|Variable|Value|Key|Secret)[:\s]', text, re.IGNORECASE):
             return None
         
         # Extract owner if mentioned
