@@ -1,0 +1,18 @@
+# PM - Shoaib Project Management
+# Industrial Project Coordination Assistant
+
+# Core dependencies
+python>=3.10
+
+# Data handling
+pytz>=2023.3  # Fallback for timezone support
+
+# Optional: For enhanced text processing
+regex>=2023.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0

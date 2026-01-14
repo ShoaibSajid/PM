@@ -1,0 +1,29 @@
+# Example Chat Transcript Input
+
+[10:32] John: Hey team, we need to test the motor controller firmware v2.3 before deployment. This is urgent.
+
+[10:35] Sarah: I can handle that. When do you need it by?
+
+[10:36] John: Tomorrow would be ideal. The production line is waiting.
+
+[10:40] Mike: Also, we need to calibrate the pressure sensors on unit #3. They're showing inconsistent readings.
+
+[10:42] Sarah: Who's handling the sensor calibration?
+
+[10:43] Mike: I'll do it, but I'm waiting on the new sensors to arrive. Should be here by end of week.
+
+[10:45] John: Okay. One more thing - can someone order replacement bearings for the test rig? The current ones are worn out.
+
+[10:47] Lisa: I'll check with logistics. Need the part numbers first though.
+
+[10:50] Mike: I'll send you the specs this afternoon.
+
+[10:52] Sarah: John, about the firmware testing - will the test environment be ready?
+
+[10:53] John: Yes, it should be set up by tonight. If there are any issues, the whole integration schedule will slip.
+
+[10:55] Lisa: Also, we need to update the API documentation for the dashboard. It's outdated.
+
+[10:57] Sarah: I'm already working on that. About 30% done. Should have it completed by Friday.
+
+[11:00] John: Great. Let me know if anyone hits blockers. This is all critical path stuff.

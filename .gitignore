@@ -11,6 +11,27 @@ Thumbs.db
 *.iml
 *.sublime-*
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+dist/
+build/
+*.egg
+
 # Temporary files
 *.tmp
 *.bak
@@ -27,3 +48,15 @@ target/
 # Dependencies
 node_modules/
 vendor/
+
+# Backup files
+*.backup.md
+README.backup.md
+
+# Output files (examples are okay, but generated outputs should be ignored)
+outputs/
+*_tasks.md
+*_tasks.json
+*_tasks.csv
+!docs/examples/*_example.*
+

@@ -1,0 +1,69 @@
+# Task Extraction Configuration
+
+# Timezone for all date/time operations
+timezone: "Asia/Seoul"
+
+# Default values
+default_urgency: "Medium"
+default_status: "Not started"
+default_owner: "Team Member (Assumed)"
+
+# Output preferences
+output_format: "markdown"  # markdown, json, csv, plain
+
+# Sensitivity scrubbing mode
+sensitivity_mode: "strict"  # strict, moderate, lenient
+
+# Task categories (do not modify unless necessary)
+categories:
+  - Software
+  - Mechanical/Hardware
+  - Logistics
+  - Documentation
+  - Follow-ups
+
+# Valid status values
+status_values:
+  - Not started
+  - In progress
+  - Blocked
+  - Waiting on X
+  - Needs clarification
+
+# Valid urgency levels
+urgency_levels:
+  - High
+  - Medium
+  - Low
+
+# Extraction settings
+extraction:
+  max_title_length: 80
+  max_description_length: 200
+  default_followup_days: 2
+  
+  # Action keywords for task detection
+  action_keywords:
+    - need to
+    - needs to
+    - must
+    - should
+    - have to
+    - todo
+    - to-do
+    - action item
+    - task
+    - please
+    - can you
+    - will you
+    - could you
+    - implement
+    - fix
+    - update
+    - create
+    - test
+    - review
+    - check
+    - verify
+    - deploy
+    - configure
