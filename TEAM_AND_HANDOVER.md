@@ -27,7 +27,6 @@ flowchart TB
 ```
 
 **Cross-Cutting Roles**
-- Shoaib: Project manager (recently joined to manage all teams), coordination, acceptance, handover
 - Saad: Robot team lead
 - Odil: Vision team lead
 - Kwanghyeop: Local Korean engineer, supports local tasks requiring Korean language, documentation assistance
@@ -47,7 +46,7 @@ flowchart LR
   D0 --> D3[Equipment List]
   D0 --> D4[Vision System Details]
   D0 --> D5[System Overview]
-  D0 --> D6[Support & Escalation Info]
+  D0 --> D6[Support Info in issues/emergency]
 ```
 
 **Handover Includes**
