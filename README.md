@@ -43,6 +43,7 @@ This project documentation is organized into the following files:
 - **[SYSTEMS.md](./SYSTEMS.md)** - Detailed information about each robotic system, architecture, and operational flows
 - **[PROCESSES.md](./PROCESSES.md)** - Acceptance criteria and vision validation workflows
 - **[TEAM_AND_HANDOVER.md](./TEAM_AND_HANDOVER.md)** - Team structure, handover package, definition of done, and current focus areas
+- **[TARGETS.md](./TARGETS.md)** - Project targets and vision system demo requirements
 - **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** - **Complete tracking checklist** (merges urgent tasks, missing items, and gaps in visual format)
 - **[URGENT_TASKS.md](./URGENT_TASKS.md)** - Detailed urgent tasks (reference - main tracking in checklist)
 - **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference - main tracking in checklist)
@@ -60,6 +61,7 @@ This project documentation is organized into the following files:
 - [Team Structure](./TEAM_AND_HANDOVER.md#team-structure-and-ownership)
 - [Handover Package](./TEAM_AND_HANDOVER.md#documentation--handover-package)
 - [Definition of Done](./TEAM_AND_HANDOVER.md#definition-of-done)
+- [Project Targets](./TARGETS.md) - Vision system demo requirements
 - [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file**
 - [Urgent Tasks (Detailed)](./URGENT_TASKS.md)
 - [Missing Items (Detailed)](./MISSING_ITEMS.md)
