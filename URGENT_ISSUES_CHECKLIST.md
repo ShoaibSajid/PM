@@ -30,8 +30,8 @@
 ├── 🔴 ⏳ Confirm cycle time - Label Printer Screw Robot
 │   └── Owner: Hieu, Saad | Status: Pending robot teaching | Critical acceptance criteria
 │
-└── 🔴 ⏳ Confirm cycle time - Label Printer Rubber Foot Robot
-    └── Owner: Tugi, Saad | Status: ~34 sec (needs optimization) | Critical acceptance criteria
+└── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
+    └── Owner: Tugi, Saad | Status: ~28 sec (needs optimization) | Critical acceptance criteria
 ```
 
 ---
@@ -40,9 +40,6 @@
 
 ```
 📁 HIGH PRIORITY ISSUES
-│
-├── 🟡 ✅ Fix product image display issue (GUI)
-│   └── Owner: Tan, Samrah | Status: Fixed (Jan 7) - rename logic disabled
 │
 ├── 🟡 ⏳ Fix GUI freezing issue
 │   └── Owner: Jalol | Status: Reported Jan 14, needs investigation | Affects workflow
