@@ -12,8 +12,8 @@
 ```
 📁 CRITICAL ISSUES
 │
-├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
-│   └── Owner: Hieu | Status: Completed (Asana) | Blocks cycle time & vision integration
+├── 🔴 ⏳ Complete robot teaching - Label Printer Screw Robot (FR3)
+│   └── Owner: Hieu | Status: In progress | Blocks cycle time & vision integration
 │
 ├── 🔴 ⏳ Fix pad holding bracket - Label Printer Rubber Foot Robot
 │   └── Owner: Tugi | Status: Broken bracket causing misalignment | Blocks vision testing
@@ -50,26 +50,17 @@
 ├── 🟡 ⏳ Collect dataset for vision model testing
 │   └── Owner: Rizwan, Shams, Tugi, Hieu | Status: Waiting for stable operation | Blocks validation
 │
-├── 🟡 ✅ Validate vision models for screw driver robot
-│   └── Owner: Rizwan | Status: Completed (Asana) | Required for handover
+├── 🟡 ⏳ Complete vision model validation summary
+│   └── Owner: Rizwan | Status: In progress | Required for handover
 │
-├── 🟡 ✅ Validate vision models for rubber foot robot
-│   └── Owner: Rizwan | Status: Completed (Asana) | Required for handover
+├── 🟡 ⏳ Equipment list (installed and pending delivery)
+│   └── Owner: Kwanghyeop | Status: Requested | Missing items may delay handover
 │
-├── 🟡 ✅ Equipment list (installed and pending delivery)
-│   └── Owner: Kwanghyeop | Status: Completed (Asana) | List of items with serial numbers, locations, and pending deliveries
+├── 🟡 ⏳ 3D parts list
+│   └── Owner: Muazzam, Ammad | Status: In progress | Critical for tracking components
 │
-├── 🟡 ✅ 3D parts list
-│   └── Owner: Muazzam | Status: Completed (Asana) | List of all 3D printed parts with installed locations
-│
-├── 🟡 ✅ Maintain 3D components tracking list (requested/printed/handed over)
-│   └── Owner: Myeongun | Status: Completed (Asana) | Track all 3D component requests
-│
-├── 🟡 ✅ Order gripper base (with 2 or 3 springs) in metal
-│   └── Owner: Myeongun | Status: Completed (Asana) | Ordered
-│
-├── 🟡 ✅ Order base part of gripper fingers in metal
-│   └── Owner: Myeongun | Status: Completed (Asana) | Ordered
+├── 🟡 ⏳ Maintain 3D components tracking list (requested/printed/handed over)
+│   └── Owner: Myeongun | Status: Requested Jan 15 | Track all 3D component requests
 │
 ├── 🟡 ⏳ Complete Screw Driver Robot fingers (Fairino) - Design review
 │   └── Owner: Ammad, Myeongun | Status: Design review in progress, needs changes (screw position, plate thickness, bendable sheet) | Blocks Fairino usage
@@ -118,8 +109,8 @@
 ├── 📋 ⏳ Request samples for Label Printer (XD3-40d, XD5-40d)
 │   └── Owner: Kwanghyeop | Status: Need to request from manager | For production testing
 │
-├── 📋 ✅ Order LED/Buzzer for warning/error
-│   └── Owner: Ammad | Status: Completed (Asana) | Ordered
+├── 📋 ⏳ Order LED/Buzzer for warning/error
+│   └── Owner: Ammad | Status: In progress | Need to order
 │
 ├── 📋 ✅ Purchase Acrylic boundary for label printer table
 │   └── Owner: Myeongun | Status: Completed (Asana) | Purchased
@@ -127,41 +118,41 @@
 ├── 📋 ✅ Purchase Acrylic boundary for PCB table
 │   └── Owner: Myeongun | Status: Completed (Asana) | Purchased
 │
-├── 📋 ✅ Order one more metal mesh for the rubber foot
-│   └── Owner: Myeongun | Status: Completed (Asana) | Ordered
+├── 📋 ⏳ Order one more metal mesh for the rubber foot
+│   └── Owner: Myeongun | Status: In progress | Need to order
 │
-├── 📋 ✅ Assembly Process Product Image
-│   └── Owner: Samrah | Status: Completed (Asana) | Image processing completed
+├── 📋 ⏳ Assembly Process Product Image
+│   └── Owner: Samrah | Status: In progress | Image processing needed
 │
-├── 📋 ✅ Test nail gripper and roller mechanism
-│   └── Owner: Muazzam | Status: Completed (Asana) | Tested
+├── 📋 ⏳ Test nail gripper and roller mechanism
+│   └── Owner: Muazzam | Status: Pending | Needs testing
 │
-├── 📋 ✅ [screw] Rubber Pad Pickup
-│   └── Owner: Muazzam | Status: Completed (Asana) | Completed
+├── 📋 ⏳ [screw] Rubber Pad Pickup
+│   └── Owner: Muazzam | Status: In progress | Needs completion
 │
-├── 📋 ✅ [screw] Conveyor Shakes when robot moves
-│   └── Owner: Ammad | Status: Completed (Asana) | Investigated and resolved
+├── 📋 ⏳ [screw] Conveyor Shakes when robot moves
+│   └── Owner: Ammad | Status: Needs investigation | Investigate and resolve
 │
-├── 📋 ✅ [screw] Investigate Collision when robot A move up
-│   └── Owner: Ammad | Status: Completed (Asana) | Investigated and resolved
+├── 📋 ⏳ [screw] Investigate Collision when robot A move up
+│   └── Owner: Ammad | Status: Needs investigation | Investigate and resolve
 │
-├── 📋 ✅ [screw] Wiring Feedback for screw driver
-│   └── Owner: Ammad | Status: Completed (Asana) | Completed
+├── 📋 ⏳ [screw] Wiring Feedback for screw driver
+│   └── Owner: Ammad | Status: In progress | Needs completion
 │
-├── 📋 ✅ [screw] Robot finger with spring mechanism for PCB robot
-│   └── Owner: Ammad | Status: Completed (Asana) | Completed
+├── 📋 ⏳ [screw] Robot finger with spring mechanism for PCB robot
+│   └── Owner: Ammad | Status: In progress | Needs completion
 │
-├── 📋 ✅ Prepare cushion support using profiles, joints, and install on top
-│   └── Owner: Ammad | Status: Completed (Asana) | Installed
+├── 📋 ⏳ Prepare cushion support using profiles, joints, and install on top
+│   └── Owner: Ammad | Status: In progress | Needs installation
 │
-├── 📋 ✅ [screw] Finalize the error list and events for LB-Screw
-│   └── Owner: Hieu | Status: Completed (Asana) | Finalized
+├── 📋 ⏳ [screw] Finalize the error list and events for LB-Screw
+│   └── Owner: Hieu | Status: In progress | Needs finalization
 │
-├── 📋 ✅ [screw] Collect data and provide to vision team for tilted printer
-│   └── Owner: Hieu | Status: Completed (Asana) | Data collected and provided
+├── 📋 ⏳ [screw] Collect data and provide to vision team for tilted printer
+│   └── Owner: Hieu | Status: In progress | Need to collect and provide data
 │
-└── 📋 ✅ [screw] Adjustable Label printer aligner jig for worker placement
-    └── Owner: Kwanghyeop | Status: Completed (Asana) | Completed
+└── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
+    └── Owner: Kwanghyeop | Status: In progress | Needs completion
 │
 └── 📋 ⏳ Vision status update
     └── Owner: Rizwan | Status: Follow-up requested Jan 15 | Vision integration status summary
@@ -177,29 +168,29 @@
 ├── 🔍 ⏳ Complete vision model inventory
 │   └── Owner: Rizwan, Vision team | Status: Requested | Model names, versions, integration status, validation results
 │
-├── 🔍 ✅ Camera and lighting setup documentation
-│   └── Owner: Kwanghyeop | Status: Completed (Asana - Vision System Documentation) | Locations, mounting, specs, calibration
+├── 🔍 ⏳ Camera and lighting setup documentation
+│   └── Owner: Vision team, Kwanghyeop | Status: Part of handover | Locations, mounting, specs, calibration
 │
-├── 🔍 ✅ Complete equipment inventory with serial numbers
-│   └── Owner: Kwanghyeop | Status: Completed (Asana) | Robots, controllers, cameras, grippers
+├── 🔍 ⏳ Complete equipment inventory with serial numbers
+│   └── Owner: Kwanghyeop | Status: In progress | Robots, controllers, cameras, grippers
 │
-├── 🔍 ✅ Pending delivery items tracking
-│   └── Owner: Kwanghyeop | Status: Completed (Asana) | List of deliverable items (pending delivery)
+├── 🔍 ⏳ Pending delivery items tracking
+│   └── Owner: Kwanghyeop | Status: Needs shared file | Safety covers, equipment, delivery dates
 │
-├── 🔍 ✅ 3D printed parts inventory
-│   └── Owner: Muazzam | Status: Completed (Asana) | List of all 3D printed parts with installed locations
+├── 🔍 ⏳ 3D printed parts inventory
+│   └── Owner: Muazzam, Myeongun | Status: In progress | Components list, materials, spare parts status, tracking requested/printed/handed over
 │
-├── 🔍 ✅ Operation manual completeness
-│   └── Owner: Kwanghyeop | Status: Completed (Asana - System Operation Documentation) | Startup, operation, shutdown procedures
+├── 🔍 ⏳ Operation manual completeness
+│   └── Owner: Kwanghyeop, team | Status: Part of handover | Startup, operation, shutdown procedures
 │
-├── 🔍 ✅ Maintenance guide
-│   └── Owner: Kwanghyeop | Status: Completed (Asana - Maintenance Documentation) | Preventive maintenance, troubleshooting
+├── 🔍 ⏳ Maintenance guide
+│   └── Owner: Kwanghyeop, team | Status: Part of handover | Preventive maintenance, troubleshooting
 │
-├── 🔍 ✅ Support and escalation information
-│   └── Owner: Kwanghyeop | Status: Completed (Asana - Handover & Ownership Information) | Contacts, escalation paths, ownership
+├── 🔍 ⏳ Support and escalation information
+│   └── Owner: Shoaib, Kwanghyeop | Status: Needs definition | Contacts, escalation paths, ownership
 │
-├── 🔍 ✅ Vision model validation reports
-│   └── Owner: Rizwan | Status: Completed (Asana) | Validated for both screw driver and rubber foot robots
+├── 🔍 ⏳ Vision model validation reports
+│   └── Owner: Vision team | Status: In progress | 10-20 product tests, accuracy, failure analysis
 │
 ├── 🔍 ⏳ Cycle time validation reports
 │   └── Owner: Robot team, Saad | Status: Pending | Documented times, comparison vs targets
@@ -207,16 +198,19 @@
 ├── 🔍 ⏳ End-to-end system testing
 │   └── Owner: Team leads | Status: Needs scheduling | Full cycle testing, integration testing
 │
+├── 🔍 ⏳ Code repository documentation
+│   └── Owner: Development team | Status: May be missing | Branch structure, deployment, config
+│
+├── 🔍 ⏳ Environment setup documentation
+│   └── Owner: Backend team, Kwanghyeop | Status: May need update | Software, versions, installation, network
+│
 ├── 🔍 ⏳ Product registration procedures
 │   └── Owner: Frontend, Backend | Status: May need update | Step-by-step guide, image capture, DB config
 │
 ├── 🔍 ⏳ Error handling and recovery procedures
 │   └── Owner: Team leads | Status: Needs documentation | Warning types, recovery steps, escalation
 │
-├── 🔍 ✅ Network infrastructure setup
-│   └── Owner: Kwanghyeop | Status: Completed (Asana) | Detailed network diagram created
-│
-├── 🔍 ⏳ Network infrastructure implementation
+├── 🔍 ⏳ Network infrastructure setup
 │   └── Owner: Kwanghyeop, Everint IT | Status: Requested, pending response | LAN connection, wifi router
 │
 ├── 🔍 ⏳ Hardware delivery tracking
