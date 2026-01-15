@@ -105,20 +105,20 @@ The demo is successful if:
 | 14 | Vision model integration completed | ❌ False | 60% | Integration in progress |
 | 15 | Rescan logic tested and validated | ❌ False | 40% | Needs testing |
 | **Documentation & Handover** |
-| 16 | Handover documentation package complete | ✅ True | 100% | All 6 sub-tasks completed |
-| 17 | Equipment inventory with serial numbers | ❌ False | 70% | In progress |
-| 18 | 3D parts list complete | ❌ False | 60% | In progress |
-| 19 | Operation manual complete | ✅ True | 100% | Completed (part of handover package) |
-| 20 | Maintenance guide complete | ✅ True | 100% | Completed (part of handover package) |
-| 21 | Vision system documentation complete | ✅ True | 100% | Completed (part of handover package) |
-| 22 | Network diagram complete | ✅ True | 100% | Completed |
+| 16 | Handover documentation package complete | ❌ False | 0% | Not started yet (Kwanghyeop) |
+| 17 | Equipment inventory with serial numbers | ❌ False | 0% | Not started yet |
+| 18 | 3D parts list complete | ❌ False | 60% | In progress (Muazzam, Ammad) |
+| 19 | Operation manual complete | ❌ False | 0% | Not started yet (part of handover package) |
+| 20 | Maintenance guide complete | ❌ False | 0% | Not started yet (part of handover package) |
+| 21 | Vision system documentation complete | ❌ False | 0% | Not started yet (part of handover package) |
+| 22 | Network diagram complete | ❌ False | 0% | Not started yet |
 | **Hardware & Installation** |
 | 23 | All hardware installed and operational | ❌ False | 85% | Screw Driver Robot fingers pending |
 | 24 | Pad holding bracket fixed (Rubber Foot Robot) | ❌ False | 0% | Broken, needs replacement |
 | 25 | All safety equipment installed | ❌ False | 90% | Safety fences received, installation pending |
 | **Overall Project Status** |
-| 26 | All acceptance criteria met | ❌ False | 45% | Multiple targets pending |
-| 27 | Demo readiness achieved | ❌ False | 40% | Validation and testing in progress |
+| 26 | All acceptance criteria met | ❌ False | 35% | Multiple targets pending |
+| 27 | Demo readiness achieved | ❌ False | 30% | Validation, testing, and documentation in progress |
 
 **Legend:**
 - ✅ True = Target achieved
