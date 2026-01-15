@@ -1,6 +1,6 @@
 # Urgent Tasks
 
-**Last Updated:** January 15, 2026  
+**Last Updated:** January 15, 2026 (Updated from Jan 15 chat)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -18,16 +18,22 @@
 
 - **Task:** Complete robot teaching for Label Printer Rubber Foot Robot (FR3)
   - **Owner:** Tugi
-  - **Status:** Completed (as of Jan 14) - needs verification
-  - **Next Follow-up:** Verify cycle completion and share video
+  - **Status:** Completed (as of Jan 15) - video sent, but broken pad holding bracket causing misalignment
+  - **Next Follow-up:** Fix pad holding bracket, verify alignment
   - **Risk:** Blocks vision model testing
 
 ### Vision Integration
 - **Task:** Integrate new vision model output format (Rizwan's final format) to both vision and robot framework
   - **Owner:** Hieu (integration), Rizwan (model)
-  - **Status:** PR ready, integration pending
-  - **Next Follow-up:** Test integration with real dataset
+  - **Status:** Tugi merged updates from Hieu (Jan 14), Hieu updated again (Jan 15 morning), Tugi needs to merge and test
+  - **Next Follow-up:** Tugi to merge latest vision updates and test
   - **Risk:** Blocks full cycle testing
+
+- **Task:** Test rescan logic (Rubber Foot Robot)
+  - **Owner:** Tugi
+  - **Status:** Overall operation working, rescan logic needs testing (as of Jan 15)
+  - **Next Follow-up:** Test rescan functionality
+  - **Risk:** Affects operation reliability
 
 - **Task:** Complete vision integration status summary for all models
   - **Owner:** Rizwan
@@ -44,8 +50,8 @@
 
 - **Task:** Confirm cycle time for Label Printer Rubber Foot Robot
   - **Owner:** Tugi, Saad (review)
-  - **Status:** Pending robot teaching completion
-  - **Next Follow-up:** Measure and document cycle times
+  - **Status:** Roughly 34 seconds (as of Jan 15), room for improvement
+  - **Next Follow-up:** Optimize and finalize cycle time
   - **Risk:** Critical acceptance criteria
 
 ---
@@ -55,9 +61,15 @@
 ### GUI Issues
 - **Task:** Fix product image display issue (images disappear when product details changed)
   - **Owner:** Tan, Samrah
-  - **Status:** Root cause identified (directory rename logic)
-  - **Next Follow-up:** Disable rename logic, test fix
+  - **Status:** ✅ Fixed (Jan 7) - rename logic disabled and pushed to main
+  - **Next Follow-up:** Monitor for any regressions
   - **Risk:** Affects product registration workflow
+
+- **Task:** Fix GUI freezing issue (disabling function while waiting for robot acknowledgment)
+  - **Owner:** Jalol
+  - **Status:** Reported Jan 14, needs investigation
+  - **Next Follow-up:** Debug and fix freezing issue
+  - **Risk:** Affects operational workflow
 
 - **Task:** Create Excel file with status of all pending GUI tasks and issues
   - **Owner:** Jalol
@@ -81,13 +93,14 @@
 ### Documentation & Inventory
 - **Task:** Complete handover documentation package
   - **Owner:** Kwanghyeop (lead), team support
-  - **Status:** Tasks created in Asana
+  - **Status:** Tasks created in Asana, work in progress
   - **Includes:**
     - System operation procedures
     - Maintenance guidelines
     - Installed equipment lists (with serial numbers and locations)
     - Vision system details (cameras, mounting, lighting)
     - System overview
+  - **Additional:** Jalol creating step-by-step product registration guide, Sawera preparing operation manuals
   - **Next Follow-up:** Review progress on assigned subtasks
   - **Risk:** Required for project handover
 
@@ -98,9 +111,10 @@
   - **Risk:** Missing items may delay handover
 
 - **Task:** 3D parts list
-  - **Owner:** Muazzam
-  - **Status:** Requested Jan 14
+  - **Owner:** Muazzam, Ammad
+  - **Status:** In progress (as of Jan 15)
   - **Next Follow-up:** Complete inventory list
+  - **Note:** Critical for tracking components and spares
 
 ---
 
@@ -128,6 +142,19 @@
   - **Owner:** Vision team, Robot team
   - **Status:** Waiting for stable robot operation
   - **Next Follow-up:** Begin systematic data collection
+
+### Hardware Issues
+- **Task:** Fix broken pad holding bracket (Rubber Foot Robot)
+  - **Owner:** Tugi, Hardware team
+  - **Status:** Broken bracket causing misalignment (reported Jan 15)
+  - **Next Follow-up:** Replace bracket, verify alignment
+  - **Risk:** Affects robot operation accuracy
+
+- **Task:** Complete Screw Driver Robot fingers (Fairino robot)
+  - **Owner:** Ammad, Myeongun
+  - **Status:** Only base part ready, fingers pending (as of Jan 15)
+  - **Next Follow-up:** Print and install fingers
+  - **Risk:** Blocks Fairino robot usage on screw driver robot
 
 ---
 
