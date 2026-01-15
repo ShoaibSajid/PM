@@ -69,6 +69,9 @@
 ├── 🟡 ⏳ Maintain 3D components tracking list (requested/printed/handed over)
 │   └── Owner: Myeongun | Status: Requested Jan 15 | Track all 3D component requests
 │
+├── 🟡 ⏳ Finger replacement - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Myeongun | Status: Pending | Finger replacement needed
+│
 ├── 🟡 ✅ Complete Screw Driver Robot fingers installation - Label Printer Screw Robot
 │   └── Owner: Ammad, Myeongun | Status: Complete (Jan 15) | Fingers installation done
 │
@@ -84,17 +87,14 @@
 ├── 🟡 ✅ Rubber pad validation model update - Label Printer Rubber Foot Robot
 │   └── Owner: Rizwan | Status: Complete (Jan 15) | Model updated
 │
-├── 🟡 ⏳ Finger replacement - Label Printer Rubber Foot Robot
-│   └── Owner: Tugi, Myeongun | Status: Pending | Finger replacement needed
-│
 ├── 🟡 ✅ Prepare complete test bench with Hieu for label printer
 │   └── Owner: Tan | Status: Completed (Asana) | Test bench ready
 │
 ├── 🟡 ✅ Test OBB DETR model for PCB detection
 │   └── Owner: Tan | Status: Completed (Asana) | PCB detection model tested
 │
-└── 🟡 ⏳ Define list of targets for Everint project acceptance
-    └── Owner: Saad, Odil | Deadline: Friday | Status: Requested Jan 14
+└── 🟡 ✅ Define list of targets for Everint project acceptance
+    └── Owner: Saad, Odil | Status: Complete | Targets defined
 ```
 
 ---
