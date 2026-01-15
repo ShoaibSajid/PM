@@ -99,8 +99,8 @@ The demo is successful if:
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
 | 1 | Screw Tilt Detection: ≥ 98% accuracy, FN not acceptable | ❌ False | 0% | Validation pending |
-| 2 | Screw Hole Detection: ≥ 99% accuracy, FP not acceptable | ❌ False | 0% | Validation pending |
-| 3 | Rubber Foot Detection: ≥ 99% accuracy, FP ≤ 10/1000 | ❌ False | 0% | Validation pending |
+| 2 | Screw Hole Detection: ≥ 99% accuracy, FP not acceptable | ❌ False | 20% | Screw pickup validation fails from 2nd screw feeder (FPs) - needs fix |
+| 3 | Rubber Foot Detection: ≥ 99% accuracy, FP ≤ 10/1000 | ❌ False | 30% | Rubber pad validation model updated (Jan 15), validation pending |
 | 4 | Printer Contour Detection: Multi-pipeline (TM + YOLO) with rescanning | ❌ False | 60% | Integration in progress |
 | 5 | Eliminate vision errors (using secondary checks if needed) | ❌ False | 0% | Not implemented yet |
 
@@ -116,7 +116,7 @@ The demo is successful if:
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
 | 8 | All models support retraining for new products | ❌ False | 0% | Not validated |
-| 9 | Self-training time ≤ 20 minutes per product | ❌ False | 0% | Not validated |
+| 9 | Self-training time ≤ 20 minutes per product | ❌ False | 0% | Self training update pending for both systems (Jan 15) |
 | 10 | Automatic evaluation after retraining | ❌ False | 0% | Not validated |
 
 ### Validation & Testing (Owners: Tugi and Hieu, Saad/Odil/Shoaib)
@@ -125,18 +125,18 @@ The demo is successful if:
 |---|-------------|----------|----------|-------|
 | 11 | Minimum 100 products per product type validated | ❌ False | 0% | Dataset collection pending |
 | 12 | Vision model validation reports completed | ❌ False | 30% | In progress (Rizwan) |
-| 13 | Cycle time validation for all robots | ❌ False | 25% | Rubber Foot: ~28 sec (done), Screw Robot: pending |
+| 13 | Cycle time validation for all robots | ✅ True | 100% | Both complete (Jan 15): Rubber Foot: ~28 sec, Screw Robot: done |
 | 14 | Mechanism to measure KPI (products ran, success count, failure count, cycle time) | ❌ False | 0% | Not implemented yet (Saad/Odil/Shoaib) |
 
 ### System Integration (Owners: Tugi and Hieu)
 
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
-| 15 | Robot teaching completed for all systems | ❌ False | 50% | Rubber Foot: done, Screw Robot: in progress |
-| 16 | Vision model integration completed | ❌ False | 60% | Integration in progress |
-| 17 | Rescan logic tested and validated | ❌ False | 40% | Needs testing |
-| 18 | Production ready system for all the printers | ❌ False | 60% | In progress (Tugi and Hieu) |
-| 19 | Minimize failures for screw and rubber feet pickup/fasten/attach (retry at least once for all products) | ❌ False | 40% | Retry logic needs validation (Tugi and Hieu) |
+| 15 | Robot teaching completed for all systems | ✅ True | 100% | Both complete (Jan 15): Rubber Foot: done, Screw Robot: done |
+| 16 | Vision model integration completed | ❌ False | 90% | Screw Robot: complete (Jan 15), Rubber Foot: complete, minor updates pending |
+| 17 | Rescan logic tested and validated | ❌ False | 50% | Rubber Foot: pending testing, Screw Robot: needs validation |
+| 18 | Production ready system for all the printers | ❌ False | 75% | Screw pickup validation issue (2nd feeder FPs) needs fix (Tugi and Hieu) |
+| 19 | Minimize failures for screw and rubber feet pickup/fasten/attach (retry at least once for all products) | ❌ False | 60% | Rubber pad pickup successful, screw pickup validation issue (2nd feeder FPs) needs fix |
 | 20 | System stability: No crashes, graceful abort and warning on time-up | ❌ False | 50% | Testing to be done by Ammad (Tugi and Hieu) |
 
 ### Documentation & Handover (Owner: Kwanghyeop)
@@ -155,7 +155,7 @@ The demo is successful if:
 
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
-| 28 | All hardware installed and operational | ❌ False | 85% | Screw Driver Robot fingers pending |
+| 28 | All hardware installed and operational | ✅ True | 100% | Both systems complete (Jan 15): Screw Robot fingers installed, hardware installed |
 | 29 | Pad holding bracket fixed (Rubber Foot Robot) | ❌ False | 0% | Broken, needs replacement |
 | 30 | All safety equipment installed | ❌ False | 90% | Safety fences received, installation pending |
 | 31 | Prepare enough spares for key components (particularly all plastic/3D printed items) | ❌ False | 30% | In progress (Myeongun) |

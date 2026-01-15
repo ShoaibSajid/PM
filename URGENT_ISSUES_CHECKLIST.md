@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 15, 2026 (Updated from Asana tasks)  
+**Last Updated:** January 15, 2026 (End of day update)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -12,26 +12,32 @@
 ```
 📁 CRITICAL ISSUES
 │
-├── 🔴 ⏳ Complete robot teaching - Label Printer Screw Robot (FR3)
-│   └── Owner: Hieu | Status: In progress | Blocks cycle time & vision integration
+├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
+│   └── Owner: Hieu | Status: Complete (Jan 15) | Robot teaching done
+│
+├── 🔴 ✅ Vision integration - Label Printer Screw Robot
+│   └── Owner: Hieu, Rizwan | Status: Complete (Jan 15) | Vision integration done
+│
+├── 🔴 ✅ Confirm cycle time - Label Printer Screw Robot
+│   └── Owner: Hieu, Saad | Status: Complete (Jan 15) | Cycle time validation done
+│
+├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
+│   └── Owner: Hieu, Rizwan | Status: Screw pickup validation fails from 2nd screw feeder (FPs) | Blocks production
 │
 ├── 🔴 ⏳ Fix pad holding bracket - Label Printer Rubber Foot Robot
 │   └── Owner: Tugi | Status: Broken bracket causing misalignment | Blocks vision testing
 │
-├── 🔴 ⏳ Integrate new vision model output format
-│   └── Owner: Hieu, Rizwan | Status: Tugi merged (Jan 14), Hieu updated (Jan 15), Tugi needs to merge & test | Blocks full cycle
-│
 ├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot)
-│   └── Owner: Tugi | Status: Operation working, rescan needs testing | Affects reliability
+│   └── Owner: Tugi | Status: Pending testing | Affects reliability
 │
-├── 🔴 ⏳ Complete vision integration status summary
-│   └── Owner: Rizwan | Deadline: Jan 15, 2026 | Status: In progress
+├── 🔴 ⏳ Self Training update - Label Printer Screw Robot
+│   └── Owner: Rizwan | Status: Pending | Self training update needed
 │
-├── 🔴 ⏳ Confirm cycle time - Label Printer Screw Robot
-│   └── Owner: Hieu, Saad | Status: Pending robot teaching | Critical acceptance criteria
+├── 🔴 ⏳ Self Training update - Label Printer Rubber Foot Robot
+│   └── Owner: Rizwan | Status: Pending | Self training update needed
 │
 └── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
-    └── Owner: Tugi, Saad | Status: ~28 sec (needs optimization) | Critical acceptance criteria
+    └── Owner: Tugi, Saad | Status: Complete (Jan 15) | Cycle time validation done
 ```
 
 ---
@@ -62,8 +68,23 @@
 ├── 🟡 ⏳ Maintain 3D components tracking list (requested/printed/handed over)
 │   └── Owner: Myeongun | Status: Requested Jan 15 | Track all 3D component requests
 │
-├── 🟡 ⏳ Complete Screw Driver Robot fingers (Fairino) - Design review
-│   └── Owner: Ammad, Myeongun | Status: Design review in progress, needs changes (screw position, plate thickness, bendable sheet) | Blocks Fairino usage
+├── 🟡 ✅ Complete Screw Driver Robot fingers installation - Label Printer Screw Robot
+│   └── Owner: Ammad, Myeongun | Status: Complete (Jan 15) | Fingers installation done
+│
+├── 🟡 ✅ Hardware installation - Label Printer Screw Robot
+│   └── Owner: Muazzam, Hieu | Status: Complete (Jan 15) | Hardware installation done
+│
+├── 🟡 ✅ Hardware installation - Label Printer Rubber Foot Robot
+│   └── Owner: Muazzam, Tugi | Status: Complete (Jan 15) | Hardware installation done
+│
+├── 🟡 ✅ Rubber pad pickup - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi | Status: Complete (Jan 15) | Rubber pad pickup successful
+│
+├── 🟡 ✅ Rubber pad validation model update - Label Printer Rubber Foot Robot
+│   └── Owner: Rizwan | Status: Complete (Jan 15) | Model updated
+│
+├── 🟡 ⏳ Finger replacement - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Myeongun | Status: Pending | Finger replacement needed
 │
 ├── 🟡 ✅ Prepare complete test bench with Hieu for label printer
 │   └── Owner: Tan | Status: Completed (Asana) | Test bench ready
