@@ -43,10 +43,10 @@ This project documentation is organized into the following files:
 - **[SYSTEMS.md](./SYSTEMS.md)** - Detailed information about each robotic system, architecture, and operational flows
 - **[PROCESSES.md](./PROCESSES.md)** - Acceptance criteria and vision validation workflows
 - **[TEAM_AND_HANDOVER.md](./TEAM_AND_HANDOVER.md)** - Team structure, handover package, definition of done, and current focus areas
-- **[URGENT_TASKS.md](./URGENT_TASKS.md)** - Most urgent tasks extracted from project communications
-- **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** - Visual checklist of urgent issues (headlines only)
+- **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** - **Complete tracking checklist** (merges urgent tasks, missing items, and gaps in visual format)
+- **[URGENT_TASKS.md](./URGENT_TASKS.md)** - Detailed urgent tasks (reference - main tracking in checklist)
+- **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference - main tracking in checklist)
 - **[JAN_15_CHECKLIST.md](./JAN_15_CHECKLIST.md)** - Daily checklist for January 15, 2026
-- **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Gaps and missing items that need attention
 - **[RULES.md](./RULES.md)** - Project coordination rules and guidelines
 
 ---
@@ -60,8 +60,8 @@ This project documentation is organized into the following files:
 - [Team Structure](./TEAM_AND_HANDOVER.md#team-structure-and-ownership)
 - [Handover Package](./TEAM_AND_HANDOVER.md#documentation--handover-package)
 - [Definition of Done](./TEAM_AND_HANDOVER.md#definition-of-done)
-- [Urgent Tasks](./URGENT_TASKS.md)
-- [Urgent Issues Checklist](./URGENT_ISSUES_CHECKLIST.md)
+- [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file**
+- [Urgent Tasks (Detailed)](./URGENT_TASKS.md)
+- [Missing Items (Detailed)](./MISSING_ITEMS.md)
 - [Jan 15 Checklist](./JAN_15_CHECKLIST.md)
-- [Missing Items](./MISSING_ITEMS.md)
 - [Coordination Rules](./RULES.md)
