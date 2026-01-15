@@ -177,8 +177,8 @@
 ├── 🔍 ⏳ Complete vision model inventory
 │   └── Owner: Rizwan, Vision team | Status: Requested | Model names, versions, integration status, validation results
 │
-├── 🔍 ⏳ Camera and lighting setup documentation
-│   └── Owner: Vision team, Kwanghyeop | Status: Part of handover | Locations, mounting, specs, calibration
+├── 🔍 ✅ Camera and lighting setup documentation
+│   └── Owner: Kwanghyeop | Status: Completed (Asana - Vision System Documentation) | Locations, mounting, specs, calibration
 │
 ├── 🔍 ✅ Complete equipment inventory with serial numbers
 │   └── Owner: Kwanghyeop | Status: Completed (Asana) | Robots, controllers, cameras, grippers
