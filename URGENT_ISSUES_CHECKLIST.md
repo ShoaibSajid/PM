@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 15, 2026 (End of day update)  
+**Last Updated:** January 16, 2026  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -12,6 +12,16 @@
 ```
 📁 CRITICAL ISSUES
 │
+├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
+│   └── Owner: Hieu, Rizwan | Status: Screw pickup validation fails from 2nd screw feeder (FPs) | Blocks production
+│
+├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot)
+│   └── Owner: Tugi | Status: Pending testing | Affects reliability
+│
+├── 🔴 ⏳ Self Training update - Label Printer Screw Robot
+│   └── Owner: Rizwan | Status: Pending | Self training update needed
+│
+│
 ├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
 │   └── Owner: Hieu | Status: Complete (Jan 15) | Robot teaching done
 │
@@ -21,20 +31,11 @@
 ├── 🔴 ✅ Confirm cycle time - Label Printer Screw Robot
 │   └── Owner: Hieu, Saad | Status: Complete (Jan 15) | Cycle time validation done
 │
-├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
-│   └── Owner: Hieu, Rizwan | Status: Screw pickup validation fails from 2nd screw feeder (FPs) | Blocks production
+├── 🔴 ✅ Fix pad holding bracket - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi | Status: Complete | Bracket installed
 │
-├── 🔴 ⏳ Fix pad holding bracket - Label Printer Rubber Foot Robot
-│   └── Owner: Tugi | Status: Broken bracket causing misalignment | Blocks vision testing
-│
-├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot)
-│   └── Owner: Tugi | Status: Pending testing | Affects reliability
-│
-├── 🔴 ⏳ Self Training update - Label Printer Screw Robot
-│   └── Owner: Rizwan | Status: Pending | Self training update needed
-│
-├── 🔴 ⏳ Self Training update - Label Printer Rubber Foot Robot
-│   └── Owner: Rizwan | Status: Complete | Cycle time validation done
+├── 🔴 ✅ Self Training update - Label Printer Rubber Foot Robot
+│   └── Owner: Rizwan | Status: Complete | Self training update done
 │
 └── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
     └── Owner: Tugi, Saad | Status: Complete | Cycle time validation done
@@ -121,9 +122,6 @@
 ```
 📁 FOLLOW-UP REQUIRED
 │
-├── 📋 ✅ Review and respond to assigned Asana tasks
-│   └── Owner: All team members | Status: Multiple tasks completed (Asana)
-│
 ├── 📋 ⏳ Capture production data for vision model validation
 │   └── Owner: Vision team, Robot team | Status: Waiting for stable operation
 │
@@ -132,12 +130,6 @@
 │
 ├── 📋 ⏳ Order LED/Buzzer for warning/error
 │   └── Owner: Ammad | Status: In progress | Need to order
-│
-├── 📋 ✅ Purchase Acrylic boundary for label printer table
-│   └── Owner: Myeongun | Status: Completed (Asana) | Purchased
-│
-├── 📋 ✅ Purchase Acrylic boundary for PCB table
-│   └── Owner: Myeongun | Status: Completed (Asana) | Purchased
 │
 ├── 📋 ⏳ Order one more metal mesh for the rubber foot
 │   └── Owner: Myeongun | Status: In progress | Need to order
@@ -172,11 +164,21 @@
 ├── 📋 ⏳ [screw] Collect data and provide to vision team for tilted printer
 │   └── Owner: Hieu | Status: In progress | Need to collect and provide data
 │
-└── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
-    └── Owner: Kwanghyeop | Status: In progress | Needs completion
+├── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
+│   └── Owner: Kwanghyeop | Status: In progress | Needs completion
 │
-└── 📋 ⏳ Vision status update
-    └── Owner: Rizwan | Status: Follow-up requested Jan 15 | Vision integration status summary
+├── 📋 ⏳ Vision status update
+│   └── Owner: Rizwan | Status: Follow-up requested Jan 15 | Vision integration status summary
+│
+│
+├── 📋 ✅ Review and respond to assigned Asana tasks
+│   └── Owner: All team members | Status: Multiple tasks completed (Asana)
+│
+├── 📋 ✅ Purchase Acrylic boundary for label printer table
+│   └── Owner: Myeongun | Status: Completed (Asana) | Purchased
+│
+└── 📋 ✅ Purchase Acrylic boundary for PCB table
+    └── Owner: Myeongun | Status: Completed (Asana) | Purchased
 ```
 
 ---
