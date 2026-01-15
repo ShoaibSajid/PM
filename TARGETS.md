@@ -86,10 +86,10 @@ The demo is successful if:
 - **Vision Model Accuracy Targets:** Rizwan
 - **Automation & Registration:** Jalol
 - **Model Retraining:** Rizwan
-- **Validation & Testing:** Tugi and Hieu
+- **Validation & Testing:** Tugi and Hieu, Saad/Odil/Shoaib (KPI)
 - **System Integration:** Tugi and Hieu
 - **Documentation & Handover:** Kwanghyeop
-- **Hardware & Installation:** Muazzam
+- **Hardware & Installation:** Muazzam, Myeongun (Spares)
 - **Overall Project Status:** Shoaib
 
 ---
@@ -102,6 +102,7 @@ The demo is successful if:
 | 2 | Screw Hole Detection: ≥ 99% accuracy, FP not acceptable | ❌ False | 0% | Validation pending |
 | 3 | Rubber Foot Detection: ≥ 99% accuracy, FP ≤ 10/1000 | ❌ False | 0% | Validation pending |
 | 4 | Printer Contour Detection: Multi-pipeline (TM + YOLO) with rescanning | ❌ False | 60% | Integration in progress |
+| 5 | Eliminate vision errors (using secondary checks if needed) | ❌ False | 0% | Not implemented yet |
 
 ### Automation & Registration (Owner: Jalol)
 
@@ -125,14 +126,18 @@ The demo is successful if:
 | 10 | Minimum 100 products per product type validated | ❌ False | 0% | Dataset collection pending |
 | 11 | Vision model validation reports completed | ❌ False | 30% | In progress (Rizwan) |
 | 12 | Cycle time validation for all robots | ❌ False | 25% | Rubber Foot: ~28 sec (done), Screw Robot: pending |
+| 13 | Mechanism to measure KPI (products ran, success count, failure count, cycle time) | ❌ False | 0% | Not implemented yet (Saad/Odil/Shoaib) |
 
 ### System Integration (Owners: Tugi and Hieu)
 
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
-| 13 | Robot teaching completed for all systems | ❌ False | 50% | Rubber Foot: done, Screw Robot: in progress |
-| 14 | Vision model integration completed | ❌ False | 60% | Integration in progress |
-| 15 | Rescan logic tested and validated | ❌ False | 40% | Needs testing |
+| 14 | Robot teaching completed for all systems | ❌ False | 50% | Rubber Foot: done, Screw Robot: in progress |
+| 15 | Vision model integration completed | ❌ False | 60% | Integration in progress |
+| 16 | Rescan logic tested and validated | ❌ False | 40% | Needs testing |
+| 17 | Production ready system for all the printers | ❌ False | 60% | In progress (Tugi and Hieu) |
+| 18 | Minimize failures for screw and rubber feet pickup/fasten/attach (retry at least once for all products) | ❌ False | 40% | Retry logic needs validation (Tugi and Hieu) |
+| 19 | System stability: No crashes, graceful abort and warning on time-up | ❌ False | 50% | Testing to be done by Ammad (Tugi and Hieu) |
 
 ### Documentation & Handover (Owner: Kwanghyeop)
 
@@ -153,13 +158,14 @@ The demo is successful if:
 | 23 | All hardware installed and operational | ❌ False | 85% | Screw Driver Robot fingers pending |
 | 24 | Pad holding bracket fixed (Rubber Foot Robot) | ❌ False | 0% | Broken, needs replacement |
 | 25 | All safety equipment installed | ❌ False | 90% | Safety fences received, installation pending |
+| 26 | Prepare enough spares for key components (particularly all plastic/3D printed items) | ❌ False | 30% | In progress (Myeongun) |
 
 ### Overall Project Status (Owner: Shoaib)
 
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
-| 26 | All acceptance criteria met | ❌ False | 35% | Multiple targets pending |
-| 27 | Demo readiness achieved | ❌ False | 30% | Validation, testing, and documentation in progress |
+| 27 | All acceptance criteria met | ❌ False | 35% | Multiple targets pending |
+| 28 | Demo readiness achieved | ❌ False | 30% | Validation, testing, and documentation in progress |
 
 **Legend:**
 - ✅ True = Target achieved
