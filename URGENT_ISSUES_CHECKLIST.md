@@ -34,10 +34,10 @@
 │   └── Owner: Rizwan | Status: Pending | Self training update needed
 │
 ├── 🔴 ⏳ Self Training update - Label Printer Rubber Foot Robot
-│   └── Owner: Rizwan | Status: Pending | Self training update needed
+│   └── Owner: Rizwan | Status: Complete | Cycle time validation done
 │
 └── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
-    └── Owner: Tugi, Saad | Status: Complete (Jan 15) | Cycle time validation done
+    └── Owner: Tugi, Saad | Status: Complete | Cycle time validation done
 ```
 
 ---
