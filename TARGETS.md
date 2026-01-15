@@ -82,29 +82,50 @@ The demo is successful if:
 
 ## Target Achievement Tracking
 
+### Vision Model Accuracy Targets
+
 | # | Target/Goal | Achieved | Progress | Notes |
 |---|-------------|----------|----------|-------|
-| **Vision Model Accuracy Targets** |
 | 1 | Screw Tilt Detection: ≥ 98% accuracy, FN not acceptable | ❌ False | 0% | Validation pending |
 | 2 | Screw Hole Detection: ≥ 99% accuracy, FP not acceptable | ❌ False | 0% | Validation pending |
 | 3 | Rubber Foot Detection: ≥ 99% accuracy, FP ≤ 10/1000 | ❌ False | 0% | Validation pending |
 | 4 | Printer Contour Detection: Multi-pipeline (TM + YOLO) with rescanning | ❌ False | 60% | Integration in progress |
-| **Automation & Registration** |
+
+### Automation & Registration
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 5 | Full automation of product registration | ❌ False | 80% | GUI issues being resolved |
 | 6 | Printer contour detection (semi-automatic acceptable) | ❌ False | 70% | In progress |
-| **Model Retraining** |
+
+### Model Retraining
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 7 | All models support retraining for new products | ❌ False | 0% | Not validated |
 | 8 | Self-training time ≤ 20 minutes per product | ❌ False | 0% | Not validated |
 | 9 | Automatic evaluation after retraining | ❌ False | 0% | Not validated |
-| **Validation & Testing** |
+
+### Validation & Testing
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 10 | Minimum 100 products per product type validated | ❌ False | 0% | Dataset collection pending |
 | 11 | Vision model validation reports completed | ❌ False | 30% | In progress (Rizwan) |
 | 12 | Cycle time validation for all robots | ❌ False | 25% | Rubber Foot: ~28 sec (done), Screw Robot: pending |
-| **System Integration** |
+
+### System Integration
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 13 | Robot teaching completed for all systems | ❌ False | 50% | Rubber Foot: done, Screw Robot: in progress |
 | 14 | Vision model integration completed | ❌ False | 60% | Integration in progress |
 | 15 | Rescan logic tested and validated | ❌ False | 40% | Needs testing |
-| **Documentation & Handover** |
+
+### Documentation & Handover
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 16 | Handover documentation package complete | ❌ False | 0% | Not started yet (Kwanghyeop) |
 | 17 | Equipment inventory with serial numbers | ❌ False | 0% | Not started yet |
 | 18 | 3D parts list complete | ❌ False | 60% | In progress (Muazzam, Ammad) |
@@ -112,11 +133,19 @@ The demo is successful if:
 | 20 | Maintenance guide complete | ❌ False | 0% | Not started yet (part of handover package) |
 | 21 | Vision system documentation complete | ❌ False | 0% | Not started yet (part of handover package) |
 | 22 | Network diagram complete | ❌ False | 0% | Not started yet |
-| **Hardware & Installation** |
+
+### Hardware & Installation
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 23 | All hardware installed and operational | ❌ False | 85% | Screw Driver Robot fingers pending |
 | 24 | Pad holding bracket fixed (Rubber Foot Robot) | ❌ False | 0% | Broken, needs replacement |
 | 25 | All safety equipment installed | ❌ False | 90% | Safety fences received, installation pending |
-| **Overall Project Status** |
+
+### Overall Project Status
+
+| # | Target/Goal | Achieved | Progress | Notes |
+|---|-------------|----------|----------|-------|
 | 26 | All acceptance criteria met | ❌ False | 35% | Multiple targets pending |
 | 27 | Demo readiness achieved | ❌ False | 30% | Validation, testing, and documentation in progress |
 
