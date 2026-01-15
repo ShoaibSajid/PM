@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 15, 2026 (Updated from Jan 15 chat)  
+**Last Updated:** January 15, 2026 (Updated from Jan 15 19:48 chat)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -41,11 +41,11 @@
 ```
 📁 HIGH PRIORITY ISSUES
 │
-├── 🟡 ⏳ Fix GUI freezing issue
-│   └── Owner: Jalol | Status: Reported Jan 14, needs investigation | Affects workflow
+├── 🟡 ⏳ Fix GUI freezing/halt and slow issues (Label Printer)
+│   └── Owner: Jalol | Status: Tuning codes, will push after testing (Jan 15) | Affects workflow
 │
 ├── 🟡 ⏳ Create Excel file - GUI tasks and issues status
-│   └── Owner: Jalol | Deadline: Jan 15, 2026 | Status: Requested Jan 14
+│   └── Owner: Jalol | Deadline: Jan 15, 2026 | Status: In progress, adding GUI & vision columns
 │
 ├── 🟡 ⏳ Collect dataset for vision model testing
 │   └── Owner: Rizwan, Shams, Tugi, Hieu | Status: Waiting for stable operation | Blocks validation
@@ -59,8 +59,14 @@
 ├── 🟡 ⏳ 3D parts list
 │   └── Owner: Muazzam, Ammad | Status: In progress | Critical for tracking components
 │
-├── 🟡 ⏳ Complete Screw Driver Robot fingers (Fairino)
-│   └── Owner: Ammad, Myeongun | Status: Only base ready, fingers pending | Blocks Fairino usage
+├── 🟡 ⏳ Maintain 3D components tracking list (requested/printed/handed over)
+│   └── Owner: Myeongun | Status: Requested Jan 15 | Track all 3D component requests
+│
+├── 🟡 ⏳ Complete Screw Driver Robot fingers (Fairino) - Design review
+│   └── Owner: Ammad, Myeongun | Status: Design review in progress, needs changes (screw position, plate thickness, bendable sheet) | Blocks Fairino usage
+│
+├── 🟡 ⏳ Finish test bench for Label Printer systems (remaining models)
+│   └── Owner: Tan | Status: In progress | Need to finish remaining models
 │
 └── 🟡 ⏳ Define list of targets for Everint project acceptance
     └── Owner: Saad, Odil | Deadline: Friday | Status: Requested Jan 14
@@ -74,7 +80,7 @@
 📁 IMPORTANT ISSUES
 │
 └── 🟢 ⏳ Complete handover documentation package
-    └── Owner: Kwanghyeop | Status: Tasks in Asana, work in progress | Includes: ops manual, maintenance, equipment lists, vision details
+    └── Owner: Kwanghyeop | Status: Working on final govt document first, then will start (Jan 15) | Includes: ops manual, maintenance, equipment lists, vision details
     └── Additional: Jalol creating registration guide, Sawera preparing manuals
 ```
 
@@ -88,8 +94,14 @@
 ├── 📋 ⏳ Review and respond to assigned Asana tasks
 │   └── Owner: All team members | Status: Requested Jan 14
 │
-└── 📋 ⏳ Capture production data for vision model validation
-    └── Owner: Vision team, Robot team | Status: Waiting for stable operation
+├── 📋 ⏳ Capture production data for vision model validation
+│   └── Owner: Vision team, Robot team | Status: Waiting for stable operation
+│
+├── 📋 ⏳ Request samples for Label Printer (XD3-40d, XD5-40d)
+│   └── Owner: Kwanghyeop | Status: Need to request from manager | For tomorrow's production testing
+│
+└── 📋 ⏳ Vision status update
+    └── Owner: Rizwan | Status: Follow-up requested Jan 15 | Vision integration status summary
 ```
 
 ---
@@ -112,7 +124,7 @@
 │   └── Owner: Kwanghyeop | Status: Needs shared file | Safety covers, equipment, delivery dates
 │
 ├── 🔍 ⏳ 3D printed parts inventory
-│   └── Owner: Muazzam | Status: Requested | Components list, materials, spare parts status
+│   └── Owner: Muazzam, Myeongun | Status: In progress | Components list, materials, spare parts status, tracking requested/printed/handed over
 │
 ├── 🔍 ⏳ Operation manual completeness
 │   └── Owner: Kwanghyeop, team | Status: Part of handover | Startup, operation, shutdown procedures
@@ -198,7 +210,10 @@
 │
 ├── 📅 January 15, 2026
 │   ├── Vision integration status summary (Rizwan)
-│   └── GUI issues Excel file (Jalol)
+│   └── GUI issues Excel file (Jalol) - adding GUI & vision columns
+│
+├── 📅 January 20, 2026
+│   └── PCB production resumes (no production till 20th)
 │
 ├── 📅 Friday (target)
 │   └── Meet Everint project acceptance targets
