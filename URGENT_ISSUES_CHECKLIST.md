@@ -371,8 +371,20 @@
 ├── ⚠️ Documentation Completion → Handover
 │   └── Multiple documentation tasks in parallel | Mitigation: Assign clear owners, track progress
 │
-└── ⚠️ GUI Issues → Product Registration
-    └── Affects operational workflow | Mitigation: Prioritize critical GUI fixes
+├── ⚠️ GUI Issues → Product Registration
+│   └── Affects operational workflow | Mitigation: GUI fixes completed (Jan 16)
+│
+├── ⚠️ Conveyor Position Error → Cycle Time Impact
+│   └── Position error 1-1.5 cm resolved but cycle time increased from 4s to 6s | Mitigation: Need better solution
+│
+├── ⚠️ Reference Images → Detection Accuracy
+│   └── Reference images need recapture for all products (FR3 holding vs pressing arm) | Mitigation: Priority task
+│
+├── ⚠️ Production Readiness → Government Report
+│   └── Must run 100 products smoothly by Monday afternoon | Mitigation: Weekend shifts scheduled
+│
+└── ⚠️ Hardware Spares → Production Continuity
+    └── Need sufficient spares for Fairino fingers and 3D printed parts | Mitigation: Spares preparation in progress
 ```
 
 ---
@@ -382,15 +394,22 @@
 ```
 📁 UPCOMING DEADLINES
 │
-├── 📅 January 15, 2026
-│   ├── Vision integration status summary (Rizwan)
-│   └── GUI issues Excel file (Jalol) - adding GUI & vision columns
+├── 📅 Monday, January 20, 2026 (CRITICAL)
+│   └── Run 100 LB printers without stopping by Monday afternoon | Required for government report submission
+│
+├── 📅 Monday Morning Shift (Jan 20)
+│   └── Run system continuously for 200+ products, prepare for demo, fix remaining tasks (no hardware/code changes)
+│
+├── 📅 Monday Evening Shift (Jan 20, 4PM-5PM)
+│   └── Run 100+ products within target cycle time
+│
+├── 📅 Weekend Shifts (Jan 18-19)
+│   ├── Saturday afternoon: Hieu (Screw robot), Shams/Quy Ninh (Vision), Tung (Equipment serial numbers)
+│   ├── Sunday morning: Ammad (Fix robots, hardware check, install buzzers), Tan (Run system), Jalol (Finalize GUI)
+│   └── Sunday evening: Shoaib, Tugi (Finalize rubber robot), Muazzam (Hardware, spares), Haider Shah (Rubber models)
 │
 ├── 📅 January 20, 2026
 │   └── PCB production resumes (no production till 20th)
-│
-├── 📅 Friday (target)
-│   └── Meet Everint project acceptance targets
 │
 └── 📅 Ongoing
     └── Handover documentation (Kwanghyeop)
