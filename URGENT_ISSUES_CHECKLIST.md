@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 17, 2026 (Based on Jan 16-17 chat updates)  
+**Last Updated:** January 17, 2026 (Evening - Based on priority lists and Jan 17 updates)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -30,20 +30,59 @@
 ├── 🔴 ⏳ Complete 2D camera hardware installation
 │   └── Owner: Muazzam, Ammad | Status: Hardware installation incomplete | Blocks full system functionality
 │
-├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
-│   └── Owner: Hieu, Rizwan | Status: Tuning parameters in progress (Jan 16) | Blocks production
+├── 🔴 ⏳ Fix screw speed issue - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Blocks cycle time
 │
-├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot)
+├── 🔴 ⏳ Perform screw validation 2 times from different angles - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Increases cycle time but improves accuracy
+│
+├── 🔴 ⏳ Display error messages - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Required for production monitoring
+│
+├── 🔴 ⏳ Provide dataset for 20+ runs to vision team - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Path only, for XD5-40D
+│
+├── 🔴 ⏳ Perform hand eye calibration - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Blocks placement accuracy
+│
+├── 🔴 ⏳ Calibrate placement position - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi, Muazzam | Status: CRITICAL for Monday demo | Blocks correct placement
+│
+├── 🔴 ⏳ Get robot to place rubber foot in correct position - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Blocks production quality
+│
+├── 🔴 ⏳ Display error messages - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Required for production monitoring
+│
+├── 🔴 ⏳ Send last 2 days dataset to vision team - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Path only
+│
+├── 🔴 ⏳ Integrate new vision code PR - Both systems
+│   └── Owner: Hieu, Rizwan | Status: PR ready, needs integration to Hieu-second branch, solve conflicts | Blocks new features
+│
+├── 🔴 ⏳ Register XD5-40D with new code - Both systems
+│   └── Owner: Hieu, Tugi | Status: References changed due to new gripper fingers | CRITICAL for Monday demo (950EA production)
+│
+├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
+│   └── Owner: Hieu, Rizwan | Status: Multiple false positive/negative cases identified (Jan 17) | Blocks production
+│
+├── 🔴 ⏳ Fix tilted screw issue - Label Printer Screw Robot (2nd Priority)
+│   └── Owner: Ammad | Status: Install plastic plate, vertical plates, second magnet/spring | Blocks reliability
+│
+├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot) (2nd Priority)
 │   └── Owner: Tugi | Status: Pending testing | Affects reliability
 │
-├── 🔴 ⏳ Self Training update - Label Printer Screw Robot
-│   └── Owner: Rizwan | Status: In progress (Jan 16) | Self training update needed
+├── 🔴 ⏳ Integrate rescan logic - Label Printer Rubber Foot Robot (2nd Priority)
+│   └── Owner: Tugi | Status: Pending integration | Affects reliability
+│
+├── 🔴 ⏳ Integrate rubber pad pickup offset - Label Printer Rubber Foot Robot (2nd Priority)
+│   └── Owner: Tugi | Status: Pending integration | Affects pickup accuracy
 │
 ├── 🔴 ⏳ Recapture reference images for all products (FR3 holding, not pressing arm)
-│   └── Owner: Tugi, Hieu, Odil | Status: Reference images need update due to FR3 holding method change | Blocks accurate detection
+│   └── Owner: Tugi, Hieu, Odil | Status: References changed due to new gripper fingers | Blocks accurate detection
 │
-├── 🔴 ⏳ Display error/warning on failure (rubber foot attachment, missed rubber foot, failed to screw, etc.)
-│   └── Owner: Hieu, Tugi, Jalol | Status: Required for production monitoring | Critical for quality control
+├── 🔴 ⏳ Conveyor position adjustment / fix (1st Priority)
+│   └── Owner: Ammad | Status: CRITICAL for Monday demo | Affects product positioning
 │
 ├── 🔴 ⏳ Confirm cycle time - Label Printer Screw Robot
 │   └── Owner: Hieu, Saad | Status: Pending | Cycle time validation pending
@@ -63,6 +102,24 @@
 │
 ├── 🔴 ✅ Self Training update - Label Printer Rubber Foot Robot
 │   └── Owner: Rizwan | Status: Complete | Self training update done
+│
+├── 🔴 ✅ Self training merged and tested - Label Printer Screw Robot
+│   └── Owner: Hieu, Rizwan | Status: Complete (Jan 17) | Tested for 1 printer registration
+│
+├── 🔴 ✅ Auto registration process working - Label Printer Screw Robot
+│   └── Owner: Quy Ninh | Status: Complete (Jan 17) | Working on screwdriver robot
+│
+├── 🔴 ✅ Conveyor teaching completed
+│   └── Owner: Hieu | Status: Complete (Jan 17) | Manager finished teaching
+│
+├── 🔴 ✅ Screw driver replacement
+│   └── Owner: Hieu | Status: Complete (Jan 17) | Replaced wobbling screw driver
+│
+├── 🔴 ✅ 3D printed spares ordered (2 sets FR3 fingers, RubberPad Base Plate, Scooping Fingers)
+│   └── Owner: Myeongun | Status: Complete (Jan 17) | 2 sets (4ea) with 100% infill base
+│
+└── 🔴 ✅ JRT gripper prepared as backup
+    └── Owner: Muazzam | Status: Complete (Jan 17) | Backup gripper ready
 ```
 
 ---
@@ -78,11 +135,38 @@
 ├── 🟡 ⏳ Method to overcome irregularities in rubber foot shape
 │   └── Owner: Tugi | Status: Need solution for irregular rubber foot shape | Affects attachment quality
 │
-├── 🟡 ⏳ Install buzzers for error/warning display
-│   └── Owner: Ammad | Status: Need to install | Required for production monitoring
+├── 🟡 ⏳ Speed up robot movements to meet cycle time - Label Printer Screw Robot (3rd Priority)
+│   └── Owner: Hieu | Status: After 1st priority tasks | Blocks cycle time targets
 │
-├── 🟡 ⏳ Bring one more 100% infill Fairino finger base from lab
-│   └── Owner: Ammad, Muazzam, Myeongun | Status: Need spares | Critical for production continuity
+├── 🟡 ⏳ Integrate self-training model - Label Printer Screw Robot (3rd Priority)
+│   └── Owner: Hieu | Status: Merged, needs full integration | In progress
+│
+├── 🟡 ⏳ Speed up movements to meet cycle time - Label Printer Rubber Foot Robot (3rd Priority)
+│   └── Owner: Tugi, Shoaib | Status: After 1st priority tasks | Blocks cycle time targets
+│
+├── 🟡 ⏳ Integrate self training logic - Label Printer Rubber Foot Robot (3rd Priority)
+│   └── Owner: Tugi | Status: After 1st priority tasks | In progress
+│
+├── 🟡 ⏳ Install buzzers for error/warning display (2nd Priority)
+│   └── Owner: Muazzam, Ammad | Status: Need to install | Required for production monitoring
+│
+├── 🟡 ⏳ Redesign fingers for Fairino to improve gripping (2nd Priority)
+│   └── Owner: Saad, Myeongun | Status: Need metal/inward bent fingers | Critical for production quality
+│
+├── 🟡 ⏳ Install screw feeder plate in plastic - Label Printer Screw Robot (2nd Priority)
+│   └── Owner: Ammad | Status: Fix tilted screw issue | Blocks reliability
+│
+├── 🟡 ⏳ Install vertical plates to make screws straight - Label Printer Screw Robot (2nd Priority)
+│   └── Owner: Ammad, Hieu | Status: Fix tilted screw issue | Blocks reliability
+│
+├── 🟡 ⏳ Install second magnet/spring on screw bit - Label Printer Screw Robot (2nd Priority)
+│   └── Owner: Ammad | Status: Fix tilted screw issue | Blocks reliability
+│
+├── 🟡 ⏳ Integrate buzzer alarm - Both systems (3rd Priority)
+│   └── Owner: Ammad, Hieu, Tugi | Status: After 1st priority tasks | Required for production monitoring
+│
+├── 🟡 ⏳ Installation of remaining hardware according to government report (3rd Priority)
+│   └── Owner: Muazzam, Ammad | Status: After 1st priority tasks | Required for full functionality
 │
 ├── 🟡 ⏳ Install all cameras and equipment from hardware purchase list
 │   └── Owner: Muazzam, Ammad | Status: 2D camera pending | Required for full functionality
@@ -97,7 +181,34 @@
 │   └── Owner: Shams, Odil | Status: New task assigned (Jan 17) | Critical for product positioning
 │
 ├── 🟡 ⏳ Finalize GUI for PCB/Screw/Rubber
-│   └── Owner: Jalol | Status: In progress (Jan 16) | Deadline: Sunday morning shift
+│   └── Owner: Jalol | Status: Delay non-urgent tasks, finish urgent issues for Monday demo | Deadline: Sunday morning shift
+│
+├── 🟡 ⏳ Fix self training file saving issue
+│   └── Owner: Haider Shah | Status: File saved to wrong folder, use os.path, fix path format | Blocks proper saving
+│
+├── 🟡 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
+│   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
+│
+├── 🟡 ⏳ Use Omron camera to detect mis-attachment of rubber foot
+│   └── Owner: Odil, Rizwan | Status: RealSense may not give clean view, Omron can provide better detection | After camera installation
+│
+├── 🟡 ⏳ Train lightweight detector for product presence (Omron camera)
+│   └── Owner: Odil | Status: Check if product is present and within safe gripping area | After camera installation
+│
+├── 🟡 ⏳ Organize images in cleaner format (product folder structure)
+│   └── Owner: Odil, Shoaib | Status: Currently 5-6 images per product, arrange in product ID folders | Improves organization
+│
+├── 🟡 ⏳ Fix screw validation logic (range and tilt angle)
+│   └── Owner: Hieu, Haider Shah | Status: Multiple false positive/negative cases, need range-based logic | Blocks production
+│
+├── 🟡 ⏳ Use start/abort signal from conveyor PLC
+│   └── Owner: Saad | Status: Combine with vision to determine if no printer | After camera installation
+│
+├── 🟡 ⏳ Prepare checkerboards and Aruco codes for calibration
+│   └── Owner: Tan | Status: Print two more checkerboards and two Aruco codes | For calibration support
+│
+├── 🟡 ⏳ Bring new ethernet cables from lab
+│   └── Owner: Ammad | Status: Current one not stable, sometimes disconnects | Blocks stable connection
 │
 ├── 🟡 ⏳ Ensure spares for each 3D printed part
 │   └── Owner: Muazzam, Myeongun | Status: In progress | Critical for production continuity
@@ -266,16 +377,7 @@
 │
 ├── 🔍 ⏳ Maintenance guide
 │   └── Owner: Kwanghyeop, team | Status: Part of handover | Preventive maintenance, troubleshooting
-│
-├── 🔍 ⏳ Support and escalation information
-│   └── Owner: Shoaib, Kwanghyeop | Status: Needs definition | Contacts, escalation paths, ownership
-│
-├── 🔍 ⏳ Vision model validation reports
-│   └── Owner: Vision team | Status: In progress | 10-20 product tests, accuracy, failure analysis
-│
-├── 🔍 ⏳ Cycle time validation reports
-│   └── Owner: Robot team, Saad | Status: Pending | Documented times, comparison vs targets
-│
+
 ├── 🔍 ⏳ End-to-end system testing
 │   └── Owner: Team leads | Status: Needs scheduling | Full cycle testing, integration testing
 │
@@ -294,26 +396,8 @@
 ├── 🔍 ⏳ Network infrastructure setup
 │   └── Owner: Kwanghyeop, Everint IT | Status: Requested, pending response | LAN connection, wifi router
 │
-├── 🔍 ⏳ Hardware delivery tracking
-│   └── Owner: Kwanghyeop | Status: Needs tracking system | Safety covers, pending equipment
-│
-├── 🔍 ⏳ Daily/weekly status summary
-│   └── Owner: Team leads | Status: May need regular cadence | Progress, blockers, next steps
-│
-├── 🔍 ⏳ Issue tracking system
-│   └── Owner: Project coordination | Status: Excel requested, needs maintenance | Centralized log, resolution
-│
-├── 🔍 ⏳ Production metrics tracking
-│   └── Owner: Robot team, Backend | Status: Some data available | Success rates, cycle times, failure analysis
-│
-├── 🔍 ⏳ Vision model performance metrics
-│   └── Owner: Vision team | Status: Needs validation reports | Detection accuracy, false positive/negative rates
-│
 ├── 🔍 ⏳ Clear acceptance criteria definition
 │   └── Owner: Saad, Odil | Status: Requested Jan 14 | What is "done", measurable targets
-│
-└── 🔍 ⏳ Evidence collection
-    └── Owner: All teams | Status: In progress | Test results, validation reports, performance metrics
 ```
 
 ---
@@ -356,18 +440,21 @@
 📁 UPCOMING DEADLINES
 │
 ├── 📅 Monday, January 20, 2026 (CRITICAL)
-│   └── Run 100 LB printers without stopping by Monday afternoon | Required for government report submission
+│   └── Run 100 LB printers (XD5-40D, 950EA) without stopping by Monday afternoon | Manager arrives 4PM to turn on conveyor | Required for government report submission
 │
 ├── 📅 Monday Morning Shift (Jan 20)
-│   └── Run system continuously for 200+ products, prepare for demo, fix remaining tasks (no hardware/code changes)
+│   └── Run system continuously for 200+ products, prepare for demo, fix remaining tasks (no hardware/code changes) | Team: Tan, Ammad, Muazzam, Shams, Haider Shah
 │
 ├── 📅 Monday Evening Shift (Jan 20, 4PM-5PM)
-│   └── Run 100+ products within target cycle time
+│   └── Run 100+ products within target cycle time | Manager arrives 4PM | Team: Hieu, Tugi, Rizwan, Shoaib
 │
 ├── 📅 Weekend Shifts (Jan 18-19)
-│   ├── Saturday afternoon: Hieu (Screw robot), Shams/Quy Ninh (Vision), Tung (Equipment serial numbers)
-│   ├── Sunday morning: Ammad (Fix robots, hardware check, install buzzers), Tan (Run system), Jalol (Finalize GUI)
-│   └── Sunday evening: Shoaib, Tugi (Finalize rubber robot), Muazzam (Hardware, spares), Haider Shah (Rubber models)
+│   ├── Saturday afternoon: Hieu (Screw robot), Tugi (Rubber foot robot), Quy Ninh (Check vision models, help running, organize dataset)
+│   ├── Sunday morning: Ammad (Fix robots, hardware check, install buzzers), Muazzam (Hardware, spares), Tan (Run system), Jalol (Finalize GUI, warning mechanism), Shams (Vision support)
+│   └── Sunday evening: Shoaib, Rizwan (Vision integration), Tugi (Finalize rubber robot), Haider Shah (Rubber models)
+│
+├── 📅 Demo Preparation Meeting (Jan 18, 12PM Noon)
+│   └── Basement & by Zoom | Finalize demo preparation
 │
 ├── 📅 January 20, 2026
 │   └── PCB production resumes (no production till 20th)
