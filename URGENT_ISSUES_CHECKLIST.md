@@ -96,9 +96,6 @@
 ├── 🟡 ⏳ Analyze Omron camera images to detect wrong displacement of printers (after camera installation)
 │   └── Owner: Shams, Odil | Status: New task assigned (Jan 17) | Critical for product positioning
 │
-├── 🟡 ⏳ Verify screw pickup and tilt detection accuracy
-│   └── Owner: Rizwan, Odil | Status: Need further verification | Blocks production readiness
-│
 ├── 🟡 ⏳ Finalize GUI for PCB/Screw/Rubber
 │   └── Owner: Jalol | Status: In progress (Jan 16) | Deadline: Sunday morning shift
 │
@@ -219,35 +216,17 @@
 ├── 📋 ⏳ Capture production data for vision model validation
 │   └── Owner: Vision team, Robot team | Status: Waiting for stable operation
 │
-├── 📋 ⏳ Request samples for Label Printer (XD3-40d, XD5-40d)
+├── 📋 ⏳ Request samples for Label Printer 
 │   └── Owner: Kwanghyeop | Status: Need to request from manager | For production testing
 │
 ├── 📋 ⏳ Request black body products for testing
 │   └── Owner: Kwanghyeop | Status: Requested (Jan 16), pending manager approval | Needed for comprehensive testing
 │
-├── 📋 ⏳ Order LED/Buzzer for warning/error
-│   └── Owner: Ammad | Status: In progress | Need to order (buzzers to be installed Sunday morning)
-│
 ├── 📋 ⏳ Order one more metal mesh for the rubber foot
 │   └── Owner: Myeongun | Status: In progress | Need to order
 │
-├── 📋 ⏳ Assembly Process Product Image
-│   └── Owner: Samrah | Status: In progress | Image processing needed
-│
 ├── 📋 ⏳ Test nail gripper and roller mechanism
 │   └── Owner: Muazzam | Status: Pending | Needs testing
-│
-├── 📋 ⏳ [screw] Rubber Pad Pickup
-│   └── Owner: Muazzam | Status: In progress | Needs completion
-│
-├── 📋 ⏳ [screw] Conveyor Shakes when robot moves
-│   └── Owner: Ammad | Status: Needs investigation | Investigate and resolve
-│
-├── 📋 ⏳ [screw] Investigate Collision when robot A move up
-│   └── Owner: Ammad | Status: Needs investigation | Investigate and resolve
-│
-├── 📋 ⏳ [screw] Wiring Feedback for screw driver
-│   └── Owner: Ammad | Status: In progress | Needs completion
 │
 ├── 📋 ⏳ [screw] Robot finger with spring mechanism for PCB robot
 │   └── Owner: Ammad | Status: In progress | Needs completion
@@ -255,27 +234,9 @@
 ├── 📋 ⏳ Prepare cushion support using profiles, joints, and install on top
 │   └── Owner: Ammad | Status: In progress | Needs installation
 │
-├── 📋 ⏳ [screw] Finalize the error list and events for LB-Screw
-│   └── Owner: Hieu | Status: In progress | Needs finalization
-│
-├── 📋 ⏳ [screw] Collect data and provide to vision team for tilted printer
-│   └── Owner: Hieu | Status: In progress | Need to collect and provide data
-│
 ├── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
 │   └── Owner: Kwanghyeop | Status: In progress | Needs completion
-│
-├── 📋 ⏳ Vision status update
-│   └── Owner: Rizwan | Status: Follow-up requested Jan 15 | Vision integration status summary
-│
-│
-├── 📋 ✅ Review and respond to assigned Asana tasks
-│   └── Owner: All team members | Status: Multiple tasks completed (Asana)
-│
-├── 📋 ✅ Purchase Acrylic boundary for label printer table
-│   └── Owner: Myeongun | Status: Completed (Asana) | Purchased
-│
-└── 📋 ✅ Purchase Acrylic boundary for PCB table
-    └── Owner: Myeongun | Status: Completed (Asana) | Purchased
+
 ```
 
 ---
