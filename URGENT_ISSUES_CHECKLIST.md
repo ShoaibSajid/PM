@@ -13,7 +13,7 @@
 📁 CRITICAL ISSUES
 │
 ├── 🔴 ⏳ Fix rubber foot attachment position error (Rubber Foot Robot)
-│   └── Owner: Tugi, Rizwan, Odil | Status: Multiple contributing factors (vision variations, calibration, robot repeatability, suction cup, irregular rubber shape) | Blocks production quality
+│   └── Owner: Tugi | Status: Multiple contributing factors (vision variations, calibration, robot repeatability, suction cup, irregular rubber shape) | Blocks production quality
 │
 ├── 🔴 ⏳ Fix fragile Fairino fingers bending when gripping (Both systems)
 │   └── Owner: Ammad, Myeongun | Status: Fingers bend when gripping product | Solution: Use metal/inward bent fingers
@@ -25,7 +25,7 @@
 │   └── Owner: Hieu, Ammad | Status: Robot speed needs investigation | Blocks cycle time
 │
 ├── 🔴 ⏳ Investigate and fix screw pickup tilting
-│   └── Owner: Hieu, Rizwan, Ammad | Status: Likely magnetism and long screw issue | Solution: Consider replacing feeder's rotating plate with plastic
+│   └── Owner: Hieu, Ammad | Status: Likely magnetism and long screw issue | Solution: Consider replacing feeder's rotating plate with plastic
 │
 ├── 🔴 ⏳ Complete 2D camera hardware installation
 │   └── Owner: Muazzam, Ammad | Status: Hardware installation incomplete | Blocks full system functionality
@@ -45,6 +45,12 @@
 ├── 🔴 ⏳ Display error/warning on failure (rubber foot attachment, missed rubber foot, failed to screw, etc.)
 │   └── Owner: Hieu, Tugi, Jalol | Status: Required for production monitoring | Critical for quality control
 │
+├── 🔴 ⏳ Confirm cycle time - Label Printer Screw Robot
+│   └── Owner: Hieu, Saad | Status: Pending | Cycle time validation pending
+│
+└── 🔴 ⏳ Confirm cycle time - Label Printer Rubber Foot Robot
+    └── Owner: Tugi, Saad | Status: Pending | Cycle time validation pending
+│
 │
 ├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
 │   └── Owner: Hieu | Status: Complete (Jan 15) | Robot teaching done
@@ -52,17 +58,11 @@
 ├── 🔴 ✅ Vision integration - Label Printer Screw Robot
 │   └── Owner: Hieu, Rizwan | Status: Complete (Jan 15) | Vision integration done
 │
-├── 🔴 ✅ Confirm cycle time - Label Printer Screw Robot
-│   └── Owner: Hieu, Saad | Status: Complete (Jan 15) | Cycle time validation done
-│
 ├── 🔴 ✅ Fix pad holding bracket - Label Printer Rubber Foot Robot
 │   └── Owner: Tugi | Status: Complete | Bracket installed
 │
 ├── 🔴 ✅ Self Training update - Label Printer Rubber Foot Robot
 │   └── Owner: Rizwan | Status: Complete | Self training update done
-│
-└── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
-    └── Owner: Tugi, Saad | Status: Complete | Cycle time validation done
 ```
 
 ---
@@ -73,16 +73,16 @@
 📁 HIGH PRIORITY ISSUES
 │
 ├── 🟡 ⏳ Improve calibration accuracy (Rubber Foot Robot)
-│   └── Owner: Tugi, Rizwan, Odil | Status: Needed to reduce position error | Critical for attachment accuracy
+│   └── Owner: Tugi | Status: Needed to reduce position error | Critical for attachment accuracy
 │
 ├── 🟡 ⏳ Method to overcome irregularities in rubber foot shape
-│   └── Owner: Tugi, Rizwan, Odil | Status: Need solution for irregular rubber foot shape | Affects attachment quality
+│   └── Owner: Tugi | Status: Need solution for irregular rubber foot shape | Affects attachment quality
 │
 ├── 🟡 ⏳ Install buzzers for error/warning display
 │   └── Owner: Ammad | Status: Need to install | Required for production monitoring
 │
 ├── 🟡 ⏳ Bring one more 100% infill Fairino finger base from lab
-│   └── Owner: Ammad, Myeongun | Status: Need spares | Critical for production continuity
+│   └── Owner: Ammad, Muazzam, Myeongun | Status: Need spares | Critical for production continuity
 │
 ├── 🟡 ⏳ Install all cameras and equipment from hardware purchase list
 │   └── Owner: Muazzam, Ammad | Status: 2D camera pending | Required for full functionality
@@ -93,7 +93,7 @@
 ├── 🟡 ⏳ Maintain history of detection sizes for tighter bboxes
 │   └── Owner: Rizwan, Haider Shah | Status: Need to maintain average of last n detections | Improves detection accuracy
 │
-├── 🟡 ⏳ Analyze Omron camera images to detect wrong displacement of printers
+├── 🟡 ⏳ Analyze Omron camera images to detect wrong displacement of printers (after camera installation)
 │   └── Owner: Shams, Odil | Status: New task assigned (Jan 17) | Critical for product positioning
 │
 ├── 🟡 ⏳ Verify screw pickup and tilt detection accuracy
