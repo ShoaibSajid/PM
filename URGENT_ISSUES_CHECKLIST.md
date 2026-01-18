@@ -171,14 +171,8 @@
 ├── 🟡 ⏳ Redesign fingers for Fairino to improve gripping (2nd Priority)
 │   └── Owner: Saad, Myeongun | Status: Need metal/inward bent fingers | Critical for production quality
 │
-├── 🟡 ⏳ Install screw feeder plate in plastic - Label Printer Screw Robot (2nd Priority)
-│   └── Owner: Ammad | Status: Fix tilted screw issue | Blocks reliability
-│
 ├── 🟡 ⏳ Install vertical plates to make screws straight - Label Printer Screw Robot (2nd Priority)
-│   └── Owner: Ammad, Hieu | Status: Fix tilted screw issue | Blocks reliability
-│
-├── 🟡 ⏳ Install second magnet/spring on screw bit - Label Printer Screw Robot (2nd Priority)
-│   └── Owner: Ammad | Status: Fix tilted screw issue | Blocks reliability
+│   └── Owner: Ammad, Hieu | Status: Not done (Jan 17) | Blocks reliability
 │
 ├── 🟡 ⏳ Integrate buzzer alarm - Both systems (3rd Priority)
 │   └── Owner: Ammad, Hieu, Tugi | Status: After 1st priority tasks | Required for production monitoring
@@ -200,12 +194,6 @@
 │
 ├── 🟡 ⏳ Finalize GUI for PCB/Screw/Rubber
 │   └── Owner: Jalol | Status: Delay non-urgent tasks, finish urgent issues for Monday demo | Deadline: Sunday morning shift
-│
-├── 🟡 ⏳ Fix GUI registration bug (saving SVG issue) - Both systems
-│   └── Owner: Jalol | Status: Random bug prevents saving annotation results | CRITICAL - Blocks product registration
-│
-├── 🟡 ⏳ Fix self training file saving issue
-│   └── Owner: Haider Shah | Status: File saved to wrong folder, use os.path, fix path format | Blocks proper saving
 │
 ├── 🟡 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
 │   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
