@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 17, 2026 (Evening - Based on priority lists and Jan 17 updates)  
+**Last Updated:** January 18, 2026 (Based on Jan 17-18 updates)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -31,31 +31,31 @@
 │   └── Owner: Muazzam, Ammad | Status: Hardware installation incomplete | Blocks full system functionality
 │
 ├── 🔴 ⏳ Fix screw speed issue - Label Printer Screw Robot (1st Priority)
-│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Blocks cycle time
-│
-├── 🔴 ⏳ Perform screw validation 2 times from different angles - Label Printer Screw Robot (1st Priority)
-│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Increases cycle time but improves accuracy
+│   └── Owner: Hieu, Ammad | Status: Robot slows when timeout/abort signal, suspected clean_up function issue, needs control box restart | CRITICAL - Blocks cycle time
 │
 ├── 🔴 ⏳ Display error messages - Label Printer Screw Robot (1st Priority)
-│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Required for production monitoring
+│   └── Owner: Hieu | Status: In progress (Jan 17) | CRITICAL for Monday demo
 │
-├── 🔴 ⏳ Provide dataset for 20+ runs to vision team - Label Printer Screw Robot (1st Priority)
-│   └── Owner: Hieu | Status: CRITICAL for Monday demo | Path only, for XD5-40D
+├── 🔴 ⏳ Fix GUI registration bug (saving SVG issue) - Both systems
+│   └── Owner: Jalol | Status: Random bug prevents saving annotation results, blocks registration | CRITICAL - Only 2 products registered (XD5-40D, XD3-40D)
 │
-├── 🔴 ⏳ Perform hand eye calibration - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Blocks placement accuracy
+├── 🔴 ⏳ Register all products with new code - Both systems
+│   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D) due to GUI bug | CRITICAL for Monday demo
+│
+├── 🔴 ⏳ Fix self training file saving issue (path format)
+│   └── Owner: Haider Shah | Status: File saved to wrong folder, named with full path, use os.path | Blocks proper saving
+│
+├── 🔴 ⏳ Fix robot speed in timeout/collision (clean_up function)
+│   └── Owner: Ammad | Status: Dump robot's system variables at start and after slowdown for analysis | CRITICAL - Blocks cycle time
 │
 ├── 🔴 ⏳ Calibrate placement position - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi, Muazzam | Status: CRITICAL for Monday demo | Blocks correct placement
+│   └── Owner: Tugi, Muazzam, Tan | Status: Hand eye calibration done (Jan 17), needs fine-tuning check (Jan 18) | CRITICAL for Monday demo
 │
 ├── 🔴 ⏳ Get robot to place rubber foot in correct position - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Blocks production quality
+│   └── Owner: Tugi | Status: Hand eye calibration done, tuning parameters in progress | CRITICAL for Monday demo
 │
-├── 🔴 ⏳ Display error messages - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Required for production monitoring
-│
-├── 🔴 ⏳ Send last 2 days dataset to vision team - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi | Status: CRITICAL for Monday demo | Path only
+├── 🔴 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
+│   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
 │
 ├── 🔴 ⏳ Integrate new vision code PR - Both systems
 │   └── Owner: Hieu, Rizwan | Status: PR ready, needs integration to Hieu-second branch, solve conflicts | Blocks new features
@@ -64,10 +64,10 @@
 │   └── Owner: Hieu, Tugi | Status: References changed due to new gripper fingers | CRITICAL for Monday demo (950EA production)
 │
 ├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
-│   └── Owner: Hieu, Rizwan | Status: Multiple false positive/negative cases identified (Jan 17) | Blocks production
+│   └── Owner: Hieu, Haider Shah, Rizwan | Status: Multiple false positive/negative cases (Jan 17), PR merged but didn't solve, needs range-based logic instead of strict "and" | Blocks production
 │
 ├── 🔴 ⏳ Fix tilted screw issue - Label Printer Screw Robot (2nd Priority)
-│   └── Owner: Ammad | Status: Install plastic plate, vertical plates, second magnet/spring | Blocks reliability
+│   └── Owner: Ammad | Status: Adjusted pickup position, added magnet (seems better), plastic plate installed but uninstalled (not working), vertical plates not done | In progress
 │
 ├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot) (2nd Priority)
 │   └── Owner: Tugi | Status: Pending testing | Affects reliability
@@ -103,17 +103,35 @@
 ├── 🔴 ✅ Self Training update - Label Printer Rubber Foot Robot
 │   └── Owner: Rizwan | Status: Complete | Self training update done
 │
+├── 🔴 ✅ Provide dataset for 20+ runs to vision team - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu | Status: Complete (Jan 17) | XD5-40dc images captured and shared
+│
+├── 🔴 ✅ Perform hand eye calibration - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: Complete (Jan 17) | Calibration done, parameters tuned
+│
+├── 🔴 ✅ Send last 2 days dataset to vision team - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi, Quy Ninh | Status: Complete (Jan 17) | Dataset with rubber foot partially attached uploaded to NAS
+│
+├── 🔴 ✅ Display error messages - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: Complete (Jan 17) | Error/warning message display code implemented (GUI reset needed)
+│
 ├── 🔴 ✅ Self training merged and tested - Label Printer Screw Robot
-│   └── Owner: Hieu, Rizwan | Status: Complete (Jan 17) | Tested for 1 printer registration
+│   └── Owner: Hieu, Rizwan | Status: Complete (Jan 17) | Tested for 1 printer registration (file saving issue identified)
 │
 ├── 🔴 ✅ Auto registration process working - Label Printer Screw Robot
 │   └── Owner: Quy Ninh | Status: Complete (Jan 17) | Working on screwdriver robot
 │
 ├── 🔴 ✅ Conveyor teaching completed
-│   └── Owner: Hieu | Status: Complete (Jan 17) | Manager finished teaching
+│   └── Owner: Hieu | Status: Complete (Jan 17) | Manager finished teaching (took longer due to issues)
 │
 ├── 🔴 ✅ Screw driver replacement
-│   └── Owner: Hieu | Status: Complete (Jan 17) | Replaced wobbling screw driver
+│   └── Owner: Hieu | Status: Complete (Jan 17) | Replaced wobbling screw driver with new one
+│
+├── 🔴 ✅ Install second magnet/spring on screw bit - Label Printer Screw Robot (2nd Priority)
+│   └── Owner: Ammad, Hieu | Status: Complete (Jan 17) | Silver magnet on screw bit, orange magnet in box
+│
+├── 🔴 ✅ Fixed move up logic when abort/timeout - Label Printer Screw Robot
+│   └── Owner: Hieu | Status: Complete (Jan 17) | Fixed logic when abort signal or timeout while fastening screws
 │
 ├── 🔴 ✅ 3D printed spares ordered (2 sets FR3 fingers, RubberPad Base Plate, Scooping Fingers)
 │   └── Owner: Myeongun | Status: Complete (Jan 17) | 2 sets (4ea) with 100% infill base
@@ -138,8 +156,8 @@
 ├── 🟡 ⏳ Speed up robot movements to meet cycle time - Label Printer Screw Robot (3rd Priority)
 │   └── Owner: Hieu | Status: After 1st priority tasks | Blocks cycle time targets
 │
-├── 🟡 ⏳ Integrate self-training model - Label Printer Screw Robot (3rd Priority)
-│   └── Owner: Hieu | Status: Merged, needs full integration | In progress
+├── 🟡 ✅ Integrate self-training model - Label Printer Screw Robot (3rd Priority)
+│   └── Owner: Hieu | Status: Complete (Jan 17) | Self training integrated and tested
 │
 ├── 🟡 ⏳ Speed up movements to meet cycle time - Label Printer Rubber Foot Robot (3rd Priority)
 │   └── Owner: Tugi, Shoaib | Status: After 1st priority tasks | Blocks cycle time targets
@@ -183,11 +201,17 @@
 ├── 🟡 ⏳ Finalize GUI for PCB/Screw/Rubber
 │   └── Owner: Jalol | Status: Delay non-urgent tasks, finish urgent issues for Monday demo | Deadline: Sunday morning shift
 │
+├── 🟡 ⏳ Fix GUI registration bug (saving SVG issue) - Both systems
+│   └── Owner: Jalol | Status: Random bug prevents saving annotation results | CRITICAL - Blocks product registration
+│
 ├── 🟡 ⏳ Fix self training file saving issue
 │   └── Owner: Haider Shah | Status: File saved to wrong folder, use os.path, fix path format | Blocks proper saving
 │
 ├── 🟡 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
 │   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
+│
+├── 🟡 ⏳ Fix conveyor operation guide
+│   └── Owner: Ammad, Tan | Status: Guide created (Jan 18), need to ensure proper operation | Affects system operation
 │
 ├── 🟡 ⏳ Use Omron camera to detect mis-attachment of rubber foot
 │   └── Owner: Odil, Rizwan | Status: RealSense may not give clean view, Omron can provide better detection | After camera installation
@@ -332,6 +356,9 @@
 │
 ├── 📋 ⏳ Request black body products for testing
 │   └── Owner: Kwanghyeop | Status: Requested (Jan 16), pending manager approval | Needed for comprehensive testing
+│
+├── 📋 ⏳ Request more XD5-40D samples for testing
+│   └── Owner: Kwanghyeop | Status: Only 1 XD5-40D received (others were different models) | Needed for Monday demo preparation
 │
 ├── 📋 ⏳ Order one more metal mesh for the rubber foot
 │   └── Owner: Myeongun | Status: In progress | Need to order
