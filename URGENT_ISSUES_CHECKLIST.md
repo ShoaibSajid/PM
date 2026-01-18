@@ -33,14 +33,11 @@
 ├── 🔴 ⏳ Fix screw speed issue - Label Printer Screw Robot (1st Priority)
 │   └── Owner: Hieu, Ammad | Status: Robot slows when timeout/abort signal, suspected clean_up function issue, needs control box restart | CRITICAL - Blocks cycle time
 │
-├── 🔴 ⏳ Display error messages - Label Printer Screw Robot (1st Priority)
-│   └── Owner: Hieu | Status: In progress (Jan 17) | CRITICAL for Monday demo
-│
-├── 🔴 ⏳ Fix GUI registration bug (saving SVG issue) - Both systems
-│   └── Owner: Jalol | Status: Random bug prevents saving annotation results, blocks registration | CRITICAL - Only 2 products registered (XD5-40D, XD3-40D)
+├── 🔴 ⏳ Fix manual registration issue - Both systems (1st Priority)
+│   └── Owner: Jalol | Status: Work on this first, before auto registration bug | CRITICAL for Monday demo
 │
 ├── 🔴 ⏳ Register all products with new code - Both systems
-│   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D) due to GUI bug | CRITICAL for Monday demo
+│   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
 │
 ├── 🔴 ⏳ Fix self training file saving issue (path format)
 │   └── Owner: Haider Shah | Status: File saved to wrong folder, named with full path, use os.path | Blocks proper saving
@@ -112,8 +109,11 @@
 ├── 🔴 ✅ Send last 2 days dataset to vision team - Label Printer Rubber Foot Robot (1st Priority)
 │   └── Owner: Tugi, Quy Ninh | Status: Complete (Jan 17) | Dataset with rubber foot partially attached uploaded to NAS
 │
+├── 🔴 ✅ Display error messages - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu, Tugi | Status: Complete (Jan 17) | Error/warning message display code implemented, Jalol needs to make changes
+│
 ├── 🔴 ✅ Display error messages - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi | Status: Complete (Jan 17) | Error/warning message display code implemented (GUI reset needed)
+│   └── Owner: Tugi | Status: Complete (Jan 17) | Error/warning message display code implemented, Jalol needs to make changes (GUI reset needed)
 │
 ├── 🔴 ✅ Self training merged and tested - Label Printer Screw Robot
 │   └── Owner: Hieu, Rizwan | Status: Complete (Jan 17) | Tested for 1 printer registration (file saving issue identified)
@@ -194,6 +194,9 @@
 │
 ├── 🟡 ⏳ Finalize GUI for PCB/Screw/Rubber
 │   └── Owner: Jalol | Status: Delay non-urgent tasks, finish urgent issues for Monday demo | Deadline: Sunday morning shift
+│
+├── 🟡 ⏳ Make changes to error message display (GUI side) - Both systems
+│   └── Owner: Jalol | Status: Hieu and Tugi completed framework side, Jalol needs to make GUI changes | CRITICAL for Monday demo
 │
 ├── 🟡 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
 │   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
@@ -335,6 +338,9 @@
 
 ```
 📁 FOLLOW-UP REQUIRED
+│
+├── 📋 ⏳ Fix auto registration GUI bug (saving SVG issue) - Both systems
+│   └── Owner: Jalol | Status: Random bug prevents saving annotation results, blocks registration | Do later (not today), after manual registration issue fixed
 │
 ├── 📋 ⏳ Capture production data for vision model validation
 │   └── Owner: Vision team, Robot team | Status: Waiting for stable operation
