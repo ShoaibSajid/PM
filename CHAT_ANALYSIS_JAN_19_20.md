@@ -14,21 +14,20 @@ This document summarizes key updates, completed tasks, new tasks, and pending it
 ## ✅ Completed Tasks (Jan 19-20)
 
 ### Screw Robot (Hieu, Ammad, Muazzam)
-1. **Screw pickup issue resolved** - Adjusted pickup speed, filed screw bit to make it fit perfectly with phillips head, lowered checking position (big help from Ammad and Muazzam)
-2. **Holes detection fixed** - Fixed by changing reference image for XD5-40dc (with Shams)
-3. **Model 2 screw validation code updated** - Updated and tested, model2's owner needs to distinguish some fail cases that have same detection as normal
-4. **Removed moveXB** - Removed when moving to fastening position to avoid non-reaching issue
-5. **Adjusted fastening angle** - Adjusted fastening angle of screw driver
-6. **Robot speed issue** - Reset control box helped, need further observation (Ammad)
+1. **Screw pickup issue resolved** - Adjusted pickup speed, filed screw bit for better fit, lowered checking position (Owner: Hieu, Ammad, Muazzam)
+2. **Holes detection fixed** - Fixed by changing reference image for XD5-40dc (Owner: Hieu, Shams)
+3. **Model 2 screw validation code updated** - Updated and tested, some fail cases need tuning (Owner: Hieu)
+4. **Removed moveXB when moving to fastening position** - Removed to avoid non-reaching issue (Owner: Hieu)
+5. **Adjusted fastening angle of screw driver** - Angle adjusted for better fastening (Owner: Hieu)
 
 ### Rubber Foot Robot (Tugi)
-1. **Changed vacuum suction cup spring** - Replaced with thicker one
-2. **Vacuum gripper operation restored** - Previously air was leaking inside, now fixed
-3. **Vacuum box cleaned and sealed** - Cleaned debris inside vacuum box and sealed properly, suction improved
-4. **Rescan logic tested** - Tested with latest code, rolled back due to issues, vision team working on fixes
+1. **Changed vacuum suction cup spring (thicker one)** - Spring replaced with thicker one (Owner: Tugi)
+2. **Vacuum gripper operation restored** - Previously air was leaking inside, now fixed (Owner: Tugi)
+3. **Vacuum box cleaned and sealed** - Cleaned debris inside vacuum box and sealed properly, suction improved (Owner: Tugi)
+4. **Rescan logic tested** - Tested with latest code, rolled back due to issues, PR #129 merged for improvements (Owner: Tugi, Rizwan)
 
 ### Vision Team (Rizwan, Shams, Haider Shah)
-1. **Vision PRs merged** - PR #125, #126, #129 merged for rubber foot attachment and detection improvements
+1. **Vision PRs merged for rubber foot detection improvements** - PR #125, #126, #129 merged for rubber foot attachment and detection improvements (Owner: Rizwan, Tugi)
    - Added logic to handle 'extracted_bbox' drawing on annotated_image
    - Updated decision logic for handling 'H' and 'R' labels
    - Improved rescan_completed flag calculation
@@ -37,7 +36,10 @@ This document summarizes key updates, completed tasks, new tasks, and pending it
    - Resolved indexing issue with rubber foot attachment
 
 ### Hardware (Myeongun)
-1. **Fairino fingers Option B printed** - All Option B fingers printed
+1. **Fairino fingers Option B printed** - All Option B fingers printed (Owner: Myeongun)
+
+### Note on Robot Speed Issue
+- **Robot speed issue** - Reset control box helped (Jan 19), but needs further observation. This is NOT fully complete, still marked as pending in urgent issues checklist.
 
 ---
 
