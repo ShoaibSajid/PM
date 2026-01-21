@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 20, 2026 (Based on Jan 19-20 updates)  
+**Last Updated:** January 21, 2026 (Based on Jan 21 updates)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -13,7 +13,7 @@
 📁 CRITICAL ISSUES
 │
 ├── 🔴 ⏳ Fix rubber foot attachment position error (Rubber Foot Robot)
-│   └── Owner: Tugi | Status: Multiple contributing factors (vision variations, calibration, robot repeatability, suction cup, irregular rubber shape) | Blocks production quality
+│   └── Owner: Tugi, Rizwan | Status: Attachment incorrect in most trials, stopped operating rubber foot robot (Jan 21), constant offset applied but still unsatisfactory | CRITICAL - Blocks production
 │
 ├── 🔴 ⏳ Fix fragile Fairino fingers bending when gripping (Both systems)
 │   └── Owner: Ammad, Myeongun | Status: Fingers bend when gripping product | Solution: Use metal/inward bent fingers
@@ -89,16 +89,43 @@
 │
 │
 ├── 🔴 ⏳ Fix state machine execution issues (Multiple command queue, screwpick missing)
-│   └── Owner: Ammad, Hieu | Status: Multiple commands queued in one state or at stop signal commands not cleared, screwpick missing due to Xb_J (Jan 20) | CRITICAL - Blocks production
+│   └── Owner: Ammad, Hieu | Status: Race condition issue pointed out and fixed (Jan 21), state machine issue resolved | CRITICAL - Blocks production
 │
-├── 🔴 ⏳ Fix printer tilt forward/backward after release (Screw Robot)
-│   └── Owner: Ammad, Hieu | Status: Printer tilts after release by screw robot, can cause issue for rubber foot robot | CRITICAL - Affects downstream process
+├── 🔴 ⏳ Fix printer tilt - depth based angle adjustment while screwing (Screw Robot)
+│   └── Owner: Ammad, Hieu | Status: Printer is tilted, causing bit offset after each screwing causing pick miss, also screw robot reset timeout (Jan 21) | CRITICAL - Urgent/Important
 │
 ├── 🔴 ⏳ Fix issues when start signal comes before completing cycle
 │   └── Owner: Hieu, Ammad | Status: Identified (Jan 19-20) | CRITICAL - Can cause state machine issues
 │
 ├── 🔴 ⏳ Fix screw validation for model 2 (distinguish fail cases with same detection as normal)
 │   └── Owner: Haider Shah, Hieu | Status: Model 2 owner needs to distinguish some fail cases that have same detection as normal (Jan 19-20) | Blocks production
+│
+├── 🔴 ⏳ Fix false negative in screw tilt detection
+│   └── Owner: Haider Shah, Hieu | Status: FN in screw tilt detection causing screw bit to screw with tilted screw (Jan 21) | CRITICAL - Causes quality issues
+│
+├── 🔴 ⏳ Fix screw bit mis-grip issue (strikes screw head with force, remains stuck on edge)
+│   └── Owner: Ammad, Hieu | Status: Screw bit frequently mis-grips screw, bit strikes screw head with force, strong magnetic attraction keeps screw stuck on edge (Jan 21) | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ Fix screw bit drift away from pickup position
+│   └── Owner: Ammad, Hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ Fix rubber foot attachment incorrect in most trials
+│   └── Owner: Tugi, Rizwan | Status: Rubber foot attachment incorrect in most trials, stopped operating rubber foot robot (Jan 21) | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ No spares for finger present
+│   └── Owner: Myeongun, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Blocks production continuity
+│
+├── 🔴 ⏳ New metal finger are not assembled & tested
+│   └── Owner: Muazzam, Ammad | Status: Urgent/Important (Jan 21) | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ Find a way to drop screw near pick position (electromagnet)
+│   └── Owner: Ammad, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Improves reliability
+│
+├── 🔴 ⏳ Install dedicated bracket for screw mirror (fixed and repeatable position)
+│   └── Owner: Muazzam, Ammad | Status: Magnetic base bracket unstable due to vibration, dedicated bracket required (Jan 21) | CRITICAL - Mirror critical for detecting tilts
+│
+├── 🔴 ⏳ Fix PCB robot PC turned off during process
+│   └── Owner: Ammad, Kwanghyeop | Status: PC turned off during process, robot stopped (Jan 21) | CRITICAL - System stability issue
 │
 ├── 🔴 ⏳ Fix left side blur and brightness issue in camera images
 │   └── Owner: Rizwan, Hieu | Status: Left side of image seems blur and has lesser brightness (Jan 19) | Blocks accurate detection
@@ -190,6 +217,45 @@
 │
 └── 🔴 ✅ Vision PRs merged for rubber foot detection improvements
     └── Owner: Rizwan, Tugi | Status: Complete (Jan 19) | PR #125, #126, #129 merged for rubber foot attachment and detection improvements
+│
+├── 🔴 ✅ State machine race condition fixed - Label Printer Screw Robot
+│   └── Owner: Hieu | Status: Complete (Jan 21) | Race condition issue pointed out and fixed
+│
+├── 🔴 ✅ State machine issue resolved - Label Printer Screw Robot
+│   └── Owner: Ammad | Status: Complete (Jan 21) | State machine issue resolved
+│
+├── 🔴 ✅ Screw pick improvement & troubleshooting - Label Printer Screw Robot
+│   └── Owner: Ammad | Status: Complete (Jan 21) | Troubleshooting why in test bench work but assembly misses screw
+│
+├── 🔴 ✅ Speeding of xb to feeder and from feeder - Label Printer Screw Robot
+│   └── Owner: Ammad | Status: Complete (Jan 21) | Movement speed optimized
+│
+├── 🔴 ✅ Addition of image capture before gripper using camera - Label Printer Screw Robot
+│   └── Owner: Ammad, Hieu | Status: Complete (Jan 21) | Sending MQTT msg to capture image from Omron camera
+│
+├── 🔴 ✅ Addition of buzzer to inform system start and finished - Label Printer Screw Robot
+│   └── Owner: Ammad | Status: Complete (Jan 21) | Buzzer added to inform system status
+│
+├── 🔴 ✅ Addition of screw tilt mirror - Label Printer Screw Robot
+│   └── Owner: Ammad | Status: Complete (Jan 21) | Mirror added (temporary magnetic base, needs dedicated bracket)
+│
+├── 🔴 ✅ Improved logic when picking screw for next cycle - Label Printer Screw Robot
+│   └── Owner: Hieu | Status: Complete (Jan 21) | Logic improved
+│
+├── 🔴 ✅ Optimized movements - Label Printer Screw Robot
+│   └── Owner: Hieu | Status: Complete (Jan 21) | Still using move XB but always use moveL to target points
+│
+├── 🔴 ✅ Scoop image feature after scooping rubber foot - Label Printer Rubber Foot Robot
+│   └── Owner: Tan | Status: Complete (Jan 20) | Move home => save image again, path: Data/scoop_images/Datetime
+│
+├── 🔴 ✅ Recent Images manager feature - Label Printer Rubber Foot Robot
+│   └── Owner: Tan | Status: Almost complete (Jan 20) | Save recent image and svg in recent folder, need to filter type of image
+│
+├── 🔴 ✅ Omron camera vision system implemented - Collision detection
+│   └── Owner: Ghulam Muhammd | Status: Complete (Jan 21) | Robot-triggered top-camera vision system to detect collisions, cycle time ~50ms
+│
+└── 🔴 ✅ Production run - 60+ products assembled
+    └── Owner: Hieu, Ammad | Status: Complete (Jan 21) | Product ran in continuous sessions, total more than 60 (4 carts)
 ```
 
 ---
@@ -289,8 +355,38 @@
 ├── 🟡 ⏳ Take rubber pad pictures every cycle and after scooping / integrate rubber pad offset
 │   └── Owner: Tugi, Rizwan | Status: From CustomPendingTasks | Required for vision model improvement
 │
+├── 🟡 ⏳ Bit alignment jig after screwing (improvisation oiling and spring insertion)
+│   └── Owner: Ammad, Muazzam | Status: Remaining task (Jan 21) | Improve bit alignment
+│
+├── 🟡 ⏳ Addition of add_command parameter XB motion different blending types and blending distance option
+│   └── Owner: Ammad | Status: Remaining task (Jan 21) | Framework improvement
+│
+├── 🟡 ⏳ Addition of one extra linear point to blend distance zero so it reaches actual position
+│   └── Owner: Ammad | Status: Remaining task (Jan 21) | Framework improvement
+│
+├── 🟡 ⏳ Addition of add_command function parameter for setting each motion tolerance
+│   └── Owner: Ammad | Status: Remaining task (Jan 21) | Framework improvement - set different tolerances for different motions
+│
+├── 🟡 ⏳ Increasing speed of Fairino robot up and down
+│   └── Owner: Ammad | Status: Remaining task (Jan 21) | Performance improvement
+│
+├── 🟡 ⏳ Screw feeder empty issue
+│   └── Owner: Ammad, Muazzam | Status: Remaining task (Jan 21) | Handle empty feeder condition
+│
+├── 🟡 ⏳ Duration based signal stop
+│   └── Owner: Ammad | Status: Remaining task (Jan 21) | Important - Signal handling improvement
+│
+├── 🟡 ⏳ Reduce cycle time, find area to improve
+│   └── Owner: Hieu, Ammad | Status: Remaining task (Jan 21) | Performance optimization
+│
+├── 🟡 ⏳ Pause functionality (debugging and saving product from damage)
+│   └── Owner: Ammad, Hieu | Status: Remaining task (Jan 21) | Important - Safety feature
+│
+├── 🟡 ⏳ Conveyor signal testing - magnetic switch on pneumatic
+│   └── Owner: Ammad, Hieu | Status: Magnetic switch on pneumatic used at set position but set to max reach point (Jan 21) | Signal handling
+│
 ├── 🟡 ⏳ Work on identifying the state machine race condition
-│   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks (Jan 20), related to multiple command queue issue | Debug state machine issues
+│   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks (Jan 20), race condition fixed (Jan 21) | Debug state machine issues
 │
 ├── 🟡 ⏳ Fix screw validation logic (range and tilt angle)
 │   └── Owner: Hieu, Haider Shah | Status: Multiple false positive/negative cases, need range-based logic | Blocks production
