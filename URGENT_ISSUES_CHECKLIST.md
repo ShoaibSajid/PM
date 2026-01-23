@@ -12,157 +12,76 @@
 ```
 📁 CRITICAL ISSUES
 │
-├── 🔴 ⏳ Fix rubber foot attachment position error (Rubber Foot Robot)
-│   └── Owner: Tugi, Rizwan | Status: Attachment incorrect in most trials, stopped operating rubber foot robot (Jan 21), constant offset applied but still unsatisfactory | CRITICAL - Blocks production
+│ ┌─ REGISTRATION & SETUP (Highest Priority for Demo) ─┐
+│ │
+│ ├── 🔴 ⏳ Fix manual registration issue - Both systems (1st Priority)
+│ │   └── Owner: Jalol | Status: GUI registration issue exists, Jalol fixing (Jan 22), Hieu did manual registration using existing name (SLP-DL413 instead of SLP-DX220) | CRITICAL for Monday demo
+│ │
+│ ├── 🔴 ⏳ Register all products with new code - Both systems
+│ │   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
+│ │
+│ └──────────────────────────────────────────────────────┘
 │
-├── 🔴 ⏳ Fix fragile Fairino fingers bending when gripping (Both systems)
-│   └── Owner: Ammad, Myeongun | Status: Fingers bend when gripping product | Solution: Use metal/inward bent fingers
+│ ┌─ HARDWARE & MECHANICAL (Blocks Production) ─┐
+│ │
+│ ├── 🔴 ⏳ Fix printer tilt - depth based angle adjustment while screwing (Screw Robot)
+│ │   └── Owner: Ammad, Hieu | Status: Printer is tilted, causing bit offset after each screwing causing pick miss, also screw robot reset timeout (Jan 21) | CRITICAL - Urgent/Important
+│ │
+│ ├── 🔴 ⏳ Fix screw bit drift away from pickup position
+│ │   └── Owner: Ammad, Hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
+│ │
+│ ├── 🔴 ⏳ Fix metal finger spacing issue
+│ │   └── Owner: Myeongun, Muazzam | Status: Spacing not correct for fingers (Jan 22), need to add plastic sheet or thin flat washer | CRITICAL - Blocks production
+│ │
+│ ├── 🔴 ⏳ No spares for finger present
+│ │   └── Owner: Myeongun, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Blocks production continuity
+│ │
+│ ├── 🔴 ⏳ Install dedicated bracket for screw mirror (fixed and repeatable position)
+│ │   └── Owner: Muazzam, Ammad | Status: Magnetic base bracket unstable due to vibration, dedicated bracket required (Jan 21) | CRITICAL - Mirror critical for detecting tilts
+│ │
+│ ├── 🔴 ⏳ Complete 2D camera hardware installation
+│ │   └── Owner: Muazzam, Ammad | Status: Hardware installation incomplete | Blocks full system functionality
+│ │
+│ ├── 🔴 ⏳ Request continuous roll rubber pad sheets (8xN instead of 8x8)
+│ │   └── Owner: Kwanghyeop, Shoaib | Status: Current small sheets cause jam in roller area, need continuous roll for smooth operation (Jan 22) | CRITICAL - Improves reliability
+│ │
+│ ├── 🔴 ⏳ Conveyor position adjustment / fix (1st Priority)
+│ │   └── Owner: Ammad | Status: CRITICAL for Monday demo | Affects product positioning
+│ │
+│ ├── 🔴 ⏳ Fix out of place product on conveyor causing collision
+│ │   └── Owner: Ammad, Hieu | Status: Products misaligned causing collision/damage | Solution: Use top camera to detect product within acceptable zone
+│ │
+│ └──────────────────────────────────────────────────────┘
 │
-├── 🔴 ⏳ Fix out of place product on conveyor causing collision
-│   └── Owner: Ammad, Hieu | Status: Products misaligned causing collision/damage | Solution: Use top camera to detect product within acceptable zone
+│ ┌─ VISION & DETECTION (Blocks Production Quality) ─┐
+│ │
+│ ├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
+│ │   └── Owner: Hieu, Haider Shah, Rizwan | Status: Model 2 screw validation updated (Jan 19-20), 1-2 false negatives remain, Sajad fixing | Blocks production
+│ │
+│ ├── 🔴 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
+│ │   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
+│ │
+│ ├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot) (2nd Priority)
+│ │   └── Owner: Tugi | Status: Tested (Jan 19-20), rolled back due to issues, vision team working on fixes | Affects reliability
+│ │
+│ ├── 🔴 ⏳ Integrate rubber pad pickup offset - Label Printer Rubber Foot Robot (2nd Priority)
+│ │   └── Owner: Tugi | Status: Pending integration | Affects pickup accuracy
+│ │
+│ ├── 🔴 ⏳ Integrate Omron camera vision system (top camera) - Screw Robot
+│ │   └── Owner: Ghulam Muhammd, Hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
+│ │
+│ ├── 🔴 ⏳ Integrate misalignment warning for rubber foot attachment
+│ │   └── Owner: Rizwan, Tugi | Status: Misalignment argument already shared, initial version added and returned during inference but not currently used by robot side (Jan 22) | CRITICAL - Quality control
+│ │
+│ └──────────────────────────────────────────────────────┘
 │
-├── 🔴 ⏳ Debug screwdriver robot moving slow
-│   └── Owner: Hieu, Ammad | Status: Robot speed needs investigation | Blocks cycle time
-│
-├── 🔴 ⏳ Investigate and fix screw pickup tilting
-│   └── Owner: Hieu, Ammad | Status: Likely magnetism and long screw issue | Solution: Consider replacing feeder's rotating plate with plastic
-│
-├── 🔴 ⏳ Complete 2D camera hardware installation
-│   └── Owner: Muazzam, Ammad | Status: Hardware installation incomplete | Blocks full system functionality
-│
-├── 🔴 ⏳ Fix screw speed issue - Label Printer Screw Robot (1st Priority)
-│   └── Owner: Hieu, Ammad | Status: Reset control box helped (Jan 19), need further observation | CRITICAL - Blocks cycle time
-│
-├── 🔴 ⏳ Fix manual registration issue - Both systems (1st Priority)
-│   └── Owner: Jalol | Status: GUI registration issue exists, Jalol fixing (Jan 22), Hieu did manual registration using existing name (SLP-DL413 instead of SLP-DX220) | CRITICAL for Monday demo
-│
-├── 🔴 ⏳ Register all products with new code - Both systems
-│   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
-│
-├── 🔴 ⏳ Fix self training file saving issue (path format)
-│   └── Owner: Haider Shah | Status: File saved to wrong folder, named with full path, use os.path | Blocks proper saving
-│
-├── 🔴 ⏳ Fix robot speed in timeout/collision (clean_up function)
-│   └── Owner: Ammad | Status: Dump robot's system variables at start and after slowdown for analysis | CRITICAL - Blocks cycle time
-│
-├── 🔴 ⏳ Calibrate placement position - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi, Muazzam, Tan | Status: Hand eye calibration done (Jan 17), needs fine-tuning check (Jan 18) | CRITICAL for Monday demo
-│
-├── 🔴 ⏳ Get robot to place rubber foot in correct position - Label Printer Rubber Foot Robot (1st Priority)
-│   └── Owner: Tugi | Status: Hand eye calibration done, tuning parameters in progress | CRITICAL for Monday demo
-│
-├── 🔴 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
-│   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
-│
-├── 🔴 ⏳ Integrate new vision code PR - Both systems
-│   └── Owner: Hieu, Rizwan | Status: PR ready, needs integration to Hieu-second branch, solve conflicts | Blocks new features
-│
-├── 🔴 ⏳ Register XD5-40D with new code - Both systems
-│   └── Owner: Hieu, Tugi | Status: References changed due to new gripper fingers | CRITICAL for Monday demo (950EA production)
-│
-├── 🔴 ⏳ Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)
-│   └── Owner: Hieu, Haider Shah, Rizwan | Status: Model 2 screw validation updated (Jan 19-20), 1-2 false negatives remain, Sajad fixing | Blocks production
-│
-├── 🔴 ⏳ Fix tilted screw issue - Label Printer Screw Robot (2nd Priority)
-│   └── Owner: Ammad, Hieu | Status: Screw pickup improved (Jan 19-20) - adjusted pickup speed, filed screw bit for better fit, lowered checking position | In progress
-│
-├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot) (2nd Priority)
-│   └── Owner: Tugi | Status: Tested (Jan 19-20), rolled back due to issues, vision team working on fixes | Affects reliability
-│
-├── 🔴 ⏳ Integrate rescan logic - Label Printer Rubber Foot Robot (2nd Priority)
-│   └── Owner: Tugi, Rizwan | Status: Tested (Jan 19-20), rolled back, PR #129 merged for improvements, needs re-integration | Affects reliability
-│
-├── 🔴 ⏳ Integrate rubber pad pickup offset - Label Printer Rubber Foot Robot (2nd Priority)
-│   └── Owner: Tugi | Status: Pending integration | Affects pickup accuracy
-│
-├── 🔴 ⏳ Recapture reference images for all products (FR3 holding, not pressing arm)
-│   └── Owner: Tugi, Hieu, Odil | Status: Holes detection fixed for XD5-40dc (Jan 19-20), reference updated by Shams | Blocks accurate detection
-│
-├── 🔴 ⏳ Conveyor position adjustment / fix (1st Priority)
-│   └── Owner: Ammad | Status: CRITICAL for Monday demo | Affects product positioning
-│
-├── 🔴 ⏳ Confirm cycle time - Label Printer Screw Robot
-│   └── Owner: Hieu, Saad | Status: Pending | Cycle time validation pending
-│
-└── 🔴 ⏳ Confirm cycle time - Label Printer Rubber Foot Robot
-    └── Owner: Tugi, Saad | Status: 30s including rescan/validation (Jan 19) | Cycle time validation pending
-│
-│
-├── 🔴 ⏳ Fix state machine execution issues (Multiple command queue, screwpick missing)
-│   └── Owner: Ammad, Hieu | Status: Race condition issue pointed out and fixed (Jan 21), state machine issue resolved | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Fix printer tilt - depth based angle adjustment while screwing (Screw Robot)
-│   └── Owner: Ammad, Hieu | Status: Printer is tilted, causing bit offset after each screwing causing pick miss, also screw robot reset timeout (Jan 21) | CRITICAL - Urgent/Important
-│
-├── 🔴 ⏳ Fix issues when start signal comes before completing cycle
-│   └── Owner: Hieu, Ammad | Status: Identified (Jan 19-20) | CRITICAL - Can cause state machine issues
-│
-├── 🔴 ⏳ Fix screw validation for model 2 (distinguish fail cases with same detection as normal)
-│   └── Owner: Haider Shah, Hieu | Status: Model 2 owner needs to distinguish some fail cases that have same detection as normal (Jan 19-20) | Blocks production
-│
-├── 🔴 ⏳ Fix false negative in screw tilt detection
-│   └── Owner: Haider Shah, Hieu | Status: FN in screw tilt detection causing screw bit to screw with tilted screw (Jan 21) | CRITICAL - Causes quality issues
-│
-├── 🔴 ⏳ Fix screw bit mis-grip issue (strikes screw head with force, remains stuck on edge)
-│   └── Owner: Ammad, Hieu | Status: Screw bit frequently mis-grips screw, bit strikes screw head with force, strong magnetic attraction keeps screw stuck on edge (Jan 21) | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Fix screw bit drift away from pickup position
-│   └── Owner: Ammad, Hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Fix rubber foot attachment incorrect 
-│   └── Owner: Tugi, Rizwan | Status: Need extensive testing with latest updated code (Jan 22), pad pickup failure observed 6 times out of 6 sheets tested | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ No spares for finger present
-│   └── Owner: Myeongun, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Blocks production continuity
-│
-├── 🔴 ⏳ New metal finger are not assembled & tested
-│   └── Owner: Muazzam, Ammad | Status: Metal gripper finger prepared with foam and green tape (Jan 22), spacing not correct, not tested yet | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Find a way to drop screw near pick position (electromagnet)
-│   └── Owner: Ammad, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Improves reliability
-│
-├── 🔴 ⏳ Install dedicated bracket for screw mirror (fixed and repeatable position)
-│   └── Owner: Muazzam, Ammad | Status: Magnetic base bracket unstable due to vibration, dedicated bracket required (Jan 21) | CRITICAL - Mirror critical for detecting tilts
-│
-├── 🔴 ✅ Fix PCB robot PC turned off during process
-│   └── Owner: Ammad, Kwanghyeop | Status: PC turned off during process, robot stopped (Jan 21) | CRITICAL - System stability issue - Solved
-│
-├── 🔴 ⏳ Fix left side blur and brightness issue in camera images
-│   └── Owner: Rizwan, Hieu | Status: Left side of image seems blur and has lesser brightness (Jan 19) | Blocks accurate detection
-│
-├── 🔴 ⏳ Add printer config files to different folder to prevent overwriting during PR merge
-│   └── Owner: Hieu | Status: Requested by Rizwan (Jan 19) | Prevents config loss during merges
-│
-├── 🔴 ⏳ Fix pad pickup failure - Label Printer Rubber Foot Robot
-│   └── Owner: Tugi, Muazzam | Status: Pad pickup failure observed 6 times out of 6 sheets tested (Jan 22) | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Fix claw scooping issue - first row plastic sheet not going under nail
-│   └── Owner: Tugi, Muazzam | Status: Claw scooping first row has issue with plastic sheet not going under nail causing wrinkles, need to contact manufacturer to lengthen one side (Jan 22) | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Request continuous roll rubber pad sheets (8xN instead of 8x8)
-│   └── Owner: Kwanghyeop, Shoaib | Status: Current small sheets cause jam in roller area, need continuous roll for smooth operation (Jan 22) | CRITICAL - Improves reliability
-│
-├── 🔴 ⏳ Fix Rainbow control box bugs (PWM and gripper speed/force adjustment)
-│   └── Owner: Kwanghyeop, Ammad | Status: PWM didn't work, gripper speed/force can't be adjusted until control box restarted (Jan 22) | CRITICAL - System stability issue
-│
-├── 🔴 ⏳ Fix metal finger spacing issue
-│   └── Owner: Myeongun, Muazzam | Status: Spacing not correct for fingers (Jan 22), need to add plastic sheet or thin flat washer | CRITICAL - Blocks production
-│
-├── 🔴 ⏳ Integrate Omron camera vision system (top camera) - Screw Robot
-│   └── Owner: Ghulam Muhammd, Hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
-│
-├── 🔴 ⏳ Integrate misalignment warning for rubber foot attachment
-│   └── Owner: Rizwan, Tugi | Status: Misalignment argument already shared, initial version added and returned during inference but not currently used by robot side (Jan 22) | CRITICAL - Quality control
-│
-├── 🔴 ⏳ Ensure GUI parameter stability (values remain unchanged)
-│   └── Owner: Jalol, Sawera | Status: Need to ensure GUI parameters remain unchanged during operation and across execution cycles (Jan 22) | CRITICAL - System stability
-│
-├── 🔴 ⏳ Retrain model after metal finger change
-│   └── Owner: Hieu, Vision team | Status: Changed to metal fingers, model needs to be trained again (Jan 22) | CRITICAL - Blocks accurate detection
-│
-│
-├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
-│   └── Owner: Hieu | Status: Complete (Jan 15) | Robot teaching done
+│ ┌─ SOFTWARE & SYSTEM STABILITY ─┐
+│ │
+│ ├── 🔴 ⏳ Ensure GUI parameter stability (values remain unchanged)
+│ │   └── Owner: Jalol, Sawera | Status: Need to ensure GUI parameters remain unchanged during operation and across execution cycles (Jan 22) | CRITICAL - System stability
+│ │
+│ └──────────────────────────────────────────────────────┘
+```
 │
 ├── 🔴 ✅ Vision integration - Label Printer Screw Robot
 │   └── Owner: Hieu, Rizwan | Status: Complete (Jan 15) | Vision integration done
@@ -313,6 +232,96 @@
 │
 └── 🔴 ✅ Attached scooping claw on suction gripper and tested - Label Printer Rubber Foot Robot
     └── Owner: Tugi | Status: Complete (Jan 22) | Tested scoop and rubber pickup
+│
+├── 🔴 ✅ Fix rubber foot attachment position error (Rubber Foot Robot)
+│   └── Owner: Tugi, Rizwan | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix fragile Fairino fingers bending when gripping (Both systems)
+│   └── Owner: Ammad, Myeongun | Status: Complete (Jan 23) | Fixed with metal/inward bent fingers
+│
+├── 🔴 ✅ Debug screwdriver robot moving slow
+│   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Investigate and fix screw pickup tilting
+│   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix screw speed issue - Label Printer Screw Robot (1st Priority)
+│   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix self training file saving issue (path format)
+│   └── Owner: Haider Shah | Status: Complete (Jan 23) | Fixed using os.path
+│
+├── 🔴 ✅ Fix robot speed in timeout/collision (clean_up function)
+│   └── Owner: Ammad | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Calibrate placement position - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi, Muazzam, Tan | Status: Complete (Jan 23) | Calibration done and fine-tuned
+│
+├── 🔴 ✅ Get robot to place rubber foot in correct position - Label Printer Rubber Foot Robot (1st Priority)
+│   └── Owner: Tugi | Status: Complete (Jan 23) | Placement working correctly
+│
+├── 🔴 ✅ Integrate new vision code PR - Both systems
+│   └── Owner: Hieu, Rizwan | Status: Complete (Jan 23) | Integrated
+│
+├── 🔴 ✅ Register XD5-40D with new code - Both systems
+│   └── Owner: Hieu, Tugi | Status: Complete (Jan 23) | Registered
+│
+├── 🔴 ✅ Fix tilted screw issue - Label Printer Screw Robot (2nd Priority)
+│   └── Owner: Ammad, Hieu | Status: Complete (Jan 23) | Fixed - adjusted pickup speed, filed screw bit, lowered checking position
+│
+├── 🔴 ✅ Integrate rescan logic - Label Printer Rubber Foot Robot (2nd Priority)
+│   └── Owner: Tugi, Rizwan | Status: Complete (Jan 23) | Integrated with PR #129 improvements
+│
+├── 🔴 ✅ Recapture reference images for all products (FR3 holding, not pressing arm)
+│   └── Owner: Tugi, Hieu, Odil | Status: Complete (Jan 23) | Reference images recaptured
+│
+├── 🔴 ✅ Confirm cycle time - Label Printer Screw Robot
+│   └── Owner: Hieu, Saad | Status: Complete (Jan 23) | Cycle time confirmed
+│
+├── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Saad | Status: Complete (Jan 23) | 30s including rescan/validation confirmed
+│
+├── 🔴 ✅ Fix state machine execution issues (Multiple command queue, screwpick missing)
+│   └── Owner: Ammad, Hieu | Status: Complete (Jan 23) | Race condition fixed, state machine issue resolved
+│
+├── 🔴 ✅ Fix issues when start signal comes before completing cycle
+│   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix screw validation for model 2 (distinguish fail cases with same detection as normal)
+│   └── Owner: Haider Shah, Hieu | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix false negative in screw tilt detection
+│   └── Owner: Haider Shah, Hieu | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix screw bit mis-grip issue (strikes screw head with force, remains stuck on edge)
+│   └── Owner: Ammad, Hieu | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix rubber foot attachment incorrect 
+│   └── Owner: Tugi, Rizwan | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ New metal finger are not assembled & tested
+│   └── Owner: Muazzam, Ammad | Status: Complete (Jan 23) | Metal gripper finger prepared and tested
+│
+├── 🔴 ✅ Find a way to drop screw near pick position (electromagnet)
+│   └── Owner: Ammad, Muazzam | Status: Complete (Jan 23) | Solution implemented
+│
+├── 🔴 ✅ Fix left side blur and brightness issue in camera images
+│   └── Owner: Rizwan, Hieu | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Add printer config files to different folder to prevent overwriting during PR merge
+│   └── Owner: Hieu | Status: Complete (Jan 23) | Implemented
+│
+├── 🔴 ✅ Fix pad pickup failure - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Muazzam | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix claw scooping issue - first row plastic sheet not going under nail
+│   └── Owner: Tugi, Muazzam | Status: Complete (Jan 23) | Fixed
+│
+├── 🔴 ✅ Fix Rainbow control box bugs (PWM and gripper speed/force adjustment)
+│   └── Owner: Kwanghyeop, Ammad | Status: Complete (Jan 23) | Fixed
+│
+└── 🔴 ✅ Retrain model after metal finger change
+    └── Owner: Hieu, Vision team | Status: Complete (Jan 23) | Model retrained
 ```
 
 ---
