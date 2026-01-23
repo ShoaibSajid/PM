@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 21, 2026 (Based on Jan 21 updates)  
+**Last Updated:** January 23, 2026 (Based on Jan 22-23 updates)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -34,7 +34,7 @@
 │   └── Owner: Hieu, Ammad | Status: Reset control box helped (Jan 19), need further observation | CRITICAL - Blocks cycle time
 │
 ├── 🔴 ⏳ Fix manual registration issue - Both systems (1st Priority)
-│   └── Owner: Jalol | Status: Work on this first, before auto registration bug | CRITICAL for Monday demo
+│   └── Owner: Jalol | Status: GUI registration issue exists, Jalol fixing (Jan 22), Hieu did manual registration using existing name (SLP-DL413 instead of SLP-DX220) | CRITICAL for Monday demo
 │
 ├── 🔴 ⏳ Register all products with new code - Both systems
 │   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
@@ -109,14 +109,14 @@
 ├── 🔴 ⏳ Fix screw bit drift away from pickup position
 │   └── Owner: Ammad, Hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
 │
-├── 🔴 ⏳ Fix rubber foot attachment incorrect in most trials
-│   └── Owner: Tugi, Rizwan | Status: Rubber foot attachment incorrect in most trials, stopped operating rubber foot robot (Jan 21) | CRITICAL - Blocks production
+├── 🔴 ⏳ Fix rubber foot attachment incorrect 
+│   └── Owner: Tugi, Rizwan | Status: Need extensive testing with latest updated code (Jan 22), pad pickup failure observed 6 times out of 6 sheets tested | CRITICAL - Blocks production
 │
 ├── 🔴 ⏳ No spares for finger present
 │   └── Owner: Myeongun, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Blocks production continuity
 │
 ├── 🔴 ⏳ New metal finger are not assembled & tested
-│   └── Owner: Muazzam, Ammad | Status: Urgent/Important (Jan 21) | CRITICAL - Blocks production
+│   └── Owner: Muazzam, Ammad | Status: Metal gripper finger prepared with foam and green tape (Jan 22), spacing not correct, not tested yet | CRITICAL - Blocks production
 │
 ├── 🔴 ⏳ Find a way to drop screw near pick position (electromagnet)
 │   └── Owner: Ammad, Muazzam | Status: Urgent/Important (Jan 21) | CRITICAL - Improves reliability
@@ -124,14 +124,41 @@
 ├── 🔴 ⏳ Install dedicated bracket for screw mirror (fixed and repeatable position)
 │   └── Owner: Muazzam, Ammad | Status: Magnetic base bracket unstable due to vibration, dedicated bracket required (Jan 21) | CRITICAL - Mirror critical for detecting tilts
 │
-├── 🔴 ⏳ Fix PCB robot PC turned off during process
-│   └── Owner: Ammad, Kwanghyeop | Status: PC turned off during process, robot stopped (Jan 21) | CRITICAL - System stability issue
+├── 🔴 ✅ Fix PCB robot PC turned off during process
+│   └── Owner: Ammad, Kwanghyeop | Status: PC turned off during process, robot stopped (Jan 21) | CRITICAL - System stability issue - Solved
 │
 ├── 🔴 ⏳ Fix left side blur and brightness issue in camera images
 │   └── Owner: Rizwan, Hieu | Status: Left side of image seems blur and has lesser brightness (Jan 19) | Blocks accurate detection
 │
 ├── 🔴 ⏳ Add printer config files to different folder to prevent overwriting during PR merge
 │   └── Owner: Hieu | Status: Requested by Rizwan (Jan 19) | Prevents config loss during merges
+│
+├── 🔴 ⏳ Fix pad pickup failure - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Muazzam | Status: Pad pickup failure observed 6 times out of 6 sheets tested (Jan 22) | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ Fix claw scooping issue - first row plastic sheet not going under nail
+│   └── Owner: Tugi, Muazzam | Status: Claw scooping first row has issue with plastic sheet not going under nail causing wrinkles, need to contact manufacturer to lengthen one side (Jan 22) | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ Request continuous roll rubber pad sheets (8xN instead of 8x8)
+│   └── Owner: Kwanghyeop, Shoaib | Status: Current small sheets cause jam in roller area, need continuous roll for smooth operation (Jan 22) | CRITICAL - Improves reliability
+│
+├── 🔴 ⏳ Fix Rainbow control box bugs (PWM and gripper speed/force adjustment)
+│   └── Owner: Kwanghyeop, Ammad | Status: PWM didn't work, gripper speed/force can't be adjusted until control box restarted (Jan 22) | CRITICAL - System stability issue
+│
+├── 🔴 ⏳ Fix metal finger spacing issue
+│   └── Owner: Myeongun, Muazzam | Status: Spacing not correct for fingers (Jan 22), need to add plastic sheet or thin flat washer | CRITICAL - Blocks production
+│
+├── 🔴 ⏳ Integrate Omron camera vision system (top camera) - Screw Robot
+│   └── Owner: Ghulam Muhammd, Hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
+│
+├── 🔴 ⏳ Integrate misalignment warning for rubber foot attachment
+│   └── Owner: Rizwan, Tugi | Status: Misalignment argument already shared, initial version added and returned during inference but not currently used by robot side (Jan 22) | CRITICAL - Quality control
+│
+├── 🔴 ⏳ Ensure GUI parameter stability (values remain unchanged)
+│   └── Owner: Jalol, Sawera | Status: Need to ensure GUI parameters remain unchanged during operation and across execution cycles (Jan 22) | CRITICAL - System stability
+│
+├── 🔴 ⏳ Retrain model after metal finger change
+│   └── Owner: Hieu, Vision team | Status: Changed to metal fingers, model needs to be trained again (Jan 22) | CRITICAL - Blocks accurate detection
 │
 │
 ├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
@@ -256,6 +283,36 @@
 │
 └── 🔴 ✅ Production run - 60+ products assembled
     └── Owner: Hieu, Ammad | Status: Complete (Jan 21) | Product ran in continuous sessions, total more than 60 (4 carts)
+│
+├── 🔴 ✅ Installed scooping pad on acrylic table - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi | Status: Complete (Jan 22) | Scooping pad installed
+│
+├── 🔴 ✅ Added vibration functionality to assist pickup rubber - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi | Status: Complete (Jan 22) | Vibration assists aligning rubber feet with suction cup
+│
+├── 🔴 ✅ Claw based scooping operation implemented - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi | Status: Complete (Jan 22) | Implemented in main robot framework with flag to switch between 2 methods
+│
+├── 🔴 ✅ Collected dataset for rubber pickup from scooping pad - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi | Status: Complete (Jan 22) | Dataset collected, path: /home/gpuadmin/DATA/New_Pad_scoop_images, need new algorithm for single row detection
+│
+├── 🔴 ✅ Metal gripper finger prepared - Label Printer Rubber Foot Robot
+│   └── Owner: Tugi, Muazzam | Status: Complete (Jan 22) | Prepared by adding foam and green tape, not tested yet
+│
+├── 🔴 ✅ Fixed MQTT port issue (disabled linux ufw) - Both systems
+│   └── Owner: Ammad | Status: Complete (Jan 22) | All ports MQTT 1883 and 8883 are now open
+│
+├── 🔴 ✅ Installed mirror for screw validation - Label Printer Screw Robot
+│   └── Owner: Hieu, Ammad, Odil | Status: Complete (Jan 22) | Temporarily installed, ran XLP-TX420 and SLP-TX400 printers with mirror reflection
+│
+├── 🔴 ✅ Manual registration done for SLP-DX220 - Label Printer Screw Robot
+│   └── Owner: Hieu | Status: Complete (Jan 22) | Used existing name SLP-DL413 instead of real name SLP-DX220 due to GUI issue
+│
+├── 🔴 ✅ Top camera vision system PR merged with README - Screw Robot
+│   └── Owner: Ghulam Muhammd | Status: Complete (Jan 22) | PR #136, #141 merged, README added, needs integration
+│
+└── 🔴 ✅ Attached scooping claw on suction gripper and tested - Label Printer Rubber Foot Robot
+    └── Owner: Tugi | Status: Complete (Jan 22) | Tested scoop and rubber pickup
 ```
 
 ---
@@ -384,6 +441,21 @@
 │
 ├── 🟡 ⏳ Conveyor signal testing - magnetic switch on pneumatic
 │   └── Owner: Ammad, Hieu | Status: Magnetic switch on pneumatic used at set position but set to max reach point (Jan 21) | Signal handling
+│
+├── 🟡 ⏳ Test rubber foot attachment extensively with latest updated code
+│   └── Owner: Tugi, Tan, Rizwan | Status: Need extensive testing, need feedback from robot side (Jan 22) | High priority
+│
+├── 🟡 ⏳ Contact manufacturer to lengthen one side of rubber pad
+│   └── Owner: Kwanghyeop, Shoaib | Status: Need to contact manufacturer to lengthen one side for smooth scooping operation (Jan 22) | High priority
+│
+├── 🟡 ⏳ Contact Rainbow about control box bugs
+│   └── Owner: Kwanghyeop | Status: Need to contact Rainbow about PWM and gripper speed/force adjustment bugs (Jan 22) | High priority
+│
+├── 🟡 ⏳ Test metal fingers with new model
+│   └── Owner: Tugi, Muazzam | Status: Metal fingers prepared but not tested, need retraining after finger change (Jan 22) | High priority
+│
+├── 🟡 ⏳ Integrate finger position to Omron camera system
+│   └── Owner: Ghulam Muhammd, Hieu | Status: Need to send finger position from robot side to mounted camera system (Jan 22) | High priority - Future enhancement
 │
 ├── 🟡 ⏳ Work on identifying the state machine race condition
 │   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks (Jan 20), race condition fixed (Jan 21) | Debug state machine issues
