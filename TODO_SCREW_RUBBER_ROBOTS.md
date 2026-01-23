@@ -32,6 +32,18 @@
   - Priority: CRITICAL
   - Impact: Mirror critical for detecting tilts
 
+- [ ] **Integrate Omron camera vision system (top camera) - Screw Robot**
+  - Owner: Ghulam Muhammd, Hieu
+  - Status: PR #136, #141 merged with README (Jan 22), needs integration and testing
+  - Priority: CRITICAL
+  - Impact: Collision detection
+
+- [ ] **Fix Rainbow control box bugs (PWM and gripper speed/force adjustment)**
+  - Owner: Kwanghyeop, Ammad
+  - Status: PWM didn't work, gripper speed/force can't be adjusted until control box restarted (Jan 22)
+  - Priority: CRITICAL
+  - Impact: System stability issue
+
 - [ ] **Find a way to drop screw near pick position (electromagnet)**
   - Owner: Ammad, Muazzam
   - Status: Urgent/Important
@@ -46,9 +58,21 @@
 
 - [ ] **New metal finger are not assembled & tested**
   - Owner: Muazzam, Ammad
-  - Status: Urgent/Important
+  - Status: Metal gripper finger prepared with foam and green tape (Jan 22), spacing not correct, not tested yet
   - Priority: CRITICAL
   - Impact: Blocks production
+
+- [ ] **Fix metal finger spacing issue**
+  - Owner: Myeongun, Muazzam
+  - Status: Spacing not correct for fingers (Jan 22), need to add plastic sheet or thin flat washer
+  - Priority: CRITICAL
+  - Impact: Blocks production
+
+- [ ] **Retrain model after metal finger change**
+  - Owner: Hieu, Vision team
+  - Status: Changed to metal fingers, model needs to be trained again (Jan 22)
+  - Priority: CRITICAL
+  - Impact: Blocks accurate detection
 
 - [ ] **Fix fragile Fairino fingers bending when gripping**
   - Owner: Ammad, Myeongun
@@ -265,9 +289,27 @@
 ### Attachment & Positioning
 - [ ] **Fix rubber foot attachment incorrect**
   - Owner: Tugi, Rizwan
-  - Status: Rubber foot attachment incorrect, stopped operating rubber foot robot (Jan 21)
+  - Status: Need extensive testing with latest updated code (Jan 22), pad pickup failure observed 6 times out of 6 sheets tested
   - Priority: CRITICAL
   - Impact: Blocks production
+
+- [ ] **Fix pad pickup failure - Label Printer Rubber Foot Robot**
+  - Owner: Tugi, Muazzam
+  - Status: Pad pickup failure observed 6 times out of 6 sheets tested (Jan 22)
+  - Priority: CRITICAL
+  - Impact: Blocks production
+
+- [ ] **Fix claw scooping issue - first row plastic sheet not going under nail**
+  - Owner: Tugi, Muazzam
+  - Status: Claw scooping first row has issue with plastic sheet not going under nail causing wrinkles, need to contact manufacturer to lengthen one side (Jan 22)
+  - Priority: CRITICAL
+  - Impact: Blocks production
+
+- [ ] **Request continuous roll rubber pad sheets (8xN instead of 8x8)**
+  - Owner: Kwanghyeop, Shoaib
+  - Status: Current small sheets cause jam in roller area, need continuous roll for smooth operation (Jan 22)
+  - Priority: CRITICAL
+  - Impact: Improves reliability
 
 - [ ] **Fix rubber foot attachment position error (Rubber Foot Robot)**
   - Owner: Tugi, Rizwan
@@ -398,6 +440,36 @@
   - Status: From CustomPendingTasks
   - Priority: High
   - Impact: Required for vision model improvement
+
+- [ ] **Test rubber foot attachment extensively with latest updated code**
+  - Owner: Tugi, Tan, Rizwan
+  - Status: Need extensive testing, need feedback from robot side (Jan 22)
+  - Priority: High
+  - Impact: Quality assurance
+
+- [ ] **Contact manufacturer to lengthen one side of rubber pad**
+  - Owner: Kwanghyeop, Shoaib
+  - Status: Need to contact manufacturer to lengthen one side for smooth scooping operation (Jan 22)
+  - Priority: High
+  - Impact: Improves reliability
+
+- [ ] **Contact Rainbow about control box bugs**
+  - Owner: Kwanghyeop
+  - Status: Need to contact Rainbow about PWM and gripper speed/force adjustment bugs (Jan 22)
+  - Priority: High
+  - Impact: System stability
+
+- [ ] **Integrate misalignment warning for rubber foot attachment**
+  - Owner: Rizwan, Tugi
+  - Status: Misalignment argument already shared, initial version added and returned during inference but not currently used by robot side (Jan 22)
+  - Priority: High
+  - Impact: Quality control
+
+- [ ] **Develop new algorithm for single row rubber pad detection**
+  - Owner: Haider Shah, Tugi
+  - Status: Previously 2D grid, now single row, need new algorithm (Jan 22)
+  - Priority: High
+  - Impact: Vision model update needed
 
 ---
 
