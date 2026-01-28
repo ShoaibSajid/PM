@@ -1,6 +1,6 @@
 # TODO List - Screw Robot & Rubber Foot Robot
 
-**Last Updated:** January 21, 2026  
+**Last Updated:** January 28, 2026  
 **Status:** Active tracking for both robot systems
 
 ---
@@ -282,6 +282,37 @@
   - Priority: High
   - Impact: Signal handling
 
+### Custom Pending Tasks (Jan 28)
+- [ ] **Test GUI and find potential issues and updates**
+  - Owner: Jalol, Samrah
+  - Status: From CustomPendingTasks_Screw.md (Jan 28)
+  - Priority: High
+  - Impact: System quality
+
+- [ ] **Capture depth maps with different light settings**
+  - Owner: Tan, Hieu
+  - Status: From CustomPendingTasks_Screw.md (Jan 28)
+  - Priority: High
+  - Impact: Vision model improvement
+
+- [ ] **Fairino Error Handling**
+  - Owner: Ammad, Hieu
+  - Status: From CustomPendingTasks_Screw.md (Jan 28)
+  - Priority: High
+  - Impact: System stability
+
+- [ ] **Fix upper light holder - Label Printer Screw Robot**
+  - Owner: Ammad, Muazzam
+  - Status: Upper light temporarily fixed with electrical tape (Jan 26), needs proper fixing
+  - Priority: High
+  - Impact: System stability
+
+- [ ] **Document fasten torque for mobile printer screw (3.5~4kgf.cm)**
+  - Owner: Ammad, Hieu
+  - Status: Torque value received (Jan 28)
+  - Priority: High
+  - Impact: Documentation
+
 ---
 
 ## 🔴 Rubber Foot Robot - Critical / Blocking Issues
@@ -470,6 +501,61 @@
   - Status: Previously 2D grid, now single row, need new algorithm (Jan 22)
   - Priority: High
   - Impact: Vision model update needed
+
+### Custom Pending Tasks (Jan 28)
+- [ ] **Merge the code between screw/rubber - Run and test**
+  - Owner: Hieu, Tugi
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28)
+  - Priority: CRITICAL
+  - Impact: Code consistency
+
+- [ ] **Add function for time estimation (in Screw and Rubber)**
+  - Owner: Hieu, Tugi
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Dump time information in json/yaml (start/end timestamp of each command), dump whole information (input time, info, model results)
+  - Priority: High
+  - Impact: Performance monitoring
+
+- [ ] **Install the finger gripper**
+  - Owner: Tugi, Muazzam
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28)
+  - Priority: CRITICAL
+  - Impact: Hardware installation
+
+- [ ] **Integrate Finger Gripper - Modify code and logic**
+  - Owner: Tugi
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Modify code to integrate different gripper, modify logic to skip validation
+  - Priority: CRITICAL
+  - Impact: System integration
+
+- [ ] **Grind / Scrub Sheet Roller**
+  - Owner: Tugi, Muazzam
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28)
+  - Priority: High
+  - Impact: Hardware maintenance
+
+- [ ] **Reposition the platform / rubber pad holders**
+  - Owner: Tugi, Muazzam
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Position to allow 3 holders on platform, redesign if needed
+  - Priority: High
+  - Impact: Hardware optimization
+
+- [ ] **3D print dual fingers for scoop**
+  - Owner: Myeongun, Tugi
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Determine tilt angle, share with Dr Saad
+  - Priority: High
+  - Impact: Hardware design
+
+- [ ] **3D print the catching basket for sheets/rubbers**
+  - Owner: Myeongun
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print
+  - Priority: High
+  - Impact: Hardware design
+
+- [ ] **Sheet Clamp Design to curve/bend the sheet**
+  - Owner: Myeongun
+  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print
+  - Priority: High
+  - Impact: Hardware design
 
 ---
 

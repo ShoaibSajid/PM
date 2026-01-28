@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 23, 2026 (Based on Jan 22-23 updates)  
+**Last Updated:** January 28, 2026 (Based on Jan 28 updates and CustomPendingTasks)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -80,283 +80,60 @@
 │ ├── 🔴 ⏳ Ensure GUI parameter stability (values remain unchanged)
 │ │   └── Owner: Jalol, Sawera | Status: Need to ensure GUI parameters remain unchanged during operation and across execution cycles (Jan 22) | CRITICAL - System stability
 │ │
-│ └──────────────────────────────────────────────────────┘
-```
-
----
-
-## ✅ Completed Tasks
-
-```
-📁 COMPLETED TASKS
-│
-│ ┌─ JANUARY 23, 2026 COMPLETIONS ─┐
-│ │
-│ ├── 🔴 ✅ Fix rubber foot attachment position error (Rubber Foot Robot)
-│ │   └── Owner: Tugi, Rizwan | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix fragile Fairino fingers bending when gripping (Both systems)
-│ │   └── Owner: Ammad, Myeongun | Status: Complete (Jan 23) | Fixed with metal/inward bent fingers
-│ │
-│ ├── 🔴 ✅ Debug screwdriver robot moving slow
-│ │   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Investigate and fix screw pickup tilting
-│ │   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix screw speed issue - Label Printer Screw Robot (1st Priority)
-│ │   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix self training file saving issue (path format)
-│ │   └── Owner: Haider Shah | Status: Complete (Jan 23) | Fixed using os.path
-│ │
-│ ├── 🔴 ✅ Fix robot speed in timeout/collision (clean_up function)
-│ │   └── Owner: Ammad | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Calibrate placement position - Label Printer Rubber Foot Robot (1st Priority)
-│ │   └── Owner: Tugi, Muazzam, Tan | Status: Complete (Jan 23) | Calibration done and fine-tuned
-│ │
-│ ├── 🔴 ✅ Get robot to place rubber foot in correct position - Label Printer Rubber Foot Robot (1st Priority)
-│ │   └── Owner: Tugi | Status: Complete (Jan 23) | Placement working correctly
-│ │
-│ ├── 🔴 ✅ Integrate new vision code PR - Both systems
-│ │   └── Owner: Hieu, Rizwan | Status: Complete (Jan 23) | Integrated
-│ │
-│ ├── 🔴 ✅ Register XD5-40D with new code - Both systems
-│ │   └── Owner: Hieu, Tugi | Status: Complete (Jan 23) | Registered
-│ │
-│ ├── 🔴 ✅ Fix tilted screw issue - Label Printer Screw Robot (2nd Priority)
-│ │   └── Owner: Ammad, Hieu | Status: Complete (Jan 23) | Fixed - adjusted pickup speed, filed screw bit, lowered checking position
-│ │
-│ ├── 🔴 ✅ Integrate rescan logic - Label Printer Rubber Foot Robot (2nd Priority)
-│ │   └── Owner: Tugi, Rizwan | Status: Complete (Jan 23) | Integrated with PR #129 improvements
-│ │
-│ ├── 🔴 ✅ Recapture reference images for all products (FR3 holding, not pressing arm)
-│ │   └── Owner: Tugi, Hieu, Odil | Status: Complete (Jan 23) | Reference images recaptured
-│ │
-│ ├── 🔴 ✅ Confirm cycle time - Label Printer Screw Robot
-│ │   └── Owner: Hieu, Saad | Status: Complete (Jan 23) | Cycle time confirmed
-│ │
-│ ├── 🔴 ✅ Confirm cycle time - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi, Saad | Status: Complete (Jan 23) | 30s including rescan/validation confirmed
-│ │
-│ ├── 🔴 ✅ Fix state machine execution issues (Multiple command queue, screwpick missing)
-│ │   └── Owner: Ammad, Hieu | Status: Complete (Jan 23) | Race condition fixed, state machine issue resolved
-│ │
-│ ├── 🔴 ✅ Fix issues when start signal comes before completing cycle
-│ │   └── Owner: Hieu, Ammad | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix screw validation for model 2 (distinguish fail cases with same detection as normal)
-│ │   └── Owner: Haider Shah, Hieu | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix false negative in screw tilt detection
-│ │   └── Owner: Haider Shah, Hieu | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix screw bit mis-grip issue (strikes screw head with force, remains stuck on edge)
-│ │   └── Owner: Ammad, Hieu | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix rubber foot attachment incorrect 
-│ │   └── Owner: Tugi, Rizwan | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ New metal finger are not assembled & tested
-│ │   └── Owner: Muazzam, Ammad | Status: Complete (Jan 23) | Metal gripper finger prepared and tested
-│ │
-│ ├── 🔴 ✅ Find a way to drop screw near pick position (electromagnet)
-│ │   └── Owner: Ammad, Muazzam | Status: Complete (Jan 23) | Solution implemented
-│ │
-│ ├── 🔴 ✅ Fix left side blur and brightness issue in camera images
-│ │   └── Owner: Rizwan, Hieu | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Add printer config files to different folder to prevent overwriting during PR merge
-│ │   └── Owner: Hieu | Status: Complete (Jan 23) | Implemented
-│ │
-│ ├── 🔴 ✅ Fix pad pickup failure - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi, Muazzam | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix claw scooping issue - first row plastic sheet not going under nail
-│ │   └── Owner: Tugi, Muazzam | Status: Complete (Jan 23) | Fixed
-│ │
-│ ├── 🔴 ✅ Fix Rainbow control box bugs (PWM and gripper speed/force adjustment)
-│ │   └── Owner: Kwanghyeop, Ammad | Status: Complete (Jan 23) | Fixed
-│ │
-│ └── 🔴 ✅ Retrain model after metal finger change
-│     └── Owner: Hieu, Vision team | Status: Complete (Jan 23) | Model retrained
+│ ├── 🔴 ⏳ Fix upper light holder - Label Printer Screw Robot
+│ │   └── Owner: Ammad, Muazzam | Status: Upper light temporarily fixed with electrical tape (Jan 26), needs proper fixing in original holder | CRITICAL - System stability
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
-│ ┌─ JANUARY 22, 2026 COMPLETIONS ─┐
+│ ┌─ SCREW ROBOT - CUSTOM PENDING TASKS ─┐
 │ │
-│ ├── 🔴 ✅ Installed scooping pad on acrylic table - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 22) | Scooping pad installed
+│ ├── 🔴 ⏳ Test GUI and find potential issues and updates
+│ │   └── Owner: Jalol, Samrah | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System quality
 │ │
-│ ├── 🔴 ✅ Added vibration functionality to assist pickup rubber - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 22) | Vibration assists aligning rubber feet with suction cup
+│ ├── 🔴 ⏳ Capture depth maps with different light settings
+│ │   └── Owner: Tan, Hieu | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - Vision model improvement
 │ │
-│ ├── 🔴 ✅ Claw based scooping operation implemented - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 22) | Implemented in main robot framework with flag to switch between 2 methods
-│ │
-│ ├── 🔴 ✅ Collected dataset for rubber pickup from scooping pad - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 22) | Dataset collected, path: /home/gpuadmin/DATA/New_Pad_scoop_images, need new algorithm for single row detection
-│ │
-│ ├── 🔴 ✅ Metal gripper finger prepared - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi, Muazzam | Status: Complete (Jan 22) | Prepared by adding foam and green tape, not tested yet
-│ │
-│ ├── 🔴 ✅ Fixed MQTT port issue (disabled linux ufw) - Both systems
-│ │   └── Owner: Ammad | Status: Complete (Jan 22) | All ports MQTT 1883 and 8883 are now open
-│ │
-│ ├── 🔴 ✅ Installed mirror for screw validation - Label Printer Screw Robot
-│ │   └── Owner: Hieu, Ammad, Odil | Status: Complete (Jan 22) | Temporarily installed, ran XLP-TX420 and SLP-TX400 printers with mirror reflection
-│ │
-│ ├── 🔴 ✅ Manual registration done for SLP-DX220 - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 22) | Used existing name SLP-DL413 instead of real name SLP-DX220 due to GUI issue
-│ │
-│ ├── 🔴 ✅ Top camera vision system PR merged with README - Screw Robot
-│ │   └── Owner: Ghulam Muhammd | Status: Complete (Jan 22) | PR #136, #141 merged, README added, needs integration
-│ │
-│ └── 🔴 ✅ Attached scooping claw on suction gripper and tested - Label Printer Rubber Foot Robot
-│     └── Owner: Tugi | Status: Complete (Jan 22) | Tested scoop and rubber pickup
+│ ├── 🔴 ⏳ Fairino Error Handling
+│ │   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System stability
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
-│ ┌─ JANUARY 21, 2026 COMPLETIONS ─┐
+│ ┌─ RUBBER FOOT ROBOT - CUSTOM PENDING TASKS ─┐
 │ │
-│ ├── 🔴 ✅ State machine race condition fixed - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 21) | Race condition issue pointed out and fixed
+│ ├── 🔴 ⏳ Merge the code between screw/rubber - Run and test
+│ │   └── Owner: Hieu, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Code consistency
 │ │
-│ ├── 🔴 ✅ State machine issue resolved - Label Printer Screw Robot
-│ │   └── Owner: Ammad | Status: Complete (Jan 21) | State machine issue resolved
+│ ├── 🔴 ⏳ Add function for time estimation (in Screw and Rubber)
+│ │   └── Owner: Hieu, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Dump time information in json/yaml (start/end timestamp of each command), dump whole information (input time, info, model results) | CRITICAL - Performance monitoring
 │ │
-│ ├── 🔴 ✅ Screw pick improvement & troubleshooting - Label Printer Screw Robot
-│ │   └── Owner: Ammad | Status: Complete (Jan 21) | Troubleshooting why in test bench work but assembly misses screw
+│ ├── 🔴 ⏳ Install the finger gripper
+│ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Hardware installation
 │ │
-│ ├── 🔴 ✅ Speeding of xb to feeder and from feeder - Label Printer Screw Robot
-│ │   └── Owner: Ammad | Status: Complete (Jan 21) | Movement speed optimized
+│ ├── 🔴 ⏳ Integrate Finger Gripper - Modify code and logic
+│ │   └── Owner: Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Modify code to integrate different gripper, modify logic to skip validation | CRITICAL - System integration
 │ │
-│ ├── 🔴 ✅ Addition of image capture before gripper using camera - Label Printer Screw Robot
-│ │   └── Owner: Ammad, Hieu | Status: Complete (Jan 21) | Sending MQTT msg to capture image from Omron camera
+│ ├── 🔴 ⏳ Grind / Scrub Sheet Roller
+│ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Hardware maintenance
 │ │
-│ ├── 🔴 ✅ Addition of buzzer to inform system start and finished - Label Printer Screw Robot
-│ │   └── Owner: Ammad | Status: Complete (Jan 21) | Buzzer added to inform system status
+│ ├── 🔴 ⏳ Reposition the platform / rubber pad holders
+│ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Position to allow 3 holders on platform, redesign if needed | CRITICAL - Hardware optimization
 │ │
-│ ├── 🔴 ✅ Addition of screw tilt mirror - Label Printer Screw Robot
-│ │   └── Owner: Ammad | Status: Complete (Jan 21) | Mirror added (temporary magnetic base, needs dedicated bracket)
+│ ├── 🔴 ⏳ 3D print dual fingers for scoop
+│ │   └── Owner: Myeongun, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Determine tilt angle, share with Dr Saad | CRITICAL - Hardware design
 │ │
-│ ├── 🔴 ✅ Improved logic when picking screw for next cycle - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 21) | Logic improved
+│ ├── 🔴 ⏳ 3D print the catching basket for sheets/rubbers
+│ │   └── Owner: Myeongun | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print | CRITICAL - Hardware design
 │ │
-│ ├── 🔴 ✅ Optimized movements - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 21) | Still using move XB but always use moveL to target points
-│ │
-│ ├── 🔴 ✅ Omron camera vision system implemented - Collision detection
-│ │   └── Owner: Ghulam Muhammd | Status: Complete (Jan 21) | Robot-triggered top-camera vision system to detect collisions, cycle time ~50ms
-│ │
-│ └── 🔴 ✅ Production run - 60+ products assembled
-│     └── Owner: Hieu, Ammad | Status: Complete (Jan 21) | Product ran in continuous sessions, total more than 60 (4 carts)
-│ │
-│ └──────────────────────────────────────────────────────┘
-│
-│ ┌─ JANUARY 19-20, 2026 COMPLETIONS ─┐
-│ │
-│ ├── 🔴 ✅ Screw pickup issue resolved - Label Printer Screw Robot
-│ │   └── Owner: Hieu, Ammad, Muazzam | Status: Complete (Jan 19-20) | Adjusted pickup speed, filed screw bit for better fit, lowered checking position
-│ │
-│ ├── 🔴 ✅ Holes detection fixed - Label Printer Screw Robot
-│ │   └── Owner: Hieu, Shams | Status: Complete (Jan 19-20) | Fixed by changing reference image for XD5-40dc
-│ │
-│ ├── 🔴 ✅ Model 2 screw validation code updated - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 19-20) | Updated and tested, some fail cases need tuning
-│ │
-│ ├── 🔴 ✅ Removed moveXB when moving to fastening position - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 19-20) | Removed to avoid non-reaching issue
-│ │
-│ ├── 🔴 ✅ Adjusted fastening angle of screw driver - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 19-20) | Angle adjusted for better fastening
-│ │
-│ ├── 🔴 ✅ Changed vacuum suction cup spring (thicker one) - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 19-20) | Spring replaced with thicker one
-│ │
-│ ├── 🔴 ✅ Vacuum gripper operation restored - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 19-20) | Previously air was leaking inside, now fixed
-│ │
-│ ├── 🔴 ✅ Vacuum box cleaned and sealed - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete (Jan 19-20) | Cleaned debris inside vacuum box and sealed properly, suction improved
-│ │
-│ ├── 🔴 ✅ Rescan logic tested - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi, Rizwan | Status: Complete (Jan 19-20) | Tested with latest code, rolled back due to issues, PR #129 merged for improvements
-│ │
-│ ├── 🔴 ✅ Fairino fingers Option B printed
-│ │   └── Owner: Myeongun | Status: Complete (Jan 19) | All Option B fingers printed
-│ │
-│ └── 🔴 ✅ Vision PRs merged for rubber foot detection improvements
-│     └── Owner: Rizwan, Tugi | Status: Complete (Jan 19) | PR #125, #126, #129 merged for rubber foot attachment and detection improvements
-│ │
-│ └──────────────────────────────────────────────────────┘
-│
-│ ┌─ JANUARY 17, 2026 COMPLETIONS ─┐
-│ │
-│ ├── 🔴 ✅ Provide dataset for 20+ runs to vision team - Label Printer Screw Robot (1st Priority)
-│ │   └── Owner: Hieu | Status: Complete (Jan 17) | XD5-40dc images captured and shared
-│ │
-│ ├── 🔴 ✅ Perform hand eye calibration - Label Printer Rubber Foot Robot (1st Priority)
-│ │   └── Owner: Tugi | Status: Complete (Jan 17) | Calibration done, parameters tuned
-│ │
-│ ├── 🔴 ✅ Send last 2 days dataset to vision team - Label Printer Rubber Foot Robot (1st Priority)
-│ │   └── Owner: Tugi, Quy Ninh | Status: Complete (Jan 17) | Dataset with rubber foot partially attached uploaded to NAS
-│ │
-│ ├── 🔴 ✅ Display error messages - Label Printer Screw Robot (1st Priority)
-│ │   └── Owner: Hieu, Tugi | Status: Complete (Jan 17) | Error/warning message display code implemented, Jalol needs to make changes
-│ │
-│ ├── 🔴 ✅ Display error messages - Label Printer Rubber Foot Robot (1st Priority)
-│ │   └── Owner: Tugi | Status: Complete (Jan 17) | Error/warning message display code implemented, Jalol needs to make changes (GUI reset needed)
-│ │
-│ ├── 🔴 ✅ Self training merged and tested - Label Printer Screw Robot
-│ │   └── Owner: Hieu, Rizwan | Status: Complete (Jan 17) | Tested for 1 printer registration (file saving issue identified)
-│ │
-│ ├── 🔴 ✅ Auto registration process working - Label Printer Screw Robot
-│ │   └── Owner: Quy Ninh | Status: Complete (Jan 17) | Working on screwdriver robot
-│ │
-│ ├── 🔴 ✅ Conveyor teaching completed
-│ │   └── Owner: Hieu | Status: Complete (Jan 17) | Manager finished teaching (took longer due to issues)
-│ │
-│ ├── 🔴 ✅ Screw driver replacement
-│ │   └── Owner: Hieu | Status: Complete (Jan 17) | Replaced wobbling screw driver with new one
-│ │
-│ ├── 🔴 ✅ Install second magnet/spring on screw bit - Label Printer Screw Robot (2nd Priority)
-│ │   └── Owner: Ammad, Hieu | Status: Complete (Jan 17) | Silver magnet on screw bit, orange magnet in box
-│ │
-│ ├── 🔴 ✅ Fixed move up logic when abort/timeout - Label Printer Screw Robot
-│ │   └── Owner: Hieu | Status: Complete (Jan 17) | Fixed logic when abort signal or timeout while fastening screws
-│ │
-│ ├── 🔴 ✅ 3D printed spares ordered (2 sets FR3 fingers, RubberPad Base Plate, Scooping Fingers)
-│ │   └── Owner: Myeongun | Status: Complete (Jan 17) | 2 sets (4ea) with 100% infill base
-│ │
-│ └── 🔴 ✅ JRT gripper prepared as backup
-│     └── Owner: Muazzam | Status: Complete (Jan 17) | Backup gripper ready
-│ │
-│ └──────────────────────────────────────────────────────┘
-│
-│ ┌─ JANUARY 15-16, 2026 COMPLETIONS ─┐
-│ │
-│ ├── 🔴 ✅ Complete robot teaching - Label Printer Screw Robot (FR3)
-│ │   └── Owner: Hieu | Status: Complete (Jan 15) | Robot teaching done
-│ │
-│ ├── 🔴 ✅ Vision integration - Label Printer Screw Robot
-│ │   └── Owner: Hieu, Rizwan | Status: Complete (Jan 15) | Vision integration done
-│ │
-│ ├── 🔴 ✅ Fix pad holding bracket - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tugi | Status: Complete | Bracket installed
-│ │
-│ ├── 🔴 ✅ Self Training update - Label Printer Rubber Foot Robot
-│ │   └── Owner: Rizwan | Status: Complete | Self training update done
-│ │
-│ ├── 🔴 ✅ Scoop image feature after scooping rubber foot - Label Printer Rubber Foot Robot
-│ │   └── Owner: Tan | Status: Complete (Jan 20) | Move home => save image again, path: Data/scoop_images/Datetime
-│ │
-│ └── 🔴 ✅ Recent Images manager feature - Label Printer Rubber Foot Robot
-│     └── Owner: Tan | Status: Almost complete (Jan 20) | Save recent image and svg in recent folder, need to filter type of image
+│ └── 🔴 ⏳ Sheet Clamp Design to curve/bend the sheet
+│     └── Owner: Myeongun | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print | CRITICAL - Hardware design
 │ │
 │ └──────────────────────────────────────────────────────┘
 ```
+│
+├── 🔴 ✅ Vision integration - Label Printer Screw Robot
+│   └── Owner: Hieu, Rizwan | Status: Complete (Jan 15) | Vision integration done
+│
+├── 🔴 ✅ Fix pad holding bracket - Label Printer Rubber Foot Robot
 │   └── Owner: Tugi | Status: Complete | Bracket installed
 │
 ├── 🔴 ✅ Self Training update - Label Printer Rubber Foot Robot
@@ -738,6 +515,12 @@
 │
 ├── 🟡 ⏳ Work on identifying the state machine race condition
 │   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks (Jan 20), race condition fixed (Jan 21) | Debug state machine issues
+│
+├── 🟡 ⏳ Fix temporary anti-shake solution for DX220
+│   └── Owner: Ammad, Muazzam | Status: Temporary solution requested (Jan 23), needs review and permanent fix | High priority
+│
+├── 🟡 ⏳ Document fasten torque for mobile printer screw (3.5~4kgf.cm)
+│   └── Owner: Ammad, Hieu | Status: Torque value received (Jan 28) | High priority - Documentation
 │
 ├── 🟡 ⏳ Fix screw validation logic (range and tilt angle)
 │   └── Owner: Hieu, Haider Shah | Status: Multiple false positive/negative cases, need range-based logic | Blocks production
