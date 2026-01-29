@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 28, 2026 (Based on Jan 28 updates and CustomPendingTasks)  
+**Last Updated:** January 29, 2026 (Based on Jan 28-29 updates)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -91,7 +91,13 @@
 │ │   └── Owner: Jalol, Samrah | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System quality
 │ │
 │ ├── 🔴 ⏳ Capture depth maps with different light settings
-│ │   └── Owner: Tan, Hieu | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - Vision model improvement
+│ │   └── Owner: Tan, Hieu | Status: Reflection analysis completed (Jan 28), JSON config tuned, needs testing (Jan 29) | CRITICAL - Vision model improvement
+│ │
+│ ├── 🔴 ⏳ Integrate Fairino collision signal into main framework
+│ │   └── Owner: Ammad, Hieu | Status: Collision signal developed on Fairino side but not integrated (Jan 28) | CRITICAL - System safety
+│ │
+│ ├── 🔴 ⏳ Add depth outlier filtering logic (expected-value logic)
+│ │   └── Owner: Tan, Hieu | Status: Need to filter outlier depth points, compute mean only from inliers (Jan 28) | CRITICAL - Depth accuracy
 │ │
 │ ├── 🔴 ⏳ Fairino Error Handling
 │ │   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System stability
@@ -521,6 +527,24 @@
 │
 ├── 🟡 ⏳ Document fasten torque for mobile printer screw (3.5~4kgf.cm)
 │   └── Owner: Ammad, Hieu | Status: Torque value received (Jan 28) | High priority - Documentation
+│
+├── 🟡 ⏳ Test RealSense JSON configuration
+│   └── Owner: Tan | Status: JSON config tuned (Jan 28), needs testing (Jan 29) | High priority - Vision improvement
+│
+├── 🟡 ⏳ Suggest removing upper lights to manager
+│   └── Owner: Tan, Kwanghyeop | Status: Two upper lights too bright, significantly affect depth quality (Jan 28) | High priority - Hardware optimization
+│
+├── 🟡 ⏳ Install metal FR3 finger base parts
+│   └── Owner: Muazzam, Ammad | Status: Parts received (Jan 28), ready for installation | High priority - Hardware installation
+│
+├── 🟡 ⏳ Change plate attachment from nut to plate
+│   └── Owner: Muazzam | Status: Plate received from Cheongju manufacturer (Jan 28) | High priority - Hardware modification
+│
+├── 🟡 ⏳ Complete GUI testing (delayed due to depth tuning)
+│   └── Owner: Tan, Jalol | Status: Product testing could not be performed (Jan 28), needs completion | High priority - System quality
+│
+├── 🟡 ⏳ Refine GUI layout (cluttered, inconsistent button sizes)
+│   └── Owner: Jalol, Samrah | Status: Layout needs refinement, button sizes inconsistent between systems (Jan 28) | High priority - UX improvement
 │
 ├── 🟡 ⏳ Fix screw validation logic (range and tilt angle)
 │   └── Owner: Hieu, Haider Shah | Status: Multiple false positive/negative cases, need range-based logic | Blocks production
