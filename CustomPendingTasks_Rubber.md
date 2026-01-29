@@ -1,5 +1,7 @@
+<!-- Jan 29 -->
+
 1. Merge the code between screw/rubber
-- - Run and test
+- - Test the robot
 
 2. Add function for time estimation (in Screw and Rubber)
 - - Dump time information in json/yaml - Start and end timestamp of each command / in execution thread
@@ -8,9 +10,9 @@
 3. Finger Gripper
 - - Install the finger gripper
 
-4. Integrate Finger Gripper
-- - Modify the code to integrate the different gripper
-- - Modify logic to skip validation
+4. Integrate Finger Gripper in code
+- - Modify the code to integrate the finger gripper
+- - Modify logic to skip validation of suction cup
 
 5. Sheet Roller
 - - Grind / Scrub it
@@ -28,7 +30,6 @@
 
 9. Sheet Clamp Design to curve/bend the sheet
 - - Design and Print it
-
 
 
 
