@@ -17,17 +17,17 @@
 │ ├── 🔴 ⏳ Fix manual registration issue - Both systems (1st Priority)
 │ │   └── Owner: Jalol | Status: GUI registration issue exists, Jalol fixing (Jan 22), Hieu did manual registration using existing name (SLP-DL413 instead of SLP-DX220) | CRITICAL for Monday demo
 │ │
-│ ├── 🔴 ⏳ Register all products with new code - Both systems
+│ ├── 🔴 ⏳ Register All Products with update system / metal fingers
 │ │   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ HARDWARE & MECHANICAL (Blocks Production) ─┐
 │ │
-│ ├── 🔴 ⏳ Fix printer tilt - depth based angle adjustment while screwing (Screw Robot)
+│ ├── 🔴 ⏳ Fix Printer Tilt (Depth based angle adjustment)
 │ │   └── Owner: Ammad, Hieu | Status: Printer is tilted, causing bit offset after each screwing causing pick miss, also screw robot reset timeout (Jan 21) | CRITICAL - Urgent/Important
 │ │
-│ ├── 🔴 ⏳ Fix screw bit drift away from pickup position
+│ ├── 🔴 ⏳ Fix screw bit drift from pickup position after screwing
 │ │   └── Owner: Ammad, Hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
 │ │
 │ ├── 🔴 ⏳ Fix metal finger spacing issue
@@ -67,7 +67,7 @@
 │ ├── 🔴 ⏳ Integrate rubber pad pickup offset - Label Printer Rubber Foot Robot (2nd Priority)
 │ │   └── Owner: Tugi | Status: Pending integration | Affects pickup accuracy
 │ │
-│ ├── 🔴 ⏳ Integrate Omron camera vision system (top camera) - Screw Robot
+│ ├── 🔴 ⏳ Integrate top camera / validate printer location
 │ │   └── Owner: Ghulam Muhammd, Hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
 │ │
 │ │
@@ -83,45 +83,42 @@
 │
 │ ┌─ SCREW ROBOT - CUSTOM PENDING TASKS ─┐
 │ │
-│ ├── 🔴 ⏳ Test GUI and find potential issues and updates
+│ ├── 🔴 ⏳ Test Screw/Rubber GUI and report issues
 │ │   └── Owner: Jalol, Samrah | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System quality
 │ │
 │ ├── 🔴 ⏳ Capture depth maps with different light settings
 │ │   └── Owner: Tan, Hieu | Status: Reflection analysis completed (Jan 28), JSON config tuned, needs testing (Jan 29) | CRITICAL - Vision model improvement
 │ │
-│ ├── 🔴 ⏳ Integrate Fairino collision signal into main framework
+│ ├── 🔴 ⏳ Integrate Fairino / Add error handling / Collision handling
 │ │   └── Owner: Ammad, Hieu | Status: Collision signal developed on Fairino side but not integrated (Jan 28) | CRITICAL - System safety
 │ │
-│ ├── 🔴 ⏳ Add depth outlier filtering logic (expected-value logic)
+│ ├── 🔴 ⏳ Integrate update vision algorithm for depth estimation
 │ │   └── Owner: Tan, Hieu | Status: Need to filter outlier depth points, compute mean only from inliers (Jan 28) | CRITICAL - Depth accuracy
-│ │
-│ ├── 🔴 ⏳ Fairino Error Handling
-│ │   └── Owner: Ammad, Hieu | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System stability
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ RUBBER FOOT ROBOT - CUSTOM PENDING TASKS ─┐
 │ │
-│ ├── 🔴 ⏳ Merge the code between screw/rubber - Run and test
+│ ├── 🔴 ⏳ Merge screw/rubber foot robot code
 │ │   └── Owner: Hieu, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Code consistency
 │ │
 │ │
-│ ├── 🔴 ⏳ Install the finger gripper
+│ ├── 🔴 ⏳ Install finger gripper
 │ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Hardware installation
 │ │
-│ ├── 🔴 ⏳ Integrate Finger Gripper - Modify code and logic
+│ ├── 🔴 ⏳ Integrate finger gripper sequence for rubber foot robot
 │ │   └── Owner: Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Modify code to integrate different gripper, modify logic to skip validation | CRITICAL - System integration
 │ │
 │ ├── 🔴 ⏳ Grind / Scrub Sheet Roller
 │ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Hardware maintenance
 │ │
-│ ├── 🔴 ⏳ Reposition the platform / rubber pad holders
+│ ├── 🔴 ⏳ Reposition platform for rubber foot robot
 │ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Position to allow 3 holders on platform, redesign if needed | CRITICAL - Hardware optimization
 │ │
 │ ├── 🔴 ⏳ 3D print dual fingers for scoop
 │ │   └── Owner: Myeongun, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Determine tilt angle, share with Dr Saad | CRITICAL - Hardware design
 │ │
-│ ├── 🔴 ⏳ 3D print the catching basket for sheets/rubbers
+│ ├── 🔴 ⏳ 3D print catching basket
 │ │   └── Owner: Myeongun | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print | CRITICAL - Hardware design
 │ │
 │ └── 🔴 ⏳ Sheet Clamp Design to curve/bend the sheet
@@ -399,16 +396,16 @@
 ├── 🟡 ⏳ Method to overcome irregularities in rubber foot shape
 │   └── Owner: Tugi | Status: Need solution for irregular rubber foot shape | Affects attachment quality
 │
-├── 🟡 ⏳ Speed up robot movements to meet cycle time - Label Printer Screw Robot (3rd Priority)
+├── 🟡 ⏳ Optimize motions / reduce cycle time (screw)
 │   └── Owner: Hieu | Status: After 1st priority tasks | Blocks cycle time targets
 │
 ├── 🟡 ✅ Integrate self-training model - Label Printer Screw Robot (3rd Priority)
 │   └── Owner: Hieu | Status: Complete (Jan 17) | Self training integrated and tested
 │
-├── 🟡 ⏳ Speed up movements to meet cycle time - Label Printer Rubber Foot Robot (3rd Priority)
+├── 🟡 ⏳ Optimize motions / reduce cycle time (rubber foot)
 │   └── Owner: Tugi, Shoaib | Status: After 1st priority tasks | Blocks cycle time targets
 │
-├── 🟡 ⏳ Integrate self training logic - Label Printer Rubber Foot Robot (3rd Priority)
+├── 🟡 ⏳ Test self-training code for rubber foot robot
 │   └── Owner: Tugi | Status: After 1st priority tasks | In progress
 │
 ├── 🟡 ⏳ Install buzzers for error/warning display (2nd Priority)
@@ -471,16 +468,16 @@
 ├── 🟡 ⏳ Prepare complete spare for vacuum box with motor
 │   └── Owner: Tugi, Ammad, Muazzam | Status: Requested (Jan 20), need complete spare ready if using current mechanism for more than a week | Critical for production continuity
 │
-├── 🟡 ⏳ Order screw bits
+├── 🟡 ⏳ [screw] Ordering spare screw driver bits
 │   └── Owner: Kwanghyeop | Status: Requested by Ammad (Jan 19) | Need to order replacement bits
 │
 ├── 🟡 ⏳ Work on new rubber pad design
 │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks | Alternative design for rubber pad pickup
 │
-├── 🟡 ⏳ Link screw/rubber robots to pre-pickup the rubber pad
+├── 🟡 ⏳ Pre-pickup rubber pad at end/start of cycle.
 │   └── Owner: Tugi, Hieu | Status: From CustomPendingTasks | Optimization for cycle time
 │
-├── 🟡 ⏳ Take rubber pad pictures every cycle and after scooping / integrate rubber pad offset
+├── 🟡 ⏳ Integrate rubber pad offset from vision model / Capture rubber pad after scooping
 │   └── Owner: Tugi, Rizwan | Status: From CustomPendingTasks | Required for vision model improvement
 │
 ├── 🟡 ⏳ Bit alignment jig after screwing (improvisation oiling and spring insertion)
@@ -565,7 +562,7 @@
 ├── 🟡 ⏳ Bring new ethernet cables from lab
 │   └── Owner: Ammad | Status: Current one not stable, sometimes disconnects | Blocks stable connection
 │
-├── 🟡 ⏳ Ensure spares for each 3D printed part
+├── 🟡 ⏳ Ensure spares for 3D printed parts
 │   └── Owner: Muazzam, Myeongun | Status: In progress | Critical for production continuity
 │
 ├── 🟡 ⏳ Create Excel file - GUI tasks and issues status
@@ -577,7 +574,7 @@
 ├── 🟡 ⏳ Complete vision model validation summary
 │   └── Owner: Rizwan | Status: In progress | Required for handover
 │
-├── 🟡 ⏳ Equipment list (installed and pending delivery)
+├── 🟡 ⏳ List of deliverable items (pending delivery)
 │   └── Owner: Kwanghyeop | Status: Uploaded to OneDrive (Jan 16), needs verification | Missing items may delay handover
 │
 ├── 🟡 ⏳ 3D parts list
@@ -586,7 +583,7 @@
 ├── 🟡 ⏳ Maintain 3D components tracking list (requested/printed/handed over)
 │   └── Owner: Myeongun | Status: In progress | Track all 3D component requests
 │
-├── 🟡 ⏳ Finger replacement - Label Printer Rubber Foot Robot
+├── 🟡 ⏳ Order/Prepare finger spares
 │   └── Owner: Tugi, Myeongun | Status: Spare fingers prepared (Jan 16) | Ready for replacement
 │
 │
@@ -661,7 +658,7 @@
 ```
 📁 IMPORTANT ISSUES
 │
-└── 🟢 ⏳ Complete handover documentation package
+└── 🟢 ⏳ Prepare system documentation and handover package for Everint
     └── Owner: Kwanghyeop | Status: Not started yet | Tasks created in Asana but work not begun
     └──   ├── System Operation Documentation ⏳
     └──   ├── Maintenance Documentation ⏳
