@@ -47,7 +47,7 @@ This project documentation is organized into the following files:
 - **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** - **Complete tracking checklist** (merges urgent tasks, missing items, and gaps in visual format)
 - **[URGENT_TASKS.md](./URGENT_TASKS.md)** - Detailed urgent tasks (reference - main tracking in checklist)
 - **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference - main tracking in checklist)
-- **[JAN_15_CHECKLIST.md](./JAN_15_CHECKLIST.md)** - Daily checklist for January 15, 2026
+- **[ASANA_PENDING_TASKS.md](./ASANA_PENDING_TASKS.md)** - Pending tasks for Asana (title, description, 1 owner)
 - **[RULES.md](./RULES.md)** - Project coordination rules and guidelines
 
 ---
@@ -63,7 +63,7 @@ This project documentation is organized into the following files:
 - [Definition of Done](./TEAM_AND_HANDOVER.md#definition-of-done)
 - [Project Targets](./TARGETS.md) - Vision system demo requirements
 - [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file**
+- [Pending Tasks for Asana](./ASANA_PENDING_TASKS.md) – Copy-paste into Asana
 - [Urgent Tasks (Detailed)](./URGENT_TASKS.md)
 - [Missing Items (Detailed)](./MISSING_ITEMS.md)
-- [Jan 15 Checklist](./JAN_15_CHECKLIST.md)
 - [Coordination Rules](./RULES.md)
