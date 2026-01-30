@@ -61,10 +61,10 @@
 │ ├── 🔴 ⏳ Fix rubber foot ROI detection (tighter mechanism issue)
 │ │   └── Owner: Rizwan, Hieu | Status: User ROI from GUI good, but tighter mechanism makes it wrong | Blocks accurate detection
 │ │
-│ ├── 🔴 ⏳ Test rescan logic (Rubber Foot Robot) (2nd Priority)
+│ ├── 🔴 ⏳ Finalize rescan logic (rubber foot)
 │ │   └── Owner: Tugi | Status: Tested (Jan 19-20), rolled back due to issues, vision team working on fixes | Affects reliability
 │ │
-│ ├── 🔴 ⏳ Integrate rubber pad pickup offset - Label Printer Rubber Foot Robot (2nd Priority)
+│ ├── 🔴 ⏳ Integrate rubber pad offset from vision model / Capture rubber pad after scooping
 │ │   └── Owner: Tugi | Status: Pending integration | Affects pickup accuracy
 │ │
 │ ├── 🔴 ⏳ Integrate top camera / validate printer location
