@@ -1,7 +1,18 @@
 # Pending Tasks for Asana
 
-**Last Updated:** January 30, 2026  
+**Last Updated:** January 30, 2026 (Updated based on Asana completion status)  
 **Purpose:** Copy-paste into Asana. Each task has **Title**, **Description**, and **1 Owner**.
+
+**Note:** Tasks marked with ~~strikethrough~~ and ✅ are completed and should not be added to Asana.
+
+**Completed Tasks (Jan 30):**
+- Install damper on conveyor (Ammad)
+- Check/Save GUI parameters change for vision models (Jalol)
+- Assembly Process Product Image 1 (Samrah)
+- [screw] Robot Config (Product Specs YAML file) (Sawera)
+- Integrate misalignment warning messages for rubber foot at cycle end (Tugi)
+- Dump Timestamps for each cycle (Tugi)
+- Control pallet conveyor from framework using PLC Signal (Tugi)
 
 ---
 
@@ -25,8 +36,8 @@
 | 14 | Test rescan logic (Rubber Robot) | Test rescan logic after vision fixes. Rolled back previously due to issues. | Tugi |
 | 15 | Integrate rubber pad pickup offset (Rubber Robot) | Integrate pickup offset for rubber pad in robot framework. | Tugi |
 | 16 | Integrate Omron camera / top camera (Screw Robot) | Integrate and test Omron (top) camera for collision/product detection. PRs merged, integration pending. | Hieu |
-| 17 | Integrate misalignment warning for rubber foot (Rubber Robot) | Use vision misalignment output in robot logic for rubber foot attachment quality. | Rizwan |
-| 18 | Ensure GUI parameter stability (Both systems) | Ensure GUI parameters do not change during operation or across cycles. | Jalol |
+| 17 | ~~Integrate misalignment warning for rubber foot (Rubber Robot)~~ ✅ | ~~Use vision misalignment output in robot logic for rubber foot attachment quality.~~ | ~~Tugi~~ |
+| 18 | ~~Ensure GUI parameter stability (Both systems)~~ ✅ | ~~Ensure GUI parameters do not change during operation or across cycles.~~ | ~~Jalol~~ |
 | 19 | Fix upper light holder (Screw Robot) | Replace temporary tape fix with proper upper light holder. | Ammad |
 | 20 | Test GUI and find issues (Screw Robot) | Test GUI on production server; log and fix issues. | Jalol |
 | 21 | Capture depth maps with different light settings (Screw Robot) | Capture depth maps under different lighting for vision analysis and tuning. | Tan |
@@ -34,7 +45,7 @@
 | 23 | Add depth outlier filtering (Screw Robot) | Filter outlier depth points; use expected-value logic for stable depth. | Tan |
 | 24 | Fairino error handling (Screw Robot) | Implement and integrate Fairino error handling in framework. | Ammad |
 | 25 | Merge screw/rubber code and test (Rubber Robot) | Merge code between screw and rubber systems; run full robot test. | Hieu |
-| 26 | Add time estimation / timestamp dump (Screw and Rubber) | Dump per-command timestamps and full run info (input time, model results, etc.) to JSON/YAML. | Hieu |
+| 26 | ~~Add time estimation / timestamp dump (Screw and Rubber)~~ ✅ | ~~Dump per-command timestamps and full run info (input time, model results, etc.) to JSON/YAML.~~ | ~~Tugi~~ |
 | 27 | Install finger gripper (Rubber Robot) | Install finger gripper hardware on rubber foot robot. | Tugi |
 | 28 | Integrate finger gripper in code (Rubber Robot) | Update code and logic for finger gripper; skip suction-cup validation where applicable. | Tugi |
 | 29 | Grind / scrub sheet roller (Rubber Robot) | Maintain sheet roller for reliable feeding. | Tugi |
@@ -78,7 +89,7 @@
 | 60 | Link screw/rubber robots to pre-pickup rubber pad (Both systems) | Enable pre-pickup of rubber pad for cycle time. | Tugi |
 | 61 | Rubber pad pictures every cycle and offset (Rubber Robot) | Take pictures every cycle and after scooping; integrate rubber pad offset. | Tugi |
 | 62 | Fix screw validation logic – range and tilt (Screw Robot) | Fix range and tilt angle logic to reduce false positives/negatives. | Hieu |
-| 63 | Use start/abort signal from conveyor PLC (Both systems) | Integrate conveyor PLC start/abort with vision. | Saad |
+| 63 | ~~Use start/abort signal from conveyor PLC (Both systems)~~ ✅ | ~~Integrate conveyor PLC start/abort with vision.~~ | ~~Tugi~~ |
 | 64 | Prepare checkerboards and Aruco codes (Both systems) | Print checkerboards and Aruco codes for calibration. | Tan |
 | 65 | Bring new ethernet cables from lab (Both systems) | Replace unstable cables. | Ammad |
 | 66 | Ensure spares for each 3D printed part (Both systems) | Maintain spares for all 3D printed components. | Muazzam |

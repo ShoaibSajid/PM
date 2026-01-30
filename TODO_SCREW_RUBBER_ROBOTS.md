@@ -1,6 +1,6 @@
 # TODO List - Screw Robot & Rubber Foot Robot
 
-**Last Updated:** January 28, 2026  
+**Last Updated:** January 30, 2026  
 **Status:** Active tracking for both robot systems
 
 ---
@@ -490,9 +490,9 @@
   - Priority: High
   - Impact: System stability
 
-- [ ] **Integrate misalignment warning for rubber foot attachment**
-  - Owner: Rizwan, Tugi
-  - Status: Misalignment argument already shared, initial version added and returned during inference but not currently used by robot side (Jan 22)
+- [x] **Integrate misalignment warning for rubber foot attachment** ✅
+  - Owner: Tugi
+  - Status: Complete (Jan 30) | Misalignment warning messages integrated at cycle end
   - Priority: High
   - Impact: Quality control
 
@@ -509,9 +509,9 @@
   - Priority: CRITICAL
   - Impact: Code consistency
 
-- [ ] **Add function for time estimation (in Screw and Rubber)**
-  - Owner: Hieu, Tugi
-  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Dump time information in json/yaml (start/end timestamp of each command), dump whole information (input time, info, model results)
+- [x] **Add function for time estimation (in Screw and Rubber)** ✅
+  - Owner: Tugi
+  - Status: Complete (Jan 30) | Dump timestamps for each cycle implemented
   - Priority: High
   - Impact: Performance monitoring
 
@@ -607,6 +607,19 @@
 
 ---
 
+## ✅ Recently Completed Tasks (Jan 30)
+
+- [x] **Integrate misalignment warning for rubber foot attachment** ✅
+  - Owner: Tugi | Complete (Jan 30) | Misalignment warning messages integrated at cycle end
+
+- [x] **Dump Timestamps for each cycle** ✅
+  - Owner: Tugi | Complete (Jan 30) | Timestamp dump function implemented
+
+- [x] **Control pallet conveyor from framework using PLC Signal** ✅
+  - Owner: Tugi | Complete (Jan 30) | PLC signal integration done
+
+---
+
 ## 📊 Progress Summary
 
 ### Screw Robot
@@ -648,5 +661,5 @@
 
 ---
 
-**Last Updated:** January 21, 2026
+**Last Updated:** January 30, 2026
 

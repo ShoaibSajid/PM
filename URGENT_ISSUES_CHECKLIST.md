@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 29, 2026 (Based on Jan 28-29 updates)  
+**Last Updated:** January 30, 2026 (Based on Asana status updates)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
@@ -70,15 +70,11 @@
 │ ├── 🔴 ⏳ Integrate Omron camera vision system (top camera) - Screw Robot
 │ │   └── Owner: Ghulam Muhammd, Hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
 │ │
-│ ├── 🔴 ⏳ Integrate misalignment warning for rubber foot attachment
-│ │   └── Owner: Rizwan, Tugi | Status: Misalignment argument already shared, initial version added and returned during inference but not currently used by robot side (Jan 22) | CRITICAL - Quality control
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ SOFTWARE & SYSTEM STABILITY ─┐
 │ │
-│ ├── 🔴 ⏳ Ensure GUI parameter stability (values remain unchanged)
-│ │   └── Owner: Jalol, Sawera | Status: Need to ensure GUI parameters remain unchanged during operation and across execution cycles (Jan 22) | CRITICAL - System stability
 │ │
 │ ├── 🔴 ⏳ Fix upper light holder - Label Printer Screw Robot
 │ │   └── Owner: Ammad, Muazzam | Status: Upper light temporarily fixed with electrical tape (Jan 26), needs proper fixing in original holder | CRITICAL - System stability
@@ -109,8 +105,6 @@
 │ ├── 🔴 ⏳ Merge the code between screw/rubber - Run and test
 │ │   └── Owner: Hieu, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Code consistency
 │ │
-│ ├── 🔴 ⏳ Add function for time estimation (in Screw and Rubber)
-│ │   └── Owner: Hieu, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Dump time information in json/yaml (start/end timestamp of each command), dump whole information (input time, info, model results) | CRITICAL - Performance monitoring
 │ │
 │ ├── 🔴 ⏳ Install the finger gripper
 │ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Hardware installation
@@ -375,6 +369,21 @@
 │
 └── 🔴 ✅ Retrain model after metal finger change
     └── Owner: Hieu, Vision team | Status: Complete (Jan 23) | Model retrained
+│
+├── 🔴 ✅ Install damper on conveyor
+│   └── Owner: Ammad | Status: Complete (Jan 30) | Damper installed
+│
+├── 🔴 ✅ Check/Save GUI parameters change for vision models
+│   └── Owner: Jalol | Status: Complete (Jan 30) | GUI parameter stability ensured
+│
+├── 🔴 ✅ Integrate misalignment warning messages for rubber foot at cycle end
+│   └── Owner: Tugi | Status: Complete (Jan 30) | Misalignment warning integrated
+│
+├── 🔴 ✅ Dump Timestamps for each cycle
+│   └── Owner: Tugi | Status: Complete (Jan 30) | Timestamp dump function implemented
+│
+└── 🔴 ✅ Control pallet conveyor from framework using PLC Signal
+    └── Owner: Tugi | Status: Complete (Jan 30) | PLC signal integration done
 ```
 
 ---
@@ -549,8 +558,6 @@
 ├── 🟡 ⏳ Fix screw validation logic (range and tilt angle)
 │   └── Owner: Hieu, Haider Shah | Status: Multiple false positive/negative cases, need range-based logic | Blocks production
 │
-├── 🟡 ⏳ Use start/abort signal from conveyor PLC
-│   └── Owner: Saad | Status: Combine with vision to determine if no printer | After camera installation
 │
 ├── 🟡 ⏳ Prepare checkerboards and Aruco codes for calibration
 │   └── Owner: Tan | Status: Print two more checkerboards and two Aruco codes | For calibration support
