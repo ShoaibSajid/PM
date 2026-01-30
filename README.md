@@ -2,7 +2,7 @@
 
 **Client:** Everint (company name)  
 **Project Owner:** Shoaib (recently joined to manage all teams)  
-**Last Updated:** January 2026  
+**Last Updated:** January 30, 2026  
 **Project Phase:** Validation, Acceptance, and Handover
 
 ---
@@ -40,30 +40,29 @@ The project is transitioning from execution to formal acceptance and ownership t
 
 This project documentation is organized into the following files:
 
-- **[SYSTEMS.md](./SYSTEMS.md)** - Detailed information about each robotic system, architecture, and operational flows
-- **[PROCESSES.md](./PROCESSES.md)** - Acceptance criteria and vision validation workflows
-- **[TEAM_AND_HANDOVER.md](./TEAM_AND_HANDOVER.md)** - Team structure, handover package, definition of done, and current focus areas
-- **[TARGETS.md](./TARGETS.md)** - Project targets and vision system demo requirements
-- **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** - **Complete tracking checklist** (merges urgent tasks, missing items, and gaps in visual format)
-- **[URGENT_TASKS.md](./URGENT_TASKS.md)** - Detailed urgent tasks (reference - main tracking in checklist)
-- **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference - main tracking in checklist)
-- **[ASANA_PENDING_TASKS.md](./ASANA_PENDING_TASKS.md)** - Pending tasks for Asana (title, description, 1 owner)
-- **[RULES.md](./RULES.md)** - Project coordination rules and guidelines
+### Active Tracking
+- **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** ⭐ **Main tracking file** - Tasks matching Asana screenshots
+- **[COMPLETED_TASKS.md](./COMPLETED_TASKS.md)** - Archive of all completed tasks
+- **[MISSING_TASKS.md](./MISSING_TASKS.md)** - Tasks pending but NOT in Asana (need review)
+- **[BLINDSPOTS.md](./BLINDSPOTS.md)** - PM perspective gaps, risks, and missing elements
+
+### Reference Files
+- **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference)
+- **[CustomPendingTasks_Screw.md](./CustomPendingTasks_Screw.md)** - Screw robot specific tasks
+- **[CustomPendingTasks_Rubber.md](./CustomPendingTasks_Rubber.md)** - Rubber foot robot specific tasks
+- **[CHAT_ANALYSIS_JAN_30.md](./CHAT_ANALYSIS_JAN_30.md)** - Latest chat analysis
+- **[CLIENT_MESSAGE_JAN_30.md](./CLIENT_MESSAGE_JAN_30.md)** - Client communication templates
 
 ---
 
 ## Quick Links
 
-- [Robotic Systems](./SYSTEMS.md#robotic-systems-in-scope)
-- [System Architecture](./SYSTEMS.md#high-level-system-architecture)
-- [Acceptance Criteria](./PROCESSES.md#acceptance)
-- [Vision Validation](./PROCESSES.md#vision-validation-workflow)
-- [Team Structure](./TEAM_AND_HANDOVER.md#team-structure-and-ownership)
-- [Handover Package](./TEAM_AND_HANDOVER.md#documentation--handover-package)
-- [Definition of Done](./TEAM_AND_HANDOVER.md#definition-of-done)
-- [Project Targets](./TARGETS.md) - Vision system demo requirements
-- [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file**
-- [Pending Tasks for Asana](./ASANA_PENDING_TASKS.md) – Copy-paste into Asana
-- [Urgent Tasks (Detailed)](./URGENT_TASKS.md)
+- [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file (matches Asana)**
+- [Completed Tasks Archive](./COMPLETED_TASKS.md) - All completed tasks
+- [Missing Tasks (Not in Asana)](./MISSING_TASKS.md) - Tasks needing review
+- [PM Blindspots](./BLINDSPOTS.md) - Gaps and risks from PM perspective
 - [Missing Items (Detailed)](./MISSING_ITEMS.md)
-- [Coordination Rules](./RULES.md)
+
+---
+
+**Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. Tasks not in Asana are listed in MISSING_TASKS.md for review.
