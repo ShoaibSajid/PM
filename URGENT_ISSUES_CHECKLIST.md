@@ -17,59 +17,65 @@
 │ ┌─ REGISTRATION & SETUP (Highest Priority for Demo) ─┐
 │ │
 │ ├── 🔴 ⏳ Register All Products with update system / metal fingers
-│ │   └── Owner: Hieu, Tugi, Quy Ninh | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
+│ │   └── Owner: LT Le Thai Tan | Status: Only 2 done (XD5-40D, XD3-40D), waiting for manual registration fix | CRITICAL for Monday demo
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ HARDWARE & MECHANICAL (Blocks Production) ─┐
 │ │
 │ ├── 🔴 ⏳ Fix Printer Tilt (Depth based angle adjustment)
-│ │   └── Owner: Ammad, Hieu | Status: Printer is tilted, causing bit offset after each screwing causing pick miss, also screw robot reset timeout (Jan 21) | CRITICAL - Urgent/Important
+│ │   └── Owner: hi hieu | Status: Printer is tilted, causing bit offset after each screwing causing pick miss, also screw robot reset timeout (Jan 21) | CRITICAL - Urgent/Important
 │ │
 │ ├── 🔴 ⏳ Fix screw bit drift from pickup position after screwing
-│ │   └── Owner: Ammad, Hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
+│ │   └── Owner: hi hieu | Status: Screw bit occasionally drifts away from pickup position, suspected caused by unsmooth screwing in top-right screw hole (Jan 21) | CRITICAL - Blocks production
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ VISION & DETECTION (Blocks Production Quality) ─┐
 │ │
 │ ├── 🔴 ⏳ Finalize rescan logic (rubber foot)
-│ │   └── Owner: Tugi | Status: Tested (Jan 19-20), rolled back due to issues, vision team working on fixes | Affects reliability
+│ │   └── Owner: TJ Tuguldur Jigj | Status: Tested (Jan 19-20), rolled back due to issues, vision team working on fixes | Affects reliability
 │ │
 │ ├── 🔴 ⏳ Integrate rubber pad offset from vision model / Capture rubber pad after scooping
-│ │   └── Owner: Tugi | Status: Pending integration | Affects pickup accuracy
+│ │   └── Owner: TJ Tuguldur Jigj | Status: Pending integration | Affects pickup accuracy
 │ │
 │ ├── 🔴 ⏳ Integrate top camera / validate printer location
-│ │   └── Owner: Ghulam Muhammd, Hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
+│ │   └── Owner: hi hieu | Status: PR #136, #141 merged with README (Jan 22), needs integration and testing | CRITICAL - Collision detection
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ SOFTWARE & SYSTEM STABILITY ─┐
 │ │
+│ ├── 🔴 ⏳ Use Start/Abort signal from conveyor (screw/rubber)
+│ │   └── Owner: AW Ammad | Status: Conveyor signal integration needed | CRITICAL - System control
+│ │
 │ ├── 🔴 ⏳ Integrate Fairino / Add error handling / Collision handling
-│ │   └── Owner: Ammad, Hieu | Status: Collision signal developed on Fairino side but not integrated (Jan 28) | CRITICAL - System safety
+│ │   └── Owner: AW Ammad | Status: Collision signal developed on Fairino side but not integrated (Jan 28) | CRITICAL - System safety
 │ │
 │ ├── 🔴 ⏳ Integrate update vision algorithm for depth estimation
-│ │   └── Owner: Tan, Hieu | Status: Need to filter outlier depth points, compute mean only from inliers (Jan 28) | CRITICAL - Depth accuracy
+│ │   └── Owner: hi hieu | Status: Need to filter outlier depth points, compute mean only from inliers (Jan 28) | CRITICAL - Depth accuracy
+│ │
+│ ├── 🔴 ⏳ Test and finalize product registration (Manual and Auto) (PCB)
+│ │   └── Owner: sa saidjalol | Status: Registration testing and finalization needed | CRITICAL - System functionality
+│ │
+│ ├── 🔴 ⏳ Test and finalize product registration (Manual and Auto) (Screw/Rubber)
+│ │   └── Owner: sa saidjalol | Status: Registration testing and finalization needed | CRITICAL - System functionality
 │ │
 │ └──────────────────────────────────────────────────────┘
 │
 │ ┌─ RUBBER FOOT ROBOT - CUSTOM PENDING TASKS ─┐
 │ │
 │ ├── 🔴 ⏳ Merge screw/rubber foot robot code
-│ │   └── Owner: Hieu, Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Code consistency
-│ │
-│ ├── 🔴 ⏳ Install finger gripper
-│ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Hardware installation
+│ │   └── Owner: hi hieu | Status: From CustomPendingTasks_Rubber.md (Jan 28) | CRITICAL - Code consistency
 │ │
 │ ├── 🔴 ⏳ Integrate finger gripper sequence for rubber foot robot
-│ │   └── Owner: Tugi | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Modify code to integrate different gripper, modify logic to skip validation | CRITICAL - System integration
+│ │   └── Owner: TJ Tuguldur Jigj | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Modify code to integrate different gripper, modify logic to skip validation | CRITICAL - System integration
 │ │
 │ ├── 🔴 ⏳ Reposition platform for rubber foot robot
-│ │   └── Owner: Tugi, Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Position to allow 3 holders on platform, redesign if needed | CRITICAL - Hardware optimization
+│ │   └── Owner: MA Muazzam | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Position to allow 3 holders on platform, redesign if needed | CRITICAL - Hardware optimization
 │ │
 │ └── 🔴 ⏳ 3D print catching basket
-│     └── Owner: Myeongun | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print | CRITICAL - Hardware design
+│     └── Owner: SA Saad Arslan | Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print | CRITICAL - Hardware design
 │ │
 │ └──────────────────────────────────────────────────────┘
 ```
@@ -82,31 +88,58 @@
 📁 HIGH PRIORITY ISSUES
 │
 ├── 🟡 ⏳ Optimize motions / reduce cycle time (screw)
-│   └── Owner: Hieu | Status: After 1st priority tasks | Blocks cycle time targets
+│   └── Owner: hi hieu | Status: After 1st priority tasks | Blocks cycle time targets
 │
 ├── 🟡 ⏳ Optimize motions / reduce cycle time (rubber foot)
-│   └── Owner: Tugi, Shoaib | Status: After 1st priority tasks | Blocks cycle time targets
+│   └── Owner: TJ Tuguldur Jigj | Status: After 1st priority tasks | Blocks cycle time targets
+│
+├── 🟡 ⏳ Test self-training code for screw driver robot
+│   └── Owner: hi hieu | Status: Testing needed | High priority
 │
 ├── 🟡 ⏳ Test self-training code for rubber foot robot
-│   └── Owner: Tugi | Status: After 1st priority tasks | In progress
+│   └── Owner: TJ Tuguldur Jigj | Status: After 1st priority tasks | In progress
+│
+├── 🟡 ⏳ Order 1 5070 GPU for Screw Driver Robot (and 1 spare if possible)
+│   └── Owner: KK Kwanghyeop | Status: Hardware procurement needed | High priority
 │
 ├── 🟡 ⏳ [screw] Ordering spare screw driver bits
-│   └── Owner: Kwanghyeop | Status: Requested by Ammad (Jan 19) | Need to order replacement bits
+│   └── Owner: KK Kwanghyeop | Status: Requested by Ammad (Jan 19) | Need to order replacement bits
+│
+├── 🟡 ⏳ Prepare and install new metal fingers
+│   └── Owner: MA Muazzam | Status: Hardware installation needed | High priority
+│
+├── 🟡 ⏳ Install 3 rubber pad holders
+│   └── Owner: MA Muazzam | Status: Hardware installation needed | High priority
+│
+├── 🟡 ⏳ Finalize design for rubber pad holder
+│   └── Owner: SA Saad Arslan | Status: Design finalization needed | High priority
 │
 ├── 🟡 ⏳ Pre-pickup rubber pad at end/start of cycle.
-│   └── Owner: Tugi, Hieu | Status: From CustomPendingTasks | Optimization for cycle time
+│   └── Owner: TJ Tuguldur Jigj | Status: From CustomPendingTasks | Optimization for cycle time
 │
 ├── 🟡 ⏳ Ensure spares for 3D printed parts
-│   └── Owner: Muazzam, Myeongun | Status: In progress | Critical for production continuity
+│   └── Owner: MA Muazzam | Status: In progress | Critical for production continuity
 │
 ├── 🟡 ⏳ List of deliverable items (pending delivery)
-│   └── Owner: Kwanghyeop | Status: Uploaded to OneDrive (Jan 16), needs verification | Missing items may delay handover
+│   └── Owner: KK Kwanghyeop | Status: Uploaded to OneDrive (Jan 16), needs verification | Missing items may delay handover
+│
+├── 🟡 ⏳ Prepare list of all the items installed with serial number, location and age
+│   └── Owner: KK Kwanghyeop | Status: Documentation needed | High priority
+│
+├── 🟡 ⏳ Prepare list of all the 3D printed parts along with installed location, quantity and specifications
+│   └── Owner: MA Muazzam | Status: Documentation needed | High priority
 │
 ├── 🟡 ⏳ Order/Prepare finger spares
-│   └── Owner: Tugi, Myeongun | Status: Spare fingers prepared (Jan 16) | Ready for replacement
+│   └── Owner: MA Muazzam | Status: Spare fingers prepared (Jan 16) | Ready for replacement
 │
 ├── 🟡 ⏳ Test Screw/Rubber GUI and report issues
-│   └── Owner: Jalol, Samrah | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System quality
+│   └── Owner: LT Le Thai Tan | Status: From CustomPendingTasks_Screw.md (Jan 28) | CRITICAL - System quality
+│
+├── 🟡 ⏳ Save images in PNG in case of failure (screw/rubber) in dedicated dir (/DATA/Failure
+│   └── Owner: LT Le Thai Tan | Status: Error handling improvement needed | High priority
+│
+├── 🟡 ⏳ Integrate irregular rubber foot outer body for accurate attachment
+│   └── Owner: TJ Tuguldur Jigj | Status: Vision/attachment improvement needed | High priority
 │
 └──────────────────────────────────────────────────────┘
 ```
@@ -119,7 +152,7 @@
 📁 IMPORTANT ISSUES
 │
 └── 🟢 ⏳ Prepare system documentation and handover package for Everint
-    └── Owner: Kwanghyeop | Status: Not started yet | Tasks created in Asana but work not begun
+    └── Owner: KK Kwanghyeop | Status: Not started yet | Tasks created in Asana but work not begun
     └──   ├── System Operation Documentation ⏳
     └──   ├── Maintenance Documentation ⏳
     └──   ├── Equipment & Hardware List ⏳
@@ -137,10 +170,55 @@
 📁 FOLLOW-UP REQUIRED
 │
 ├── 📋 ⏳ [screw] Robot finger with spring mechanism for PCB robot
-│   └── Owner: Ammad | Status: In progress | Needs completion
+│   └── Owner: AW Ammad | Status: In progress | Needs completion
 │
-└── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
-    └── Owner: Kwanghyeop | Status: In progress | Needs completion
+├── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
+│   └── Owner: KK Kwanghyeop | Status: In progress | Needs completion
+│
+├── 📋 ⏳ Visualize cycle execution times
+│   └── Owner: TJ Tuguldur Jigj | Status: Analysis/visualization needed | Medium priority
+│
+├── 📋 ⏳ [screw] Investigate Collision when robot A move up from pcb holding position
+│   └── Owner: AW Ammad | Status: Has comments (2) | Medium priority
+│
+├── 📋 ⏳ add new mqtt_subcall:mqqt_receive_msg_callback for command/data with sepe
+│   └── Owner: AW Ammad | Status: Has comments (1) | Medium priority
+│
+├── 📋 ⏳ [screw] Wiring Feedback for screw driver
+│   └── Owner: AW Ammad | Status: Has attachment, expandable task | Medium priority
+│
+├── 📋 ⏳ [screw] Finalize the error list and events for LB-Screw
+│   └── Owner: hi hieu | Status: Has comments (1) | Medium priority
+│
+├── 📋 ⏳ [screw] Vision Test Bench
+│   └── Owner: hi hieu | Status: Testing setup needed | Medium priority
+│
+├── 📋 ⏳ Make a detailed network diagram
+│   └── Owner: KK Kwanghyeop | Status: Documentation needed | Medium priority
+│
+├── 📋 ⏳ Prepare complete test bench with Hieu for label printer
+│   └── Owner: LT Le Thai Tan | Status: Testing setup needed | Medium priority
+│
+├── 📋 ⏳ [screw] Test OBB DETR model for PCB detection
+│   └── Owner: LT Le Thai Tan | Status: Vision testing needed | Medium priority
+│
+├── 📋 ⏳ [screw] Robot scan area tuning
+│   └── Owner: sa samrahsajid1 | Status: GUI/configuration needed | Medium priority
+│
+├── 📋 ⏳ [label] Terminal -> Logs
+│   └── Owner: Sa Sawera | Status: GUI feature needed | Medium priority
+│
+├── 📋 ⏳ [screw] Realtime Logs (Front, Back, vision, robot)
+│   └── Owner: Sa Sawera | Status: GUI feature needed | Medium priority
+│
+├── 📋 ⏳ [screw] Test Bench for registration
+│   └── Owner: Sa Sawera | Status: Testing needed | Medium priority
+│
+├── 📋 ⏳ Finalize error message mechanism for Screw/Rubber GUI (auto timeout etc)
+│   └── Owner: TJ Tuguldur Jigj | Status: GUI feature needed | Medium priority
+│
+└── 📋 ⏳ [screw] User Guide
+    └── Owner: Sa Sawera | Status: Documentation needed | Low priority
 ```
 
 ---
@@ -225,7 +303,7 @@
 - [COMPLETED_TASKS.md](./COMPLETED_TASKS.md) - All completed tasks archive
 - [MISSING_TASKS.md](./MISSING_TASKS.md) - Tasks not in Asana (need review)
 - [BLINDSPOTS.md](./BLINDSPOTS.md) - PM perspective gaps and risks
-- [ASANA_PENDING_TASKS.md](./ASANA_PENDING_TASKS.md) - Tasks ready for Asana
+- [ASANA_TASKS_LIST.md](./ASANA_TASKS_LIST.md) - Complete list of all Asana tasks
 
 ---
 

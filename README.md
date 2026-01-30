@@ -42,6 +42,7 @@ This project documentation is organized into the following files:
 
 ### Active Tracking
 - **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** ⭐ **Main tracking file** - Tasks matching Asana screenshots
+- **[ASANA_TASKS_LIST.md](./ASANA_TASKS_LIST.md)** - Complete list of all tasks from Asana (organized by owner, priority, category, due date)
 - **[COMPLETED_TASKS.md](./COMPLETED_TASKS.md)** - Archive of all completed tasks
 - **[MISSING_TASKS.md](./MISSING_TASKS.md)** - Tasks pending but NOT in Asana (need review)
 - **[BLINDSPOTS.md](./BLINDSPOTS.md)** - PM perspective gaps, risks, and missing elements
@@ -58,10 +59,11 @@ This project documentation is organized into the following files:
 ## Quick Links
 
 - [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file (matches Asana)**
+- [Asana Tasks List](./ASANA_TASKS_LIST.md) - Complete Asana tasks reference (51 tasks: 7 completed, 44 pending)
 - [Completed Tasks Archive](./COMPLETED_TASKS.md) - All completed tasks
 - [Missing Tasks (Not in Asana)](./MISSING_TASKS.md) - Tasks needing review
 - [PM Blindspots](./BLINDSPOTS.md) - Gaps and risks from PM perspective
-- [Missing Items (Detailed)](./MISSING_ITEMS.md)
+- [Missing Items (Detailed)](./MISSING_ITEMS.md) - Reference document for information gaps
 
 ---
 
