@@ -1,86 +1,14 @@
 # Missing Tasks - Not in Asana
 
-**Last Updated:** January 30, 2026  
-**Purpose:** Tasks that are pending in URGENT_ISSUES_CHECKLIST.md but NOT currently tracked in Asana. These should be reviewed and added to Asana if still needed.
+**Last Updated:** January 31, 2026  
+**Purpose:** Tasks that are pending in URGENT_ISSUES_CHECKLIST.md but NOT currently tracked in Asana. These should be reviewed and added to Asana if still needed.  
+**Note:** Removed items that are already in Asana, completed, not required, or superseded (e.g. conveyor damper instead of position adjustment).
 
 ---
 
 ## 🔴 Critical / Blocking - Missing from Asana
 
-### Registration & Setup
-- **Fix manual registration issue - Both systems (1st Priority)**
-  - Owner: Jalol
-  - Status: GUI registration issue exists, Jalol fixing (Jan 22), Hieu did manual registration using existing name (SLP-DL413 instead of SLP-DX220)
-  - Priority: CRITICAL for Monday demo
-
-### Hardware & Mechanical
-- **Fix metal finger spacing issue**
-  - Owner: Myeongun, Muazzam
-  - Status: Spacing not correct for fingers (Jan 22), need to add plastic sheet or thin flat washer
-  - Priority: CRITICAL - Blocks production
-
-- **No spares for finger present**
-  - Owner: Myeongun, Muazzam
-  - Status: Urgent/Important (Jan 21)
-  - Priority: CRITICAL - Blocks production continuity
-
-- **Install dedicated bracket for screw mirror (fixed and repeatable position)**
-  - Owner: Muazzam, Ammad
-  - Status: Magnetic base bracket unstable due to vibration, dedicated bracket required (Jan 21)
-  - Priority: CRITICAL - Mirror critical for detecting tilts
-
-- **Complete 2D camera hardware installation**
-  - Owner: Muazzam, Ammad
-  - Status: Hardware installation incomplete
-  - Priority: Blocks full system functionality
-
-- **Request continuous roll rubber pad sheets (8xN instead of 8x8)**
-  - Owner: Kwanghyeop, Shoaib
-  - Status: Current small sheets cause jam in roller area, need continuous roll for smooth operation (Jan 22)
-  - Priority: CRITICAL - Improves reliability
-
-- **Conveyor position adjustment / fix (1st Priority)**
-  - Owner: Ammad
-  - Status: CRITICAL for Monday demo
-  - Priority: Affects product positioning
-
-- **Fix out of place product on conveyor causing collision**
-  - Owner: Ammad, Hieu
-  - Status: Products misaligned causing collision/damage
-  - Priority: Solution: Use top camera to detect product within acceptable zone
-
-- **Fix upper light holder - Label Printer Screw Robot**
-  - Owner: Ammad, Muazzam
-  - Status: Upper light temporarily fixed with electrical tape (Jan 26), needs proper fixing in original holder
-  - Priority: CRITICAL - System stability
-
-### Vision & Detection
-- **Fix screw pickup validation - Label Printer Screw Robot (2nd screw feeder FPs)**
-  - Owner: Hieu, Haider Shah, Rizwan
-  - Status: Model 2 screw validation updated (Jan 19-20), 1-2 false negatives remain, Sajad fixing
-  - Priority: Blocks production
-
-- **Fix rubber foot ROI detection (tighter mechanism issue)**
-  - Owner: Rizwan, Hieu
-  - Status: User ROI from GUI good, but tighter mechanism makes it wrong
-  - Priority: Blocks accurate detection
-
-- **Capture depth maps with different light settings**
-  - Owner: Tan, Hieu
-  - Status: Reflection analysis completed (Jan 28), JSON config tuned, needs testing (Jan 29)
-  - Priority: CRITICAL - Vision model improvement
-
 ### Rubber Foot Robot - Custom Pending Tasks
-- **Grind / Scrub Sheet Roller**
-  - Owner: Tugi, Muazzam
-  - Status: From CustomPendingTasks_Rubber.md (Jan 28)
-  - Priority: CRITICAL - Hardware maintenance
-
-- **3D print dual fingers for scoop**
-  - Owner: Myeongun, Tugi
-  - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Determine tilt angle, share with Dr Saad
-  - Priority: CRITICAL - Hardware design
-
 - **Sheet Clamp Design to curve/bend the sheet**
   - Owner: Myeongun
   - Status: From CustomPendingTasks_Rubber.md (Jan 28) - Design and print
