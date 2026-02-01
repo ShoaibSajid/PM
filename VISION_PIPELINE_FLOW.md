@@ -104,18 +104,11 @@ flowchart LR
 
   subgraph Output["Output"]
     D["Dict (size = #screws)"]
+    STRUCT["Per entry:<br/>Screw Number → Identifier<br/>Screw Position → (X, Y)<br/>Screw Depth → Depth value<br/>Screw Tilt → (Rx, Ry)"]
+    D ~~~ STRUCT
   end
 
   RGB --> VM
   DEPTH --> VM
   VM --> D
 ```
-
-**Output dict structure** (one entry per screw):
-
-| Field           | Description              |
-|----------------|--------------------------|
-| Screw Number   | Identifier               |
-| Screw Position | (X, Y)                   |
-| Screw Depth    | Depth value              |
-| Screw Tilt     | (Rx, Ry)                 |
