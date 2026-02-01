@@ -51,8 +51,8 @@ flowchart TB
     D_he --> D_out[Final 3D points]
 
     D_check -->|"No: out of range or invalid"| D_fb[Fallback]
-    D_fb --> D_fb1["Option A: lookup depth at (x,y) on map"]
-    D_fb --> D_fb2["Option B: reject point"]
+    D_fb --> D_fb1["Option A: Rescan"]
+    D_fb --> D_fb2["Option B: Scan Failed"]
   end
 ```
 
