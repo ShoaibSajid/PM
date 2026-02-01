@@ -104,7 +104,7 @@ flowchart LR
 
   subgraph Output["Output"]
     D["Dict (size = #screws)"]
-    STRUCT["Per entry:<br/>Screw Number → Identifier<br/>Screw Position → (X, Y)<br/>Screw Depth → Depth value<br/>Screw Tilt → (Rx, Ry)"]
+    STRUCT["Per entry:<br/>Screw Number → Identifier<br/>Screw Position → (X, Y)<br/><s>Screw Depth → Depth value</s><br/>Screw Tilt → (Rx, Ry, Rz)"]
     D ~~~ STRUCT
   end
 
