@@ -84,3 +84,38 @@ flowchart TB
 - **Vision model** is depth-aware: it gets RGB + depth and outputs x, y, and depth.
 - **Depth source** shifts from “always from depth map” to “from model, validated; fallback to map or reject.”
 - **Validation** step ensures depth is in range and not an outlier before hand-eye transform.
+
+---
+
+## Vision I/O Diagram (RGB + Raw Depth → Screw Dict)
+
+High-level inputs and output of the vision stage: RGB and raw depth go in; a per-screw dictionary comes out.
+
+```mermaid
+flowchart LR
+  subgraph Inputs["Inputs"]
+    RGB["RGB Image"]
+    DEPTH["Depth (Raw) values"]
+  end
+
+  subgraph Vision["Vision"]
+    VM["Vision Model<br/>(detector + depth read + tilt estimation)"]
+  end
+
+  subgraph Output["Output"]
+    D["Dict (size = #screws)"]
+  end
+
+  RGB --> VM
+  DEPTH --> VM
+  VM --> D
+```
+
+**Output dict structure** (one entry per screw):
+
+| Field           | Description              |
+|----------------|--------------------------|
+| Screw Number   | Identifier               |
+| Screw Position | (X, Y)                   |
+| Screw Depth    | Depth value              |
+| Screw Tilt     | (Rx, Ry)                 |
