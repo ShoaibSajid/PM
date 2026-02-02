@@ -1,41 +1,31 @@
-<!-- Jan 29 -->
+<!-- Jan 29 · Updated Feb 1 — completed items removed -->
 
-1. Merge the code between screw/rubber
-- - Test the robot
+**Planned for today (Feb 1) — Rubber foot:** Complete integration of finger gripper · Complete the whole cycle
 
-2. Add function for time estimation (in Screw and Rubber)
-- - Dump time information in json/yaml - Start and end timestamp of each command / in execution thread
-- - Add function to dump whole information in json/yaml - input time, info, model results etc
+---
 
-3. Finger Gripper
-- - Install the finger gripper
+### Morning *(today - morning)*
 
-4. Integrate Finger Gripper in code
-- - Modify the code to integrate the finger gripper
-- - Modify logic to skip validation of suction cup
+1. **Finger Gripper**
+   - ~~Install the finger gripper~~ ✅ Complete
+   - Integrate Finger Gripper in code *(today: complete integration + whole cycle)*
+   - Modify logic to skip validation of suction cup
 
-5. Sheet Roller
-- - Grind / Scrub it
+2. **Integrate updated vision models**
 
-6. Reposition the platform / rubber pad holders 
-- - Position in a way that we can put 3 holders on the platform
-- - Redesign if needed
+---
 
-7. 3D print dual fingers for scoop
-- - Determine the tilt angle
-- - Share with Dr Saad
+### Evening *(today - evening)*
 
-8. 3D print the catching basket for sheets/rubbers
-- - Design and Print it
+3. **Merge the code between screw/rubber**
+   - Test the robot
 
-9. Sheet Clamp Design to curve/bend the sheet
-- - Design and Print it
+4. **Reposition the platform / rubber pad holders**
+   - Position so we can put 3 holders on the platform
+   - Redesign if needed
 
+5. **3D print the catching basket for sheets/rubbers**
+   - Design and print it
 
-
-
-
-
-
-
-
+6. **Install Sheet Clamp Design to curve/bend the sheet**
+   - Design and print it
