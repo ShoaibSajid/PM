@@ -1,8 +1,22 @@
 # Missing Tasks - Not in Asana
 
-**Last Updated:** January 31, 2026  
+**Last Updated:** February 2, 2026  
 **Purpose:** Tasks that are pending in URGENT_ISSUES_CHECKLIST.md but NOT currently tracked in Asana. These should be reviewed and added to Asana if still needed.  
 **Note:** Removed items that are already in Asana, completed, not required, or superseded (e.g. conveyor damper instead of position adjustment).
+
+---
+
+## 📌 New from Chat (Feb 1–2) — Consider Adding
+
+| Task | Owner | Notes |
+|------|--------|------|
+| **Update Book.xlsx with status of each printer** | Hieu, Tugi | Shoaib shared link; write status so team can focus printer by printer |
+| **3D print part for shallow-hole fix** (through-hole + optional heating nut) | Myeongun (이명근) | Hieu: 2 holes can’t tighten; Myeongun to print so bolts latch properly |
+| **Provide M4 bolt length used on site** | Hieu / team | Myeongun asked for 3D print design; need to reply |
+| **Clarify which changes Hieu should commit** | Ammad, Tan | Hieu asked (Feb 2); follow up so he can commit today’s work |
+| **Fairino finger design for all products + spare** | Muazzam | Shoaib (Feb 1): manage so we can hold all products and keep spare |
+
+*Vision PRs (top camera, tilt in model, improved ROI) and merge by Hieu are already reflected in CustomPendingTasks_Screw / URGENT_ISSUES.*
 
 ---
 
