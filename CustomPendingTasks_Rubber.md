@@ -1,31 +1,30 @@
-<!-- Jan 29 · Updated Feb 1 — completed items removed -->
+# Custom Pending Tasks — Rubber Foot Robot
 
-**Planned for today (Feb 1) — Rubber foot:** Complete integration of finger gripper · Complete the whole cycle
-
----
-
-### Morning *(today - morning)*
-
-1. **Finger Gripper**
-   - ~~Install the finger gripper~~ ✅ Complete
-   - Integrate Finger Gripper in code *(today: complete integration + whole cycle)*
-   - Modify logic to skip validation of suction cup
-
-2. **Integrate updated vision models**
+**Last updated:** February 4, 2026
 
 ---
 
-### Evening *(today - evening)*
+## Planned / In progress
 
-3. **Merge the code between screw/rubber**
-   - Test the robot
-
-4. **Reposition the platform / rubber pad holders**
+1. **Reposition the platform / rubber pad holders**
    - Position so we can put 3 holders on the platform
    - Redesign if needed
 
-5. **3D print the catching basket for sheets/rubbers**
+2. **3D print the catching basket for sheets/rubbers**
    - Design and print it
 
-6. **Install Sheet Clamp Design to curve/bend the sheet**
-   - Design and print it
+---
+
+## From members
+
+*Issues pending as we discussed over the phone:*
+
+- Rubber feet roller assembly needs to be **3**. Currently it is only one.
+
+- Rubber feet roller assembly is not mounted properly: aluminum brackets need redesign and mounting plates should be made according to **3 column design** with proper holes to secure them.
+
+- Rubber feet roller assembly has an issue when inserting rubber sheets: **wrinkling when we scoop** — not always but from time to time.
+
+- Need to make **scooper blade**, scooper blade mounting bracket, and finger-nail-based gripper bracket in **metal** (currently using old long design with 2D camera).
+
+- Need to **finalize all hardware equipment** to their final form in terms of material (**plastic → metal**).

@@ -1,8 +1,42 @@
 # Missing Tasks - Not in Asana
 
-**Last Updated:** February 2, 2026  
+**Last Updated:** February 4, 2026  
 **Purpose:** Tasks that are pending in URGENT_ISSUES_CHECKLIST.md but NOT currently tracked in Asana. These should be reviewed and added to Asana if still needed.  
 **Note:** Removed items that are already in Asana, completed, not required, or superseded (e.g. conveyor damper instead of position adjustment).
+
+---
+
+## 📌 New from Chat (Feb 2–4) — Consider Adding
+
+| Task | Owner | Notes |
+|------|--------|------|
+| **R-foot calibration** (4 products × 4 feet, 3 printer types; photos for x,y offset) | Tugi, Rizwan | Professor request |
+| **Make PPT** – 16 images × 3 printer types = 48 (tune rubber pad positions first) | Tugi, Rizwan | Shoaib Feb 4 |
+| **GUI: robot active but GUI showed not active** (refresh fixed) | Jalol | Hieu sent GUI-issue.mp4 |
+| **Mirror: print special jig** (screw robot; mirror removed, was unstable) | Odil, Haider | Odil to talk to Haider |
+| **Clear conveyor when workers leave** | Kwanghyeop | Ask manager for evening full-system run |
+| **Fairino SDK** – vendor contact/training (SDK version wrong after TCP fix) | Ammad | Muazzam had similar issue |
+| **List of all current issues (R-Foot and Screw)** | Tugi, Hieu | Shoaib Feb 4, as Professor requested |
+| **Use tilt angle in robot motion** (tilt integrated but not yet used) | Hieu | Test after integration |
+| **Reduce inference time** (tilt + detection) | Vision team | Hieu: inference quite long |
+
+---
+
+## 📌 From Member Lists (Feb 4) — Rubber & Screw
+
+*From CustomPendingTasks_Rubber / Screw (member feedback):*
+
+**Rubber foot**
+- Rubber feet roller assembly: need **3** (currently 1); aluminum brackets redesign; **3-column** mounting plates with proper holes.
+- Fix **wrinkling** when inserting/scooping rubber sheets (intermittent).
+- **Metal**: scooper blade, scooper blade mounting bracket, finger-nail gripper bracket (replace old long design with 2D camera).
+- **Finalize hardware** plastic → metal.
+
+**Screw driver**
+- **GPU** – new algorithm inference x3–x4; need more powerful GPU.
+- **Gripper finger extension in metal** (otherwise breaks).
+- **SLP-DX220** (2 holes in lower layer): modify code for depth (top surface minus fixed value).
+- **Fairino position adjust** per printer (Jalol/Muazzam; Professor requested; Muazzam using moveJ fixed per printer).
 
 ---
 
@@ -13,7 +47,6 @@
 | **Update Book.xlsx with status of each printer** | Hieu, Tugi | Shoaib shared link; write status so team can focus printer by printer |
 | **3D print part for shallow-hole fix** (through-hole + optional heating nut) | Myeongun (이명근) | Hieu: 2 holes can’t tighten; Myeongun to print so bolts latch properly |
 | **Provide M4 bolt length used on site** | Hieu / team | Myeongun asked for 3D print design; need to reply |
-| **Clarify which changes Hieu should commit** | Ammad, Tan | Hieu asked (Feb 2); follow up so he can commit today’s work |
 | **Fairino finger design for all products + spare** | Muazzam | Shoaib (Feb 1): manage so we can hold all products and keep spare |
 
 *Vision PRs (top camera, tilt in model, improved ROI) and merge by Hieu are already reflected in CustomPendingTasks_Screw / URGENT_ISSUES.*
