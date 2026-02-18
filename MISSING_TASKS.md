@@ -1,8 +1,43 @@
 # Missing Tasks - Not in Asana
 
-**Last Updated:** February 4, 2026  
+**Last Updated:** February 19, 2026  
 **Purpose:** Tasks that are pending in URGENT_ISSUES_CHECKLIST.md but NOT currently tracked in Asana. These should be reviewed and added to Asana if still needed.  
 **Note:** Removed items that are already in Asana, completed, not required, or superseded (e.g. conveyor damper instead of position adjustment).
+
+---
+
+## 📌 New from Chat (Feb 10–18) — Consider Adding
+
+| Task | Owner | Notes |
+|------|--------|------|
+| **Mirror mount stabilization for screw feeder** | Vision + Mechanical | Current mirror setup is temporary (glue/tape); needs stable production design |
+| **Fix Model-1 return data type inconsistency (depth append issue)** | Rizwan, Quy Ninh | Temporary fix applied; needs verified permanent fix |
+| **Validate first-image-center depth calculation on real inference** | Vision team | Local test done; production inference validation pending |
+| **Analyze rubber index out-of-order issue** | Rizwan, Phungphu, Quy Ninh | Logs + images collected; root-cause task still needed |
+| **Restore complete TrainingImages after SSD migration** | Jalol, Hieu, Ammad | Missing product folders caused GUI image display failures |
+| **Detect improper screw grip from mirror image** | Shams, Odil | Requested for quality check under production conditions |
+| **Investigate wrong rubber-foot hole center (top-right case)** | Shams, Vision team | Detection inconsistency observed during on-site run |
+| **Measure flange-hole height of each mobile printer (vendor request)** | Kwanghyeop, Ammad | Requested by external screw-driver vendor |
+| **Keep spare LED/light controller for Everint systems** | Ammad, Kwanghyeop, Saad | Spare requirement discussed during PCB lighting issue |
+| **Terminal kill should not terminate GUI/backend** | Jalol, Framework/GUI | Reported as active issue on 2026-02-13 |
+| **Add product success/failure counters in Screw/Rubber GUI** | Jalol, GUI team | Requested parity with PCB GUI |
+
+---
+
+## 📌 New from Team Member Update (Feb 19) — Consider Adding
+
+| Task | Owner | Notes |
+|------|--------|------|
+| **Fix screw angle issue causing bit to come out of screw head** | Hieu, Ammad | Reported as active Screw Driver issue |
+| **Analyze screw depth insufficiency using Z-value logs** | Hieu, Vision/Robot team | Screw sometimes not deep enough |
+| **Reduce hole detection latency (800-950ms)** | Vision team | Current impact around 4s per cycle |
+| **Fix hole-position inaccuracy (top-right / bottom-right)** | Vision team | Cause still uncertain |
+| **Synchronize camera frame capture timing** | Vision/Framework team | Frame capture reported out of sync |
+| **Stabilize Model-1 crash issue** | Vision team | Intermittent crash observed |
+| **Implement GUI config settings from submenu (rubber)** | Jalol, GUI team | Marked pending from GUI side |
+| **Fix MQTT queue guard logic to prevent missed final popup** | Tugi, Hieu, Framework team | Conditional guard can skip last queued message |
+| **Install new PCB vertical sensor** | PCB hardware team | Installation pending |
+| **Design and fabricate L-shape bracket for PCB vertical sensor** | Mechanical team | Requires measurement + bracket design |
 
 ---
 
