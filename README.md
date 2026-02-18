@@ -51,7 +51,7 @@ This project documentation is organized into the following files:
 - **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference)
 - **[CustomPendingTasks_Screw.md](./CustomPendingTasks_Screw.md)** - Screw robot specific tasks
 - **[CustomPendingTasks_Rubber.md](./CustomPendingTasks_Rubber.md)** - Rubber foot robot specific tasks
-- **[CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md)** - Chat analysis Feb 10-18
+- **[CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md)** - Chat analysis Feb 10–18
 - **[TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md)** - Today action summary (Screw, Rubber, PCB)
 - **[CHAT_ANALYSIS_FEB_01_02.md](./CHAT_ANALYSIS_FEB_01_02.md)** - Latest chat analysis (Feb 1–2)
 - **[CHAT_ANALYSIS_JAN_30.md](./CHAT_ANALYSIS_JAN_30.md)** - Chat analysis Jan 30
