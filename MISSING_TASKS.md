@@ -1,8 +1,22 @@
 # Missing Tasks - Not in Asana
 
-**Last Updated:** February 4, 2026  
+**Last Updated:** February 19, 2026  
 **Purpose:** Tasks that are pending in URGENT_ISSUES_CHECKLIST.md but NOT currently tracked in Asana. These should be reviewed and added to Asana if still needed.  
 **Note:** Removed items that are already in Asana, completed, not required, or superseded (e.g. conveyor damper instead of position adjustment).
+
+---
+
+## Asana Raw Cross-Check (Merged)
+
+This file now also contains the old `TASKS_MISSING_IN_ASANA_RAW_REVIEW.md` summary.
+
+- Generated: 2026-02-19 07:37:27
+- Source list file: `ASANA_TASKS_LIST.md`
+- Source raw file: `ASANA_TASKS_RAW.json`
+- List tasks evaluated: 118
+- Raw tasks available: 139
+- Missing in raw: 0
+- Result: no tasks from `ASANA_TASKS_LIST.md` are missing in `ASANA_TASKS_RAW.json`
 
 ---
 
