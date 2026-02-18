@@ -9,3 +9,11 @@
 # Exclude CSV files
 *.csv
 
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/

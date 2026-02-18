@@ -69,3 +69,34 @@ This project documentation is organized into the following files:
 ---
 
 **Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. Tasks not in Asana are listed in MISSING_TASKS.md for review.
+
+---
+
+## Asana Integration (Codex Tracking)
+
+Use the sync script to pull live tasks from Asana and refresh `ASANA_TASKS_LIST.md`:
+
+```bash
+export ASANA_PAT="your_asana_personal_access_token"
+export ASANA_PROJECT_GID="your_project_gid"
+python3 scripts/sync_asana_tasks.py
+```
+
+For multiple projects, set comma-separated IDs:
+
+```bash
+export ASANA_PROJECT_GID="1211933636406772,1211933636406778,1212715232979031,1212715232979034,1212715232979040"
+python3 scripts/sync_asana_tasks.py
+```
+
+This updates:
+- `ASANA_TASKS_LIST.md` (human-readable tracking file for Codex)
+- `ASANA_TASKS_RAW.json` (full raw task payload)
+
+`ASANA_TASKS_LIST.md` is grouped into:
+- `Screw Driver`
+- `Rubber Foot`
+- `PCB`
+- `Mobile Printers`
+
+Note: `ASANA_TASKS_LIST.md` includes pending tasks only. Completed tasks are excluded from section tables.
