@@ -302,7 +302,6 @@
 **Related Files:**
 - [COMPLETED_TASKS.md](./COMPLETED_TASKS.md) - All completed tasks archive
 - [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) - Tasks not in Asana (need review)
-- [BLINDSPOTS.md](./BLINDSPOTS.md) - PM perspective gaps and risks
 - [ASANA_TASKS_LIST.md](./ASANA_TASKS_LIST.md) - Complete list of all Asana tasks
 
 ---

@@ -2,7 +2,7 @@
 
 **Client:** Everint (company name)  
 **Project Owner:** Shoaib (recently joined to manage all teams)  
-**Last Updated:** January 30, 2026  
+**Last Updated:** February 19, 2026  
 **Project Phase:** Validation, Acceptance, and Handover
 
 ---
@@ -45,17 +45,11 @@ This project documentation is organized into the following files:
 - **[ASANA_TASKS_LIST.md](./ASANA_TASKS_LIST.md)** - Complete list of all tasks from Asana (organized by owner, priority, category, due date)
 - **[COMPLETED_TASKS.md](./COMPLETED_TASKS.md)** - Archive of all completed tasks
 - **[TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md)** - Consolidated missing tasks (deduplicated)
-- **[BLINDSPOTS.md](./BLINDSPOTS.md)** - PM perspective gaps, risks, and missing elements
 
 ### Reference Files
 - **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference)
-- **[CustomPendingTasks_Screw.md](./CustomPendingTasks_Screw.md)** - Screw robot specific tasks
-- **[CustomPendingTasks_Rubber.md](./CustomPendingTasks_Rubber.md)** - Rubber foot robot specific tasks
 - **[CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md)** - Chat analysis Feb 10–18
 - **[TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md)** - Today action summary (Screw, Rubber, PCB)
-- **[CHAT_ANALYSIS_FEB_01_02.md](./CHAT_ANALYSIS_FEB_01_02.md)** - Latest chat analysis (Feb 1–2)
-- **[CHAT_ANALYSIS_JAN_30.md](./CHAT_ANALYSIS_JAN_30.md)** - Chat analysis Jan 30
-- **[CLIENT_MESSAGE_JAN_30.md](./CLIENT_MESSAGE_JAN_30.md)** - Client communication templates
 
 ---
 
@@ -67,12 +61,12 @@ This project documentation is organized into the following files:
 - [Missing Tasks (Not in Asana)](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) - Tasks needing review
 - [Chat Analysis (Feb 10-18)](./CHAT_ANALYSIS_FEB_10_18.md) - Latest KakaoTalk extraction analysis
 - [Today Summary (Feb 19)](./TODAY_SUMMARY_FEB_19.md) - Action focus for Screw/Rubber/PCB
-- [PM Blindspots](./BLINDSPOTS.md) - Gaps and risks from PM perspective
 - [Missing Items (Detailed)](./MISSING_ITEMS.md) - Reference document for information gaps
 
 ---
 
 **Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. Tasks not in Asana are listed in TASKS_MISSING_IN_ASANA_RAW_REVIEW.md for review.
+Historical snapshots and old one-off summaries are intentionally pruned from the working tree; recover any removed document from git history if needed.
 
 ---
 
