@@ -44,7 +44,7 @@ This project documentation is organized into the following files:
 - **[URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md)** ⭐ **Main tracking file** - Tasks matching Asana screenshots
 - **[ASANA_TASKS_LIST.md](./ASANA_TASKS_LIST.md)** - Complete list of all tasks from Asana (organized by owner, priority, category, due date)
 - **[COMPLETED_TASKS.md](./COMPLETED_TASKS.md)** - Archive of all completed tasks
-- **[MISSING_TASKS.md](./MISSING_TASKS.md)** - Tasks pending but NOT in Asana (need review)
+- **[TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md)** - Consolidated missing tasks (deduplicated)
 - **[BLINDSPOTS.md](./BLINDSPOTS.md)** - PM perspective gaps, risks, and missing elements
 
 ### Reference Files
@@ -64,7 +64,7 @@ This project documentation is organized into the following files:
 - [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file (matches Asana)**
 - [Asana Tasks List](./ASANA_TASKS_LIST.md) - Complete Asana tasks reference (51 tasks: 7 completed, 44 pending)
 - [Completed Tasks Archive](./COMPLETED_TASKS.md) - All completed tasks
-- [Missing Tasks (Not in Asana)](./MISSING_TASKS.md) - Tasks needing review
+- [Missing Tasks (Not in Asana)](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) - Tasks needing review
 - [Chat Analysis (Feb 10-18)](./CHAT_ANALYSIS_FEB_10_18.md) - Latest KakaoTalk extraction analysis
 - [Today Summary (Feb 19)](./TODAY_SUMMARY_FEB_19.md) - Action focus for Screw/Rubber/PCB
 - [PM Blindspots](./BLINDSPOTS.md) - Gaps and risks from PM perspective
@@ -72,7 +72,7 @@ This project documentation is organized into the following files:
 
 ---
 
-**Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. Tasks not in Asana are listed in MISSING_TASKS.md for review.
+**Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. Tasks not in Asana are listed in TASKS_MISSING_IN_ASANA_RAW_REVIEW.md for review.
 
 ---
 

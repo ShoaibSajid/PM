@@ -5,7 +5,7 @@
 
 **Note:** 
 - PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
-- This file now contains only tasks that match Asana screenshots. Completed tasks moved to [COMPLETED_TASKS.md](./COMPLETED_TASKS.md). Tasks not in Asana moved to [MISSING_TASKS.md](./MISSING_TASKS.md).
+- This file now contains only tasks that match Asana screenshots. Completed tasks moved to [COMPLETED_TASKS.md](./COMPLETED_TASKS.md). Tasks not in Asana moved to [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md).
 
 ---
 
@@ -293,7 +293,7 @@
 - 🟡 = High Priority (Medium-High Urgency) / Medium Priority
 - 🟢 = Low Priority
 - 📋 = Follow-up Required
-- 🔍 = Missing Item / Information Gap (moved to [MISSING_TASKS.md](./MISSING_TASKS.md))
+- 🔍 = Missing Item / Information Gap (moved to [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md))
 - ⚠️ = Risk / Dependency
 - 📅 = Deadline
 
@@ -301,7 +301,7 @@
 
 **Related Files:**
 - [COMPLETED_TASKS.md](./COMPLETED_TASKS.md) - All completed tasks archive
-- [MISSING_TASKS.md](./MISSING_TASKS.md) - Tasks not in Asana (need review)
+- [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) - Tasks not in Asana (need review)
 - [BLINDSPOTS.md](./BLINDSPOTS.md) - PM perspective gaps and risks
 - [ASANA_TASKS_LIST.md](./ASANA_TASKS_LIST.md) - Complete list of all Asana tasks
 
