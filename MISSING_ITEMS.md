@@ -5,6 +5,15 @@
 
 ---
 
+## Related Files
+
+- [TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md)
+- [CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md)
+- [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md)
+- [README.md](./README.md)
+
+---
+
 ## 🔍 Information Gaps
 
 ### Vision System Details
@@ -226,4 +235,3 @@
 ---
 
 **Note:** This list should be reviewed regularly and updated as gaps are identified or resolved. Items marked as "may be missing" should be verified with respective team members.
-

@@ -7,6 +7,14 @@
 
 ---
 
+## Shared Context
+
+- Latest Asana sync: **2026-02-19 14:45:08** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Latest chat anchor: **2026-02-18 15:07:48** (Shoaib: "I will send a list of tasks in a while.")
+- Latest today summary: [TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md)
+
+---
+
 ## Project Overview
 
 The Everint project involves the deployment, validation, and handover of multiple **industrial robotic systems** used for automated assembly operations at Everint factory. Each robot system operates **independently** and is evaluated based on **cycle-time-driven acceptance criteria**.
@@ -56,7 +64,7 @@ This project documentation is organized into the following files:
 ## Quick Links
 
 - [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file (matches Asana)**
-- [Asana Tasks List](./ASANA_TASKS_LIST.md) - Complete Asana tasks reference (51 tasks: 7 completed, 44 pending)
+- [Asana Tasks List](./ASANA_TASKS_LIST.md) - Complete Asana tasks reference (latest sync: 115 pending, 70 completed excluded)
 - [Completed Tasks Archive](./COMPLETED_TASKS.md) - All completed tasks
 - [Missing Tasks (Not in Asana)](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) - Tasks needing review
 - [Chat Analysis (Feb 10-18)](./CHAT_ANALYSIS_FEB_10_18.md) - Latest KakaoTalk extraction analysis
@@ -65,7 +73,7 @@ This project documentation is organized into the following files:
 
 ---
 
-**Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. Tasks not in Asana are listed in TASKS_MISSING_IN_ASANA_RAW_REVIEW.md for review.
+**Note:** URGENT_ISSUES_CHECKLIST.md now contains only tasks that match Asana screenshots. Completed tasks are archived in COMPLETED_TASKS.md. `TASKS_MISSING_IN_ASANA_RAW_REVIEW.md` is strict missing-only and may be empty when all work is represented in Asana.
 Historical snapshots and old one-off summaries are intentionally pruned from the working tree; recover any removed document from git history if needed.
 
 ---
@@ -83,7 +91,7 @@ python3 scripts/sync_asana_tasks.py
 For multiple projects, set comma-separated IDs:
 
 ```bash
-export ASANA_PROJECT_GID="1211933636406772,1211933636406778,1212715232979031,1212715232979034,1212715232979040"
+export ASANA_PROJECT_GID="1211933636406772,1211933636406778,1212715232979031,1212715232979034,1212715232979040,1213338742027940,1213338784855695"
 python3 scripts/sync_asana_tasks.py
 ```
 

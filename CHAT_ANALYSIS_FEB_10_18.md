@@ -6,6 +6,13 @@
 
 ---
 
+## Shared Context
+
+- Latest Asana sync: **2026-02-19 14:45:08** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Related files: [TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md), [URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md), [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md), [README.md](./README.md)
+
+---
+
 ## Executive Summary
 
 - Team completed high-volume production trials and pushed stability improvements for screw and rubber robots.

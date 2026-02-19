@@ -8,6 +8,11 @@
 - This file now contains only tasks that match Asana screenshots. Completed tasks moved to [COMPLETED_TASKS.md](./COMPLETED_TASKS.md). Tasks not in Asana moved to [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md).
 - Whiteboard-only backlog items from 2026-02-19 are mirrored into [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) until they are created/updated in Asana.
 
+**Shared Context:**
+- Latest Asana sync: **2026-02-19 14:45:08** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Latest chat anchor: **2026-02-18 15:07:48** (Shoaib: "I will send a list of tasks in a while.")
+- Related files: [TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md), [CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md), [README.md](./README.md)
+
 ---
 
 ## 🔴 Critical / Blocking Issues
