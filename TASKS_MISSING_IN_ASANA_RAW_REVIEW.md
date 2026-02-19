@@ -1,6 +1,6 @@
 # Tasks Missing In Asana (Consolidated)
 
-**Last Updated:** February 19, 2026  
+**Last Updated:** February 19, 2026 (Whiteboard sync added)  
 **Purpose:** Single source of truth for tasks discussed in chat/member updates but not reliably tracked in Asana.  
 **Dedup Policy:** Duplicate or near-duplicate tasks are merged into grouped task items below.
 
@@ -36,6 +36,12 @@
 - Continue production-side optimization:
   cycle timeout handling and queued follow-up issue list closure for Screw/Rubber.
   Owners: Tugi, Hieu
+- Complete grouped screw runtime stabilization from on-site whiteboard:
+  production observation + rectify loop, first-screw angle/position stabilization, small-screw position reliability, screw-depth envelope validation by position/type (including +2mm trial), debug-mode re-screw behavior, and feeder-empty logic re-test.
+  Owners: Hieu, Tugi, Robot team
+- Complete grouped screw GUI/control integration:
+  screw-type field in registration and Fairino position control from GUI.
+  Owners: Jalol, Hieu
 
 ## 2) Rubber Foot
 
@@ -50,6 +56,9 @@
 - Implement and validate grouped dispenser/flow tasks:
   3-dispenser handling plus pickup/rescan edge-case reliability.
   Owners: Tugi, Muazzam
+- Add grouped rubber robot sanity package from on-site whiteboard:
+  logic integration hardening, three-tries-per-index safeguard, and pose-range validation for `x,y,z,rx,ry,rz`.
+  Owners: Tugi, Hieu
 
 ## 3) PCB
 
@@ -84,6 +93,12 @@
   Owners: Odil, Shoaib, Tugi, Hieu
 - Verify and use tilt angle in motion pipeline where required.
   Owners: Hieu, Vision team
+- Complete grouped rubber-foot position tracking updates:
+  skipped-index handling, per-pad XY mapping (including 2nd row), and on-site training closure.
+  Owners: Vision team, Tugi
+- Complete grouped screw-hole robustness updates:
+  shifted-hole collision-risk fix, false S-hole non-circle rejection reduction, and rescan-count optimization.
+  Owners: Vision team, Hieu
 
 ## 6) Hardware / Ops / Vendor / Documentation
 
@@ -102,6 +117,12 @@
 - Complete grouped support material tasks:
   checkerboards/Aruco prep and site-provided M4 bolt-length / shallow-hole print support.
   Owners: Tan, Myeongun, Hieu
+- Complete grouped whiteboard hardware closure:
+  gripper wiring to tool flange, remaining metal component conversion, Fairino finger completion, and camera/finger-base mounting items.
+  Owners: Muazzam, Ammad, Mechanical team
+- Complete grouped safety/operations behavior updates:
+  exit strategy behavior, emergency signal handling, and ignore-printers-with-level-greater-than-1 rule.
+  Owners: Framework + Operations teams
 
 ---
 

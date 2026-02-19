@@ -1,11 +1,12 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** January 30, 2026 (Matched with Asana tasks)  
+**Last Updated:** February 19, 2026 (Includes on-site whiteboard sync)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** 
 - PCB system is almost complete and running. Ammad (Robot/Framework) and Tan (Vision) are currently helping other robot systems (Hieu, Tugi) as additional resources.
 - This file now contains only tasks that match Asana screenshots. Completed tasks moved to [COMPLETED_TASKS.md](./COMPLETED_TASKS.md). Tasks not in Asana moved to [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md).
+- Whiteboard-only backlog items from 2026-02-19 are mirrored into [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) until they are created/updated in Asana.
 
 ---
 
@@ -283,6 +284,15 @@
 └── 📅 Ongoing
     └── Handover documentation (Kwanghyeop)
 ```
+
+---
+
+## 🧾 Whiteboard Delta (2026-02-19)
+
+- Added/confirmed screw focus: first-screw angle + small-screw position reliability, screw-depth range retuning (+2mm trial), feeder-empty re-test, and rescan count reduction.
+- Added/confirmed rubber focus: 3-dispenser logic integration, skipped-index handling, per-pad XY mapping (including 2nd row), and model-pose range guards.
+- Added cross-cutting items: exit strategy path, emergency signal handling, and ignore-printers-level>1 behavior.
+- Added GUI/control deltas: screw-type field in registration and Fairino position control from GUI.
 
 ---
 

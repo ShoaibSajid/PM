@@ -39,3 +39,33 @@
 - Add success/failure counters to Screw/Rubber GUI to match PCB visibility.
 - Fix MQTT queue guard logic so final queued popup is not dropped.
 - Keep daily shift plan aligned with current staffing and production goals.
+
+---
+
+## Whiteboard Sync (2026-02-19, on-site)
+
+### Rubber Foot
+
+- Robot: complete 3-dispenser production logic integration and re-verify after logic-test fixes.
+- Robot: finish vision integration for dispenser pad XY points and keep depth/tilt path disabled until re-validated.
+- Robot: add sanity guardrails (3 tries per rubber index; reject model outputs when `x,y,z,rx,ry,rz` are out of range).
+- Vision: complete depth/tilt estimation path for first scan plus rescan flow.
+- Vision: finalize rubber-foot position handling (skipped-index behavior and on-site training closure).
+- Vision: finalize dispenser-rubber-pad coordinates (XY for 2nd row and XY per pad slot).
+- Hardware: close remaining metal conversion + camera/finger-base mounting items.
+
+### Screw Driver
+
+- Robot: continue production observation and rectify first-screw angle/position drift and small-screw position misses.
+- Robot: re-tune screw depth envelope by screw type/position and validate additional depth margin (+2mm trial).
+- Robot: re-test feeder-empty handling and debug-mode re-screw behavior.
+- Robot: expose Fairino position controls in GUI and continue cycle-time reduction.
+- Vision: reduce runtime overhead tied to `Rx/Ry/Rz` handling and repeated rescans.
+- Vision: fix shifted screw-hole detection that can cause collision, and reduce false non-circle S-hole results.
+- GUI: add screw type selection in registration and Fairino position control from GUI.
+- Hardware: complete gripper wiring to tool flange and close remaining metal/Fairino finger parts.
+
+### Cross-Cutting
+
+- Add/verify exit strategy behavior and emergency signal handling.
+- Implement rule to ignore printers with level greater than 1 during automated flow.
