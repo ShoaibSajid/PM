@@ -98,3 +98,23 @@ This updates:
 - `Mobile Printers`
 
 Note: `ASANA_TASKS_LIST.md` includes pending tasks only. Completed tasks are excluded from section tables.
+
+## Create Missing-Task Review Items In Asana
+
+Use the importer to create missing-task review items from
+`TASKS_MISSING_IN_ASANA_RAW_REVIEW.md` into project `1213338742027940`
+(`Unassigned Tasks`), assigned to yourself first:
+
+```bash
+ASANA_PAT="your_asana_personal_access_token" \
+python3 scripts/create_missing_asana_tasks.py --dry-run
+
+ASANA_PAT="your_asana_personal_access_token" \
+python3 scripts/create_missing_asana_tasks.py
+```
+
+Optional:
+
+```bash
+python3 scripts/create_missing_asana_tasks.py --limit 5
+```
