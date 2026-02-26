@@ -1,24 +1,24 @@
 # Everint Today Summary (2026-02-19)
 
-**Source baseline:** Latest Asana sync (`ASANA_TASKS_LIST.md` / `ASANA_TASKS_RAW.json`, synced 2026-02-19 14:45:08)
+**Source baseline:** Latest Asana sync (`ASANA_TASKS_LIST.md` / `ASANA_TASKS_RAW.json`, synced 2026-02-22 15:32:00)
 
 ---
 
 ## Shared Context
 
-- Latest chat anchor: **2026-02-18 15:07:48** (Shoaib: "I will send a list of tasks in a while.")
-- Related files: [URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md), [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md), [CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md), [README.md](./README.md)
+- Latest chat anchor: **2026-02-21 14:39:44** (Ammad: "Lbscrew task summary ...")
+- Related files: [URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md), [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md), [CHAT_ANALYSIS_FEB_19_21.md](./CHAT_ANALYSIS_FEB_19_21.md), [README.md](./README.md)
 
 ---
 
 ## Current Asana Snapshot
 
 - Projects tracked: Everint, everint, PCB, Screw Driver, Rubber Foot, Unassigned Tasks, AI Robot 2026
-- Deduplicated tasks in raw: 185
-- Pending tasks: 115
-- Completed tasks: 70
-- Pending in Unassigned Tasks: 0
-- Pending in AI Robot 2026: 33 (renamed/split review items)
+- Deduplicated tasks in raw: 191
+- Pending tasks: 99
+- Completed tasks: 92
+- Pending in Unassigned Tasks: 5
+- Pending in AI Robot 2026: 70 (renamed/split review items and follow-ups)
 
 ---
 

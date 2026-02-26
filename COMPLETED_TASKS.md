@@ -1,6 +1,6 @@
 # Completed Tasks - Everint Project
 
-**Last Updated:** February 19, 2026  
+**Last Updated:** February 26, 2026  
 **Purpose:** Archive of all completed tasks from URGENT_ISSUES_CHECKLIST.md
 
 ---
@@ -117,6 +117,23 @@
 - ✅ Rubber pickup position adjusted and tested (Owner: Tugi, Muazzam)
 - ✅ Offset values tuned on printers (Owner: Rubber team)
 - ✅ Production run on XD5-40d executed (Owner: Rubber team)
+
+### February 25-26, 2026 (Kakao + direct updates)
+- ✅ Added maintenance-mode dry mode in GUI (Owner: Ammad)
+- ✅ Corrected `move_l` to linear behavior (Owner: Ammad)
+- ✅ Added motion-completion checks via `move_j` (Owner: Ammad)
+- ✅ Added gripper JRT initialization and explicit init-failure error handling (Owner: Ammad)
+- ✅ Added gripper opening feedback check and no-feedback close check path (Owner: Ammad)
+- ✅ Added hole surface position handling for maintenance `index[2]` (Owner: Ammad)
+- ✅ Added `screwdriver_on` and `screwdriver_off` debug commands (Owner: Ammad)
+- ✅ Added maintenance-mode proceeding error message path (Owner: Ammad)
+- ✅ Added maintenance-mode button parse path in GUI message flow (Owner: Ammad)
+- ✅ Fixed `_queue` empty-check behavior in `wait_and_pop_msg` (Owner: Ammad)
+- ✅ Reduced command execution interval from ~10ms to ~2ms (Owner: Ammad)
+- ✅ Reviewed and verified Ghulam model-update PR against main framework (Owner: Tugii)
+- ✅ Refined pad refill and pad-pick detection logic (Owner: Tugii)
+- ✅ Validated single-dispenser persistence-until-depletion with proper shift to next dispenser (Owner: Tugii)
+- ✅ Validated alarm-trigger scenarios and rescan functionality (Owner: Tugii)
 
 ---
 

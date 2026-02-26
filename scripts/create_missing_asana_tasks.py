@@ -71,6 +71,12 @@ class AsanaClient:
     def post(self, path: str, payload: dict[str, Any]) -> dict[str, Any]:
         return self._request("POST", path, payload)
 
+    def delete(self, path: str) -> dict[str, Any]:
+        return self._request("DELETE", path)
+
+    def put(self, path: str, payload: dict[str, Any]) -> dict[str, Any]:
+        return self._request("PUT", path, payload)
+
     def paginate(self, path: str, params: dict[str, Any] | None = None) -> list[dict[str, Any]]:
         params = dict(params or {})
         items: list[dict[str, Any]] = []
@@ -135,9 +141,37 @@ def parse_missing_tasks_markdown(text: str) -> list[MissingTask]:
     return tasks
 
 
-def build_task_name(task: MissingTask) -> str:
+SECTION_SHORT = {
+    "Screw Driver": "Screw",
+    "Rubber Foot": "Rubber",
+    "PCB": "PCB",
+    "GUI / Software / Framework": "GUI/Framework",
+    "Vision / Detection": "Vision",
+    "Hardware / Ops / Vendor / Documentation": "Hardware/Ops",
+}
+
+
+def _shorten_description(description: str, max_len: int = 70) -> str:
+    base = description.split(":", 1)[0].strip().rstrip(".")
+    base = re.sub(r"^(Complete|Implement|Execute|Resolve|Add)\s+grouped\s+", r"\1 ", base, flags=re.I)
+    base = re.sub(r"\s+package$", "", base, flags=re.I)
+    if len(base) <= max_len:
+        return base
+    truncated = base[: max_len - 3]
+    if " " in truncated:
+        truncated = truncated.rsplit(" ", 1)[0]
+    return truncated + "..."
+
+
+def build_task_name(task: MissingTask, title_style: str = "short") -> str:
     description = task.description.rstrip(".").strip()
-    name = f"[Missing Review][{task.section}] {description}"
+    if title_style == "legacy":
+        name = f"[Missing Review][{task.section}] {description}"
+        return name[:250]
+
+    section = SECTION_SHORT.get(task.section, task.section)
+    concise = _shorten_description(description)
+    name = f"[Review] {section}: {concise}"
     return name[:250]
 
 
@@ -145,6 +179,8 @@ def build_task_notes(task: MissingTask, source_file: str) -> str:
     return "\n".join(
         [
             "Created automatically for review from missing-task tracker.",
+            "",
+            f"Task details: {task.description}",
             "",
             f"Source: {source_file}",
             f"Section: {task.section}",
@@ -161,17 +197,31 @@ def normalize_name(value: str) -> str:
     return re.sub(r"\s+", " ", value.strip()).lower()
 
 
-def plan_creations(tasks: list[MissingTask], existing_names: set[str]) -> list[PlannedCreation]:
+def plan_creations(
+    tasks: list[MissingTask],
+    existing_names: set[str],
+    title_style: str = "short",
+) -> list[PlannedCreation]:
     planned: list[PlannedCreation] = []
     seen = set(existing_names)
     for task in tasks:
-        name = build_task_name(task)
+        name = build_task_name(task, title_style=title_style)
         normalized = normalize_name(name)
         if normalized in seen:
             continue
         seen.add(normalized)
         planned.append(PlannedCreation(task=task, name=name))
     return planned
+
+
+def select_tasks_by_prefix(tasks: list[dict[str, Any]], prefix: str) -> list[dict[str, Any]]:
+    normalized_prefix = normalize_name(prefix)
+    selected: list[dict[str, Any]] = []
+    for task in tasks:
+        name = task.get("name") or ""
+        if normalize_name(name).startswith(normalized_prefix):
+            selected.append(task)
+    return selected
 
 
 def parse_args() -> argparse.Namespace:
@@ -181,6 +231,22 @@ def parse_args() -> argparse.Namespace:
         "--project-gid",
         default=DEFAULT_PROJECT_GID,
         help=f"Asana project GID (default: {DEFAULT_PROJECT_GID}).",
+    )
+    parser.add_argument(
+        "--title-style",
+        choices=["short", "legacy"],
+        default="short",
+        help="Task title style (default: short).",
+    )
+    parser.add_argument(
+        "--replace-prefix",
+        default="",
+        help="Delete existing tasks in project whose title starts with this prefix before creating new ones.",
+    )
+    parser.add_argument(
+        "--sync-notes-prefix",
+        default="",
+        help="Update notes in-place for existing tasks whose title starts with this prefix.",
     )
     parser.add_argument("--dry-run", action="store_true", help="Preview tasks without creating them.")
     parser.add_argument("--limit", type=int, default=0, help="Optional max number of tasks to create.")
@@ -209,12 +275,59 @@ def main() -> int:
         {
             "completed_since": "1970-01-01T00:00:00.000Z",
             "limit": 100,
-            "opt_fields": "name",
+            "opt_fields": "gid,name",
         },
     )
+    if args.replace_prefix:
+        to_delete = select_tasks_by_prefix(existing, args.replace_prefix)
+        if to_delete:
+            print(f"Tasks matched for replacement deletion: {len(to_delete)}")
+            for task in to_delete:
+                task_name = task.get("name") or "(no-name)"
+                if args.dry_run:
+                    print(f"DRY RUN DELETE: {task_name}")
+                else:
+                    gid = task.get("gid")
+                    if gid:
+                        client.delete(f"/tasks/{gid}")
+                        print(f"Deleted: {task_name}")
+        else:
+            print("No existing tasks matched --replace-prefix.")
+
+        deleted_ids = {t.get("gid") for t in to_delete if t.get("gid")}
+        existing = [t for t in existing if t.get("gid") not in deleted_ids]
+
+    if args.sync_notes_prefix:
+        by_name: dict[str, MissingTask] = {}
+        for task in tasks:
+            built = build_task_name(task, title_style=args.title_style)
+            by_name[normalize_name(built)] = task
+
+        to_sync = select_tasks_by_prefix(existing, args.sync_notes_prefix)
+        synced = 0
+        source_file = str(input_path)
+        for remote in to_sync:
+            gid = remote.get("gid")
+            name = remote.get("name") or ""
+            if not gid:
+                continue
+            mapped = by_name.get(normalize_name(name))
+            if not mapped:
+                continue
+            notes = build_task_notes(mapped, source_file)
+            if args.dry_run:
+                print(f"DRY RUN SYNC NOTES: {name}")
+            else:
+                client.put(f"/tasks/{gid}", {"data": {"notes": notes}})
+                print(f"Synced notes: {name}")
+            synced += 1
+
+        print(f"Notes synced: {synced}")
+        return 0
+
     existing_names = {normalize_name((t.get("name") or "")) for t in existing if t.get("name")}
 
-    planned = plan_creations(tasks, existing_names)
+    planned = plan_creations(tasks, existing_names, title_style=args.title_style)
     if args.limit > 0:
         planned = planned[: args.limit]
 

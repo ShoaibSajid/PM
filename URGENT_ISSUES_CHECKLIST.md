@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** February 19, 2026 (Includes on-site whiteboard sync)  
+**Last Updated:** February 26, 2026 (Latest Kakao updates + direct summaries reconciled; Asana refresh blocked in this run)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** 
@@ -9,9 +9,10 @@
 - Whiteboard-only backlog items from 2026-02-19 are mirrored into [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) until they are created/updated in Asana.
 
 **Shared Context:**
-- Latest Asana sync: **2026-02-19 14:45:08** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
-- Latest chat anchor: **2026-02-18 15:07:48** (Shoaib: "I will send a list of tasks in a while.")
-- Related files: [TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md), [CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md), [README.md](./README.md)
+- Latest Asana sync: **blocked in this run** (`ASANA_PAT` not set)
+- Latest Asana comments snapshot: **2026-02-22 15:58:36** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
+- Latest chat anchor: **2026-02-26 09:23:15** (Shoaib: "Friday 9AM - 7PM ...")
+- Related files: [TODAY_SUMMARY_FEB_26.md](./TODAY_SUMMARY_FEB_26.md), [CHAT_ANALYSIS_FEB_25_26.md](./CHAT_ANALYSIS_FEB_25_26.md), [README.md](./README.md)
 
 ---
 
@@ -146,6 +147,9 @@
 │
 ├── 🟡 ⏳ Integrate irregular rubber foot outer body for accurate attachment
 │   └── Owner: TJ Tuguldur Jigj | Status: Vision/attachment improvement needed | High priority
+│
+├── 🟡 ⏳ [screw/rubber] Calibrate vision and add detection-point offsets
+│   └── Owner: hi hieu, Vision team | Status: Remaining from Feb 25-26 update; required for stable hole/pad placement
 │
 └──────────────────────────────────────────────────────┘
 ```
@@ -298,6 +302,31 @@
 - Added/confirmed rubber focus: 3-dispenser logic integration, skipped-index handling, per-pad XY mapping (including 2nd row), and model-pose range guards.
 - Added cross-cutting items: exit strategy path, emergency signal handling, and ignore-printers-level>1 behavior.
 - Added GUI/control deltas: screw-type field in registration and Fairino position control from GUI.
+
+---
+
+## 🧾 Meeting Notes Delta (2026-02-23)
+
+- Added/confirmed rubber calibration detail: apply half-offset policy while tuning placement.
+- Added/confirmed rubber capture flow: when second shot is enabled, run lower-scan capture plus home-position capture, then provide both datasets to vision.
+- Added/confirmed debug data item: optional post-placement capture for all 4 rubbers in debug mode.
+- Added/confirmed cycle-time gating rule: if remaining cycle budget is over 5 seconds, capture all rubbers from high position.
+- Added/confirmed hardware stabilization item: screw down/fix sponge used to hold pallets.
+- Added/confirmed dispenser behavior: complete one dispenser before moving to the next.
+- Added/confirmed validation method: no-release repeat-cycle test bench to isolate dispenser offset vs placement offset.
+- Added/confirmed screw-side dependency: exposure/light-control adjustment after second light controller procurement.
+
+---
+
+## 🧾 Meeting Notes Delta (2026-02-24)
+
+- Rubber foot execution update: dispenser depletion sequencing implemented (finish one dispenser before switching).
+- Rubber foot execution update: pixel-to-robot transformation tested by manual robot movement; current runtime use is X component only.
+- Rubber foot/vision update: new pad-pick scan position captured for non-distorted vision inspection.
+- Screw execution update: debug mode reached ~90%; remaining dependency is vision payload change (surface height vs bottom depth).
+- Screw execution update: startup delay source observed at ~200-300 ms.
+- Screw hardware update: gripper wiring completed and tested on Rainbow tool flange; logic re-test planned.
+- Vision priorities confirmed: image-acquisition delay removal, exception/failure-status handling, Fairino-code separation for fault isolation, `.sh` env/bootstrap, and MQTT surface-depth field.
 
 ---
 

@@ -8,7 +8,8 @@
 
 ## Shared Context
 
-- Latest Asana sync: **2026-02-19 14:45:08** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Historical snapshot for Feb 10-18 window.
+- For current state, use: `ASANA_TASKS_LIST.md` (synced 2026-02-22 15:32:00), `ASANA_TASK_COMMENTS_LATEST.md`, and [CHAT_ANALYSIS_FEB_19_21.md](./CHAT_ANALYSIS_FEB_19_21.md).
 - Related files: [TODAY_SUMMARY_FEB_19.md](./TODAY_SUMMARY_FEB_19.md), [URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md), [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md), [README.md](./README.md)
 
 ---

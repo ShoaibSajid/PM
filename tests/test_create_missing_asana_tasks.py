@@ -42,10 +42,10 @@ def test_build_task_name_includes_review_prefix_and_section():
         owners="Robot + Vision teams",
     )
 
-    name = module.build_task_name(task)
+    name = module.build_task_name(task, title_style="short")
 
-    assert name.startswith("[Missing Review][Rubber Foot] ")
-    assert "Resolve wrinkling" in name
+    assert name.startswith("[Review] Rubber: ")
+    assert "wrinkling and pickup stability issues" in name
 
 
 def test_plan_creations_skips_existing_names_case_insensitive():
@@ -65,7 +65,32 @@ def test_plan_creations_skips_existing_names_case_insensitive():
         "[missing review][pcb] install new vertical sensor and complete bracket workflow"
     }
 
-    planned = module.plan_creations(tasks, existing_names)
+    planned = module.plan_creations(tasks, existing_names, title_style="legacy")
 
     assert len(planned) == 1
     assert planned[0].task.section == "GUI / Software / Framework"
+
+
+def test_select_tasks_by_prefix_matches_case_insensitive():
+    tasks = [
+        {"gid": "1", "name": "[Missing Review][PCB] Old task"},
+        {"gid": "2", "name": "[missing review][Screw Driver] old task 2"},
+        {"gid": "3", "name": "[Review] PCB: New style"},
+    ]
+
+    selected = module.select_tasks_by_prefix(tasks, "[Missing Review][")
+
+    assert [t["gid"] for t in selected] == ["1", "2"]
+
+
+def test_build_task_notes_includes_full_description_and_owners():
+    task = module.MissingTask(
+        section="PCB",
+        description="Install new vertical sensor and complete bracket workflow.",
+        owners="PCB hardware + Mechanical team",
+    )
+
+    notes = module.build_task_notes(task, "TASKS_MISSING_IN_ASANA_RAW_REVIEW.md")
+
+    assert "Task details: Install new vertical sensor and complete bracket workflow." in notes
+    assert "Suggested owners: PCB hardware + Mechanical team" in notes
