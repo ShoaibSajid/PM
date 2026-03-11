@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-02-23T15:29:46.709888",
+  "synced_at": "2026-03-11T23:18:39.838208",
   "projects": [
     {
       "gid": "1211933636406772",
@@ -25,9 +25,63 @@
       "gid": "1212715232979040",
       "name": "Rubber Foot",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040"
+    },
+    {
+      "gid": "1213338742027940",
+      "name": "Unassigned Tasks",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940"
+    },
+    {
+      "gid": "1213338784855695",
+      "name": "AI Robot 2026",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695"
     }
   ],
   "tasks": [
+    {
+      "gid": "1213369021907872",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-02-20T03:23:28.681Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855696",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-26T12:42:57.569Z",
+      "name": "Screw: Re-register problematic products with clean reference images",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213369021907872",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1211933636406772",
+      "project_name": "Everint",
+      "source_project_gids": [
+        "1211933636406772",
+        "1213338784855695"
+      ]
+    },
     {
       "gid": "1213036991543602",
       "assignee": {
@@ -68,7 +122,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -95,7 +150,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-23T01:11:18.013Z",
+      "modified_at": "2026-02-27T01:50:38.032Z",
       "name": "Order/Prepare finger spares",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543605",
       "projects": [
@@ -111,7 +166,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -138,7 +194,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-23T01:17:18.084Z",
+      "modified_at": "2026-02-27T01:51:49.028Z",
       "name": "Ensure spares for 3D printed parts",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543687",
       "projects": [
@@ -154,7 +210,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -197,7 +254,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -240,7 +298,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -283,7 +342,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -326,7 +386,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -369,7 +430,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -412,7 +474,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -455,7 +518,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -498,7 +562,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -541,7 +606,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -584,7 +650,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -627,7 +694,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -670,7 +738,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -713,7 +782,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -756,7 +826,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -783,7 +854,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-23T06:08:17.398Z",
+      "modified_at": "2026-02-24T15:02:36.955Z",
       "name": "[Vision] Non-circle Screw-hole non-detection",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351660525511",
       "projects": [
@@ -799,7 +870,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -842,7 +914,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -885,7 +958,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -894,7 +968,7 @@
         "gid": "1208783532408973",
         "name": "Muhammad ghulam"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2026-02-19T05:02:21.936Z",
       "due_at": null,
       "due_on": null,
@@ -912,7 +986,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:22:23.867Z",
+      "modified_at": "2026-02-26T02:05:35.691Z",
       "name": "[Vision] Auto assign new IP after system bootup for Omron Cameras",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352154210989",
       "projects": [
@@ -928,7 +1002,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -955,7 +1030,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:22:23.825Z",
+      "modified_at": "2026-02-23T07:22:31.362Z",
       "name": "[Vision] [ Framework] Add depth-assisted registration support (low priority)",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351658621020",
       "projects": [
@@ -971,7 +1046,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -980,7 +1056,7 @@
         "gid": "1210706093781237",
         "name": "saidjalol"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2026-02-19T05:09:47.553Z",
       "due_at": null,
       "due_on": null,
@@ -998,7 +1074,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-23T05:13:41.765Z",
+      "modified_at": "2026-02-24T02:02:46.248Z",
       "name": "[GUI] Screw-type field in registration process and store in DB",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352154211006",
       "projects": [
@@ -1014,7 +1090,8 @@
       "project_gid": "1211933636406772",
       "project_name": "Everint",
       "source_project_gids": [
-        "1211933636406772"
+        "1211933636406772",
+        "1213338784855695"
       ]
     },
     {
@@ -1476,7 +1553,7 @@
         "gid": "1209746269225232",
         "name": "Le Thai Tan"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2025-11-13T07:57:54.529Z",
       "due_at": null,
       "due_on": "2025-12-05",
@@ -1494,7 +1571,7 @@
           }
         }
       ],
-      "modified_at": "2026-01-08T04:53:48.434Z",
+      "modified_at": "2026-02-25T02:03:33.282Z",
       "name": "[screw] Addition of mat black and green wrap on side of conveyor.",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211933572451401",
       "projects": [
@@ -1908,7 +1985,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -1951,7 +2029,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -1994,7 +2073,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2037,50 +2117,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
-      ]
-    },
-    {
-      "gid": "1212692607823109",
-      "assignee": {
-        "gid": "1209746269225232",
-        "name": "Le Thai Tan"
-      },
-      "completed": false,
-      "created_at": "2026-01-08T05:03:42.099Z",
-      "due_at": null,
-      "due_on": "2026-01-12",
-      "memberships": [
-        {
-          "section": {
-            "gid": "1213338784855713",
-            "name": "PCB"
-          }
-        },
-        {
-          "section": {
-            "gid": "1212715232979032",
-            "name": "Untitled section"
-          }
-        }
-      ],
-      "modified_at": "2026-02-19T06:22:02.522Z",
-      "name": "[screw] Test OBB DETR model for PCB detection",
-      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1212692607823109",
-      "projects": [
-        {
-          "gid": "1212715232979031",
-          "name": "PCB"
-        },
-        {
-          "gid": "1213338784855695",
-          "name": "AI Robot 2026"
-        }
-      ],
-      "project_gid": "1212715232979031",
-      "project_name": "PCB",
-      "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2123,7 +2161,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2166,7 +2205,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2209,7 +2249,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2218,7 +2259,7 @@
         "gid": "1208165635731868",
         "name": "KwangHyeop Kim"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2026-02-19T03:46:30.244Z",
       "due_at": null,
       "due_on": null,
@@ -2236,7 +2277,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:22:02.384Z",
+      "modified_at": "2026-02-27T09:45:41.681Z",
       "name": "[Hardware] PCB lighting/controller one spare controller ",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213351660966815",
       "projects": [
@@ -2252,7 +2293,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2279,7 +2321,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:22:02.356Z",
+      "modified_at": "2026-03-04T01:52:13.327Z",
       "name": "[Hardware] Install new vertical sensor and complete the required L-shape bracket workflow (measure -> design -> fabricate -> install).",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213351660961064",
       "projects": [
@@ -2295,7 +2337,8 @@
       "project_gid": "1212715232979031",
       "project_name": "PCB",
       "source_project_gids": [
-        "1212715232979031"
+        "1212715232979031",
+        "1213338784855695"
       ]
     },
     {
@@ -2415,7 +2458,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-20T04:55:59.862Z",
+      "modified_at": "2026-03-02T02:16:42.852Z",
       "name": "[screw] test stacking the laser sensors for reliable PCB detection",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212613944800948",
       "projects": [
@@ -2913,49 +2956,6 @@
       "modified_at": "2026-01-10T01:49:22.438Z",
       "name": "[screw] Capturing 11-20 PCBs dataset",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211691034686459",
-      "projects": [
-        {
-          "gid": "1211521376498314",
-          "name": "AI Robot 2025-Q4"
-        },
-        {
-          "gid": "1212715232979031",
-          "name": "PCB"
-        }
-      ],
-      "project_gid": "1212715232979031",
-      "project_name": "PCB",
-      "source_project_gids": [
-        "1212715232979031"
-      ]
-    },
-    {
-      "gid": "1211934076449911",
-      "assignee": {
-        "gid": "1209746266501716",
-        "name": "Ammad Waheed"
-      },
-      "completed": false,
-      "created_at": "2025-11-13T08:49:01.921Z",
-      "due_at": null,
-      "due_on": "2025-12-05",
-      "memberships": [
-        {
-          "section": {
-            "gid": "1211528655439983",
-            "name": "In Progress"
-          }
-        },
-        {
-          "section": {
-            "gid": "1212715232979032",
-            "name": "Untitled section"
-          }
-        }
-      ],
-      "modified_at": "2026-02-20T04:49:58.934Z",
-      "name": "[screw] Design sensor extender bracket for the PCB Conveyor",
-      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211934076449911",
       "projects": [
         {
           "gid": "1211521376498314",
@@ -3575,6 +3575,49 @@
       ]
     },
     {
+      "gid": "1211934076449911",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": true,
+      "created_at": "2025-11-13T08:49:01.921Z",
+      "due_at": null,
+      "due_on": "2025-12-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211528655439982",
+            "name": "On Hold"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213485532189938",
+            "name": "On Hold"
+          }
+        }
+      ],
+      "modified_at": "2026-03-02T01:27:29.035Z",
+      "name": "[screw] Design sensor extender bracket for the PCB Conveyor",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211934076449911",
+      "projects": [
+        {
+          "gid": "1211521376498314",
+          "name": "AI Robot 2025-Q4"
+        },
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        }
+      ],
+      "project_gid": "1212715232979031",
+      "project_name": "PCB",
+      "source_project_gids": [
+        "1212715232979031"
+      ]
+    },
+    {
       "gid": "1213036991543595",
       "assignee": {
         "gid": "1208050541029589",
@@ -3614,7 +3657,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3657,7 +3701,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3666,7 +3711,7 @@
         "gid": "1209746269225232",
         "name": "Le Thai Tan"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2026-01-30T08:33:12.356Z",
       "due_at": null,
       "due_on": "2026-02-03",
@@ -3684,7 +3729,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:22:16.766Z",
+      "modified_at": "2026-02-25T02:03:12.981Z",
       "name": "Register All Products with update system / metal fingers",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543592",
       "projects": [
@@ -3700,19 +3745,20 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
       "gid": "1213036991543586",
       "assignee": {
-        "gid": "1210706093781237",
-        "name": "saidjalol"
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
       },
-      "completed": true,
+      "completed": false,
       "created_at": "2026-01-30T08:32:43.309Z",
       "due_at": null,
-      "due_on": "2026-02-03",
+      "due_on": "2026-03-05",
       "memberships": [
         {
           "section": {
@@ -3727,8 +3773,8 @@
           }
         }
       ],
-      "modified_at": "2026-02-23T02:24:23.896Z",
-      "name": "Test and finalize product registration (Manual and Auto) (Screw/Rubber)",
+      "modified_at": "2026-03-04T15:00:58.329Z",
+      "name": "Test and finalize product registration (Manual and Auto) (Screw/Rubber) (Test pending)",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543586",
       "projects": [
         {
@@ -3743,7 +3789,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3786,7 +3833,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3829,7 +3877,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3872,7 +3921,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3915,7 +3965,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -3958,7 +4009,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4001,7 +4053,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4044,7 +4097,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4087,7 +4141,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4096,7 +4151,7 @@
         "gid": "1209746269225232",
         "name": "Le Thai Tan"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2026-01-11T10:03:17.263Z",
       "due_at": null,
       "due_on": "2026-01-13",
@@ -4114,7 +4169,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:22:16.413Z",
+      "modified_at": "2026-02-25T02:03:20.543Z",
       "name": "Prepare complete test bench with Hieu for label printer",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212732452770871",
       "projects": [
@@ -4130,7 +4185,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4173,7 +4229,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4216,7 +4273,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4259,7 +4317,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4302,7 +4361,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4345,7 +4405,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4388,7 +4449,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4431,7 +4493,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4474,7 +4537,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -4517,7 +4581,8 @@
       "project_gid": "1212715232979034",
       "project_name": "Screw Driver",
       "source_project_gids": [
-        "1212715232979034"
+        "1212715232979034",
+        "1213338784855695"
       ]
     },
     {
@@ -5285,15 +5350,15 @@
         "gid": "1211379935425386",
         "name": "Myeung geun lee"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2025-11-11T02:11:17.752Z",
       "due_at": null,
       "due_on": "2025-12-16",
       "memberships": [
         {
           "section": {
-            "gid": "1211528655439983",
-            "name": "In Progress"
+            "gid": "1211528655439982",
+            "name": "On Hold"
           }
         },
         {
@@ -5309,7 +5374,7 @@
           }
         }
       ],
-      "modified_at": "2026-01-10T01:50:28.412Z",
+      "modified_at": "2026-03-04T01:12:39.323Z",
       "name": "[screw] Purchase the pressing arm inverted U-shape extension in aluminum",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211906407382480",
       "projects": [
@@ -5631,7 +5696,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5674,7 +5740,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5717,7 +5784,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5760,7 +5828,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5803,7 +5872,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5846,7 +5916,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5889,7 +5960,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5932,7 +6004,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -5975,7 +6048,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6018,7 +6092,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6061,7 +6136,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6070,7 +6146,7 @@
         "gid": "1211379935425386",
         "name": "Myeung geun lee"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2026-02-19T05:06:00.974Z",
       "due_at": null,
       "due_on": null,
@@ -6088,7 +6164,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-19T06:21:53.466Z",
+      "modified_at": "2026-02-27T02:28:14.870Z",
       "name": "[Hardware] Sheet clamp design",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210992",
       "projects": [
@@ -6104,7 +6180,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6131,7 +6208,7 @@
           }
         }
       ],
-      "modified_at": "2026-02-23T06:08:43.939Z",
+      "modified_at": "2026-02-23T15:03:14.262Z",
       "name": "[Vision] skipped-index root cause analysis and fix",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351659489812",
       "projects": [
@@ -6147,7 +6224,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6190,7 +6268,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6233,7 +6312,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -6276,7 +6356,8 @@
       "project_gid": "1212715232979040",
       "project_name": "Rubber Foot",
       "source_project_gids": [
-        "1212715232979040"
+        "1212715232979040",
+        "1213338784855695"
       ]
     },
     {
@@ -7097,15 +7178,15 @@
         "gid": "1211379935425386",
         "name": "Myeung geun lee"
       },
-      "completed": false,
+      "completed": true,
       "created_at": "2025-11-11T02:11:17.752Z",
       "due_at": null,
       "due_on": "2025-12-16",
       "memberships": [
         {
           "section": {
-            "gid": "1211528655439983",
-            "name": "In Progress"
+            "gid": "1211528655439982",
+            "name": "On Hold"
           }
         },
         {
@@ -7121,7 +7202,7 @@
           }
         }
       ],
-      "modified_at": "2026-01-10T01:50:28.412Z",
+      "modified_at": "2026-03-04T01:12:39.323Z",
       "name": "[screw] Purchase the pressing arm inverted U-shape extension in aluminum",
       "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211906407382480",
       "projects": [
@@ -7225,6 +7306,4157 @@
       "project_name": "Rubber Foot",
       "source_project_gids": [
         "1212715232979040"
+      ]
+    },
+    {
+      "gid": "1213629103807042",
+      "assignee": {
+        "gid": "1207928533958933",
+        "name": "Shoaib Sajid"
+      },
+      "completed": false,
+      "created_at": "2026-03-11T14:18:16.224Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338742027941",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-03-11T14:18:17.000Z",
+      "name": "[Review] Vision: Add top-camera pixel-to-mm calibration and return printer...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940/task/1213629103807042",
+      "projects": [
+        {
+          "gid": "1213338742027940",
+          "name": "Unassigned Tasks"
+        }
+      ],
+      "project_gid": "1213338742027940",
+      "project_name": "Unassigned Tasks",
+      "source_project_gids": [
+        "1213338742027940"
+      ]
+    },
+    {
+      "gid": "1213629104148168",
+      "assignee": {
+        "gid": "1207928533958933",
+        "name": "Shoaib Sajid"
+      },
+      "completed": false,
+      "created_at": "2026-03-11T14:18:14.591Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338742027941",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-03-11T14:18:15.927Z",
+      "name": "[Review] Vision: Handle screw-scan model-failure path without segmentation fault /...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940/task/1213629104148168",
+      "projects": [
+        {
+          "gid": "1213338742027940",
+          "name": "Unassigned Tasks"
+        }
+      ],
+      "project_gid": "1213338742027940",
+      "project_name": "Unassigned Tasks",
+      "source_project_gids": [
+        "1213338742027940"
+      ]
+    },
+    {
+      "gid": "1213369023071428",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": false,
+      "created_at": "2026-02-20T03:23:27.663Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338742027941",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-27T02:27:12.694Z",
+      "name": "Screw: Replace gripper wires for screw/rubber operation stability",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940/task/1213369023071428",
+      "projects": [
+        {
+          "gid": "1213338742027940",
+          "name": "Unassigned Tasks"
+        }
+      ],
+      "project_gid": "1213338742027940",
+      "project_name": "Unassigned Tasks",
+      "source_project_gids": [
+        "1213338742027940"
+      ]
+    },
+    {
+      "gid": "1213369021466533",
+      "assignee": {
+        "gid": "1207928533958933",
+        "name": "Shoaib Sajid"
+      },
+      "completed": false,
+      "created_at": "2026-02-20T03:23:26.792Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338742027941",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-20T03:23:27.770Z",
+      "name": "[Review] Rubber: Order dedicated light controller and install separately for rubber...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940/task/1213369021466533",
+      "projects": [
+        {
+          "gid": "1213338742027940",
+          "name": "Unassigned Tasks"
+        }
+      ],
+      "project_gid": "1213338742027940",
+      "project_name": "Unassigned Tasks",
+      "source_project_gids": [
+        "1213338742027940"
+      ]
+    },
+    {
+      "gid": "1213337745458866",
+      "assignee": {
+        "gid": "1207928533958933",
+        "name": "Shoaib Sajid"
+      },
+      "completed": false,
+      "created_at": "2026-02-20T03:23:25.637Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338742027941",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-20T03:23:26.620Z",
+      "name": "[Review] Rubber: Turn off LED and validate depth/image quality, then tune exposure...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940/task/1213337745458866",
+      "projects": [
+        {
+          "gid": "1213338742027940",
+          "name": "Unassigned Tasks"
+        }
+      ],
+      "project_gid": "1213338742027940",
+      "project_name": "Unassigned Tasks",
+      "source_project_gids": [
+        "1213338742027940"
+      ]
+    },
+    {
+      "gid": "1213369023415932",
+      "assignee": {
+        "gid": "1207928533958933",
+        "name": "Shoaib Sajid"
+      },
+      "completed": false,
+      "created_at": "2026-02-20T03:23:24.318Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338742027941",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-20T03:23:25.570Z",
+      "name": "[Review] Rubber: Place rubber foot on robot, capture images, adjust offset, repeat...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338742027940/task/1213369023415932",
+      "projects": [
+        {
+          "gid": "1213338742027940",
+          "name": "Unassigned Tasks"
+        }
+      ],
+      "project_gid": "1213338742027940",
+      "project_name": "Unassigned Tasks",
+      "source_project_gids": [
+        "1213338742027940"
+      ]
+    },
+    {
+      "gid": "1213369021907872",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-02-20T03:23:28.681Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855696",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-26T12:42:57.569Z",
+      "name": "Screw: Re-register problematic products with clean reference images",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213369021907872",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213462764605653",
+      "assignee": null,
+      "completed": false,
+      "created_at": "2026-02-27T02:35:21.571Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855716",
+            "name": "New"
+          }
+        }
+      ],
+      "modified_at": "2026-02-27T02:35:22.056Z",
+      "name": "",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213462764605653",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213462764605650",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-02-27T02:35:04.978Z",
+      "due_at": null,
+      "due_on": "2026-02-28",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-03-02T03:06:19.730Z",
+      "name": "Share the gripper not responding video and ask the reason from FASEND.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213462764605650",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543602",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:34:31.793Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T01:04:18.023Z",
+      "name": "Prepare and install new metal fingers",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543602",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543605",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:34:57.339Z",
+      "due_at": null,
+      "due_on": "2026-02-06",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-27T01:50:38.032Z",
+      "name": "Order/Prepare finger spares",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543605",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543687",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:47:02.316Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-27T01:51:49.028Z",
+      "name": "Ensure spares for 3D printed parts",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543687",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543690",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:47:21.358Z",
+      "due_at": null,
+      "due_on": "2026-02-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.671Z",
+      "name": "Optimize motions / reduce cycle time (screw)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543690",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543647",
+      "assignee": {
+        "gid": "1209746269225232",
+        "name": "Le Thai Tan"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:40:24.876Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.573Z",
+      "name": "Test Screw/Rubber GUI and report issues",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543647",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543653",
+      "assignee": {
+        "gid": "1207928448469266",
+        "name": "Saad Arslan"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:41:19.848Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.469Z",
+      "name": "3D print catching basket",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543653",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212732259682803",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": true,
+      "created_at": "2026-01-14T13:24:43.052Z",
+      "due_at": null,
+      "due_on": "2026-01-15",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T01:03:33.650Z",
+      "name": "Prepare list of all the 3D printed parts along with installed location, quantity and spare quantity.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212732259682803",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212732259682823",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-01-14T14:06:46.642Z",
+      "due_at": null,
+      "due_on": "2026-01-15",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.320Z",
+      "name": "List of deliverable items (pending delivery)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212732259682823",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212732259682800",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-01-14T13:24:14.108Z",
+      "due_at": null,
+      "due_on": "2026-01-15",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        },
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.292Z",
+      "name": "Prepare list of all the items installed with serial number, location and age.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212732259682800",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212732259682812",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-01-14T13:40:15.197Z",
+      "due_at": null,
+      "due_on": "2026-01-23",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.267Z",
+      "name": "Prepare system documentation and handover package for Everint",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212732259682812",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212732259682834",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-01-14T14:58:50.197Z",
+      "due_at": null,
+      "due_on": "2026-01-21",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.238Z",
+      "name": "Make a detailed network diagram",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212732259682834",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352147041550",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T04:59:44.004Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.205Z",
+      "name": "[Framework] Pause functionality",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352147041550",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352147041556",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:00:15.741Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.171Z",
+      "name": "[Framework] Fairino speed optimization.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352147041556",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352147041554",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:00:11.773Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:26:54.821Z",
+      "name": "[Framework] conveyor signal testing",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352147041554",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351696351597",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:57:12.599Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.084Z",
+      "name": "[Framework] Add cycle-interval feedback loop",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351696351597",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351658620827",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:15.577Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.057Z",
+      "name": "[Framework] Cycle timeout handling with interrupt signal",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351658620827",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660841389",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:12.824Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:24.016Z",
+      "name": "[Framework][Vision] Screw: Reduce cycle-time overhead from vision pipeline",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351660841389",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660525511",
+      "assignee": {
+        "gid": "1208050541130643",
+        "name": "Rizwan Ali Shah"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:40.651Z",
+      "due_at": null,
+      "due_on": "2026-02-25",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-24T15:02:36.955Z",
+      "name": "[Vision] Non-circle Screw-hole non-detection",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351660525511",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660972842",
+      "assignee": {
+        "gid": "1208050541130643",
+        "name": "Rizwan Ali Shah"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T03:46:39.166Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T06:07:45.792Z",
+      "name": "[Vision] On-site training integration for remaining models.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351660972842",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352147041548",
+      "assignee": {
+        "gid": "1210706093781237",
+        "name": "saidjalol"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T04:59:04.191Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T02:03:32.434Z",
+      "name": "[GUI] Terminal kill isolation (terminal should not kill GUI/backend)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352147041548",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154210989",
+      "assignee": {
+        "gid": "1208783532408973",
+        "name": "Muhammad ghulam"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T05:02:21.936Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-26T02:05:35.691Z",
+      "name": "[Vision] Auto assign new IP after system bootup for Omron Cameras",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352154210989",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351658621020",
+      "assignee": {
+        "gid": "1208050541130643",
+        "name": "Rizwan Ali Shah"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:18.523Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T07:22:31.362Z",
+      "name": "[Vision] [ Framework] Add depth-assisted registration support (low priority)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213351658621020",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154211006",
+      "assignee": {
+        "gid": "1210706093781237",
+        "name": "saidjalol"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T05:09:47.553Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1211933636406773",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855717",
+            "name": "General"
+          }
+        }
+      ],
+      "modified_at": "2026-02-24T02:02:46.248Z",
+      "name": "[GUI] Screw-type field in registration process and store in DB",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352154211006",
+      "projects": [
+        {
+          "gid": "1211933636406772",
+          "name": "Everint"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543595",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:33:34.857Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.828Z",
+      "name": "Fix Printer Tilt (Depth based angle adjustment)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543595",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543599",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:34:06.973Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.802Z",
+      "name": "Fix screw bit drift from pickup position after screwing ",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543599",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543592",
+      "assignee": {
+        "gid": "1209746269225232",
+        "name": "Le Thai Tan"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:33:12.356Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-25T02:03:12.981Z",
+      "name": "Register All Products with update system / metal fingers",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543592",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543586",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:32:43.309Z",
+      "due_at": null,
+      "due_on": "2026-03-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-03-04T15:00:58.329Z",
+      "name": "Test and finalize product registration (Manual and Auto) (Screw/Rubber) (Test pending)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543586",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212873042374252",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-01-20T04:49:31.979Z",
+      "due_at": null,
+      "due_on": "2026-01-21",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.709Z",
+      "name": "[screw] Ordering spare screw driver bits",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212873042374252",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213037209223150",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:57:57.641Z",
+      "due_at": null,
+      "due_on": "2026-01-30",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:27:30.469Z",
+      "name": "Order 1 5070 GPU for Screw Driver Robot (and 1 spare if possible, keep it in your own possesion)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213037209223150",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823177",
+      "assignee": {
+        "gid": "1212692607823180",
+        "name": "Sawera"
+      },
+      "completed": false,
+      "created_at": "2026-01-08T05:29:53.523Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.583Z",
+      "name": "[screw] Robot Config (Product Specs YAML file)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212692607823177",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823181",
+      "assignee": {
+        "gid": "1212692607823180",
+        "name": "Sawera"
+      },
+      "completed": false,
+      "created_at": "2026-01-08T05:30:47.563Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.551Z",
+      "name": "[screw] Realtime Logs (Front, Back, vision, robot)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212692607823181",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823184",
+      "assignee": {
+        "gid": "1212692607823180",
+        "name": "Sawera"
+      },
+      "completed": false,
+      "created_at": "2026-01-08T05:31:15.112Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.523Z",
+      "name": "[screw] Test Bench for registration",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212692607823184",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823187",
+      "assignee": {
+        "gid": "1212692607823180",
+        "name": "Sawera"
+      },
+      "completed": false,
+      "created_at": "2026-01-08T05:31:27.422Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.495Z",
+      "name": "[screw] User Guide",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212692607823187",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1211694143765220",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2025-10-20T12:37:16.105Z",
+      "due_at": null,
+      "due_on": "2026-01-09",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.466Z",
+      "name": "[screw] Adjustable Label printer aligner jig for worker placement",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1211694143765220",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212525926852208",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2025-12-19T06:26:38.138Z",
+      "due_at": null,
+      "due_on": "2026-01-09",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.442Z",
+      "name": "[screw] Finalize the error list and events for LB-Screw",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212525926852208",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212732452770871",
+      "assignee": {
+        "gid": "1209746269225232",
+        "name": "Le Thai Tan"
+      },
+      "completed": true,
+      "created_at": "2026-01-11T10:03:17.263Z",
+      "due_at": null,
+      "due_on": "2026-01-13",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-25T02:03:20.543Z",
+      "name": "Prepare complete test bench with Hieu for label printer",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212732452770871",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823127",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-01-08T05:06:06.707Z",
+      "due_at": null,
+      "due_on": "2026-01-13",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.388Z",
+      "name": "[screw] Vision Test Bench",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212692607823127",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823168",
+      "assignee": {
+        "gid": "1212692607823180",
+        "name": "Sawera"
+      },
+      "completed": false,
+      "created_at": "2026-01-08T05:29:15.367Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.355Z",
+      "name": "[label] Terminal -> Logs",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212692607823168",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212694105387326",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-01-10T02:45:39.937Z",
+      "due_at": null,
+      "due_on": "2026-01-23",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.328Z",
+      "name": "Control pallet conveyor from our framework using PLC Signal",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212694105387326",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352147041552",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T04:59:55.357Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.303Z",
+      "name": "[Framework] Feeder-empty handling",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213352147041552",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660800449",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:16.497Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.277Z",
+      "name": "[Framework] Debug-mode re-screw behavior",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213351660800449",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154211012",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:11:21.429Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.251Z",
+      "name": "[Ops] Small-screw position reliability",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213352154211012",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154211010",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:11:13.765Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.225Z",
+      "name": "[Ops] First-screw angle/position stabilization",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213352154211010",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154211008",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:11:06.091Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.196Z",
+      "name": "[Ops] [Screw] Production observation + rectify loop ",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213352154211008",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660798129",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:10.716Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1212715232979035",
+            "name": "Untitled section"
+          }
+        },
+        {
+          "section": {
+            "gid": "1213338784855707",
+            "name": "Screw"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:16.170Z",
+      "name": "[Hardware] [Framework] Resolve screw fastening quality issues",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213351660798129",
+      "projects": [
+        {
+          "gid": "1212715232979034",
+          "name": "Screw Driver"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543625",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:37:26.353Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:54.067Z",
+      "name": "Integrate rubber pad offset from vision model / Capture rubber pad after scooping on every pickup",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213036991543625",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543684",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:46:38.357Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:54.014Z",
+      "name": "Pre-pickup rubber pad at end/start of cycle.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213036991543684",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543693",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:48:00.578Z",
+      "due_at": null,
+      "due_on": "2026-02-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:53.958Z",
+      "name": "Optimize motions / reduce cycle time (rubber foot)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213036991543693",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543662",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:42:22.767Z",
+      "due_at": null,
+      "due_on": "2026-02-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:53.902Z",
+      "name": "Integrate irregular rubber foot outer body for accurate attachment",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213036991543662",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154211002",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:08:12.369Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:26:39.356Z",
+      "name": "[Framework] Per-pad XY mapping (including 2nd row)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154211002",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660811382",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:26.909Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:25:11.228Z",
+      "name": "[Framework] Add startup safety motion for rubber robot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351660811382",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213339597896587",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:23.679Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:25:55.812Z",
+      "name": "[Framework] 3-dispenser handling plus pickup/rescan edge-case reliability.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213339597896587",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660808196",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T03:46:25.050Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-20T04:27:41.899Z",
+      "name": "[Framework] Add rubber robot sanity checks",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351660808196",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351658631021",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:32.549Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-20T07:43:22.200Z",
+      "name": "[GUI] Success/failure counters for Screw/Rubber",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351658631021",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351659503743",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:21.745Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:53.516Z",
+      "name": "[Hardware] Resolve wrinkling and pickup stability issues, then validate in production for long run",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351659503743",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154210994",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:06:23.136Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:26:20.033Z",
+      "name": "[Hardware] Plastic-to-metal finalization for scooper/finger-nail-related parts.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210994",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154210992",
+      "assignee": {
+        "gid": "1211379935425386",
+        "name": "Myeung geun lee"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T05:06:00.974Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-27T02:28:14.870Z",
+      "name": "[Hardware] Sheet clamp design",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210992",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351659489812",
+      "assignee": {
+        "gid": "1208050541130643",
+        "name": "Rizwan Ali Shah"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:19.446Z",
+      "due_at": null,
+      "due_on": "2026-02-24",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T15:03:14.262Z",
+      "name": "[Vision] skipped-index root cause analysis and fix",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351659489812",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154210998",
+      "assignee": {
+        "gid": "1208050541130643",
+        "name": "Rizwan Ali Shah"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:07:08.645Z",
+      "due_at": null,
+      "due_on": "2026-02-23",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T06:09:25.705Z",
+      "name": "[Vision] wrong-hole-center analysis for R-Foot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210998",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352154210996",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:06:57.588Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T04:45:18.356Z",
+      "name": "[Ops] Rubber-foot calibration across products/printer types, offset tuning",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210996",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213338784855682",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:29:30.565Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855710",
+            "name": "Rubber"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979041",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:53.351Z",
+      "name": "[Ops] [Rubber] Production observation + rectify loop ",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213338784855682",
+      "projects": [
+        {
+          "gid": "1212715232979040",
+          "name": "Rubber Foot"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213387258126432",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-02-22T06:28:28.514Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:29:09.481Z",
+      "name": "Pcb system table foot issue and vibrarion. ",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213387258126432",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036973167931",
+      "assignee": {
+        "gid": "1210706093781237",
+        "name": "saidjalol"
+      },
+      "completed": false,
+      "created_at": "2026-01-30T08:32:32.758Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-23T05:21:10.628Z",
+      "name": "Test and finalize product registration (Manual and Auto) (PCB)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213036973167931",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1211918724849533",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2025-11-12T03:17:08.447Z",
+      "due_at": null,
+      "due_on": "2026-01-12",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:02.607Z",
+      "name": "[screw] Investigate Collision when robot A move up from pcb holding position. only happens at last one.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1211918724849533",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1211945847406402",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2025-11-15T08:05:39.397Z",
+      "due_at": null,
+      "due_on": "2026-01-09",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:02.579Z",
+      "name": "add new mqtt_subcall:mqqt_receive_msg_callback for command/data with seperate queues.",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1211945847406402",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212575138991265",
+      "assignee": {
+        "gid": "1179171893107568",
+        "name": "samrahsajid16@gmail.com"
+      },
+      "completed": false,
+      "created_at": "2025-12-30T03:36:34.370Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:02.550Z",
+      "name": "Assembly Process Product Image",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1212575138991265",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212692607823153",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": true,
+      "created_at": "2026-01-08T05:27:29.163Z",
+      "due_at": null,
+      "due_on": "2026-01-12",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-20T04:56:21.636Z",
+      "name": "[screw] Wiring Feedback for screw driver",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1212692607823153",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1212716332858709",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-01-09T10:02:01.859Z",
+      "due_at": null,
+      "due_on": "2026-01-16",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:22:02.448Z",
+      "name": "[screw] Robot finger with spring mechanism for PCB robot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1212716332858709",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213352147041560",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T05:02:08.236Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-22T06:24:30.273Z",
+      "name": "[Framework] Auto-Detect Light controller port",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213352147041560",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660966815",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": true,
+      "created_at": "2026-02-19T03:46:30.244Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-02-27T09:45:41.681Z",
+      "name": "[Hardware] PCB lighting/controller one spare controller ",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213351660966815",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213351660961064",
+      "assignee": {
+        "gid": "1208165635731868",
+        "name": "KwangHyeop Kim"
+      },
+      "completed": false,
+      "created_at": "2026-02-19T03:46:28.062Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855713",
+            "name": "PCB"
+          }
+        },
+        {
+          "section": {
+            "gid": "1212715232979032",
+            "name": "Untitled section"
+          }
+        }
+      ],
+      "modified_at": "2026-03-04T01:52:13.327Z",
+      "name": "[Hardware] Install new vertical sensor and complete the required L-shape bracket workflow (measure -> design -> fabricate -> install).",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213351660961064",
+      "projects": [
+        {
+          "gid": "1212715232979031",
+          "name": "PCB"
+        },
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026"
+    },
+    {
+      "gid": "1213036991543608",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:35:15.174Z",
+      "due_at": null,
+      "due_on": "2026-02-04",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:46.199Z",
+      "name": "Integrate top camera / validate printer location",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543608",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543619",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:36:35.745Z",
+      "due_at": null,
+      "due_on": "2026-02-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.808Z",
+      "name": "Integrate update vision algorithm for depth estimation",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543619",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543622",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:36:55.012Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.837Z",
+      "name": "Finalize rescan logic (rubber foot)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543622",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543681",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:46:07.808Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.869Z",
+      "name": "Use Start/Abort signal from conveyor (screw/rubber)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543681",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543628",
+      "assignee": {
+        "gid": "1210706093781237",
+        "name": "saidjalol"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:37:44.220Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.898Z",
+      "name": "Check/Save GUI parameters change for vision models",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543628",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543632",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:38:12.120Z",
+      "due_at": null,
+      "due_on": "2026-02-04",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.929Z",
+      "name": "Integrate misalignment warning messages for rubber foot at cycle end",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543632",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543635",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:38:38.112Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.960Z",
+      "name": "Integrate Fairino / Add error handling / Collision handling",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543635",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543638",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:39:12.637Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:25.993Z",
+      "name": "Merge screw/rubber foot robot code",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543638",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543641",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:39:43.624Z",
+      "due_at": null,
+      "due_on": "2026-01-30",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.023Z",
+      "name": "Dump Timestamps for each cycle",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543641",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543644",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:40:05.995Z",
+      "due_at": null,
+      "due_on": "2026-01-30",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.057Z",
+      "name": "Visualize cycle execution times",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543644",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543650",
+      "assignee": {
+        "gid": "1207928448469266",
+        "name": "Saad Arslan"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:40:44.600Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.094Z",
+      "name": "Finalize design for rubber pad holder",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543650",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543656",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:41:37.099Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.123Z",
+      "name": "Integrate finger gripper sequence for rubber foot robot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543656",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543659",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:42:03.281Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.155Z",
+      "name": "Reposition platform for rubber foot robot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543659",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543665",
+      "assignee": {
+        "gid": "1208050541029589",
+        "name": "hieu@chungbuk.ac.kr"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:43:01.065Z",
+      "due_at": null,
+      "due_on": "2026-02-02",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.185Z",
+      "name": "Test self-training code for screw driver robot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543665",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543668",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:43:38.470Z",
+      "due_at": null,
+      "due_on": "2026-02-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.216Z",
+      "name": "Test self-training code for rubber foot robot",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543668",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543671",
+      "assignee": {
+        "gid": "1207928449235785",
+        "name": "Tuguldur Jigjidsuren"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:43:49.081Z",
+      "due_at": null,
+      "due_on": "2026-02-06",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.247Z",
+      "name": "Finalize error message mechanism for Screw/Rubber GUI (auto timeout etc)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543671",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543674",
+      "assignee": {
+        "gid": "1209746269225232",
+        "name": "Le Thai Tan"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:44:30.648Z",
+      "due_at": null,
+      "due_on": "2026-02-05",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.278Z",
+      "name": "Save images in PNG in case of failure (screw/rubber) in dedicated dir (/DATA/Failure/YYMMDD_HHMMSS_ProductName)",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543674",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543611",
+      "assignee": {
+        "gid": "1208783534563030",
+        "name": "MUAZZAM ALI"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:35:35.922Z",
+      "due_at": null,
+      "due_on": "2026-02-03",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.308Z",
+      "name": "Install 3 rubber pad holders",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543611",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213036991543614",
+      "assignee": {
+        "gid": "1209746266501716",
+        "name": "Ammad Waheed"
+      },
+      "completed": true,
+      "created_at": "2026-01-30T08:35:54.857Z",
+      "due_at": null,
+      "due_on": "2026-02-04",
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:26.339Z",
+      "name": "Install damper on conveyor",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213036991543614",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660943909",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:09.524Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.346Z",
+      "name": "[Review] Screw: Stabilize screw feeder mirror setup and finalize special...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660943909",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660881898",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:48.332Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.386Z",
+      "name": "[Review] Hardware/Ops: Complete safety/operations behavior updates",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660881898",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660532225",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:47.326Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.425Z",
+      "name": "[Review] Hardware/Ops: Complete whiteboard hardware closure",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660532225",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660987901",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:46.095Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.465Z",
+      "name": "[Review] Hardware/Ops: Complete support material tasks",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660987901",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213338777155149",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:45.071Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.513Z",
+      "name": "[Review] Hardware/Ops: Complete reporting/dataset",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213338777155149",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351659034604",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:44.096Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.549Z",
+      "name": "[Review] Hardware/Ops: Complete external/vendor dependencies",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351659034604",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660833082",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:43.122Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.585Z",
+      "name": "[Review] Hardware/Ops: Complete factory-ops readiness",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660833082",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351659471808",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:42.023Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.623Z",
+      "name": "[Review] Hardware/Ops: Complete Fairino hardware readiness",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351659471808",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660823632",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:38.170Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.656Z",
+      "name": "[Review] Vision: Verify and use tilt angle in motion pipeline where required",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660823632",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660519782",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:37.169Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.691Z",
+      "name": "[Review] Vision: Organize image/data structure by product and ensure scooped-image...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660519782",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351659509502",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:36.239Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.724Z",
+      "name": "[Review] Vision: Train and deploy lightweight Omron product-presence detector for...",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351659509502",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351659465219",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:35.284Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.759Z",
+      "name": "[Review] Vision: Complete detection-improvement",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351659465219",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
+      ]
+    },
+    {
+      "gid": "1213351660800263",
+      "assignee": null,
+      "completed": true,
+      "created_at": "2026-02-19T03:46:33.468Z",
+      "due_at": null,
+      "due_on": null,
+      "memberships": [
+        {
+          "section": {
+            "gid": "1213338784855698",
+            "name": "Completed"
+          }
+        }
+      ],
+      "modified_at": "2026-02-19T06:21:00.806Z",
+      "name": "[Review] GUI/Framework: Fix grouped messaging/control issues",
+      "permalink_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213351660800263",
+      "projects": [
+        {
+          "gid": "1213338784855695",
+          "name": "AI Robot 2026"
+        }
+      ],
+      "project_gid": "1213338784855695",
+      "project_name": "AI Robot 2026",
+      "source_project_gids": [
+        "1213338784855695"
       ]
     }
   ]

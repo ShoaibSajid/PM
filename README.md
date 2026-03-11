@@ -2,17 +2,17 @@
 
 **Client:** Everint (company name)  
 **Project Owner:** Shoaib (recently joined to manage all teams)  
-**Last Updated:** February 26, 2026  
+**Last Updated:** March 11, 2026  
 **Project Phase:** Validation, Acceptance, and Handover
 
 ---
 
 ## Shared Context
 
-- Latest Asana sync: **blocked in this run** (`ASANA_PAT` not set)
-- Latest Asana comments snapshot: **2026-02-22 15:58:36** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
-- Latest chat anchor: **2026-02-26 09:23:15** (Shoaib: "Friday 9AM - 7PM ...")
-- Latest today summary: [TODAY_SUMMARY_FEB_26.md](./TODAY_SUMMARY_FEB_26.md)
+- Latest Asana sync: **2026-03-11 23:18:39** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Latest Asana comments snapshot: **2026-03-11 23:20:02** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
+- Latest chat anchor: **2026-03-11 22:48:37** (Shoaib: "Today, they were producing a different printer ...")
+- Latest today summary: [TODAY_SUMMARY_MAR_11.md](./TODAY_SUMMARY_MAR_11.md)
 
 ---
 
@@ -57,11 +57,12 @@ This project documentation is organized into the following files:
 
 ### Reference Files
 - **[MISSING_ITEMS.md](./MISSING_ITEMS.md)** - Detailed missing items (reference)
-- **[CHAT_ANALYSIS_FEB_25_26.md](./CHAT_ANALYSIS_FEB_25_26.md)** - Chat analysis Feb 25–26 (latest)
+- **[CHAT_ANALYSIS_FEB_26_TO_MAR_11.md](./CHAT_ANALYSIS_FEB_26_TO_MAR_11.md)** - Chat analysis Feb 26 to Mar 11 (latest)
 - **[CHAT_ANALYSIS_FEB_22_25.md](./CHAT_ANALYSIS_FEB_22_25.md)** - Chat analysis Feb 22–25
 - **[CHAT_ANALYSIS_FEB_19_21.md](./CHAT_ANALYSIS_FEB_19_21.md)** - Chat analysis Feb 19–21
 - **[CHAT_ANALYSIS_FEB_10_18.md](./CHAT_ANALYSIS_FEB_10_18.md)** - Chat analysis Feb 10–18 (historical)
 - **[ASANA_TASK_COMMENTS_LATEST.md](./ASANA_TASK_COMMENTS_LATEST.md)** - Latest Asana comments summary
+- **[TODAY_SUMMARY_MAR_11.md](./TODAY_SUMMARY_MAR_11.md)** - Today action summary (Kakao + debug-group updates: registration, calibration, reporting, hardware)
 - **[TODAY_SUMMARY_FEB_26.md](./TODAY_SUMMARY_FEB_26.md)** - Today action summary (Kakao + direct updates: Screw, Rubber, Vision)
 - **[TODAY_SUMMARY_FEB_24.md](./TODAY_SUMMARY_FEB_24.md)** - Today action summary (meeting notes/direct updates: Rubber Foot + Screw)
 
@@ -70,12 +71,12 @@ This project documentation is organized into the following files:
 ## Quick Links
 
 - [Complete Tracking Checklist](./URGENT_ISSUES_CHECKLIST.md) ⭐ **Main tracking file (matches Asana)**
-- [Asana Tasks List](./ASANA_TASKS_LIST.md) - Complete Asana tasks reference (latest sync: 88 pending, 65 completed excluded)
+- [Asana Tasks List](./ASANA_TASKS_LIST.md) - Complete Asana tasks reference (latest sync: 89 pending, 105 completed excluded)
 - [Asana Task Comments](./ASANA_TASK_COMMENTS_LATEST.md) - Latest task comments across pending tasks
 - [Completed Tasks Archive](./COMPLETED_TASKS.md) - All completed tasks
 - [Missing Tasks (Not in Asana)](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) - Tasks needing review
-- [Chat Analysis (Feb 25-26)](./CHAT_ANALYSIS_FEB_25_26.md) - Latest KakaoTalk extraction analysis
-- [Today Summary (Feb 26)](./TODAY_SUMMARY_FEB_26.md) - Latest Kakao/direct-message actions for Screw, Rubber, and Vision
+- [Chat Analysis (Feb 26 to Mar 11)](./CHAT_ANALYSIS_FEB_26_TO_MAR_11.md) - Latest KakaoTalk extraction analysis
+- [Today Summary (Mar 11)](./TODAY_SUMMARY_MAR_11.md) - Latest Kakao + debug-group action packaging
 - [Missing Items (Detailed)](./MISSING_ITEMS.md) - Reference document for information gaps
 
 ---

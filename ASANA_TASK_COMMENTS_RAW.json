@@ -1,13 +1,270 @@
 {
-  "generated_at": "2026-02-22T06:58:36.492680+00:00",
-  "pending_tasks_scanned": 94,
-  "tasks_with_comments": 36,
-  "items": [
+  "generated_at": "2026-03-11T23:20:02.132889",
+  "pending_tasks_scanned": 89,
+  "tasks_with_comments": 38,
+  "results": [
+    {
+      "task_gid": "1213351660961064",
+      "task_name": "[Hardware] Install new vertical sensor and complete the required L-shape bracket workflow (measure -> design -> fabricate -> install).",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213351660961064",
+      "comment_count": 4,
+      "latest_comment_at": "2026-03-03T02:19:00.064Z",
+      "latest_comment_by": "Shoaib Sajid",
+      "latest_comment_text": "?",
+      "comments": [
+        {
+          "gid": "1213444640046765",
+          "created_at": "2026-02-26T01:56:46.099Z",
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1209746266501723\nhttps://app.asana.com/1/1200925651512410/profile/1208165635440940 said he has done his part and provided you the 3D print.",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1212616133460458",
+          "created_at": "2026-03-02T01:59:14.153Z",
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "I lost the bracket. ",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213460150530011",
+          "created_at": "2026-03-03T01:45:09.854Z",
+          "created_by": {
+            "gid": "1208165635731868",
+            "name": "KwangHyeop Kim"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1209746266501723 I just started printing of new pair.",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1211957417583317",
+          "created_at": "2026-03-03T02:19:00.064Z",
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "?",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
+    {
+      "task_gid": "1212613944800948",
+      "task_name": "[screw] test stacking the laser sensors for reliable PCB detection",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212613944800948",
+      "comment_count": 4,
+      "latest_comment_at": "2026-03-02T02:16:42.826Z",
+      "latest_comment_by": "Saad Arslan",
+      "latest_comment_text": "Do we still face these issues? or have the use different covering for PCBs?\nIf yes, then let's replace the sensor.",
+      "comments": [
+        {
+          "gid": "1213369930375163",
+          "created_at": "2026-02-20T04:48:59.066Z",
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "Sensor has been found. I have ask kwanghyeop to explain to myeng gun for design mounting bracket for new sensor.\nCurrent sensor is horizontal mounted while new one is vertically mounted.",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213485566700952",
+          "created_at": "2026-03-02T01:31:11.165Z",
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1209746266501723 what is the status on this?\nMore importantly, are we experiencing any failures with the currently installed sensor?",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1212616133460457",
+          "created_at": "2026-03-02T01:58:25.666Z",
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "Original issues are 2.\nA. Double detection. Even after completion double detection occurs.\nB. For lifted metal bracket, paper on the bracket need to moved down to setection.\nUpdate on new sensor installation. Plastic bracket was made.\n    I lost the 3d bracket myeng geun made.\n    I didnt get time to install and test in on pcb system.\n",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213485769845733",
+          "created_at": "2026-03-02T02:16:42.826Z",
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Do we still face these issues? or have the use different covering for PCBs?\nIf yes, then let's replace the sensor.",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
+    {
+      "task_gid": "1213462764605650",
+      "task_name": "Share the gripper not responding video and ask the reason from FASEND.",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1213338784855695/task/1213462764605650",
+      "comment_count": 1,
+      "latest_comment_at": "2026-02-27T02:57:50.597Z",
+      "latest_comment_by": "KwangHyeop Kim",
+      "latest_comment_text": "I already shared the video which you shared, with FASENG on Wednesday.\nAnd I already sent the gripper to them.\n\nFor the reason, they also noticed some error from gripper stroke\nbetween the command from the program and actual value.\nSo, they will ask Jookang about that.",
+      "comments": [
+        {
+          "gid": "1213462913835589",
+          "created_at": "2026-02-27T02:57:50.597Z",
+          "created_by": {
+            "gid": "1208165635731868",
+            "name": "KwangHyeop Kim"
+          },
+          "text": "I already shared the video which you shared, with FASENG on Wednesday.\nAnd I already sent the gripper to them.\n\nFor the reason, they also noticed some error from gripper stroke\nbetween the command from the program and actual value.\nSo, they will ask Jookang about that.",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
+    {
+      "task_gid": "1213036991543586",
+      "task_name": "Test and finalize product registration (Manual and Auto) (Screw/Rubber) (Test pending)",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543586",
+      "comment_count": 4,
+      "latest_comment_at": "2026-02-26T02:14:58.461Z",
+      "latest_comment_by": "Shoaib Sajid",
+      "latest_comment_text": "Okay. Professor said not to focus on screw hole type, although it has been implemented on GUI side. Professor said we will reject processing those printers.",
+      "comments": [
+        {
+          "gid": "1213393837014626",
+          "created_at": "2026-02-23T02:24:20.348Z",
+          "created_by": {
+            "gid": "1210706093781237",
+            "name": "saidjalol"
+          },
+          "text": "I think we completed product registration in label printer with https://app.asana.com/1/1200925651512410/profile/1208050553239426, https://app.asana.com/1/1200925651512410/profile/1207928449235792",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213444640046759",
+          "created_at": "2026-02-26T01:46:14.788Z",
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1208050553239426\nPlease check this.",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213444663030280",
+          "created_at": "2026-02-26T01:52:00.952Z",
+          "created_by": {
+            "gid": "1208050541029589",
+            "name": "hieu@chungbuk.ac.kr"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1207928533958945, there is a new requirement from Dr Rizwan, which is adding hole's information (circle, square, odd), so I should do testing for this feature (do registration, extracting information, then save to json file correctly), it will take time for this",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1211957417510281",
+          "created_at": "2026-02-26T02:14:58.461Z",
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Okay. Professor said not to focus on screw hole type, although it has been implemented on GUI side. Professor said we will reject processing those printers.",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
+    {
+      "task_gid": "1213036991543605",
+      "task_name": "Order/Prepare finger spares",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543605",
+      "comment_count": 2,
+      "latest_comment_at": "2026-02-26T01:46:50.028Z",
+      "latest_comment_by": "Shoaib Sajid",
+      "latest_comment_text": "Update ?",
+      "comments": [
+        {
+          "gid": "1213393663128101",
+          "created_at": "2026-02-23T01:11:17.990Z",
+          "created_by": {
+            "gid": "1208783534563030",
+            "name": "MUAZZAM ALI"
+          },
+          "text": "Need to check with Meuongin",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213444640046763",
+          "created_at": "2026-02-26T01:46:50.028Z",
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Update ?",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
+    {
+      "task_gid": "1213036991543687",
+      "task_name": "Ensure spares for 3D printed parts",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213036991543687",
+      "comment_count": 2,
+      "latest_comment_at": "2026-02-26T01:46:43.046Z",
+      "latest_comment_by": "Shoaib Sajid",
+      "latest_comment_text": "Yes.",
+      "comments": [
+        {
+          "gid": "1213393663128103",
+          "created_at": "2026-02-23T01:17:18.069Z",
+          "created_by": {
+            "gid": "1208783534563030",
+            "name": "MUAZZAM ALI"
+          },
+          "text": "Almost all parts have been replaced with metal parts, do we need spares for them as well?",
+          "resource_subtype": "comment_added"
+        },
+        {
+          "gid": "1213444640046761",
+          "created_at": "2026-02-26T01:46:43.046Z",
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Yes.",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
+    {
+      "task_gid": "1213036973167931",
+      "task_name": "Test and finalize product registration (Manual and Auto) (PCB)",
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213036973167931",
+      "comment_count": 1,
+      "latest_comment_at": "2026-02-23T05:21:10.607Z",
+      "latest_comment_by": "saidjalol",
+      "latest_comment_text": "we are waiting PCB robot side auto registration implementation",
+      "comments": [
+        {
+          "gid": "1213393837014631",
+          "created_at": "2026-02-23T05:21:10.607Z",
+          "created_by": {
+            "gid": "1210706093781237",
+            "name": "saidjalol"
+          },
+          "text": "we are waiting PCB robot side auto registration implementation",
+          "resource_subtype": "comment_added"
+        }
+      ]
+    },
     {
       "task_gid": "1213037209223150",
       "task_name": "Order 1 5070 GPU for Screw Driver Robot (and 1 spare if possible, keep it in your own possesion)",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213037209223150",
-      "comments_count": 4,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213037209223150",
+      "comment_count": 4,
       "latest_comment_at": "2026-02-22T06:27:30.414Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "Is 5090 available?\nOr can you ask them which GPUs are available among the following\n4070\n4090\n5070\n5090\nAnd ask their prices as well",
@@ -15,34 +272,50 @@
         {
           "gid": "1213093314028113",
           "created_at": "2026-02-03T03:12:24.204Z",
-          "author": "KwangHyeop Kim",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213093314028112\n\n\nhttps://app.asana.com/1/1200925651512410/profile/1207928533958945 I just sent the mail for quotation to the vendor.\nIt's the same company as before.\n\nSince the cost of 1EA of 5070 was 894,000 won at 12/18,\nthe estimated cost will be around 1.8 million (including tax)."
+          "created_by": {
+            "gid": "1208165635731868",
+            "name": "KwangHyeop Kim"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213093314028112\n\n\nhttps://app.asana.com/1/1200925651512410/profile/1207928533958945 I just sent the mail for quotation to the vendor.\nIt's the same company as before.\n\nSince the cost of 1EA of 5070 was 894,000 won at 12/18,\nthe estimated cost will be around 1.8 million (including tax).",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213093744684920",
           "created_at": "2026-02-04T05:42:56.517Z",
-          "author": "Shoaib Sajid",
-          "text": "Okay. Please order."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Okay. Please order.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213116483609366",
           "created_at": "2026-02-05T01:48:09.417Z",
-          "author": "KwangHyeop Kim",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213116483609365\n\n\nhttps://app.asana.com/1/1200925651512410/profile/1207928533958945 They replied that they don't have RTX5070 in stock.\nShould I find another vendor for Graphics Card?"
+          "created_by": {
+            "gid": "1208165635731868",
+            "name": "KwangHyeop Kim"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213116483609365\n\n\nhttps://app.asana.com/1/1200925651512410/profile/1207928533958945 They replied that they don't have RTX5070 in stock.\nShould I find another vendor for Graphics Card?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055045",
           "created_at": "2026-02-22T06:27:30.414Z",
-          "author": "Shoaib Sajid",
-          "text": "Is 5090 available?\nOr can you ask them which GPUs are available among the following\n4070\n4090\n5070\n5090\nAnd ask their prices as well"
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Is 5090 available?\nOr can you ask them which GPUs are available among the following\n4070\n4090\n5070\n5090\nAnd ask their prices as well",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213352147041554",
       "task_name": "[Framework] conveyor signal testing",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352147041554",
-      "comments_count": 2,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1213352147041554",
+      "comment_count": 2,
       "latest_comment_at": "2026-02-22T06:26:54.800Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "Let's plan in advance when we should implement that.",
@@ -50,22 +323,30 @@
         {
           "gid": "1213369930375159",
           "created_at": "2026-02-20T04:46:00.868Z",
-          "author": "Ammad Waheed",
-          "text": "Done. Only emergency signal remaining"
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "Done. Only emergency signal remaining",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055044",
           "created_at": "2026-02-22T06:26:54.800Z",
-          "author": "Shoaib Sajid",
-          "text": "Let's plan in advance when we should implement that."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Let's plan in advance when we should implement that.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213352154211002",
       "task_name": "[Framework] Per-pad XY mapping (including 2nd row)",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154211002",
-      "comments_count": 2,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154211002",
+      "comment_count": 2,
       "latest_comment_at": "2026-02-22T06:26:39.333Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "Let's plan when we should use them.",
@@ -73,22 +354,30 @@
         {
           "gid": "1213369836184870",
           "created_at": "2026-02-20T04:41:43.737Z",
-          "author": "Tuguldur Jigjidsuren",
-          "text": "We are receiving the image coordinates from vision, but not using it at the moment. At this time it only include the first row"
+          "created_by": {
+            "gid": "1207928449235785",
+            "name": "Tuguldur Jigjidsuren"
+          },
+          "text": "We are receiving the image coordinates from vision, but not using it at the moment. At this time it only include the first row",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055042",
           "created_at": "2026-02-22T06:26:39.333Z",
-          "author": "Shoaib Sajid",
-          "text": "Let's plan when we should use them."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Let's plan when we should use them.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213352154210994",
       "task_name": "[Hardware] Plastic-to-metal finalization for scooper/finger-nail-related parts.",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210994",
-      "comments_count": 3,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210994",
+      "comment_count": 3,
       "latest_comment_at": "2026-02-22T06:26:20.009Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "Let's install them on Thursday or Friday once Hieu is here so he can help with hand-eye calibration.",
@@ -96,28 +385,40 @@
         {
           "gid": "1213369836184863",
           "created_at": "2026-02-20T04:34:11.974Z",
-          "author": "Tuguldur Jigjidsuren",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213369836184862"
+          "created_by": {
+            "gid": "1207928449235785",
+            "name": "Tuguldur Jigjidsuren"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213369836184862\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213369836184865",
           "created_at": "2026-02-20T04:34:45.497Z",
-          "author": "Tuguldur Jigjidsuren",
-          "text": "Metal parts that we ordered from JLCPCB has arrived.\n\nNeed to install and do hand-eye-calibration"
+          "created_by": {
+            "gid": "1207928449235785",
+            "name": "Tuguldur Jigjidsuren"
+          },
+          "text": "Metal parts that we ordered from JLCPCB has arrived.\n\nNeed to install and do hand-eye-calibration",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055040",
           "created_at": "2026-02-22T06:26:20.009Z",
-          "author": "Shoaib Sajid",
-          "text": "Let's install them on Thursday or Friday once Hieu is here so he can help with hand-eye calibration."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Let's install them on Thursday or Friday once Hieu is here so he can help with hand-eye calibration.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213339597896587",
       "task_name": "[Framework] 3-dispenser handling plus pickup/rescan edge-case reliability.",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213339597896587",
-      "comments_count": 2,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213339597896587",
+      "comment_count": 2,
       "latest_comment_at": "2026-02-22T06:25:55.790Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "Initial logic is complete. Optimization such as picking 3 rubbers from 1 dispenser and 1 rubber from next dispenser, such tasks are to be done.",
@@ -125,22 +426,30 @@
         {
           "gid": "1213369836184858",
           "created_at": "2026-02-20T04:29:05.979Z",
-          "author": "Tuguldur Jigjidsuren",
-          "text": "3 Dispenser logic is implemented but need further testing for solid conclusion"
+          "created_by": {
+            "gid": "1207928449235785",
+            "name": "Tuguldur Jigjidsuren"
+          },
+          "text": "3 Dispenser logic is implemented but need further testing for solid conclusion",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055038",
           "created_at": "2026-02-22T06:25:55.790Z",
-          "author": "Shoaib Sajid",
-          "text": "Initial logic is complete. Optimization such as picking 3 rubbers from 1 dispenser and 1 rubber from next dispenser, such tasks are to be done."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Initial logic is complete. Optimization such as picking 3 rubbers from 1 dispenser and 1 rubber from next dispenser, such tasks are to be done.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213351660811382",
       "task_name": "[Framework] Add startup safety motion for rubber robot",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351660811382",
-      "comments_count": 2,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351660811382",
+      "comment_count": 2,
       "latest_comment_at": "2026-02-22T06:25:11.192Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "Do you open and close the gripper to drop any rubber if it is already holding it?",
@@ -148,22 +457,30 @@
         {
           "gid": "1213369830807980",
           "created_at": "2026-02-20T04:28:27.398Z",
-          "author": "Tuguldur Jigjidsuren",
-          "text": "Robot goes to it's home position at the startup sequence and rest of the sequence continues"
+          "created_by": {
+            "gid": "1207928449235785",
+            "name": "Tuguldur Jigjidsuren"
+          },
+          "text": "Robot goes to it's home position at the startup sequence and rest of the sequence continues",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055036",
           "created_at": "2026-02-22T06:25:11.192Z",
-          "author": "Shoaib Sajid",
-          "text": "Do you open and close the gripper to drop any rubber if it is already holding it?"
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "Do you open and close the gripper to drop any rubber if it is already holding it?",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213352147041560",
       "task_name": "[Framework] Auto-Detect Light controller port",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213352147041560",
-      "comments_count": 2,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1213352147041560",
+      "comment_count": 2,
       "latest_comment_at": "2026-02-22T06:24:30.248Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "On PCB, light controller port was changed. In that case, auto detect the new port which is being used by light controller and connect using it.",
@@ -171,80 +488,30 @@
         {
           "gid": "1213369930375176",
           "created_at": "2026-02-20T04:56:55.207Z",
-          "author": "Ammad Waheed",
-          "text": "any details please"
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "any details please",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1213387253055034",
           "created_at": "2026-02-22T06:24:30.248Z",
-          "author": "Shoaib Sajid",
-          "text": "On PCB, light controller port was changed. In that case, auto detect the new port which is being used by light controller and connect using it."
-        }
-      ]
-    },
-    {
-      "task_gid": "1211934076449911",
-      "task_name": "[screw] Design sensor extender bracket for the PCB Conveyor",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211934076449911",
-      "comments_count": 5,
-      "latest_comment_at": "2026-02-20T04:49:58.904Z",
-      "latest_comment_by": "Ammad Waheed",
-      "latest_comment_text": "Task is not needed as new conveyor will be designed",
-      "comments": [
-        {
-          "gid": "1212159749214788",
-          "created_at": "2025-11-26T07:15:10.629Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940https://app.asana.com/0/profile/1209746266501723 are we buying this or this has been postponed?"
-        },
-        {
-          "gid": "1212159749666465",
-          "created_at": "2025-11-26T07:18:31.292Z",
-          "author": "KwangHyeop Kim",
-          "text": "https://app.asana.com/0/profile/1207928448469273 Sorry, but I couldn't find the one we need from internet.\nIt seems like we have to design and make it."
-        },
-        {
-          "gid": "1212158657162566",
-          "created_at": "2025-11-26T08:57:56.151Z",
-          "author": "Saad Arslan",
-          "text": "I have pushed the task deadline and changed the title. Let's design it, https://app.asana.com/0/profile/1208165635440940 can you make the design?"
-        },
-        {
-          "gid": "1212687041264642",
-          "created_at": "2026-01-07T03:17:09.094Z",
-          "author": "Ammad Waheed",
-          "text": "Dr. Saad. The task is not appropriately realized.  If sensor is move further, it will cause pcbs to fall down.\nhowever we can as an extension plate and mount sensor on it to further help everint worker."
-        },
-        {
-          "gid": "1213369930375168",
-          "created_at": "2026-02-20T04:49:58.904Z",
-          "author": "Ammad Waheed",
-          "text": "Task is not needed as new conveyor will be designed"
-        }
-      ]
-    },
-    {
-      "task_gid": "1212613944800948",
-      "task_name": "[screw] test stacking the laser sensors for reliable PCB detection",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212613944800948",
-      "comments_count": 1,
-      "latest_comment_at": "2026-02-20T04:48:59.066Z",
-      "latest_comment_by": "Ammad Waheed",
-      "latest_comment_text": "Sensor has been found. I have ask kwanghyeop to explain to myeng gun for design mounting bracket for new sensor.\nCurrent sensor is horizontal mounted while new one is vertically mounted.",
-      "comments": [
-        {
-          "gid": "1213369930375163",
-          "created_at": "2026-02-20T04:48:59.066Z",
-          "author": "Ammad Waheed",
-          "text": "Sensor has been found. I have ask kwanghyeop to explain to myeng gun for design mounting bracket for new sensor.\nCurrent sensor is horizontal mounted while new one is vertically mounted."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "On PCB, light controller port was changed. In that case, auto detect the new port which is being used by light controller and connect using it.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213352154210996",
       "task_name": "[Ops] Rubber-foot calibration across products/printer types, offset tuning",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210996",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213352154210996",
+      "comment_count": 1,
       "latest_comment_at": "2026-02-20T04:40:16.753Z",
       "latest_comment_by": "Tuguldur Jigjidsuren",
       "latest_comment_text": "As discussed in the meeting we need to change the reference.\n\nWe need to test with lights off and exposure high. After these we will do offset tuning on best settings of condition",
@@ -252,16 +519,20 @@
         {
           "gid": "1213369836184867",
           "created_at": "2026-02-20T04:40:16.753Z",
-          "author": "Tuguldur Jigjidsuren",
-          "text": "As discussed in the meeting we need to change the reference.\n\nWe need to test with lights off and exposure high. After these we will do offset tuning on best settings of condition"
+          "created_by": {
+            "gid": "1207928449235785",
+            "name": "Tuguldur Jigjidsuren"
+          },
+          "text": "As discussed in the meeting we need to change the reference.\n\nWe need to test with lights off and exposure high. After these we will do offset tuning on best settings of condition",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213351658631021",
       "task_name": "[GUI] Success/failure counters for Screw/Rubber",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351658631021",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979040/task/1213351658631021",
+      "comment_count": 1,
       "latest_comment_at": "2026-02-20T03:00:48.171Z",
       "latest_comment_by": "saidjalol",
       "latest_comment_text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450361\n\n\nThe GUI side is ready, the robot framework should publish topic that is it. It works\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450363\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450365\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450367",
@@ -269,16 +540,20 @@
         {
           "gid": "1213368567450368",
           "created_at": "2026-02-20T03:00:48.171Z",
-          "author": "saidjalol",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450361\n\n\nThe GUI side is ready, the robot framework should publish topic that is it. It works\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450363\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450365\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450367"
+          "created_by": {
+            "gid": "1210706093781237",
+            "name": "saidjalol"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450361\n\n\nThe GUI side is ready, the robot framework should publish topic that is it. It works\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450363\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450365\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1213368567450367\n",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1213036991543595",
       "task_name": "Fix Printer Tilt (Depth based angle adjustment)",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543595",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1213036991543595",
+      "comment_count": 1,
       "latest_comment_at": "2026-02-01T07:08:35.484Z",
       "latest_comment_by": "hieu@chungbuk.ac.kr",
       "latest_comment_text": "I am helping Quy and Shams to answer questions about the camera, they are still working on this task",
@@ -286,16 +561,20 @@
         {
           "gid": "1213027922140318",
           "created_at": "2026-02-01T07:08:35.484Z",
-          "author": "hieu@chungbuk.ac.kr",
-          "text": "I am helping Quy and Shams to answer questions about the camera, they are still working on this task"
+          "created_by": {
+            "gid": "1208050541029589",
+            "name": "hieu@chungbuk.ac.kr"
+          },
+          "text": "I am helping Quy and Shams to answer questions about the camera, they are still working on this task",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212873042374252",
       "task_name": "[screw] Ordering spare screw driver bits",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212873042374252",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212873042374252",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-20T04:50:13.280Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "https://app.asana.com/1/1200925651512410/profile/1209746266501723 share details of the screw bits required.",
@@ -303,16 +582,20 @@
         {
           "gid": "1212873042374255",
           "created_at": "2026-01-20T04:50:13.280Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/1/1200925651512410/profile/1209746266501723 share details of the screw bits required."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1209746266501723 share details of the screw bits required.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211694143765220",
       "task_name": "[screw] Adjustable Label printer aligner jig for worker placement",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1211694143765220",
-      "comments_count": 40,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1211694143765220",
+      "comment_count": 40,
       "latest_comment_at": "2026-01-14T14:10:21.518Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "https://app.asana.com/1/1200925651512410/profile/1208165635440940\nPlease check this task.",
@@ -320,250 +603,410 @@
         {
           "gid": "1211728984490256",
           "created_at": "2025-10-23T08:14:23.950Z",
-          "author": "Myeung geun lee",
-          "text": "Doctor, could I make an alignment jig using a V-profile? I'm concerned that if the jig is as thin as paper, the print won't align properly."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Doctor, could I make an alignment jig using a V-profile? I'm concerned that if the jig is as thin as paper, the print won't align properly.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211728984490260",
           "created_at": "2025-10-23T08:15:19.445Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1211728984490259"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1211728984490259\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211755914415394",
           "created_at": "2025-10-28T05:10:35.052Z",
-          "author": "Saad Arslan",
-          "text": "Please make a design and let's dicuss and order today."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Please make a design and let's dicuss and order today.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211779439675314",
           "created_at": "2025-10-29T03:05:42.978Z",
-          "author": "Myeung geun lee",
-          "text": "Looking at other videos uploaded by the seller, I'm not sure if it will fit the 4040 profile, which is the main frame of the current Everint. Considering this, it seems better to use a long handle bolt in the classic way to fix it to the upper profile and slide it, and use a T-nut and flat bracket for the center handle bolt to make it easy to move.\nhttps://youtu.be/PhlsPDRvjik\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211779439675309\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211779439675311\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211779439675313"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Looking at other videos uploaded by the seller, I'm not sure if it will fit the 4040 profile, which is the main frame of the current Everint. Considering this, it seems better to use a long handle bolt in the classic way to fix it to the upper profile and slide it, and use a T-nut and flat bracket for the center handle bolt to make it easy to move.\nhttps://youtu.be/PhlsPDRvjik\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211779439675309\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211779439675311\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211779439675313\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211779474073283",
           "created_at": "2025-10-29T03:10:52.625Z",
-          "author": "Saad Arslan",
-          "text": "Wheels are just one aspect of it. Let's make first quick design and discuss the improvements:\n    Mounting mechanism to the conveyor\n    Y-axis adjustment\n    X-asis adjustment\n    L-shape aligner for the printer.\n    wheels on x-axis of the aligner."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Wheels are just one aspect of it. Let's make first quick design and discuss the improvements:\n    Mounting mechanism to the conveyor\n    Y-axis adjustment\n    X-asis adjustment\n    L-shape aligner for the printer.\n    wheels on x-axis of the aligner.\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209883665884352",
           "created_at": "2025-10-29T12:15:21.966Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/1211379776083698 Take a look at this I just found this on https://a.aliexpress.com/_c3NHEk7H, it is on Aliexpress but seems useful for our needs."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/1211379776083698/1211379776083698 Take a look at this I just found this on https://a.aliexpress.com/_c3NHEk7H, it is on Aliexpress but seems useful for our needs.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657704",
           "created_at": "2025-10-29T12:18:40.097Z",
-          "author": "Myeung geun lee",
-          "text": "I saw the link you gave me, but it takes at least a week to two weeks to order from Ali. Is that okay? Or should we look for something similar in Korea?"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "I saw the link you gave me, but it takes at least a week to two weeks to order from Ali. Is that okay? Or should we look for something similar in Korea?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209883665884353",
           "created_at": "2025-10-29T12:42:23.569Z",
-          "author": "Saad Arslan",
-          "text": "Find something similar in Korea."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Find something similar in Korea.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657705",
           "created_at": "2025-10-29T12:45:50.048Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, okay."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Yes, okay. ",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211800658899521",
           "created_at": "2025-10-31T01:09:13.233Z",
-          "author": "Myeung geun lee",
-          "text": "I found a similar product to the https://smartstore.naver.com/profide/products/10397566417 you sent, but you may need to install an additional profile to match it."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "I found a similar product to the https://smartstore.naver.com/profide/products/10397566417 you sent, but you may need to install an additional profile to match it.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211790054389568",
           "created_at": "2025-10-31T02:08:23.926Z",
-          "author": "Saad Arslan",
-          "text": "ok, let's design a prototype, which\n    we can install on the conveyor securely\n    has adjustment on y-axis, and temporary secure using butterfly screw or a lock\n    has adjustment on x-axis, and temporary secure using butterfly screw or a lock\n    allows smooth rolling of the printer when moving along x-axis."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "ok, let's design a prototype, which\n    we can install on the conveyor securely\n    has adjustment on y-axis, and temporary secure using butterfly screw or a lock\n    has adjustment on x-axis, and temporary secure using butterfly screw or a lock\n    allows smooth rolling of the printer when moving along x-axis.\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211803105430051",
           "created_at": "2025-10-31T08:31:56.132Z",
-          "author": "Myeung geun lee",
-          "text": "The Korean product I found claims to make rails using 3030 or 3060 profiles. I've currently created a bracket that can secure the rails using that profile, along with a device that can temporarily release the bolts. Please confirm.\nSince the profiles are of different sizes, we will use flat brackets or L-shaped brackets to secure the rails so that they do not interfere with the alignment jig.\nSince the profiles are of different sizes, we will use flat brackets or L-shaped brackets to secure the rails without interfering with the alignment jig. The red box indicates the expected location for the L-shaped bracket."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "The Korean product I found claims to make rails using 3030 or 3060 profiles. I've currently created a bracket that can secure the rails using that profile, along with a device that can temporarily release the bolts. Please confirm.\nSince the profiles are of different sizes, we will use flat brackets or L-shaped brackets to secure the rails so that they do not interfere with the alignment jig.\nSince the profiles are of different sizes, we will use flat brackets or L-shaped brackets to secure the rails without interfering with the alignment jig. The red box indicates the expected location for the L-shaped bracket.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211875263954768",
           "created_at": "2025-11-07T08:24:46.165Z",
-          "author": "Saad Arslan",
-          "text": "MyeongGeun, please share progress on this. Thanks."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "MyeongGeun, please share progress on this. Thanks.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211875856520412",
           "created_at": "2025-11-07T08:40:59.878Z",
-          "author": "Myeung geun lee",
-          "text": "I'm looking for a product similar to this image, and I found one that can be used as a profile, but I haven't ordered it yet. Is there another way to do it without using a profile? Or should I look for a different product? I'm not sure if the new method I found will align the print properly.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211875856520411"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "I'm looking for a product similar to this image, and I found one that can be used as a profile, but I haven't ordered it yet. Is there another way to do it without using a profile? Or should I look for a different product? I'm not sure if the new method I found will align the print properly.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211875856520411\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209883665884391",
           "created_at": "2025-11-07T15:04:18.145Z",
-          "author": "Saad Arslan",
-          "text": "The concept is similar, but it seems to be providing one axis control. Can we contact a company about this?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "The concept is similar, but it seems to be providing one axis control. Can we contact a company about this?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657724",
           "created_at": "2025-11-07T15:05:16.776Z",
-          "author": "Myeung geun lee",
-          "text": "Are you talking about the manufacturing company?"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Are you talking about the manufacturing company? ",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211878823126235",
           "created_at": "2025-11-07T15:15:20.513Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1211878823126234"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1211878823126234\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657725",
           "created_at": "2025-11-07T15:15:57.616Z",
-          "author": "Myeung geun lee",
-          "text": "Or are you referring to the secondary control of this kind of image?"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Or are you referring to the secondary control of this kind of image? ",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209883665884393",
           "created_at": "2025-11-07T15:40:38.237Z",
-          "author": "Saad Arslan",
-          "text": "Yes, the last image looks quite similar to what we want."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Yes, the last image looks quite similar to what we want.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209883665884394",
           "created_at": "2025-11-07T15:41:25.345Z",
-          "author": "Saad Arslan",
-          "text": "From \"company\", I meant a company who could manufacture such a product for us. In case we cannot find a premade product."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "From \"company\", I meant a company who could manufacture such a product for us. In case we cannot find a premade product.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211886553672574",
           "created_at": "2025-11-08T05:51:40.807Z",
-          "author": "Myeung geun lee",
-          "text": "I'll look into that too."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "I'll look into that too.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211933683625066",
           "created_at": "2025-11-13T12:02:08.406Z",
-          "author": "Shoaib Sajid",
-          "text": "https://app.asana.com/0/profile/1211379775722566\nWhat is the progress on this task?\nAdd a short summary here and details in weekly report."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "https://app.asana.com/0/profile/1211379775722566\nWhat is the progress on this task?\nAdd a short summary here and details in weekly report.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657766",
           "created_at": "2025-11-13T12:37:27.432Z",
-          "author": "Myeung geun lee",
-          "text": "We are currently looking for a company that can manufacture this, and as you can see in the comments above, we have already found a profile that allows for rail application. It takes time because finding a place where you have to create it from start to finish is not easy."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "We are currently looking for a company that can manufacture this, and as you can see in the comments above, we have already found a profile that allows for rail application. It takes time because finding a place where you have to create it from start to finish is not easy. ",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212003591147945",
           "created_at": "2025-11-20T11:31:02.508Z",
-          "author": "Saad Arslan",
-          "text": "I have modified the design a little, based on the images from https://app.asana.com/0/profile/1208165635440940.\n\nhttps://app.asana.com/0/profile/1211379775722566 please order the profiles and metal strips.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212003591147942"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "I have modified the design a little, based on the images from https://app.asana.com/0/profile/1208165635440940.\n\nhttps://app.asana.com/0/profile/1211379775722566 please order the profiles and metal strips.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212003591147942\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212085437910587",
           "created_at": "2025-11-25T08:10:44.804Z",
-          "author": "Myeung geun lee",
-          "text": "I checked late. I ordered the profile in the size of the file you shared. Would it be okay to make the strips with our 3D printer first and then order them?"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "I checked late. I ordered the profile in the size of the file you shared. Would it be okay to make the strips with our 3D printer first and then order them?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212086992911241",
           "created_at": "2025-11-25T10:31:54.992Z",
-          "author": "Saad Arslan",
-          "text": "let's quickly order, if something changes we can order again."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "let's quickly order, if something changes we can order again.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212158859081323",
           "created_at": "2025-11-26T10:15:02.179Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 This task is different from https://app.asana.com/1/1200925651512410/task/1209883665884430.\nIn this task, we need to make an easily adjustable jig."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1211379775722566 This task is different from https://app.asana.com/1/1200925651512410/task/1209883665884430.\nIn this task, we need to make an easily adjustable jig.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212157511099178",
           "created_at": "2025-11-27T01:03:36.410Z",
-          "author": "Myeung geun lee",
-          "text": "Let's design it so that it can be fixed."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Let's design it so that it can be fixed.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212207020961912",
           "created_at": "2025-11-28T03:19:02.905Z",
-          "author": "Myeung geun lee",
-          "text": "Today, I contacted the strip manufacturer \nand they said production was complete and they would ship it to me."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Today, I contacted the strip manufacturer \nand they said production was complete and they would ship it to me.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657822",
           "created_at": "2025-12-01T07:43:09.278Z",
-          "author": "Myeung geun lee",
-          "text": "All the ordered items have arrived and been assembled. Let's think about a design that allows for easy fixing and loosening here."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "All the ordered items have arrived and been assembled. Let's think about a design that allows for easy fixing and loosening here. ",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212249103733345",
           "created_at": "2025-12-02T09:46:59.260Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940 Let's complete this jig and take it to Everint and install on Friday."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1208165635440940 Let's complete this jig and take it to Everint and install on Friday.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212249105301967",
           "created_at": "2025-12-02T09:53:53.136Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 what is the status on the adjustable aligner jig?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1211379775722566 what is the status on the adjustable aligner jig?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212252224278665",
           "created_at": "2025-12-02T09:58:57.925Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212252224278664\n\nI'm trying to make a jig that simultaneously loosens and tightens using protection and belt equipment."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212252224278664\n\nI'm trying to make a jig that simultaneously loosens and tightens using protection and belt equipment.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212276518400579",
           "created_at": "2025-12-03T03:19:38.124Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 these sort of designs can be very complicated and need quite some time to find the components, we need to find a simpler way which can log the components."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1211379775722566 these sort of designs can be very complicated and need quite some time to find the components, we need to find a simpler way which can log the components.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211405347657827",
           "created_at": "2025-12-03T03:22:50.238Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, I'll see if there are any simple decorations."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "Yes, I'll see if there are any simple decorations. ",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212266349791929",
           "created_at": "2025-12-03T05:31:09.091Z",
-          "author": "Myeung geun lee",
-          "text": "How about buying two cheap extension wrenches and making one that can loosen both at the same time, one custom case (we 3D printed it) and one gear?\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212266349791928"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "How about buying two cheap extension wrenches and making one that can loosen both at the same time, one custom case (we 3D printed it) and one gear?\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212266349791928\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212302163316114",
           "created_at": "2025-12-04T04:20:53.690Z",
-          "author": "Saad Arslan",
-          "text": "CAn you show some video about how this works."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "CAn you show some video about how this works.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212302307999326",
           "created_at": "2025-12-04T04:25:05.890Z",
-          "author": "Myeung geun lee",
-          "text": "https://youtu.be/ne_L8XKtS50\nYou can watch this YouTube video. My intention is to add gears to the image I've already uploaded, allowing you to solve one more puzzle."
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "https://youtu.be/ne_L8XKtS50\nYou can watch this YouTube video. My intention is to add gears to the image I've already uploaded, allowing you to solve one more puzzle.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212575070284160",
           "created_at": "2025-12-26T11:09:17.229Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940 I have changed the ownership of this task from MyeongGeun to you. Please try to quickly modify the existing jig so that it can be made easily adjustable, with following changes:\n    Use butterfly screw to loose the jig and tighten (see picture below).\n    Secure the whole jig on the conveyor, using the butterfly screws as well.\n    add markings/points on the jig, and prepare a table of adjustments for each printer.\n\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212575070284159"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1208165635440940 I have changed the ownership of this task from MyeongGeun to you. Please try to quickly modify the existing jig so that it can be made easily adjustable, with following changes:\n    Use butterfly screw to loose the jig and tighten (see picture below).\n    Secure the whole jig on the conveyor, using the butterfly screws as well.\n    add markings/points on the jig, and prepare a table of adjustments for each printer.\n\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212575070284159\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212732259682828",
           "created_at": "2026-01-14T14:10:21.518Z",
-          "author": "Shoaib Sajid",
-          "text": "https://app.asana.com/1/1200925651512410/profile/1208165635440940\nPlease check this task."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1208165635440940\nPlease check this task.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212616133460449",
       "task_name": "PCB gripper robot finger upgrade",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212616133460449",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211933636406772/task/1212616133460449",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-12T09:05:27.169Z",
       "latest_comment_by": "Myeung geun lee",
       "latest_comment_text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212727209635279\n\nIs this the projection you want?",
@@ -571,16 +1014,20 @@
         {
           "gid": "1212727209635280",
           "created_at": "2026-01-12T09:05:27.169Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212727209635279\n\nIs this the projection you want?"
+          "created_by": {
+            "gid": "1211379935425386",
+            "name": "Myeung geun lee"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212727209635279\n\nIs this the projection you want?",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212575138991265",
       "task_name": "Assembly Process Product Image",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1212575138991265",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1212575138991265",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-10T13:45:05.713Z",
       "latest_comment_by": "Ammad Waheed",
       "latest_comment_text": "https://app.asana.com/0/1209746270902906/1209746270902906 Please provide 2 image to added in registration from assembly process. \n\nhttps://app.asana.com/0/1211726139934744/1211726139934744 If we place images in registration folder, will they be shown automaticaly ?",
@@ -588,16 +1035,20 @@
         {
           "gid": "1212616133460446",
           "created_at": "2026-01-10T13:45:05.713Z",
-          "author": "Ammad Waheed",
-          "text": "https://app.asana.com/0/1209746270902906/1209746270902906 Please provide 2 image to added in registration from assembly process. \n\nhttps://app.asana.com/0/1211726139934744/1211726139934744 If we place images in registration folder, will they be shown automaticaly ?"
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "https://app.asana.com/0/1209746270902906/1209746270902906 Please provide 2 image to added in registration from assembly process. \n\nhttps://app.asana.com/0/1211726139934744/1211726139934744 If we place images in registration folder, will they be shown automaticaly ?",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212525926852208",
       "task_name": "[screw] Finalize the error list and events for LB-Screw",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212525926852208",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979034/task/1212525926852208",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-08T04:42:06.049Z",
       "latest_comment_by": "Shoaib Sajid",
       "latest_comment_text": "https://app.asana.com/1/1200925651512410/profile/1208050553239426\nWhat is the status of this?",
@@ -605,16 +1056,20 @@
         {
           "gid": "1212703232652950",
           "created_at": "2026-01-08T04:42:06.049Z",
-          "author": "Shoaib Sajid",
-          "text": "https://app.asana.com/1/1200925651512410/profile/1208050553239426\nWhat is the status of this?"
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "https://app.asana.com/1/1200925651512410/profile/1208050553239426\nWhat is the status of this?",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212170298515474",
       "task_name": "[screw] Change of Gripper finger and camera angle to reduce PCB robot-A collisions",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212170298515474",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212170298515474",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-07T05:45:25.480Z",
       "latest_comment_by": "Ammad Waheed",
       "latest_comment_text": "current onhold because if we check i m afraid we need to adjust all pcb again and calibration need to done again.\nSince offset are set for current camera position.",
@@ -622,16 +1077,20 @@
         {
           "gid": "1212655181039941",
           "created_at": "2026-01-07T05:45:25.480Z",
-          "author": "Ammad Waheed",
-          "text": "current onhold because if we check i m afraid we need to adjust all pcb again and calibration need to done again.\nSince offset are set for current camera position."
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "current onhold because if we check i m afraid we need to adjust all pcb again and calibration need to done again.\nSince offset are set for current camera position.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212613944800953",
       "task_name": "[screw] Get feedback from the PCB screw-feeders",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212613944800953",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212613944800953",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-07T05:23:13.867Z",
       "latest_comment_by": "Ammad Waheed",
       "latest_comment_text": "Screw wiring and labeling completed and test using tablets(high signal arrives when no screw is present).\n    Screw feeder pin 9, 10 and 11 added in yaml files.\n    Pogram logic remaing.",
@@ -639,16 +1098,20 @@
         {
           "gid": "1212655181039931",
           "created_at": "2026-01-07T05:23:13.867Z",
-          "author": "Ammad Waheed",
-          "text": "Screw wiring and labeling completed and test using tablets(high signal arrives when no screw is present).\n    Screw feeder pin 9, 10 and 11 added in yaml files.\n    Pogram logic remaing."
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "    Screw wiring and labeling completed and test using tablets(high signal arrives when no screw is present).\n    Screw feeder pin 9, 10 and 11 added in yaml files.\n    Pogram logic remaing.\n",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211945847406402",
       "task_name": "add new mqtt_subcall:mqqt_receive_msg_callback for command/data with seperate queues.",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1211945847406402",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1211945847406402",
+      "comment_count": 1,
       "latest_comment_at": "2026-01-07T03:21:38.769Z",
       "latest_comment_by": "Ammad Waheed",
       "latest_comment_text": "USER QUEUE is separated now\nCOMMAND QUEUE and DATA-queue needs to be seperate",
@@ -656,710 +1119,20 @@
         {
           "gid": "1212687041264644",
           "created_at": "2026-01-07T03:21:38.769Z",
-          "author": "Ammad Waheed",
-          "text": "USER QUEUE is separated now\nCOMMAND QUEUE and DATA-queue needs to be seperate"
-        }
-      ]
-    },
-    {
-      "task_gid": "1211906407382480",
-      "task_name": "[screw] Purchase the pressing arm inverted U-shape extension in aluminum",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211906407382480",
-      "comments_count": 56,
-      "latest_comment_at": "2026-01-05T04:04:43.534Z",
-      "latest_comment_by": "Myeung geun lee",
-      "latest_comment_text": "I received it today.",
-      "comments": [
-        {
-          "gid": "1211906409558160",
-          "created_at": "2025-11-11T02:14:28.368Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 let's prepare the extension arm for metal (aluminum) manufacturing. Once you have it prepared, let's discuss before ordering."
-        },
-        {
-          "gid": "1209883665884403",
-          "created_at": "2025-11-12T02:52:36.614Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 Based on the current experiments the current extension is good. Let's make it in aluminum."
-        },
-        {
-          "gid": "1211405347657758",
-          "created_at": "2025-11-12T02:55:01.479Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, I understand. I will contact the production company with Mr. Kwang-hyup and request the production. https://app.asana.com/0/1208166280852810/1208166280852810"
-        },
-        {
-          "gid": "1209883665884404",
-          "created_at": "2025-11-12T02:57:04.638Z",
-          "author": "Saad Arslan",
-          "text": "Before placing the order,\n    Please show me the individual pieces and\n    confirm the delivery date with them."
-        },
-        {
-          "gid": "1211944311960188",
-          "created_at": "2025-11-14T08:07:28.302Z",
-          "author": "Myeung geun lee",
-          "text": "I plan to order it in pieces like the file I uploaded, and each part will be assembled with bolts."
-        },
-        {
-          "gid": "1211953894007003",
-          "created_at": "2025-11-15T04:16:16.058Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940 Please review these designs and make sure they are strong enough to hold the printers firmly."
-        },
-        {
-          "gid": "1211960688838002",
-          "created_at": "2025-11-17T12:23:28.429Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 did you placed the order for manufacturing in metal?"
-        },
-        {
-          "gid": "1211405347657783",
-          "created_at": "2025-11-17T12:39:40.222Z",
-          "author": "Myeung geun lee",
-          "text": "I intended to order from Miss Mi, but some shapes are not manufactured by Miss Mi, so I'm planning to commission Suntech Wire, a Cheongju company, to produce them."
-        },
-        {
-          "gid": "1209883665884434",
-          "created_at": "2025-11-17T14:40:21.786Z",
-          "author": "Saad Arslan",
-          "text": "Ok, let's order tomorrow, from Everint fund."
-        },
-        {
-          "gid": "1211989815926110",
-          "created_at": "2025-11-19T08:06:48.227Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 did you place the order?"
-        },
-        {
-          "gid": "1211991143119076",
-          "created_at": "2025-11-19T09:16:54.147Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, I shared the drawing with Gwanghyeop and he sent an order request email to Suntech Wire along with the order request email. https://app.asana.com/0/profile/1208165635440940"
-        },
-        {
-          "gid": "1212158859081316",
-          "created_at": "2025-11-26T10:09:12.159Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940https://app.asana.com/0/profile/1211379775722566 when is the expected arrival date?"
-        },
-        {
-          "gid": "1211405347657805",
-          "created_at": "2025-11-26T10:14:05.555Z",
-          "author": "Myeung geun lee",
-          "text": "I plan to visit the company tomorrow to check the estimate and see how far it has been produced."
-        },
-        {
-          "gid": "1212158859081345",
-          "created_at": "2025-11-26T10:25:54.837Z",
-          "author": "Saad Arslan",
-          "text": "ok, please let me know the delivery date after your visit."
-        },
-        {
-          "gid": "1212204363474069",
-          "created_at": "2025-11-27T02:27:49.159Z",
-          "author": "Saad Arslan",
-          "text": "Since Suntech is going to deliver in the 2nd week, Let's get an estimate of delivery time and cost from JLC CNC."
-        },
-        {
-          "gid": "1212157511099192",
-          "created_at": "2025-11-27T03:01:57.608Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212157511099191\n\nThe standard production time is 6 days, but if the production deadline isn't urgent, it can take around 11 days.\nThe cost is as shown in the photo above.\nIf you factor in shipping time, it's the same as Suntech Wire."
-        },
-        {
-          "gid": "1212204363474071",
-          "created_at": "2025-11-27T03:20:39.797Z",
-          "author": "Saad Arslan",
-          "text": "can you show me all the components?"
-        },
-        {
-          "gid": "1212157511154792",
-          "created_at": "2025-11-27T03:39:51.816Z",
-          "author": "Myeung geun lee",
-          "text": "YES, SIR\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212157511099195\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212157511099197\n\nThere are six components in the pressing arm, and if you buy two sets of each, the cost will likely be close to $450."
-        },
-        {
-          "gid": "1212157511154794",
-          "created_at": "2025-11-27T03:42:07.529Z",
-          "author": "Myeung geun lee",
-          "text": "All anodizing colors will be black."
-        },
-        {
-          "gid": "1212157511154798",
-          "created_at": "2025-11-27T03:44:59.744Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212157511154797"
-        },
-        {
-          "gid": "1212204363474073",
-          "created_at": "2025-11-27T04:34:19.353Z",
-          "author": "Saad Arslan",
-          "text": "Ok https://app.asana.com/0/profile/1211379775722566 let's order from JLC, for JLC, we also need to provide them the thread information separately.\nFor shipping, use faster shipping method."
-        },
-        {
-          "gid": "1212204363474075",
-          "created_at": "2025-11-27T04:34:33.488Z",
-          "author": "Saad Arslan",
-          "text": "How much was the quotation from Suntech?"
-        },
-        {
-          "gid": "1212157511154807",
-          "created_at": "2025-11-27T05:03:24.562Z",
-          "author": "Myeung geun lee",
-          "text": "In Sun, you can just say that it costs about 600,000 won per set,And, if you use DHL as the shipping method shown in the photo I am uploading now, you can reduce the shipping period.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212157511154806"
-        },
-        {
-          "gid": "1212057591540952",
-          "created_at": "2025-11-27T05:27:01.096Z",
-          "author": "Saad Arslan",
-          "text": "Choose fastest shipping DHL Express.\n600,000 won is for two sets (two pressing arms), right?"
-        },
-        {
-          "gid": "1212157511154809",
-          "created_at": "2025-11-27T05:31:12.873Z",
-          "author": "Myeung geun lee",
-          "text": "I set the quantity to fit two pressing arms and received an estimated price. I set it to DHL delivery, and it was about 640,000 won ($444)."
-        },
-        {
-          "gid": "1212057591540959",
-          "created_at": "2025-11-27T11:49:43.468Z",
-          "author": "Saad Arslan",
-          "text": "Ok, let's purchase."
-        },
-        {
-          "gid": "1211405347657813",
-          "created_at": "2025-11-27T11:50:56.864Z",
-          "author": "Myeung geun lee",
-          "text": "I will request a purchase in the morning."
-        },
-        {
-          "gid": "1212057591540962",
-          "created_at": "2025-11-27T15:16:25.783Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/1211379776083698https://app.asana.com/0/1208166280852810/1208166280852810\nLet's cancel the order to Suntech for the pressing arm extension. If they have already started manufacturing, we can pay a small amount for the materials. But we cannot wait that longer."
-        },
-        {
-          "gid": "1212207020961900",
-          "created_at": "2025-11-28T01:14:50.510Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212207020961899\n\nBefore purchasing from JLC CNC, I'd like to ask one more question. This is the assembled product image we're uploading. Is this the correct shape? https://app.asana.com/0/profile/1207928448469273,And wouldn't it be better to have spare parts for each part even if they are not anodized rather than canceling them at Suntech?"
-        },
-        {
-          "gid": "1212057591540967",
-          "created_at": "2025-11-28T01:29:05.188Z",
-          "author": "Saad Arslan",
-          "text": "That's a good idea, let's reduce the quantity from Suntech to one."
-        },
-        {
-          "gid": "1212207020961902",
-          "created_at": "2025-11-28T01:40:37.096Z",
-          "author": "Myeung geun lee",
-          "text": "I called Suntech and asked if it was possible to reduce the set quantity to 1 and have it anodized black. They said it was possible, so I requested anodized black."
-        },
-        {
-          "gid": "1212233143702609",
-          "created_at": "2025-12-02T05:50:28.652Z",
-          "author": "Saad Arslan",
-          "text": "did we get the expected date from JLC PCB?"
-        },
-        {
-          "gid": "1211405347657824",
-          "created_at": "2025-12-02T05:57:22.895Z",
-          "author": "Myeung geun lee",
-          "text": "No, I haven't received it yet."
-        },
-        {
-          "gid": "1212249103733319",
-          "created_at": "2025-12-02T06:00:40.493Z",
-          "author": "Saad Arslan",
-          "text": "But the payment is complete, right?"
-        },
-        {
-          "gid": "1211405347657825",
-          "created_at": "2025-12-02T06:03:56.872Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, that's correct."
-        },
-        {
-          "gid": "1212232465263731",
-          "created_at": "2025-12-02T06:47:58.212Z",
-          "author": "Myeung geun lee",
-          "text": "I contacted the person in charge by email and was told that the expected delivery date is December 9th.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212232465263730"
-        },
-        {
-          "gid": "1212057591540988",
-          "created_at": "2025-12-02T08:47:54.592Z",
-          "author": "Saad Arslan",
-          "text": "I believe this is the work finish date, the probably will"
-        },
-        {
-          "gid": "1212057591540989",
-          "created_at": "2025-12-02T08:48:24.847Z",
-          "author": "Saad Arslan",
-          "text": "They probably take a few days in Delivery as well"
-        },
-        {
-          "gid": "1212251615454825",
-          "created_at": "2025-12-02T08:52:26.764Z",
-          "author": "Myeung geun lee",
-          "text": "We have selected DHL as the shipping method to ensure the fastest delivery, and it seems like we have no choice but to wait."
-        },
-        {
-          "gid": "1212281926921751",
-          "created_at": "2025-12-05T16:56:32.638Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 when you placed the order did you include thread information for each hole? As far as I know, JLCCNC requires you to provide thread information separately in as file."
-        },
-        {
-          "gid": "1211405347657829",
-          "created_at": "2025-12-05T19:28:30.216Z",
-          "author": "Myeung geun lee",
-          "text": "I asked on the day of the order whether the hole was properly assembled and if the hole work was being done properly. I have forwarded the email content via gmail. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212372528977018",
-          "created_at": "2025-12-10T08:17:33.717Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212328260504273\n\nThis is the situation when I inquired yesterday, and they said that production will be completed today and that they will deliver it as quickly as possible."
-        },
-        {
-          "gid": "1212428897901294",
-          "created_at": "2025-12-15T01:33:42.927Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212428897901293\n\nI called today to ask if it could arrive on Tuesday, but they said the cargo arrived over the weekend and hadn't cleared customs yet. The person in charge told me that they would process it today and that they would receive it as soon as the process was complete. I was told that I should receive it on Tuesday or Wednesday."
-        },
-        {
-          "gid": "1212440396472118",
-          "created_at": "2025-12-15T08:13:41.892Z",
-          "author": "Myeung geun lee",
-          "text": "Suntech Wire Business Visit Today\n\nA company representative told me that the product is awaiting plating and that plating is expected to be completed around Tuesday or Wednesday. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212451665112931",
-          "created_at": "2025-12-16T04:34:31.765Z",
-          "author": "Myeung geun lee",
-          "text": "I have received the product, assembled it as much as possible, and told Mr. Gwanghyeop that any remaining assembly parts should be done at the Everint factory.\n https://app.asana.com/0/profile/1208165635440940"
-        },
-        {
-          "gid": "1212057591541045",
-          "created_at": "2025-12-18T04:24:46.903Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/1211379776083698 We need to modify the 3D design to reduce this part, such that it fits nicely.\nAfter the design is revised, send me for review.\nOnce the review is complete, let send the piece again for CNC (2ea)."
-        },
-        {
-          "gid": "1212451723698519",
-          "created_at": "2025-12-18T05:39:10.979Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212451723698516\n\nI think it would be okay if I just moved the hole by about 2mm and had it machined. Should I just request CNC machining? https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212057591541048",
-          "created_at": "2025-12-18T06:55:06.330Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/ Your drawing seems different from actual pressing arm.\nIf you move the holes forward, it will still leave the gap (as shown in yellow) in the picture. This gap is not good for design longevity. The two parts must be parallel to each other.\n\nI want to eliminate the gap, for which we need to shave of the part shown in blue color."
-        },
-        {
-          "gid": "1212489004193650",
-          "created_at": "2025-12-18T08:13:11.779Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212489004193649\n\nIs that what you meant, Doctor? My thought is, to account for the possibility of error, wouldn't it be better to leave a gap of about 0.2mm? https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212057591541051",
-          "created_at": "2025-12-18T08:15:15.209Z",
-          "author": "Saad Arslan",
-          "text": "Yes. Sure, let's leave a gap of 0.2 mm"
-        },
-        {
-          "gid": "1212489004193654",
-          "created_at": "2025-12-18T08:32:32.980Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212489004193653\n\nI have given a 0.2mm error and will request CNC machining of the same parts as the previously ordered products from JLC PCB. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212571457368007",
-          "created_at": "2025-12-24T02:56:26.622Z",
-          "author": "Myeung geun lee",
-          "text": "Can I order this product today? I don't think we could have decided whether to order it or not at the previous meeting."
-        },
-        {
-          "gid": "1212057591541071",
-          "created_at": "2025-12-24T14:20:44.275Z",
-          "author": "Saad Arslan",
-          "text": "Please order it as soon as possible."
-        },
-        {
-          "gid": "1212057591541076",
-          "created_at": "2025-12-26T09:30:44.236Z",
-          "author": "Saad Arslan",
-          "text": "MyeongGeun, have you placed the order?"
-        },
-        {
-          "gid": "1211405347657845",
-          "created_at": "2025-12-26T09:40:41.817Z",
-          "author": "Myeung geun lee",
-          "text": "Now that the review at JLC CNC is complete, we are currently writing a purchase request. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1211405347657852",
-          "created_at": "2026-01-05T04:04:43.534Z",
-          "author": "Myeung geun lee",
-          "text": "I received it today."
-        }
-      ]
-    },
-    {
-      "task_gid": "1211906407382480",
-      "task_name": "[screw] Purchase the pressing arm inverted U-shape extension in aluminum",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211906407382480",
-      "comments_count": 56,
-      "latest_comment_at": "2026-01-05T04:04:43.534Z",
-      "latest_comment_by": "Myeung geun lee",
-      "latest_comment_text": "I received it today.",
-      "comments": [
-        {
-          "gid": "1211906409558160",
-          "created_at": "2025-11-11T02:14:28.368Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 let's prepare the extension arm for metal (aluminum) manufacturing. Once you have it prepared, let's discuss before ordering."
-        },
-        {
-          "gid": "1209883665884403",
-          "created_at": "2025-11-12T02:52:36.614Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 Based on the current experiments the current extension is good. Let's make it in aluminum."
-        },
-        {
-          "gid": "1211405347657758",
-          "created_at": "2025-11-12T02:55:01.479Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, I understand. I will contact the production company with Mr. Kwang-hyup and request the production. https://app.asana.com/0/1208166280852810/1208166280852810"
-        },
-        {
-          "gid": "1209883665884404",
-          "created_at": "2025-11-12T02:57:04.638Z",
-          "author": "Saad Arslan",
-          "text": "Before placing the order,\n    Please show me the individual pieces and\n    confirm the delivery date with them."
-        },
-        {
-          "gid": "1211944311960188",
-          "created_at": "2025-11-14T08:07:28.302Z",
-          "author": "Myeung geun lee",
-          "text": "I plan to order it in pieces like the file I uploaded, and each part will be assembled with bolts."
-        },
-        {
-          "gid": "1211953894007003",
-          "created_at": "2025-11-15T04:16:16.058Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940 Please review these designs and make sure they are strong enough to hold the printers firmly."
-        },
-        {
-          "gid": "1211960688838002",
-          "created_at": "2025-11-17T12:23:28.429Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 did you placed the order for manufacturing in metal?"
-        },
-        {
-          "gid": "1211405347657783",
-          "created_at": "2025-11-17T12:39:40.222Z",
-          "author": "Myeung geun lee",
-          "text": "I intended to order from Miss Mi, but some shapes are not manufactured by Miss Mi, so I'm planning to commission Suntech Wire, a Cheongju company, to produce them."
-        },
-        {
-          "gid": "1209883665884434",
-          "created_at": "2025-11-17T14:40:21.786Z",
-          "author": "Saad Arslan",
-          "text": "Ok, let's order tomorrow, from Everint fund."
-        },
-        {
-          "gid": "1211989815926110",
-          "created_at": "2025-11-19T08:06:48.227Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 did you place the order?"
-        },
-        {
-          "gid": "1211991143119076",
-          "created_at": "2025-11-19T09:16:54.147Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, I shared the drawing with Gwanghyeop and he sent an order request email to Suntech Wire along with the order request email. https://app.asana.com/0/profile/1208165635440940"
-        },
-        {
-          "gid": "1212158859081316",
-          "created_at": "2025-11-26T10:09:12.159Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208165635440940https://app.asana.com/0/profile/1211379775722566 when is the expected arrival date?"
-        },
-        {
-          "gid": "1211405347657805",
-          "created_at": "2025-11-26T10:14:05.555Z",
-          "author": "Myeung geun lee",
-          "text": "I plan to visit the company tomorrow to check the estimate and see how far it has been produced."
-        },
-        {
-          "gid": "1212158859081345",
-          "created_at": "2025-11-26T10:25:54.837Z",
-          "author": "Saad Arslan",
-          "text": "ok, please let me know the delivery date after your visit."
-        },
-        {
-          "gid": "1212204363474069",
-          "created_at": "2025-11-27T02:27:49.159Z",
-          "author": "Saad Arslan",
-          "text": "Since Suntech is going to deliver in the 2nd week, Let's get an estimate of delivery time and cost from JLC CNC."
-        },
-        {
-          "gid": "1212157511099192",
-          "created_at": "2025-11-27T03:01:57.608Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212157511099191\n\nThe standard production time is 6 days, but if the production deadline isn't urgent, it can take around 11 days.\nThe cost is as shown in the photo above.\nIf you factor in shipping time, it's the same as Suntech Wire."
-        },
-        {
-          "gid": "1212204363474071",
-          "created_at": "2025-11-27T03:20:39.797Z",
-          "author": "Saad Arslan",
-          "text": "can you show me all the components?"
-        },
-        {
-          "gid": "1212157511154792",
-          "created_at": "2025-11-27T03:39:51.816Z",
-          "author": "Myeung geun lee",
-          "text": "YES, SIR\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212157511099195\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212157511099197\n\nThere are six components in the pressing arm, and if you buy two sets of each, the cost will likely be close to $450."
-        },
-        {
-          "gid": "1212157511154794",
-          "created_at": "2025-11-27T03:42:07.529Z",
-          "author": "Myeung geun lee",
-          "text": "All anodizing colors will be black."
-        },
-        {
-          "gid": "1212157511154798",
-          "created_at": "2025-11-27T03:44:59.744Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212157511154797"
-        },
-        {
-          "gid": "1212204363474073",
-          "created_at": "2025-11-27T04:34:19.353Z",
-          "author": "Saad Arslan",
-          "text": "Ok https://app.asana.com/0/profile/1211379775722566 let's order from JLC, for JLC, we also need to provide them the thread information separately.\nFor shipping, use faster shipping method."
-        },
-        {
-          "gid": "1212204363474075",
-          "created_at": "2025-11-27T04:34:33.488Z",
-          "author": "Saad Arslan",
-          "text": "How much was the quotation from Suntech?"
-        },
-        {
-          "gid": "1212157511154807",
-          "created_at": "2025-11-27T05:03:24.562Z",
-          "author": "Myeung geun lee",
-          "text": "In Sun, you can just say that it costs about 600,000 won per set,And, if you use DHL as the shipping method shown in the photo I am uploading now, you can reduce the shipping period.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212157511154806"
-        },
-        {
-          "gid": "1212057591540952",
-          "created_at": "2025-11-27T05:27:01.096Z",
-          "author": "Saad Arslan",
-          "text": "Choose fastest shipping DHL Express.\n600,000 won is for two sets (two pressing arms), right?"
-        },
-        {
-          "gid": "1212157511154809",
-          "created_at": "2025-11-27T05:31:12.873Z",
-          "author": "Myeung geun lee",
-          "text": "I set the quantity to fit two pressing arms and received an estimated price. I set it to DHL delivery, and it was about 640,000 won ($444)."
-        },
-        {
-          "gid": "1212057591540959",
-          "created_at": "2025-11-27T11:49:43.468Z",
-          "author": "Saad Arslan",
-          "text": "Ok, let's purchase."
-        },
-        {
-          "gid": "1211405347657813",
-          "created_at": "2025-11-27T11:50:56.864Z",
-          "author": "Myeung geun lee",
-          "text": "I will request a purchase in the morning."
-        },
-        {
-          "gid": "1212057591540962",
-          "created_at": "2025-11-27T15:16:25.783Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/1211379776083698https://app.asana.com/0/1208166280852810/1208166280852810\nLet's cancel the order to Suntech for the pressing arm extension. If they have already started manufacturing, we can pay a small amount for the materials. But we cannot wait that longer."
-        },
-        {
-          "gid": "1212207020961900",
-          "created_at": "2025-11-28T01:14:50.510Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212207020961899\n\nBefore purchasing from JLC CNC, I'd like to ask one more question. This is the assembled product image we're uploading. Is this the correct shape? https://app.asana.com/0/profile/1207928448469273,And wouldn't it be better to have spare parts for each part even if they are not anodized rather than canceling them at Suntech?"
-        },
-        {
-          "gid": "1212057591540967",
-          "created_at": "2025-11-28T01:29:05.188Z",
-          "author": "Saad Arslan",
-          "text": "That's a good idea, let's reduce the quantity from Suntech to one."
-        },
-        {
-          "gid": "1212207020961902",
-          "created_at": "2025-11-28T01:40:37.096Z",
-          "author": "Myeung geun lee",
-          "text": "I called Suntech and asked if it was possible to reduce the set quantity to 1 and have it anodized black. They said it was possible, so I requested anodized black."
-        },
-        {
-          "gid": "1212233143702609",
-          "created_at": "2025-12-02T05:50:28.652Z",
-          "author": "Saad Arslan",
-          "text": "did we get the expected date from JLC PCB?"
-        },
-        {
-          "gid": "1211405347657824",
-          "created_at": "2025-12-02T05:57:22.895Z",
-          "author": "Myeung geun lee",
-          "text": "No, I haven't received it yet."
-        },
-        {
-          "gid": "1212249103733319",
-          "created_at": "2025-12-02T06:00:40.493Z",
-          "author": "Saad Arslan",
-          "text": "But the payment is complete, right?"
-        },
-        {
-          "gid": "1211405347657825",
-          "created_at": "2025-12-02T06:03:56.872Z",
-          "author": "Myeung geun lee",
-          "text": "Yes, that's correct."
-        },
-        {
-          "gid": "1212232465263731",
-          "created_at": "2025-12-02T06:47:58.212Z",
-          "author": "Myeung geun lee",
-          "text": "I contacted the person in charge by email and was told that the expected delivery date is December 9th.\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212232465263730"
-        },
-        {
-          "gid": "1212057591540988",
-          "created_at": "2025-12-02T08:47:54.592Z",
-          "author": "Saad Arslan",
-          "text": "I believe this is the work finish date, the probably will"
-        },
-        {
-          "gid": "1212057591540989",
-          "created_at": "2025-12-02T08:48:24.847Z",
-          "author": "Saad Arslan",
-          "text": "They probably take a few days in Delivery as well"
-        },
-        {
-          "gid": "1212251615454825",
-          "created_at": "2025-12-02T08:52:26.764Z",
-          "author": "Myeung geun lee",
-          "text": "We have selected DHL as the shipping method to ensure the fastest delivery, and it seems like we have no choice but to wait."
-        },
-        {
-          "gid": "1212281926921751",
-          "created_at": "2025-12-05T16:56:32.638Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211379775722566 when you placed the order did you include thread information for each hole? As far as I know, JLCCNC requires you to provide thread information separately in as file."
-        },
-        {
-          "gid": "1211405347657829",
-          "created_at": "2025-12-05T19:28:30.216Z",
-          "author": "Myeung geun lee",
-          "text": "I asked on the day of the order whether the hole was properly assembled and if the hole work was being done properly. I have forwarded the email content via gmail. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212372528977018",
-          "created_at": "2025-12-10T08:17:33.717Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212328260504273\n\nThis is the situation when I inquired yesterday, and they said that production will be completed today and that they will deliver it as quickly as possible."
-        },
-        {
-          "gid": "1212428897901294",
-          "created_at": "2025-12-15T01:33:42.927Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212428897901293\n\nI called today to ask if it could arrive on Tuesday, but they said the cargo arrived over the weekend and hadn't cleared customs yet. The person in charge told me that they would process it today and that they would receive it as soon as the process was complete. I was told that I should receive it on Tuesday or Wednesday."
-        },
-        {
-          "gid": "1212440396472118",
-          "created_at": "2025-12-15T08:13:41.892Z",
-          "author": "Myeung geun lee",
-          "text": "Suntech Wire Business Visit Today\n\nA company representative told me that the product is awaiting plating and that plating is expected to be completed around Tuesday or Wednesday. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212451665112931",
-          "created_at": "2025-12-16T04:34:31.765Z",
-          "author": "Myeung geun lee",
-          "text": "I have received the product, assembled it as much as possible, and told Mr. Gwanghyeop that any remaining assembly parts should be done at the Everint factory.\n https://app.asana.com/0/profile/1208165635440940"
-        },
-        {
-          "gid": "1212057591541045",
-          "created_at": "2025-12-18T04:24:46.903Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/1211379776083698 We need to modify the 3D design to reduce this part, such that it fits nicely.\nAfter the design is revised, send me for review.\nOnce the review is complete, let send the piece again for CNC (2ea)."
-        },
-        {
-          "gid": "1212451723698519",
-          "created_at": "2025-12-18T05:39:10.979Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212451723698516\n\nI think it would be okay if I just moved the hole by about 2mm and had it machined. Should I just request CNC machining? https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212057591541048",
-          "created_at": "2025-12-18T06:55:06.330Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1211379776083698/ Your drawing seems different from actual pressing arm.\nIf you move the holes forward, it will still leave the gap (as shown in yellow) in the picture. This gap is not good for design longevity. The two parts must be parallel to each other.\n\nI want to eliminate the gap, for which we need to shave of the part shown in blue color."
-        },
-        {
-          "gid": "1212489004193650",
-          "created_at": "2025-12-18T08:13:11.779Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212489004193649\n\nIs that what you meant, Doctor? My thought is, to account for the possibility of error, wouldn't it be better to leave a gap of about 0.2mm? https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212057591541051",
-          "created_at": "2025-12-18T08:15:15.209Z",
-          "author": "Saad Arslan",
-          "text": "Yes. Sure, let's leave a gap of 0.2 mm"
-        },
-        {
-          "gid": "1212489004193654",
-          "created_at": "2025-12-18T08:32:32.980Z",
-          "author": "Myeung geun lee",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212489004193653\n\nI have given a 0.2mm error and will request CNC machining of the same parts as the previously ordered products from JLC PCB. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1212571457368007",
-          "created_at": "2025-12-24T02:56:26.622Z",
-          "author": "Myeung geun lee",
-          "text": "Can I order this product today? I don't think we could have decided whether to order it or not at the previous meeting."
-        },
-        {
-          "gid": "1212057591541071",
-          "created_at": "2025-12-24T14:20:44.275Z",
-          "author": "Saad Arslan",
-          "text": "Please order it as soon as possible."
-        },
-        {
-          "gid": "1212057591541076",
-          "created_at": "2025-12-26T09:30:44.236Z",
-          "author": "Saad Arslan",
-          "text": "MyeongGeun, have you placed the order?"
-        },
-        {
-          "gid": "1211405347657845",
-          "created_at": "2025-12-26T09:40:41.817Z",
-          "author": "Myeung geun lee",
-          "text": "Now that the review at JLC CNC is complete, we are currently writing a purchase request. https://app.asana.com/0/profile/1207928448469273"
-        },
-        {
-          "gid": "1211405347657852",
-          "created_at": "2026-01-05T04:04:43.534Z",
-          "author": "Myeung geun lee",
-          "text": "I received it today."
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "USER QUEUE is separated now\nCOMMAND QUEUE and DATA-queue needs to be seperate",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1212537522688796",
       "task_name": "[screw] PCB Registration: Robot control for holding the product and verification",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212537522688796",
-      "comments_count": 3,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1212537522688796",
+      "comment_count": 3,
       "latest_comment_at": "2025-12-31T12:30:37.090Z",
       "latest_comment_by": "samrahsajid16@gmail.com",
       "latest_comment_text": "https://app.asana.com/0/profile/1209746266501723\n\nEverintProject: branch: pcb-registration-verification-step\n\nI added this verification step, please let me know what the mqtt messages sequence will be \n(And their respective topics/payloads) to make this work as desired",
@@ -1367,28 +1140,40 @@
         {
           "gid": "1212537522688800",
           "created_at": "2025-12-20T08:05:21.772Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 please share details on the requirements."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746266501723 please share details on the requirements.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212562895482448",
           "created_at": "2025-12-23T04:56:18.492Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1211726138260348 let's start on this as an optional step, once the functionality has been confirmed we can make it mandatory.\n\nI have added the details to the task description."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1211726138260348 let's start on this as an optional step, once the functionality has been confirmed we can make it mandatory.\n\nI have added the details to the task description.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212628644452072",
           "created_at": "2025-12-31T12:30:37.090Z",
-          "author": "samrahsajid16@gmail.com",
-          "text": "https://app.asana.com/0/profile/1209746266501723\n\nEverintProject: branch: pcb-registration-verification-step\n\nI added this verification step, please let me know what the mqtt messages sequence will be \n(And their respective topics/payloads) to make this work as desired"
+          "created_by": {
+            "gid": "1179171893107568",
+            "name": "samrahsajid16@gmail.com"
+          },
+          "text": "https://app.asana.com/0/profile/1209746266501723\n\nEverintProject: branch: pcb-registration-verification-step\n\nI added this verification step, please let me know what the mqtt messages sequence will be \n(And their respective topics/payloads) to make this work as desired",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1209883665884460",
       "task_name": "[screw] Detect out of grid PCB (on robot side) and generate warning ",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1209883665884460",
-      "comments_count": 4,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1209883665884460",
+      "comment_count": 4,
       "latest_comment_at": "2025-12-31T12:20:32.044Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "marking this task as incomplete, as discussed. monitor the movement time of the conveyor (to measure length of the PCB).",
@@ -1396,34 +1181,50 @@
         {
           "gid": "1212508450411101",
           "created_at": "2025-12-18T05:35:42.615Z",
-          "author": "Ammad Waheed",
-          "text": "this will be difficult to implement as exactly do not know the exact timing.\ni have function for this but it timeout is 60s informing user conveyor has some issue as conveyor is not moving.\nMay be we can you image coordinate to find if product are miss aligned."
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "this will be difficult to implement as exactly do not know the exact timing.\ni have function for this but it timeout is 60s informing user conveyor has some issue as conveyor is not moving.\nMay be we can you image coordinate to find if product are miss aligned.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212618221059282",
           "created_at": "2025-12-31T05:56:24.934Z",
-          "author": "Ammad Waheed",
-          "text": "This is done with on information calculated from previous data.\nSystem will retry again."
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "This is done with on information calculated from previous data.\nSystem will retry again.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212607447312565",
           "created_at": "2025-12-31T12:15:57.370Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 Please share details on the solution."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746266501723 Please share details on the solution.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212607447312567",
           "created_at": "2025-12-31T12:20:32.044Z",
-          "author": "Saad Arslan",
-          "text": "marking this task as incomplete, as discussed. monitor the movement time of the conveyor (to measure length of the PCB)."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "marking this task as incomplete, as discussed. monitor the movement time of the conveyor (to measure length of the PCB).",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211691034686459",
       "task_name": "[screw] Capturing 11-20 PCBs dataset",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211691034686459",
-      "comments_count": 10,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211691034686459",
+      "comment_count": 10,
       "latest_comment_at": "2025-12-30T13:03:57.606Z",
       "latest_comment_by": "Tung Nguyen-Trong",
       "latest_comment_text": "for this task, among others, please let me go back to Everint to finish them, Dr https://app.asana.com/0/profile/1207928448469273",
@@ -1431,70 +1232,110 @@
         {
           "gid": "1211933683625056",
           "created_at": "2025-11-13T11:59:38.025Z",
-          "author": "Shoaib Sajid",
-          "text": "https://app.asana.com/0/profile/1210685855922305\nIs this task complete?\nWhat is the progress on this task?\nAdd a short summary here and details in weekly report."
+          "created_by": {
+            "gid": "1207928533958933",
+            "name": "Shoaib Sajid"
+          },
+          "text": "https://app.asana.com/0/profile/1210685855922305\nIs this task complete?\nWhat is the progress on this task?\nAdd a short summary here and details in weekly report.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211960688549578",
           "created_at": "2025-11-17T05:02:54.727Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1210685855922305 How many PCBs are remaining?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1210685855922305 How many PCBs are remaining?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211961016238719",
           "created_at": "2025-11-17T05:08:57.012Z",
-          "author": "Tung Nguyen-Trong",
-          "text": "https://app.asana.com/0/profile/1207928448469273: I was working on the 11th one (at everint chungju), until this error happened. The GUI had some problems detecting already fastened screws\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211961016238718"
+          "created_by": {
+            "gid": "1210685855922293",
+            "name": "Tung Nguyen-Trong"
+          },
+          "text": "https://app.asana.com/0/profile/1207928448469273: I was working on the 11th one (at everint chungju), until this error happened. The GUI had some problems detecting already fastened screws\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1211961016238718\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211960688549580",
           "created_at": "2025-11-17T05:13:23.861Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1210685855922305 Please share what problems you faced and did you report those problems to https://app.asana.com/0/profile/1210706093781244 and https://app.asana.com/0/profile/1211726138260348?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1210685855922305 Please share what problems you faced and did you report those problems to https://app.asana.com/0/profile/1210706093781244 and https://app.asana.com/0/profile/1211726138260348?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211961016238722",
           "created_at": "2025-11-17T05:17:56.546Z",
-          "author": "Tung Nguyen-Trong",
-          "text": "Yeah, https://app.asana.com/0/profile/1209746269225239 called https://app.asana.com/0/profile/1210706093781244 at the scene about this. As far as I remember, the GUI couldn't detect holes with screws fastened into them. So there were no b boxes around them. I couldn't even annotate them to move on to the next step."
+          "created_by": {
+            "gid": "1210685855922293",
+            "name": "Tung Nguyen-Trong"
+          },
+          "text": "Yeah, https://app.asana.com/0/profile/1209746269225239 called https://app.asana.com/0/profile/1210706093781244 at the scene about this. As far as I remember, the GUI couldn't detect holes with screws fastened into them. So there were no b boxes around them. I couldn't even annotate them to move on to the next step.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211960688549582",
           "created_at": "2025-11-17T06:15:08.575Z",
-          "author": "Saad Arslan",
-          "text": "Ok, then you need to finish pressing arm control as soon and possible and Visit the factory again to capture the data."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Ok, then you need to finish pressing arm control as soon and possible and Visit the factory again to capture the data.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211961016238725",
           "created_at": "2025-11-17T06:50:16.566Z",
-          "author": "Tung Nguyen-Trong",
-          "text": "Okay, Dr"
+          "created_by": {
+            "gid": "1210685855922293",
+            "name": "Tung Nguyen-Trong"
+          },
+          "text": "Okay, Dr",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212284611152239",
           "created_at": "2025-12-05T14:14:47.490Z",
-          "author": "Tung Nguyen-Trong",
-          "text": "Will the staff do this assignment as well, Dr https://app.asana.com/0/profile/1207928448469273?"
+          "created_by": {
+            "gid": "1210685855922293",
+            "name": "Tung Nguyen-Trong"
+          },
+          "text": "Will the staff do this assignment as well, Dr https://app.asana.com/0/profile/1207928448469273?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212057591541000",
           "created_at": "2025-12-05T17:14:29.757Z",
-          "author": "Saad Arslan",
-          "text": "Eventually, but first we need to do it to collect all the images."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Eventually, but first we need to do it to collect all the images.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212613613322145",
           "created_at": "2025-12-30T13:03:57.606Z",
-          "author": "Tung Nguyen-Trong",
-          "text": "for this task, among others, please let me go back to Everint to finish them, Dr https://app.asana.com/0/profile/1207928448469273"
+          "created_by": {
+            "gid": "1210685855922293",
+            "name": "Tung Nguyen-Trong"
+          },
+          "text": "for this task, among others, please let me go back to Everint to finish them, Dr https://app.asana.com/0/profile/1207928448469273",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211918724849533",
       "task_name": "[screw] Investigate Collision when robot A move up from pcb holding position. only happens at last one.",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1211918724849533",
-      "comments_count": 2,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1212715232979031/task/1211918724849533",
+      "comment_count": 2,
       "latest_comment_at": "2025-12-19T02:57:37.571Z",
       "latest_comment_by": "Ammad Waheed",
       "latest_comment_text": "Every collision is caused by motor torque. we adjust it point by experience",
@@ -1502,57 +1343,81 @@
         {
           "gid": "1212525078601758",
           "created_at": "2025-12-19T02:52:48.329Z",
-          "author": "Ammad Waheed",
-          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212525078601757"
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "https://app.asana.com/app/asana/-/get_asset?asset_id=1212525078601757\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212525078601760",
           "created_at": "2025-12-19T02:57:37.571Z",
-          "author": "Ammad Waheed",
-          "text": "Every collision is caused by motor torque. we adjust it point by experience"
+          "created_by": {
+            "gid": "1209746266501716",
+            "name": "Ammad Waheed"
+          },
+          "text": "Every collision is caused by motor torque. we adjust it point by experience",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1209883665884368",
       "task_name": "[screw] Use tracking or line counting method start/stop the conveyor",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1209883665884368",
-      "comments_count": 4,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1209883665884368",
+      "comment_count": 4,
       "latest_comment_at": "2025-12-08T11:41:50.005Z",
       "latest_comment_by": "Le Thai Tan",
-      "latest_comment_text": "It’s easy feature sir the think is that i need to change camera wrapper also",
+      "latest_comment_text": "It\u2019s easy feature sir the think is that i need to change camera wrapper also",
       "comments": [
         {
           "gid": "1212158858873466",
           "created_at": "2025-11-26T09:55:23.593Z",
-          "author": "Saad Arslan",
-          "text": "I am postponing this task to the end of next week."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "I am postponing this task to the end of next week.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212326097449234",
           "created_at": "2025-12-08T01:54:09.549Z",
-          "author": "Le Thai Tan",
-          "text": "[Update-8/12/2025] I think I need more time for this task because I also need to change camera wrapper framework, initial I only design camera_wapper for capture image, now I need to change to streaming to track the pcb, https://app.asana.com/0/profile/1207928448469273 please give me more time for this task"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "[Update-8/12/2025] I think I need more time for this task because I also need to change camera wrapper framework, initial I only design camera_wapper for capture image, now I need to change to streaming to track the pcb, https://app.asana.com/0/profile/1207928448469273 please give me more time for this task",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212057591541006",
           "created_at": "2025-12-08T11:39:50.644Z",
-          "author": "Saad Arslan",
-          "text": "Do you think we need help of Vision team"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Do you think we need help of Vision team",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209999476527263",
           "created_at": "2025-12-08T11:41:50.005Z",
-          "author": "Le Thai Tan",
-          "text": "It’s easy feature sir the think is that i need to change camera wrapper also"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "It\u2019s easy feature sir the think is that i need to change camera wrapper also",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211832227431616",
       "task_name": "[screw] orderly fastening of screws on the PCB",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211832227431616",
-      "comments_count": 18,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211832227431616",
+      "comment_count": 18,
       "latest_comment_at": "2025-12-08T11:34:56.487Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "As discussed in the meeting today, Sajjad has implemented a high-confidence Yolo model (inside screw-hole ROI) to detect the center. The new yolo model only detects the hole (not the golden circle).\nOnly if the Yolo fails, he will run color slicing.",
@@ -1560,118 +1425,190 @@
         {
           "gid": "1211832555593204",
           "created_at": "2025-11-04T05:26:50.569Z",
-          "author": "Le Thai Tan",
-          "text": "I will try to think the idea and let you know"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "I will try to think the idea and let you know",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211832555593212",
           "created_at": "2025-11-04T06:24:55.928Z",
-          "author": "Le Thai Tan",
-          "text": "https://app.asana.com/0/profile/1207928448469273 this idea I already implement, but we need 1 day testing \nGets reference holes from YAML (in the order they appear in the file)\nFor each YAML hole (1st, 2nd, 3rd, etc.):\nCalculates distance and angle from PCB center\nFinds the closest unmatched detected screw\nMatches based on distance + angle similarity\nReturns screws in YAML order - ensuring drilling follows the reference\nDetection closest to Hole 1 position → Sent as 1st coordinate\nDetection closest to Hole 2 position → Sent as 2nd coordinate"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "https://app.asana.com/0/profile/1207928448469273 this idea I already implement, but we need 1 day testing \nGets reference holes from YAML (in the order they appear in the file)\nFor each YAML hole (1st, 2nd, 3rd, etc.):\nCalculates distance and angle from PCB center\nFinds the closest unmatched detected screw\nMatches based on distance + angle similarity\nReturns screws in YAML order - ensuring drilling follows the reference\nDetection closest to Hole 1 position \u2192 Sent as 1st coordinate\nDetection closest to Hole 2 position \u2192 Sent as 2nd coordinate",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211832555593214",
           "created_at": "2025-11-04T06:25:40.550Z",
-          "author": "Le Thai Tan",
-          "text": "I need this information from https://app.asana.com/0/profile/1210706093781244 to compare after registration process\n{\n  \"timestamp\": \"2025-10-24T22:07:04+09:00\",\n  \"pcb\": {\n    \"name\": \"SRP-275III\",\n    \"color\": \"green\",\n    \"num_holes\": 4,\n    \"size_mm\": { \"width\": 160.0, \"height\": 114.0},\n  },\n  \"worker_custom\": {\n    \"screw_positions\": [\n      { \"id\": 1, \"position_mm\": [396.93, -520.63]},\n      { \"id\": 2, \"position_mm\": [336.38, -643.59]},\n      { \"id\": 3, \"position_mm\": [472.78, -518.98] },\n      { \"id\": 4, \"position_mm\": [496.12, -620.53]}\n    ]\n  },\n  \"assets\": {\n    \"image_path\": \"/data/pcb/SRP-275III/img/SRP-275III_20251024_220704.jpg\",\n    \"svg_path\":   \"/data/pcb/SRP-275III/svg/SRP-275III_20251024_220704.svg\"\n  },\n\n}"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "I need this information from https://app.asana.com/0/profile/1210706093781244 to compare after registration process\n{\n\u00a0 \"timestamp\": \"2025-10-24T22:07:04+09:00\",\n\u00a0 \"pcb\": {\n\u00a0 \u00a0 \"name\": \"SRP-275III\",\n\u00a0 \u00a0 \"color\": \"green\",\n\u00a0 \u00a0 \"num_holes\": 4,\n\u00a0 \u00a0 \"size_mm\": { \"width\": 160.0, \"height\": 114.0},\n\u00a0 },\n\u00a0 \"worker_custom\": {\n\u00a0 \u00a0 \"screw_positions\": [\n\u00a0 \u00a0 \u00a0 { \"id\": 1, \"position_mm\": [396.93, -520.63]},\n\u00a0 \u00a0 \u00a0 { \"id\": 2, \"position_mm\": [336.38, -643.59]},\n\u00a0 \u00a0 \u00a0 { \"id\": 3, \"position_mm\": [472.78, -518.98] },\n\u00a0 \u00a0 \u00a0 { \"id\": 4, \"position_mm\": [496.12, -620.53]}\n\u00a0 \u00a0 ]\n\u00a0 },\n\u00a0 \"assets\": {\n\u00a0 \u00a0 \"image_path\": \"/data/pcb/SRP-275III/img/SRP-275III_20251024_220704.jpg\",\n\u00a0 \u00a0 \"svg_path\": \u00a0 \"/data/pcb/SRP-275III/svg/SRP-275III_20251024_220704.svg\"\n\u00a0 },\n\n}",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211832555593216",
           "created_at": "2025-11-04T06:26:38.030Z",
-          "author": "Le Thai Tan",
-          "text": "https://app.asana.com/0/profile/1210706093781244 please inform me that you can do that so i will develop base on this structure"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "https://app.asana.com/0/profile/1210706093781244 please inform me that you can do that so i will develop base on this structure",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211833726287237",
           "created_at": "2025-11-04T08:24:04.662Z",
-          "author": "Le Thai Tan",
-          "text": "https://app.asana.com/0/profile/1210706093781244 please sent me a message to this topic \nscrewdriver/vision/reference"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "https://app.asana.com/0/profile/1210706093781244 please sent me a message to this topic \nscrewdriver/vision/reference",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1209883665884365",
           "created_at": "2025-11-04T08:58:32.300Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/1209746270902906/1209746270902906 GUI may not have the millimeter information or the origin point informstion. GUI can save the pixel postion of the screw holes. This pixel to millimeter conversion is to be done on the vision side."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/1209746270902906/1209746270902906 GUI may not have the millimeter information or the origin point informstion. GUI can save the pixel postion of the screw holes. This pixel to millimeter conversion is to be done on the vision side.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211833726287239",
           "created_at": "2025-11-04T09:15:07.859Z",
-          "author": "Le Thai Tan",
-          "text": "https://app.asana.com/0/profile/1210706093781244 please sent me like this one\n{\n  \"timestamp\": \"251104_141851_341\",\n  \"pcb\": {\n    \"name\": \"SRP-275III\",          ← Must be unique (checked)\n    \"color\": \"green\",\n    \"num_holes\": 4,                ← Must match screw count\n    \"size_mm\": {\"width\": 160.0, \"height\": 114.0}\n  },\n  \"worker_custom\": {\n    \"screw_positions\": [\n      {\"id\": 1, \"position_pixel\": [396.93, -520.63]},\n      {\"id\": 2, \"position_pixel\": [336.38, -643.59]},\n      {\"id\": 3, \"position_pixel\": [472.78, -518.98]},\n      {\"id\": 4, \"position_pixel\": [496.12, -620.53]}\n    ]\n  }\n}"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "https://app.asana.com/0/profile/1210706093781244 please sent me like this one\n{\n\u00a0 \"timestamp\": \"251104_141851_341\",\n\u00a0 \"pcb\": {\n\u00a0 \u00a0 \"name\": \"SRP-275III\",\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u2190 Must be unique (checked)\n\u00a0 \u00a0 \"color\": \"green\",\n\u00a0 \u00a0 \"num_holes\": 4,\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u2190 Must match screw count\n\u00a0 \u00a0 \"size_mm\": {\"width\": 160.0, \"height\": 114.0}\n\u00a0 },\n\u00a0 \"worker_custom\": {\n\u00a0 \u00a0 \"screw_positions\": [\n\u00a0 \u00a0 \u00a0 {\"id\": 1, \"position_pixel\": [396.93, -520.63]},\n\u00a0 \u00a0 \u00a0 {\"id\": 2, \"position_pixel\": [336.38, -643.59]},\n\u00a0 \u00a0 \u00a0 {\"id\": 3, \"position_pixel\": [472.78, -518.98]},\n\u00a0 \u00a0 \u00a0 {\"id\": 4, \"position_pixel\": [496.12, -620.53]}\n\u00a0 \u00a0 ]\n\u00a0 }\n}",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211891115153596",
           "created_at": "2025-11-09T09:31:17.909Z",
-          "author": "Le Thai Tan",
-          "text": "This Task is finish Sir"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "This Task is finish Sir",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211890314294219",
           "created_at": "2025-11-09T10:46:12.478Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 did you test this thoroughly?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 did you test this thoroughly?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1211945341761769",
           "created_at": "2025-11-14T09:55:12.405Z",
-          "author": "Saad Arslan",
-          "text": "Let's test  this further an get back."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Let's test  this further an get back.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212159749214797",
           "created_at": "2025-11-26T07:20:03.753Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 https://app.asana.com/0/profile/1209746266501723\n    are we determining the screw order based on the number chosen on the GUI?\n    are we using the screw-type based on the GUI selection?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 https://app.asana.com/0/profile/1209746266501723\n    are we determining the screw order based on the number chosen on the GUI?\n    are we using the screw-type based on the GUI selection?\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212157479235415",
           "created_at": "2025-11-26T07:21:12.279Z",
-          "author": "Le Thai Tan",
-          "text": "Now we are manual change in yaml but eventually we must do like this Sir"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "Now we are manual change in yaml but eventually we must do like this Sir",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212157479235417",
           "created_at": "2025-11-26T07:21:51.623Z",
-          "author": "Le Thai Tan",
-          "text": "actually when GUI sent me a message I am some ERROR need to debug but I do not have time"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "actually when GUI sent me a message I am some ERROR need to debug but I do not have time",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212157479235419",
           "created_at": "2025-11-26T07:22:12.981Z",
-          "author": "Le Thai Tan",
-          "text": "but for now we can change the sort of srew"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "but for now we can change the sort of srew",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212158657162574",
           "created_at": "2025-11-26T09:05:02.314Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 I did not understand, please answer clearly:\n    What is the hold-up in this task? What changes need to be done.\n    Who need to make changes to get this task completed? (https://app.asana.com/0/profile/1209746266501723, https://app.asana.com/0/profile/1209746269225239 or https://app.asana.com/0/profile/1210706093781244)?\n    How much time it will take to complete this?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 I did not understand, please answer clearly:\n    What is the hold-up in this task? What changes need to be done.\n    Who need to make changes to get this task completed? (https://app.asana.com/0/profile/1209746266501723, https://app.asana.com/0/profile/1209746269225239 or https://app.asana.com/0/profile/1210706093781244)?\n    How much time it will take to complete this?\n",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212249103733337",
           "created_at": "2025-12-02T09:20:29.258Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 updates?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 updates?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212326097449236",
           "created_at": "2025-12-08T01:55:25.876Z",
-          "author": "Le Thai Tan",
-          "text": "[Update-8/12/2025]- This task is almost done but just one thing made it not fully automation is I can not detect perfectly the center of the holes, https://app.asana.com/0/profile/1207928448469273 did you discuss with Dr Odil and find the solution?"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "[Update-8/12/2025]- This task is almost done but just one thing made it not fully automation is I can not detect perfectly the center of the holes, https://app.asana.com/0/profile/1207928448469273 did you discuss with Dr Odil and find the solution?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212057591541005",
           "created_at": "2025-12-08T11:34:56.487Z",
-          "author": "Saad Arslan",
-          "text": "As discussed in the meeting today, Sajjad has implemented a high-confidence Yolo model (inside screw-hole ROI) to detect the center. The new yolo model only detects the hole (not the golden circle).\nOnly if the Yolo fails, he will run color slicing."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "As discussed in the meeting today, Sajjad has implemented a high-confidence Yolo model (inside screw-hole ROI) to detect the center. The new yolo model only detects the hole (not the golden circle).\nOnly if the Yolo fails, he will run color slicing.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211713436546974",
       "task_name": "[screw] start-up test: verify screw position accuracy using screw-bit",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211713436546974",
-      "comments_count": 6,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211713436546974",
+      "comment_count": 6,
       "latest_comment_at": "2025-12-08T11:31:00.787Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "Tan, I have marked this task as incomplete.\nThe two tasks are different. This tasks runs automatically (or demand) and perform battery of tests, e.g.\n    Robot connection/movement test.\n    Camera connection test\n    AI model test\n    Verify postions of all the screw feeders\n    Automated calibration test.\n    Screwdriving test.\n    Etc.",
@@ -1679,46 +1616,70 @@
         {
           "gid": "1212158859081341",
           "created_at": "2025-11-26T10:21:46.566Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 please share updates on this? Whatever process you can think of, please share."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 please share updates on this? Whatever process you can think of, please share.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212159627065684",
           "created_at": "2025-11-26T23:51:08.543Z",
-          "author": "Le Thai Tan",
-          "text": "I think we will have a sample product every morning the worker will put the sample product on the conveyor to drill to see if there is any error. If the drilling is successful the product will be drilled into production."
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "I think we will have a sample product every morning the worker will put the sample product on the conveyor to drill to see if there is any error. If the drilling is successful the product will be drilled into production.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212057591540950",
           "created_at": "2025-11-27T00:23:16.322Z",
-          "author": "Saad Arslan",
-          "text": "This successful or unsuccessful decision must be made by our system, and show the result to worker.\nNow, for our system to make this decision, we need to run a battery of tests, more aggressive than runtime checking."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "This successful or unsuccessful decision must be made by our system, and show the result to worker.\nNow, for our system to make this decision, we need to run a battery of tests, more aggressive than runtime checking.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212159627065686",
           "created_at": "2025-11-27T00:24:34.567Z",
-          "author": "Le Thai Tan",
-          "text": "I will think about it"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "I will think about it",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212326097449238",
           "created_at": "2025-12-08T01:56:28.427Z",
-          "author": "Le Thai Tan",
-          "text": "I  think this task is similar with this one https://app.asana.com/1/1200925651512410/task/1211944522165716 so I will mark it complete"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "I  think this task is similar with this one https://app.asana.com/1/1200925651512410/task/1211944522165716 so I will mark it complete",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212057591541003",
           "created_at": "2025-12-08T11:31:00.787Z",
-          "author": "Saad Arslan",
-          "text": "Tan, I have marked this task as incomplete.\nThe two tasks are different. This tasks runs automatically (or demand) and perform battery of tests, e.g.\n    Robot connection/movement test.\n    Camera connection test\n    AI model test\n    Verify postions of all the screw feeders\n    Automated calibration test.\n    Screwdriving test.\n    Etc."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "Tan, I have marked this task as incomplete.\nThe two tasks are different. This tasks runs automatically (or demand) and perform battery of tests, e.g.\n    Robot connection/movement test.\n    Camera connection test\n    AI model test\n    Verify postions of all the screw feeders\n    Automated calibration test.\n    Screwdriving test.\n    Etc.\n",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211944522165716",
       "task_name": "[screw] Automated Test if calibration is needed ",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211944522165716",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211944522165716",
+      "comment_count": 1,
       "latest_comment_at": "2025-12-08T01:51:21.103Z",
       "latest_comment_by": "Le Thai Tan",
       "latest_comment_text": "[Update-8/5/2025] I think I will but 1 or 2 marker(1 in the conveyor and 1 in the table) before running robot will move to the center of the marker and I will use vision to check is it matching or not",
@@ -1726,51 +1687,20 @@
         {
           "gid": "1212326097449230",
           "created_at": "2025-12-08T01:51:21.103Z",
-          "author": "Le Thai Tan",
-          "text": "[Update-8/5/2025] I think I will but 1 or 2 marker(1 in the conveyor and 1 in the table) before running robot will move to the center of the marker and I will use vision to check is it matching or not"
-        }
-      ]
-    },
-    {
-      "task_gid": "1211933572451401",
-      "task_name": "[screw] Addition of mat black and green wrap on side of conveyor.",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211933572451401",
-      "comments_count": 4,
-      "latest_comment_at": "2025-12-07T08:30:41.804Z",
-      "latest_comment_by": "Ammad Waheed",
-      "latest_comment_text": "https://app.asana.com/0/profile/1208165635440940 please try to find that black wrap we ordered",
-      "comments": [
-        {
-          "gid": "1212158859081312",
-          "created_at": "2025-11-26T10:08:15.518Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 any further change needed on this task, or should we close it?"
-        },
-        {
-          "gid": "1212249103733353",
-          "created_at": "2025-12-02T09:54:14.475Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 updates?"
-        },
-        {
-          "gid": "1212279481232852",
-          "created_at": "2025-12-03T09:30:45.327Z",
-          "author": "Ammad Waheed",
-          "text": "This is not done.\nDr. Saad https://app.asana.com/0/profile/1209746269225239 should take care of this. my help will be available"
-        },
-        {
-          "gid": "1212331731517045",
-          "created_at": "2025-12-07T08:30:41.804Z",
-          "author": "Ammad Waheed",
-          "text": "https://app.asana.com/0/profile/1208165635440940 please try to find that black wrap we ordered"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "[Update-8/5/2025] I think I will but 1 or 2 marker(1 in the conveyor and 1 in the table) before running robot will move to the center of the marker and I will use vision to check is it matching or not",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211989815926117",
       "task_name": "[screw] Test inward bent fingers to hold PCB from side",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211989815926117",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211989815926117",
+      "comment_count": 1,
       "latest_comment_at": "2025-12-02T09:55:41.089Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "https://app.asana.com/0/profile/1209746266501723 any changes needed in the finger?",
@@ -1778,16 +1708,20 @@
         {
           "gid": "1212249103733357",
           "created_at": "2025-12-02T09:55:41.089Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 any changes needed in the finger?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746266501723 any changes needed in the finger?",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211890313824346",
       "task_name": "[screw] adjustable vision parameters from GUI (Vision side)",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211890313824346",
-      "comments_count": 6,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211890313824346",
+      "comment_count": 6,
       "latest_comment_at": "2025-12-02T08:48:41.679Z",
       "latest_comment_by": "Le Thai Tan",
       "latest_comment_text": "https://app.asana.com/0/profile/1207928448469273 i already sent to GUI team at 16 November\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212251595859001",
@@ -1795,46 +1729,70 @@
         {
           "gid": "1211960688838006",
           "created_at": "2025-11-17T12:25:47.703Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 what is the progress on this task?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 what is the progress on this task?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212159749214790",
           "created_at": "2025-11-26T07:15:20.164Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239?",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212157479235413",
           "created_at": "2025-11-26T07:19:04.880Z",
-          "author": "Le Thai Tan",
-          "text": "I sent https://app.asana.com/0/profile/1210706093781244 from 18/11 all the config for him to add in GUI\nPlease update the status of your GUI"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "I sent https://app.asana.com/0/profile/1210706093781244 from 18/11 all the config for him to add in GUI\nPlease update the status of your GUI",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212158657162568",
           "created_at": "2025-11-26T08:59:39.794Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746269225239 let's share the path of the config file (after discussion with https://app.asana.com/0/profile/1210706093781244https://app.asana.com/0/profile/1211726138260348), which GUI will read and modify.\nI am creating another task to add support in the GUI."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746269225239 let's share the path of the config file (after discussion with https://app.asana.com/0/profile/1210706093781244https://app.asana.com/0/profile/1211726138260348), which GUI will read and modify.\nI am creating another task to add support in the GUI.",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212251595858998",
           "created_at": "2025-12-02T08:47:56.073Z",
-          "author": "Le Thai Tan",
-          "text": "https://app.asana.com/0/profile/1210706093781244\nThis is path file for each model\nscrew_hole_detection\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/screw_hole_detection/config.yaml\nscrew_bit_detection\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/screw_bit/config.yaml\npcb_detection\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/pcb_detection/config.yaml\nhole_alignment\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/hole_alignment\nmqtt\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/mqtt.yaml\nprocessor\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/processor.yaml\nlogging\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/logging.yaml\ncamera\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/camera.yaml\nscrew_reference.yaml\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/screw_reference.yaml"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "https://app.asana.com/0/profile/1210706093781244\nThis is path file for each model\nscrew_hole_detection\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/screw_hole_detection/config.yaml\nscrew_bit_detection\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/screw_bit/config.yaml\npcb_detection\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/pcb_detection/config.yaml\nhole_alignment\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/Models/hole_alignment\nmqtt\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/mqtt.yaml\nprocessor\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/processor.yaml\nlogging\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/logging.yaml\ncamera\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/camera.yaml\nscrew_reference.yaml\n/home/gpuadmin/Desktop/TAN/EverintProject/vision_system_fw/config/screw_reference.yaml",
+          "resource_subtype": "comment_added"
         },
         {
           "gid": "1212251595859002",
           "created_at": "2025-12-02T08:48:41.679Z",
-          "author": "Le Thai Tan",
-          "text": "https://app.asana.com/0/profile/1207928448469273 i already sent to GUI team at 16 November\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212251595859001"
+          "created_by": {
+            "gid": "1209746269225232",
+            "name": "Le Thai Tan"
+          },
+          "text": "https://app.asana.com/0/profile/1207928448469273 i already sent to GUI team at 16 November\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1212251595859001\n",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211944522165713",
       "task_name": "[screw] Support for screw bit cleaning brush in Robot Framework",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211944522165713",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211944522165713",
+      "comment_count": 1,
       "latest_comment_at": "2025-11-26T10:21:00.043Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "https://app.asana.com/0/profile/1209746266501723 is this complete?",
@@ -1842,16 +1800,20 @@
         {
           "gid": "1212158859081339",
           "created_at": "2025-11-26T10:21:00.043Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 is this complete?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746266501723 is this complete?",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211944522165714",
       "task_name": "[screw] Unification of screw fastening order and screw type",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211944522165714",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211944522165714",
+      "comment_count": 1,
       "latest_comment_at": "2025-11-26T10:07:25.955Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "https://app.asana.com/0/profile/1209746266501723 Try to finish this by Thursday 3 pm, so we have enough time for testing before the Friday demo.",
@@ -1859,16 +1821,20 @@
         {
           "gid": "1212158859081310",
           "created_at": "2025-11-26T10:07:25.955Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1209746266501723 Try to finish this by Thursday 3 pm, so we have enough time for testing before the Friday demo."
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1209746266501723 Try to finish this by Thursday 3 pm, so we have enough time for testing before the Friday demo.",
+          "resource_subtype": "comment_added"
         }
       ]
     },
     {
       "task_gid": "1211945341761773",
       "task_name": "[screw] Improved Detection of mis-aligned screw hole",
-      "task_permalink_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211945341761773",
-      "comments_count": 1,
+      "task_url": "https://app.asana.com/1/1200925651512410/project/1211521376498314/task/1211945341761773",
+      "comment_count": 1,
       "latest_comment_at": "2025-11-26T09:49:12.623Z",
       "latest_comment_by": "Saad Arslan",
       "latest_comment_text": "https://app.asana.com/0/profile/1208050649335457https://app.asana.com/0/profile/1209746269225239 is this task complete for the PCBs which doesn't have the paper installed?",
@@ -1876,8 +1842,12 @@
         {
           "gid": "1212158858873461",
           "created_at": "2025-11-26T09:49:12.623Z",
-          "author": "Saad Arslan",
-          "text": "https://app.asana.com/0/profile/1208050649335457https://app.asana.com/0/profile/1209746269225239 is this task complete for the PCBs which doesn't have the paper installed?"
+          "created_by": {
+            "gid": "1207928448469266",
+            "name": "Saad Arslan"
+          },
+          "text": "https://app.asana.com/0/profile/1208050649335457https://app.asana.com/0/profile/1209746269225239 is this task complete for the PCBs which doesn't have the paper installed?",
+          "resource_subtype": "comment_added"
         }
       ]
     }

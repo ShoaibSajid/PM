@@ -1,6 +1,6 @@
 # Urgent Issues - Complete Tracking Checklist
 
-**Last Updated:** February 26, 2026 (Latest Kakao updates + direct summaries reconciled; Asana refresh blocked in this run)  
+**Last Updated:** March 11, 2026 (Asana/tasks/comments refreshed; Kakao main group plus debug-group last-two-weeks reconciled)  
 **Timezone:** Asia/Seoul (KST)
 
 **Note:** 
@@ -9,10 +9,10 @@
 - Whiteboard-only backlog items from 2026-02-19 are mirrored into [TASKS_MISSING_IN_ASANA_RAW_REVIEW.md](./TASKS_MISSING_IN_ASANA_RAW_REVIEW.md) until they are created/updated in Asana.
 
 **Shared Context:**
-- Latest Asana sync: **blocked in this run** (`ASANA_PAT` not set)
-- Latest Asana comments snapshot: **2026-02-22 15:58:36** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
-- Latest chat anchor: **2026-02-26 09:23:15** (Shoaib: "Friday 9AM - 7PM ...")
-- Related files: [TODAY_SUMMARY_FEB_26.md](./TODAY_SUMMARY_FEB_26.md), [CHAT_ANALYSIS_FEB_25_26.md](./CHAT_ANALYSIS_FEB_25_26.md), [README.md](./README.md)
+- Latest Asana sync: **2026-03-11 23:18:39** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Latest Asana comments snapshot: **2026-03-11 23:20:02** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
+- Latest chat anchor: **2026-03-11 22:48:37** (Shoaib: "Today, they were producing a different printer ...")
+- Related files: [TODAY_SUMMARY_MAR_11.md](./TODAY_SUMMARY_MAR_11.md), [CHAT_ANALYSIS_FEB_26_TO_MAR_11.md](./CHAT_ANALYSIS_FEB_26_TO_MAR_11.md), [README.md](./README.md)
 
 ---
 
@@ -183,7 +183,16 @@
 │   └── Owner: AW Ammad | Status: In progress | Needs completion
 │
 ├── 📋 ⏳ [screw] Adjustable Label printer aligner jig for worker placement
-│   └── Owner: KK Kwanghyeop | Status: In progress | Needs completion
+│   └── Owner: KK Kwanghyeop | Status: In progress; add warning guidance that if printer enters finger area, operator must check aligner position | Needs completion
+│
+├── 📋 ⏳ [vision/rubber] Update model inputs to 2 images for rubber foot positions + 2 images for rubber pad dispenser positions
+│   └── Owner: Vision team | Status: Waiting for model update before downstream validation
+│
+├── 📋 ⏳ [screw/vision] Fairino hold-printer stability test with repeated captures (no movement)
+│   └── Owner: AW Ammad or hi hieu | Status: Capture multiple images without moving printer; verify depth-map and tilt-value consistency
+│
+├── 📋 ⏳ [screw/hardware] Replace flat-head light (with diffuser) and re-test
+│   └── Owner: hi hieu | Status: Replace current light stack with flat-head diffuser setup, then validate detection/depth stability
 │
 ├── 📋 ⏳ Visualize cycle execution times
 │   └── Owner: TJ Tuguldur Jigj | Status: Analysis/visualization needed | Medium priority
@@ -327,6 +336,36 @@
 - Screw execution update: startup delay source observed at ~200-300 ms.
 - Screw hardware update: gripper wiring completed and tested on Rainbow tool flange; logic re-test planned.
 - Vision priorities confirmed: image-acquisition delay removal, exception/failure-status handling, Fairino-code separation for fault isolation, `.sh` env/bootstrap, and MQTT surface-depth field.
+
+---
+
+## 🧾 Meeting Notes Delta (2026-02-27)
+
+- Added screw/vision diagnostic: hold printer by Fairino and capture multiple no-movement images to verify depth-map and tilt consistency.
+- Added screw/hardware diagnostic: replace flat-head light with diffuser and run re-test to validate stability under updated lighting.
+
+## 🧾 Kakao Delta (2026-02-26 to 2026-03-11)
+
+- Production-mode guidance stayed consistent across both chats: avoid risky code changes during active line runs, prioritize stability, remote monitoring, and rapid operator support.
+- Screw-side validation remained active: H0/H4 offset and hole-centering issues continued to block reliable runs, and a `tilt_utils` / shared-memory failure path caused segmentation-fault crashes when model output failed.
+- Registration flow still needs closure: screw/rubber registration stayed open in Asana, two new PCB products were requested on 2026-03-11, and chat reported repeated cases where config files were not auto-generated during registration.
+- Hardware/ops actions advanced: Everint reduced conveyor speed, trialed a ball-flange damper, and requested the printer guide / aligner jig be converted from a single 3D-printed guide to a metal two-sided installation.
+- GUI/reporting scope grew: failure counting for screw and rubber results was discussed in detail on 2026-03-11, with grouped failure summaries plus per-index drill-down expected from the reporting path.
+- Two strict chat gaps from this window were converted into new Asana review tasks on 2026-03-11, so they are no longer left in the missing-only tracker.
+
+## 🧾 Planning Delta (Tomorrow Priorities)
+
+- Product shifting was elevated into a cross-team deliverable:
+  - vision model must output offset in mm
+  - robot team must use it for Fairino left/right correction
+- DB-table update is now a dependency chain:
+  - Jalol local test then production update
+  - framework/frontend graph integration after DB shape is stable
+- Scanning strategy must be finalized with registration cost as a hard constraint:
+  - either complete 2-shot model + integration path
+  - or lock extra-light hardware/control path and avoid repeated re-registration churn
+- Conveyor damping remains open through both damper finalization and sponge replacement.
+- Carry-over follow-up remains visible around aligner jig, 3rd dispenser metal plate, registration/config isolation, GUI graphs, log-based analysis, and conveyor signal handling.
 
 ---
 

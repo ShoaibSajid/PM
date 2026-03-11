@@ -54,3 +54,14 @@
 - Screw: preserve maintenance/debug improvements and close remaining detection-offset + calibration tasks.
 - Rubber: keep depletion-first dispenser policy and validated alarm/rescan behavior in production test runs.
 - Vision: prioritize model-1 detection review with annotation-format alignment and calibration closure.
+
+---
+
+## Meeting Notes Added (2026-02-26)
+
+1. **Aligner jig warning flow (Myeongun):**
+   If the printer comes under the fingers, warning text should explicitly instruct operator to check aligner position.
+2. **Vision model update dependency:**
+   Wait for vision to update models to use:
+   - 2 images for rubber foot positions
+   - 2 images for rubber pad dispenser positions

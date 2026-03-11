@@ -50,6 +50,11 @@
 - Team communicated that only limited change windows remain before trial production.
 - Voltage increase proposal for screwdriver speed-up (~100ms per screw) was explicitly kept as a backup, not immediate action.
 
+### 5. Direct meeting-note additions (2026-02-26)
+
+- Aligner jig action (Myeongun): when printer position enters finger area, warning should tell operator to check aligner position.
+- Vision dependency added: hold for updated models that use two images for rubber foot positions and two images for rubber pad dispenser positions.
+
 ---
 
 ## Next-Run Anchor

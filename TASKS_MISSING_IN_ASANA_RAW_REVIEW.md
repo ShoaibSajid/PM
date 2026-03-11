@@ -1,22 +1,22 @@
 # Tasks Missing In Asana (Consolidated)
 
-**Last Updated:** February 26, 2026  
+**Last Updated:** March 11, 2026  
 **Policy:** Strict missing-only list. Include only tasks that are not present in Asana.
 
 ---
 
 ## Shared Context
 
-- Latest Asana sync: **blocked in this run** (`ASANA_PAT` not set)
-- Latest Asana comments snapshot: **2026-02-22 15:58:36** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
-- Latest chat anchor: **2026-02-26 09:23:15** (Shoaib: "Friday 9AM - 7PM ...")
-- Related files: [TODAY_SUMMARY_FEB_26.md](./TODAY_SUMMARY_FEB_26.md), [URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md), [CHAT_ANALYSIS_FEB_25_26.md](./CHAT_ANALYSIS_FEB_25_26.md), [README.md](./README.md)
+- Latest Asana sync: **2026-03-11 23:18:39** (`ASANA_TASKS_LIST.md`, `ASANA_TASKS_RAW.json`)
+- Latest Asana comments snapshot: **2026-03-11 23:20:02** (`ASANA_TASK_COMMENTS_LATEST.md`, `ASANA_TASK_COMMENTS_RAW.json`)
+- Latest chat anchor: **2026-03-11 22:48:37** (Shoaib: "Today, they were producing a different printer ...")
+- Related files: [TODAY_SUMMARY_MAR_11.md](./TODAY_SUMMARY_MAR_11.md), [URGENT_ISSUES_CHECKLIST.md](./URGENT_ISSUES_CHECKLIST.md), [CHAT_ANALYSIS_FEB_26_TO_MAR_11.md](./CHAT_ANALYSIS_FEB_26_TO_MAR_11.md), [README.md](./README.md)
 
 ---
 
 ## Asana Cross-Check (Latest)
 
-- Generated from local sync: 2026-02-23 15:29:46
+- Generated from local sync: 2026-03-11 23:18:39
 - Source list file: `ASANA_TASKS_LIST.md`
 - Source raw file: `ASANA_TASKS_RAW.json`
 - Projects checked:
@@ -27,9 +27,9 @@
   - Rubber Foot (`1212715232979040`)
   - Unassigned Tasks (`1213338742027940`)
   - AI Robot 2026 (`1213338784855695`)
-- Deduplicated tasks in raw: 163
+- Deduplicated tasks in raw: 194
 - Pending tasks: 89
-- Completed tasks: 74
+- Completed tasks: 105
 
 ---
 
@@ -39,13 +39,15 @@ No strict missing tasks currently identified.
 
 ## Strict Missing List
 
-0 missing tasks. Previously listed meeting-note items are now represented in Asana (including review/staging tasks where applicable).
+0 missing tasks. Two chat-derived gaps from this run are now represented in Asana as review tasks:
 
-## Meeting-Note Cross-Check (2026-02-26)
+- `[Review] Vision: Handle screw-scan model-failure path without segmentation fault /...`
+- `[Review] Vision: Add top-camera pixel-to-mm calibration and return printer...`
 
-- Rubber-note items map to existing Asana scopes: dispenser sequencing, refill/pick detection refinements, and alarm/rescan validation.
-- Screw/vision note items map to existing stability scopes: maintenance-mode debug flow, motion completion handling, and remaining detection-offset/calibration work.
-- Missing-task creation check could not run in this session because `ASANA_PAT` is not set.
+## Meeting-Note Cross-Check (2026-03-11)
+
+- Most March chat requests map to existing Asana scopes: production observation, registration, aligner-jig hardware, rubber calibration, and GUI counters.
+- The two previously strict missing items from this run were created in Asana review form on 2026-03-11, so the missing-only list returns to empty.
 
 ---
 
